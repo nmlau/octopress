@@ -2,15 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Nicks Octopress Blog]]></title>
-  <link href="http://nicksdevspot.com/atom.xml" rel="self"/>
-  <link href="http://nicksdevspot.com/"/>
-  <updated>2015-07-10T16:14:57-07:00</updated>
-  <id>http://nicksdevspot.com/</id>
+  <link href="http://octopress.nicksdevspot.com/atom.xml" rel="self"/>
+  <link href="http://octopress.nicksdevspot.com/"/>
+  <updated>2015-07-15T16:49:13-07:00</updated>
+  <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Backpacking Vietnam]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/07/15/backpacking-vietnam/"/>
+    <updated>2015-07-15T16:06:52-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/07/15/backpacking-vietnam</id>
+    <content type="html"><![CDATA[<p>Test</p>
+
+<!-- more -->
+
+
+<p>Test!</p>
+]]></content>
+  </entry>
   
 </feed>

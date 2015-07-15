@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://nicksdevspot.com/sitemap.xml 
+Sitemap: http://octopress.nicksdevspot.com/sitemap.xml 
