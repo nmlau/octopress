@@ -4,7 +4,7 @@
   <title><![CDATA[Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2015-07-21T23:22:28-07:00</updated>
+  <updated>2015-07-22T11:35:05-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Backpacking Japan]]></title>
-    <link href="http://octopress.nicksdevspot.com/blog/2015/07/15/backpacking-japan/"/>
-    <updated>2015-07-15T17:30:23-07:00</updated>
-    <id>http://octopress.nicksdevspot.com/blog/2015/07/15/backpacking-japan</id>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/05/30/backpacking-japan/"/>
+    <updated>2015-05-30T17:30:23-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/05/30/backpacking-japan</id>
     <content type="html"><![CDATA[<p><img class="todai-ji" src="http://octopress.nicksdevspot.com/images/japan/todai-ji_temple_nara.jpg" title="'Todai-ji temple in Nara, Japan'" ></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Backpacking Hong Kong]]></title>
-    <link href="http://octopress.nicksdevspot.com/blog/2015/07/15/backpacking-hong-kong/"/>
-    <updated>2015-07-15T17:30:08-07:00</updated>
-    <id>http://octopress.nicksdevspot.com/blog/2015/07/15/backpacking-hong-kong</id>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/04/23/backpacking-hong-kong/"/>
+    <updated>2015-04-23T17:30:08-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/04/23/backpacking-hong-kong</id>
     <content type="html"><![CDATA[<p><img class="taimeituk" src="http://octopress.nicksdevspot.com/images/hongkong/tai_mei_tuk_biking.jpg" title="'Biking in Tai Mei Tuk'" ></p>
 ]]></content>
   </entry>
