@@ -1,0 +1,130 @@
+---
+layout: post
+title: "Backpacking in Vietnam"
+date: 2015-04-02 16:06:52 -0700
+comments: true
+categories: 
+---
+
+{% img /images/vietnam/halong_bay.jpg 'Quynh's Panorama shot, halong.jpg' %}
+
+When I set out on the biggest adventure of my life, I was afraid it somehow wouldn't match up to expectations. And expectations were high after hearing stories and having wanted to go for years. So I'm happy to say that Vietnam was perfect, it was a crazy and exhilarating adventure of strange things and marvelous places.
+
+<!-- more -->
+
+<h3>Saigon</h3>
+
+Saigon Market
+{% img /images/vietnam/1_saigon/saigon_market.jpg 'saigon_market.jpg' %}
+
+Our first meal in Vietnam
+{% img /images/vietnam/1_saigon/saigon_first_meal_vietnam.jpg 'saigon_market_first_meal.jpg' %}
+
+View from our airbnb apartment
+{% img /images/vietnam/1_saigon/saigon_airbnb_view.jpg 'saigon_airbnb.jpg' %}
+
+Airbnb apartment falling apart
+{% img  /images/vietnam/1_saigon/saigon_airbnb_fail.jpg 'saigon_airbnb_fail.jpg' %}
+
+Delicous dish from the Man Beer restuarant
+{% img /images/vietnam/1_saigon/saigon_great_meal.jpg 'saigon_great_meal.jpg' %}
+
+Partying it up for our last night in Saigon
+{% img /images/vietnam/1_saigon/saigon_last_night.jpg 'saigon_last_night.jpg' %}
+
+<h3>Mei Kong</h3>
+
+Quynh's Uncle Doctor Ho let us stay at his beautiful house
+{% img /images/vietnam/2_uncle_ho/uncle_ho_house.jpg 'uncle_ho_house.jpg' %}
+
+Uncle Ho's special blend of whiskey, good for fertility!
+{% img /images/vietnam/2_uncle_ho/uncle_ho_whiskey.jpg 'uncle_ho_whiskey.jpg' %}
+
+They made us the most incredible meal
+{% img /images/vietnam/2_uncle_ho/uncle_ho_dinner.jpg 'uncle_ho_dinner.jpg' %}
+
+Quynh's family gave us of the surrounding dragon fruit fields
+{% img /images/vietnam/2_uncle_ho/uncle_ho_dragon_fruit_fields.jpg 'uncle_ho_dragon_fruit_fields.jpg' %}
+
+Then they took us to the Mei Kong delta
+{% img /images/vietnam/2_uncle_ho/uncle_ho_mei_kong_delta.jpg 'uncle_ho_mei_kong_delta.jpg' %}
+
+The first of the many Buddhas of my Asia trip
+{% img /images/vietnam/2_uncle_ho/uncle_ho_first_buddha.jpg 'uncle_ho_first_buddha.jpg' %}
+
+<h3>Phu Quoc</h3>
+
+Hanging out on a beautiful beach in Vietnam!
+{% img /images/vietnam/3_phu_quoc/phu_quoc_group.jpg 'phu_quoc_group.jpg' %}
+
+Lounging
+{% img /images/vietnam/3_phu_quoc/phu_quoc_lounging.jpg 'phu_quoc_lounging.jpg' %}
+
+Trying to be a model
+{% img /images/vietnam/3_phu_quoc/phu_quoc_model.jpg 'phu_quoc_model.jpg' %}
+
+Dinner! Eat the whole thing, even the bones
+{% img /images/vietnam/3_phu_quoc/phu_quoc_fish.jpg 'phu_quoc_fish.jpg' %}
+
+Beautiful red sunset as we sip cocktails
+{% img /images/vietnam/3_phu_quoc/phu_quoc_sunset.jpg 'phu_quoc_sunset.jpg' %}
+
+<h3>Da Nang</h3>
+
+Finally have time to do some laundry
+{% img /images/vietnam/4_da_nang/da_nang_laundry.jpg 'da_nang_laundry.jpg' %}
+
+Year of the Goat!
+{% img /images/vietnam/4_da_nang/da_nang_goat.jpg 'da_nang_goat.jpg' %}
+
+Apparently you pray to this one for health
+{% img /images/vietnam/4_da_nang/da_nang_buddha.jpg 'da_nang_buddha.jpg' %}
+
+The biggest Buddha I saw the whole trip
+{% img /images/vietnam/4_da_nang/da_nang_lady_buddha.jpg 'da_nang_lady_buddha.jpg' %}
+
+Taking a break while Amber practiced her photography
+{% img /images/vietnam/4_da_nang/da_nang_water.jpg 'da_nang_water.jpg' %}
+
+Taking another break on the way up a granite mountain
+{% img /images/vietnam/4_da_nang/da_nang_break_hiking.jpg 'da_nang_break_hiking.jpg' %}
+
+Group picture after a long hike
+{% img /images/vietnam/4_da_nang/da_nang_group.jpg 'da_nang_group.jpg' %}
+
+Da Nang is pretty
+{% img /images/vietnam/4_da_nang/da_nang_panorama.jpg 'da_nang_panorama.jpg' %}
+
+Our hotel's grand opening party, there was a band, magician, fireworks, and most importantly 50% off!
+{% img /images/vietnam/4_da_nang/da_nang_hotel_party.jpg 'da_nang_hotel_party.jpg' %}
+
+We went to the tallest building to celebrate our last night in Da Nang
+{% img /images/vietnam/4_da_nang/da_nang_party.jpg 'da_nang_party.jpg' %}
+
+<h3>Hanoi</h3>
+
+Stopped by Hanoi on the way to Halong
+{% img /images/vietnam/5_hanoi/hanoi_ho_chi_minh_pose.jpg 'hanoi_ho_chi_minh_pose.jpg' %}
+
+Got some great pho
+{% img /images/vietnam/5_hanoi/hanoi_pho.jpg 'hanoi_pho.jpg' %}
+
+<h3>Halong</h3>
+
+The girls and our boat
+{% img /images/vietnam/6_halong/halong_our_boat.jpg 'halong_our_boat.jpg' %}
+
+Unfortunately, not the nicest day. But it was incredible nevertheless
+{% img /images/vietnam/6_halong/halong_boat.jpg 'halong_boat.jpg' %}
+
+Attempting to help row
+{% img /images/vietnam/6_halong/halong_rowing.jpg 'halong_rowing.jpg' %}
+
+Group picture!
+{% img /images/vietnam/6_halong/halong_group_picture.jpg 'halong_group_picture.jpg' %}
+
+Surprise cave, the first cave of many
+{% img /images/vietnam/6_halong/halong_surprise_cave.jpg 'halong_surprise_cave.jpg' %}
+
+Happened to see this while looking for a place to eat
+{% img /images/vietnam/6_halong/halong_pc_bang.JPG 'halong_pc_bang.JPG' %}
