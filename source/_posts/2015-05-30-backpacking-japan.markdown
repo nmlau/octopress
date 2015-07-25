@@ -7,3 +7,5 @@ categories:
 ---
 
 {% img todai-ji /images/japan/todai-ji_temple_nara.jpg 'Todai-ji temple in Nara, Japan' %}
+
+<!-- more -->
