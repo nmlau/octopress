@@ -123,7 +123,7 @@ Attempting to help row
 Group picture!
 {% img /images/vietnam/6_halong/halong_group_picture.jpg 'halong_group_picture.jpg' %}
 
-Surprise cave, the first cave of many
+Surprise cave, the first of many caves
 {% img /images/vietnam/6_halong/halong_surprise_cave.jpg 'halong_surprise_cave.jpg' %}
 
 Happened to see this while looking for a place to eat
