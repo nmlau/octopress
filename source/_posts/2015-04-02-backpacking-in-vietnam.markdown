@@ -10,6 +10,8 @@ categories:
 
 When I set out on the biggest adventure of my life, I was afraid it somehow wouldn't match up to expectations. And expectations were high after hearing stories and having wanted to go for years. So I'm happy to say that Vietnam was perfect, it was a crazy and exhilarating adventure of strange things and marvelous places.
 
+Here are some highlights from the trip
+
 <!-- more -->
 
 <h3>Saigon</h3>
@@ -59,9 +61,6 @@ Hanging out on a beautiful beach in Vietnam!
 
 Lounging
 {% img /images/vietnam/3_phu_quoc/phu_quoc_lounging.jpg 'phu_quoc_lounging.jpg' %}
-
-Trying to be a model
-{% img /images/vietnam/3_phu_quoc/phu_quoc_model.jpg 'phu_quoc_model.jpg' %}
 
 Dinner! Eat the whole thing, even the bones
 {% img /images/vietnam/3_phu_quoc/phu_quoc_fish.jpg 'phu_quoc_fish.jpg' %}

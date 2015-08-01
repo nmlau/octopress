@@ -37,7 +37,7 @@ A beautiful valley
 
 <h3>Phong Nha</h3>
 
-Such a beautiful place
+Such an idyllic place
 {% img /images/vietnam/8_phong_nha/phong_nha_group.jpg 'phong_nha_group.jpg' %}
 
 ECHOOO!!

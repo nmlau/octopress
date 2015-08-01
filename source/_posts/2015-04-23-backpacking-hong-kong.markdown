@@ -77,6 +77,26 @@ Nice view of Hong Kong from the Gondola
 There were some exhilarating rides
 {% img /images/hong_kong/ocean_park/ocean_park_rides.jpg 'ocean_park_rides.jpg' %}
 
+<h3> Amber's Family </h3>
+
+Met up with some of Ambers relatives
+{% img /images/hong_kong/amber_family/amber_family_group.jpg 'amber_family_group.jpg' %}
+
+They took us to hotpot at the 'Very Good Restuarant'
+{% img /images/hong_kong/amber_family/hotpot_family.jpg 'hotpot_family.jpg' %}
+
+Had some incredible abalone
+{% img /images/hong_kong/amber_family/hotpot_abalone.jpg 'hotpot_abalone.jpg' %}
+
+The next day they took us to the beach, which happened to be next to a dogpark
+{% img /images/hong_kong/amber_family/beach_dogpark.jpg 'beach_dogpark.jpg' %}
+
+We messed around with this crab for awhile
+{% img /images/hong_kong/amber_family/crab.jpg 'crab.jpg' %}
+
+Then to the peak, a shopping mall where you can look out over all of Hong Kong. Unfortunately it was cloudy...
+{% img /images/hong_kong/amber_family/the_peak.jpg 'the_peak.jpg' %}
+
 <h3> Tsim Sha Tsui (TST) </h3>
 
 Hong Kongs Walk of Stars
@@ -104,4 +124,5 @@ And there was a beautiful garden next door
 
 <h3> Farewell Hong Kong and off to Japan </h3>
 
+And off to Japan, time flies and so do I
 {% img /images/hong_kong/misc/airport.jpg 'airport.jpg' %}
