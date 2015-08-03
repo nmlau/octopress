@@ -37,6 +37,9 @@ Hong Kong is pretty watch crazy, went to try on a classic
 
 <h3> Mongkok </h3>
 
+Amber's Mini High School reunion with Leo and me
+{% img /images/hong_kong/mongkok/mongkok_group.jpg 'mongkok_group.jpg' %}
+
 Ended up near one of those protests we see one the news back home
 {% img /images/hong_kong/mongkok/mongkok_protest.jpg 'mongkok_protest.jpg' %}
 
