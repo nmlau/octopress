@@ -15,13 +15,13 @@ After a couple weeks Andreas' Visa expired and he headed back to the U.S. The re
 <h3>Sapa</h3>
 
 The van that took us to the bus broke down but eventually we made it to this awesome and comfortable sleeper bus
-{% img /images/vietnam/7_sapa/sapa_sleeper_bus.jpg 'sapa_sleeper_bus.jpg' %}
+{% img /images/vietnam/7_sapa/sapa_sleeper_bus.JPG 'sapa_sleeper_bus.JPG' %}
 
 The view from our hotel, gorgeous!
 {% img /images/vietnam/7_sapa/sapa_hotel_view.jpg 'sapa_hotel_view.jpg' %}
 
 Amber met Ha while traveling in Thailand, she graciously let us stay at her homestay, eat at her restuarant, wear black hmong clothes... it was an incredible experience
-{% img /images/vietnam/7_sapa/sapa_ha.jpg 'sapa_ha.jpg' %}
+{% img /images/vietnam/7_sapa/sapa_ha.JPG 'sapa_ha.JPG' %}
 
 Ha's homestay
 {% img /images/vietnam/7_sapa/sapa_homestay.jpg 'sapa_homestay.jpg' %}
@@ -41,22 +41,22 @@ Such an idyllic place
 {% img /images/vietnam/8_phong_nha/phong_nha_group.jpg 'phong_nha_group.jpg' %}
 
 ECHOOO!!
-{% img /images/vietnam/8_phong_nha/phong_nha_crazy_caves.jpg 'phong_nha_crazy_caves.jpg' %}
+{% img /images/vietnam/8_phong_nha/phong_nha_crazy_caves.JPG 'phong_nha_crazy_caves.JPG' %}
 
 Exploring the caves
-{% img /images/vietnam/8_phong_nha/phong_nha_taking_picture.jpg 'phong_nha_taking_picture.jpg' %}
+{% img /images/vietnam/8_phong_nha/phong_nha_taking_picture.JPG 'phong_nha_taking_picture.JPG' %}
 
 More exploring
 {% img /images/vietnam/8_phong_nha/phong_nha_cave.jpg 'phong_nha_cave.jpg' %}
 
 We found someone recording a music video!
-{% img /images/vietnam/8_phong_nha/phong_nha_famous_cave.jpg 'phong_nha_famous_cave.jpg' %}
+{% img /images/vietnam/8_phong_nha/phong_nha_famous_cave.JPG 'phong_nha_famous_cave.JPG' %}
 
 And of course he has an entourage
-{% img /images/vietnam/8_phong_nha/phong_nha_entourage.jpg 'phong_nha_entourage.jpg' %}
+{% img /images/vietnam/8_phong_nha/phong_nha_entourage.JPG 'phong_nha_entourage.JPG' %}
 
 Has to be one of the prettiest places we visited
-{% img /images/vietnam/8_phong_nha/phong_nha_view.jpg 'phong_nha_view.jpg' %}
+{% img /images/vietnam/8_phong_nha/phong_nha_view.JPG 'phong_nha_view.JPG' %}
 
 BBQ pork banh mi, bought a couple extra for the road
 {% img /images/vietnam/8_phong_nha/phong_nha_pork_banh_mi.jpg 'phong_nha_pork_banh_mi.jpg' %}

@@ -32,15 +32,15 @@ Delicous dish from the Man Beer restuarant
 {% img /images/vietnam/1_saigon/saigon_great_meal.jpg 'saigon_great_meal.jpg' %}
 
 Partying it up for our last night in Saigon
-{% img /images/vietnam/1_saigon/saigon_last_night.jpg 'saigon_last_night.jpg' %}
+{% img /images/vietnam/1_saigon/saigon_last_night.JPG 'saigon_last_night.JPG' %}
 
 <h3>Mei Kong</h3>
 
 Quynh's Uncle Doctor Ho let us stay at his beautiful house
-{% img /images/vietnam/2_uncle_ho/uncle_ho_house.jpg 'uncle_ho_house.jpg' %}
+{% img /images/vietnam/2_uncle_ho/uncle_ho_house.JPG 'uncle_ho_house.JPG' %}
 
 Uncle Ho's special blend of whiskey, good for fertility!
-{% img /images/vietnam/2_uncle_ho/uncle_ho_whiskey.jpg 'uncle_ho_whiskey.jpg' %}
+{% img /images/vietnam/2_uncle_ho/uncle_ho_whiskey.JPG 'uncle_ho_whiskey.JPG' %}
 
 They made us the most incredible meal
 {% img /images/vietnam/2_uncle_ho/uncle_ho_dinner.jpg 'uncle_ho_dinner.jpg' %}
@@ -49,7 +49,7 @@ Quynh's family gave us of the surrounding dragon fruit fields
 {% img /images/vietnam/2_uncle_ho/uncle_ho_dragon_fruit_fields.jpg 'uncle_ho_dragon_fruit_fields.jpg' %}
 
 Then they took us to the Mei Kong delta
-{% img /images/vietnam/2_uncle_ho/uncle_ho_mei_kong_delta.jpg 'uncle_ho_mei_kong_delta.jpg' %}
+{% img /images/vietnam/2_uncle_ho/uncle_ho_mei_kong_delta.JPG 'uncle_ho_mei_kong_delta.JPG' %}
 
 The first of the many Buddhas of my Asia trip
 {% img /images/vietnam/2_uncle_ho/uncle_ho_first_buddha.jpg 'uncle_ho_first_buddha.jpg' %}
@@ -71,7 +71,7 @@ Beautiful red sunset as we sip cocktails
 <h3>Da Nang</h3>
 
 Finally have time to do some laundry
-{% img /images/vietnam/4_da_nang/da_nang_laundry.jpg 'da_nang_laundry.jpg' %}
+{% img /images/vietnam/4_da_nang/da_nang_laundry.JPG 'da_nang_laundry.JPG' %}
 
 Year of the Goat!
 {% img /images/vietnam/4_da_nang/da_nang_goat.jpg 'da_nang_goat.jpg' %}
@@ -92,7 +92,7 @@ Group picture after a long hike
 {% img /images/vietnam/4_da_nang/da_nang_group.jpg 'da_nang_group.jpg' %}
 
 Da Nang is pretty
-{% img /images/vietnam/4_da_nang/da_nang_panorama.jpg 'da_nang_panorama.jpg' %}
+{% img /images/vietnam/4_da_nang/da_nang_panorama.JPG 'da_nang_panorama.JPG' %}
 
 Our hotel's grand opening party, there was a band, magician, fireworks, and most importantly 50% off!
 {% img /images/vietnam/4_da_nang/da_nang_hotel_party.jpg 'da_nang_hotel_party.jpg' %}
@@ -105,16 +105,16 @@ We went to the tallest building to celebrate our last night in Da Nang
 Stopped by Hanoi on the way to Halong
 {% img /images/vietnam/5_hanoi/hanoi_ho_chi_minh_pose.jpg 'hanoi_ho_chi_minh_pose.jpg' %}
 
-Got some great pho
-{% img /images/vietnam/5_hanoi/hanoi_pho.jpg 'hanoi_pho.jpg' %}
+Favorite bowl of pho, came here twice
+{% img /images/vietnam/5_hanoi/hanoi_pho.JPG 'hanoi_pho.JPG' %}
 
 <h3>Halong</h3>
 
 The girls and our boat
-{% img /images/vietnam/6_halong/halong_our_boat.jpg 'halong_our_boat.jpg' %}
+{% img /images/vietnam/6_halong/halong_our_boat.JPG 'halong_our_boat.JPG' %}
 
 Unfortunately, not the nicest day. But it was incredible nevertheless
-{% img /images/vietnam/6_halong/halong_boat.jpg 'halong_boat.jpg' %}
+{% img /images/vietnam/6_halong/halong_boat.JPG 'halong_boat.JPG' %}
 
 Attempting to help row
 {% img /images/vietnam/6_halong/halong_rowing.jpg 'halong_rowing.jpg' %}
