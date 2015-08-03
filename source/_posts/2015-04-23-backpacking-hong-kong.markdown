@@ -25,6 +25,7 @@ Dim sum at lunch, the crowd is trying to get to the food cart
 
 Picked up some Kinder Joys
 {% img /images/hong_kong/misc/kinder_joy.jpg 'kinder_joy.jpg' %}
+{% img /images/hong_kong/misc/kinder_joy.JPG 'kinder_joy.JPG' %}
 
 My Kinder Joy Toy family
 {% img /images/hong_kong/misc/kinder_joy_toys.jpg 'kinder_joy_toys.jpg' %}
