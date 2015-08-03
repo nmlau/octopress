@@ -24,11 +24,10 @@ Dim sum at lunch, the crowd is trying to get to the food cart
 {% img /images/hong_kong/misc/dim_sum_cart.jpg 'dim_sum_cart.jpg' %}
 
 Picked up some Kinder Joys
-{% img /images/hong_kong/misc/kinder_joy.jpg 'kinder_joy.jpg' %}
 {% img /images/hong_kong/misc/kinder_joy.JPG 'kinder_joy.JPG' %}
 
 My Kinder Joy Toy family
-{% img /images/hong_kong/misc/kinder_joy_toys.jpg 'kinder_joy_toys.jpg' %}
+{% img /images/hong_kong/misc/kinder_joy_toys.JPG 'kinder_joy_toys.JPG' %}
 
 Spiderman on an adventure
 {% img /images/hong_kong/misc/kinder_joy_spiderman_adventures.JPG 'kinder_joy_spiderman_adventures.JPG' %}
@@ -42,7 +41,7 @@ Amber's Mini High School reunion with Leo and me
 {% img /images/hong_kong/mongkok/mongkok_group.jpg 'mongkok_group.jpg' %}
 
 Ended up near one of those protests we see one the news back home
-{% img /images/hong_kong/mongkok/mongkok_protest.jpg 'mongkok_protest.jpg' %}
+{% img /images/hong_kong/mongkok/mongkok_protest.JPG 'mongkok_protest.JPG' %}
 
 And more dim sum of course
 {% img /images/hong_kong/mongkok/more_dim_sum.jpg 'more_dim_sum.jpg' %}
@@ -53,7 +52,7 @@ Claire took us to Tai Mei Tuk for a fun time biking through the scenic landscape
 {% img /images/hong_kong/tai_mei_tuk/tai_mei_tuk_more_biking.jpg 'tai_mei_tuk_more_biking.jpg' %}
 
 She then took us to a nearby wet market
-{% img /images/hong_kong/tai_mei_tuk/seafood_market.jpg 'seafood_market.jpg' %}
+{% img /images/hong_kong/tai_mei_tuk/seafood_market.JPG 'seafood_market.JPG' %}
 
 Various fish
 {% img /images/hong_kong/tai_mei_tuk/seafood_market_fish.JPG 'seafood_market_fish.JPG' %}
@@ -90,7 +89,7 @@ They took us to hotpot at the 'Very Good Restuarant'
 {% img /images/hong_kong/amber_family/hotpot_family.jpg 'hotpot_family.jpg' %}
 
 Had some incredible abalone
-{% img /images/hong_kong/amber_family/hotpot_abalone.jpg 'hotpot_abalone.jpg' %}
+{% img /images/hong_kong/amber_family/hotpot_abalone.JPG 'hotpot_abalone.JPG' %}
 
 The next day they took us to the beach, which happened to be next to a dogpark
 {% img /images/hong_kong/amber_family/beach_dogpark.jpg 'beach_dogpark.jpg' %}
@@ -99,34 +98,34 @@ We messed around with this crab for awhile
 {% img /images/hong_kong/amber_family/crab.jpg 'crab.jpg' %}
 
 Then to the peak, a shopping mall where you can look out over all of Hong Kong. Unfortunately it was cloudy...
-{% img /images/hong_kong/amber_family/the_peak.jpg 'the_peak.jpg' %}
+{% img /images/hong_kong/amber_family/the_peak.JPG 'the_peak.JPG' %}
 
 <h3> Tsim Sha Tsui (TST) </h3>
 
 Hong Kongs Walk of Stars
-{% img /images/hong_kong/tst/tst_walk_of_stars.jpg 'tst_walk_of_stars.jpg' %}
+{% img /images/hong_kong/tst/tst_walk_of_stars.JPG 'tst_walk_of_stars.JPG' %}
 
 Found this on the way back to our hotel one night
 {% img /images/hong_kong/tst/tst_fountain.jpg 'tst_fountain.jpg' %}
 
 Can't believe this was a 5 minute walk from our hotel, spent a lot of time here! They had a light show every night
-{% img /images/hong_kong/tst/tst_skyline_lightshow.jpg 'tst_skyline_lightshow.jpg' %}
+{% img /images/hong_kong/tst/tst_skyline_lightshow.JPG 'tst_skyline_lightshow.JPG' %}
 
 <h3> Kowloon and Causeway Bay</h3>
 
 Amber left for Singapore a day early to catch her prebooked flight to Japan, so I wandered around. Found this at a mall.
-{% img /images/hong_kong/causeway_bay/causeway_bay_avengers.jpg 'causeway_bay_avengers.jpg' %}
+{% img /images/hong_kong/causeway_bay/causeway_bay_avengers.JPG 'causeway_bay_avengers.JPG' %}
 
 They're adorable! Got myself Ironman and a Thor for my little brother
-{% img /images/hong_kong/causeway_bay/causeway_bay_avengers_bobbleheads.jpg 'causeway_bay_avengers_bobbleheads.jpg' %}
+{% img /images/hong_kong/causeway_bay/causeway_bay_avengers_bobbleheads.JPG 'causeway_bay_avengers_bobbleheads.JPG' %}
 
 Visited a nunnery and found an awesome temple
-{% img /images/hong_kong/kowloon/kowloon_chi_lin_nunnery.jpg 'kowloon_chi_lin_nunnery.jpg' %}
+{% img /images/hong_kong/kowloon/kowloon_chi_lin_nunnery.JPG 'kowloon_chi_lin_nunnery.JPG' %}
 
 And there was a beautiful garden next door
-{% img /images/hong_kong/kowloon/kowloon_nan_lian_garden.jpg 'kowloon_nan_lian_garden.jpg' %}
+{% img /images/hong_kong/kowloon/kowloon_nan_lian_garden.JPG 'kowloon_nan_lian_garden.JPG' %}
 
 <h3> Farewell Hong Kong and off to Japan </h3>
 
 And off to Japan, time flies and so do I
-{% img /images/hong_kong/misc/airport.jpg 'airport.jpg' %}
+{% img /images/hong_kong/misc/airport.JPG 'airport.JPG' %}
