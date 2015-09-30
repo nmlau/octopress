@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Backup Markdown Resume - Nicks Octopress Blog</title>
+  <title>backup markdown resume - Nicks Octopress Blog</title>
   <meta name="author" content="Nicholas Lau">
 
   
@@ -21,14 +21,13 @@
   <link rel="canonical" href="http://octopress.nicksdevspot.com/resume/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Nicks Octopress Blog" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nicks Octopress Blog" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
 
@@ -50,7 +49,7 @@
   
 <form action="https://www.google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="octopress.nicksdevspot.com">
+    <input type="hidden" name="q" value="site:octopress.nicksdevspot.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -61,7 +60,6 @@
   <li><a href="/about/">About Me</a></li>
   <li><a href="/resume/Resume.pdf">Resume</a></li>
 </ul>
-
 </nav>
   <div id="main">
     <div id="content">
@@ -193,7 +191,7 @@ Computer Science, B.S.</p>
       
         <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://octopress.nicksdevspot.com/resume/index.html" data-via="" data-counturl="http://octopress.nicksdevspot.com/resume/index.html" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://octopress.nicksdevspot.com/resume/index.html" data-via="" data-counturl="http://octopress.nicksdevspot.com/resume/index.html" >Tweet</a>
   
   
   
@@ -209,13 +207,6 @@ Computer Science, B.S.</p>
 <aside class="sidebar">
   
     <section>
-  <h1>Projects</h1>
-  <!-- <p>A little something about me.</p> -->
-  <p><a href="http://blog.nicksdevspot.com">[old] blog.nicksdevspot</a></p> 
-  <p><a href="http://upload-app.nicksdevspot.com">upload-app.nicksdevspot</a></p> 
-  <p><a href="http://sample-app.nicksdevspot.com">sample-app.nicksdevspot</a></p>
-</section>
-<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -251,7 +242,7 @@ Computer Science, B.S.</p>
   <a href="https://github.com/nmlau">@nmlau</a> on GitHub
   
   <script type="text/javascript">
-    $(document).ready(function(){
+    $.domReady(function(){
         if (!window.jXHR){
             var jxhr = document.createElement('script');
             jxhr.type = 'text/javascript';
@@ -283,7 +274,7 @@ Computer Science, B.S.</p>
   </div>
   <footer role="contentinfo"><p>
   Copyright &copy; 2015 - Nicholas Lau -
-  <span class="credit">(May or may not be) Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian Kraft Fotografie</a></span>
 </p>
 
 </footer>
@@ -300,7 +291,7 @@ Computer Science, B.S.</p>
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>
