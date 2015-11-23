@@ -97,7 +97,7 @@ Well known for seafood, you can find people digging for seafood on the beach
 {% img /images/japan/5_hiroshima/hiroshima_itsukushima_shrine_oysters.jpg 'hiroshima_itsukushima_shrine_oysters.jpg' %}
 
 At night once the tide had come in a little
-{% img /images/japan/5_hiroshima/hiroshima_itsukushima_shrine_night.jpg 'hiroshima_itsukushima_shrine_night.jpg' %}
+{% img /images/japan/5_hiroshima/hiroshima_itsukushima_shrine_tide.jpg 'hiroshima_itsukushima_shrine_tide.jpg' %}
 
 <h3> Back to Tokyo </h3>
 
