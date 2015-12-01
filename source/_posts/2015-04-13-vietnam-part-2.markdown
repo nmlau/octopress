@@ -3,7 +3,7 @@ layout: post
 title: "Backpacking in Vietnam: Part 2"
 date: 2015-04-13 16:06:52 -0700
 comments: true
-categories: 
+categories: [Travel, Vietnam]
 ---
 
 {% img /images/vietnam/7_sapa/sapa_looking_away.jpg 'sapa_looking_away.jpg' %}

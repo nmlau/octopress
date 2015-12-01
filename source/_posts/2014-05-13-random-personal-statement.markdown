@@ -3,7 +3,7 @@ layout: post
 title: "Random Personal Statement"
 date: 2014-05-13 23:16:04 -0700
 comments: true
-categories: 
+categories: [Thoughts]
 ---
 
 "That's why stories appeal to us. They give us the clarity and simplicity our real lives lack" - Patrick Rothfuss. Since I love stories, whether they are from books or movies or tv... this quote struck me. However, I think that the hunt for clarity and simplicity applies beyond stories to everything that I love, to all the hobbies that I enjoy. I do not expect to ever understand life enough that I might claim that it is simple. However, I will certainly try. I feel that my best chance is to pick small pockets of life as hobbies and over a lifetime of learning, achieve a high level of understanding (or clarity).

@@ -3,7 +3,7 @@ layout: post
 title: "Backpacking Hong Kong"
 date: 2015-04-23 17:30:08 -0700
 comments: true
-categories: 
+categories: [Travel, Hong Kong]
 ---
 
 {% img /images/hong_kong/tai_mei_tuk/tai_mei_tuk_biking.jpg 'tai_mei_tuk_biking.jpg' %}
