@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/</loc>
+    <lastmod>2015-12-01T16:16:28-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/2015/12/01/a-tale-of-two-cities-by-charles-dickens/</loc>
+    <lastmod>2015-12-01T13:17:47-08:00</lastmod>
+  </url>
+  <url>
     <loc>http://octopress.nicksdevspot.com/blog/2015/11/01/meditations-by-marcus-aurelius/</loc>
     <lastmod>2015-11-01T12:51:55-08:00</lastmod>
   </url>
@@ -70,5 +78,17 @@
   </url>
   <url>
     <loc>http://octopress.nicksdevspot.com/blog/categories/marcus-aurelius/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/a-tale-of-two-cities/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/raspberry-pi/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/diy/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/alarm/</loc>
   </url>
 </urlset>

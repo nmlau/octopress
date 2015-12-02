@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: alarm | Nicks Octopress Blog]]></title>
+  <link href="http://octopress.nicksdevspot.com/blog/categories/alarm/atom.xml" rel="self"/>
+  <link href="http://octopress.nicksdevspot.com/"/>
+  <updated>2015-12-02T10:21:30-08:00</updated>
+  <id>http://octopress.nicksdevspot.com/</id>
+  <author>
+    <name><![CDATA[Nicholas Lau]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Raspberry Pi Alarm]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/"/>
+    <updated>2015-12-01T16:16:28-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm</id>
+    <content type="html"><![CDATA[<p>todo:
+- change goo.gl links to full ones
+- add the github somewhere, <a href="https://github.com/nmlau/RPiAlarm">https://github.com/nmlau/RPiAlarm</a></p>
+
+<h2>Under Construction</h2>
+
+<h3>Introduction</h3>
+
+<p>I&rsquo;ve always had trouble waking up. Sometimes I wake up, sometimes I don&rsquo;t, sometimes I just end up lying in bed&hellip; it&rsquo;s been a lifetime point of stress. But in the last few months I&rsquo;ve found a solution that works for me. I use the <a href="http://www.sleepcycle.com/">Sleep Cycle Phone App</a> to gently wake me up so I&rsquo;m ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.</p>
+
+<p>But with the larger problem solved, there&rsquo;s always more you can do to make it more perfect. Right now I&rsquo;m using an iPad as my out of bed alarm. There&rsquo;s a lot of problems here: it&rsquo;s a really pricey device being used for a very simple task, it can be inefficient to turn off or adjust alarm times (I don&rsquo;t enjoy the gui), the battery will eventually run out, and if I wake up early there&rsquo;s no kill button to stop my normal alarm from going off without remembering to turn them back on.</p>
+
+<p>There&rsquo;s a lot of pros though, the battery lasts for several weeks, it doesn&rsquo;t need to be plugged in (I&rsquo;m a little OCD and don&rsquo;t want extra wires).</p>
+
+<p>On top of this, I&rsquo;ve been hearing about Raspberry Pi&rsquo;s for years and have always wanted to mess around with one. This seemed like the perfect project to get started on the DIY journey.</p>
+
+<h3>Components</h3>
+
+<p>How I chose my components, used these two guides: <a href="http://goo.gl/EOip4i">Getting Started Guide</a> and <a href="http://goo.gl/YA8hUI">Component Guide</a></p>
+
+<p>Here&rsquo;s what I bought:</p>
+
+<ul>
+<li><a href="http://www.alliedelec.com/raspberry-pi-raspberry-pi-2-model-b/70465426/">Raspberry Pi 2</a></li>
+<li><a href="http://www.amazon.com/gp/product/B004TA0AUW/">MicroSD Card - Transcend Class 10</a> (preferably preloaded with NOOBS, but it&rsquo;s easy to set it up yourself)</li>
+<li><a href="http://www.amazon.com/dp/B003MTTJOY">WiFi Adapter - Edimax</a> I got the Edimax rather than the <a href="http://www.amazon.com/dp/B00EQT0YK2/">Panda 300Mbps</a>, because it has a nano adapter and the Panda is overkill at 300Mbps. Or just use ethernet.</li>
+<li><a href="http://www.amazon.com/gp/product/B00OY7HR1U">Power Adapter - Northpada</a> Northpada because better reviews, higher mAH, one piece charger. In hindsight, I should have just used one of the many micro USB cables I have sitting around and plugged them into a usb outlet.</li>
+<li><a href="http://goo.gl/54ZQH4">Case</a>, although at first I accidentally bought the a <a href="http://www.amazon.com/gp/product/B008TCUXLW">Model 1 Case</a></li>
+</ul>
+
+
+<p>Already owned:</p>
+
+<ul>
+<li><a href="http://www.amazon.com/Dell-UltraSharp-27-Inch-LED-Lit-Monitor/dp/B00P0EQD1Q">Monitor</a>, any monitor will do. HDMI is more convenient though</li>
+<li><a href="http://shop.daskeyboard.com/products/das-keyboard-ultimate-model-s">Keyboard</a>, you can use any usb keyboard, I had a few lying around. Wireless is always convenient too</li>
+<li><a href="http://www.amazon.com/gp/product/B003TG75EG">Mouse</a>, and any usb mouse. Wireless always good</li>
+<li><a href="http://www.amazon.com/gp/product/B0002L5R78">HDMI Display Cable</a>, Raspberry Pi has a HDMI display port, I&rsquo;m sure you&rsquo;ve got one lying around. Or if your monitor can&rsquo;t do HDMI, use one of the many adapters out there. All modern display cables are digital and can be converted from one to another.</li>
+<li><a href="http://www.amazon.com/gp/product/B00316263Y">Ethernet</a>, Got hundreds of these too</li>
+<li><a href="http://www.amazon.com/dp/B00YARCGOC">Speaker</a>, Choose the favorite one you&rsquo;ve got lying around. All you need is a 3.5mm Audio cable to plug it in</li>
+</ul>
+
+
+<p>Messing with Infrared:</p>
+
+<ul>
+<li>Mini Remote Control (IR), <a href="http://goo.gl/xIfdZ">http://goo.gl/xIfdZ</a></li>
+<li>IR Receiver Sensor, <a href="http://goo.gl/SkpM2">http://goo.gl/SkpM2</a></li>
+<li>Ribbon Cable</li>
+<li>Breadboard</li>
+<li>3 LEDs</li>
+<li>Wires (3 for LED Positives, 3 for LED Negatives, 3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)</li>
+<li>R1 270n, whatever the yellow boxes are, (<a href="http://goo.gl/eLDBsQ">http://goo.gl/eLDBsQ</a>)</li>
+<li>Note: Might be able to attach IR sensor straight to GPIO. ALso, LEDs and most wires are just for testing</li>
+</ul>
+
+
+<p>Optional:</p>
+
+<ul>
+<li>Heatsink, don&rsquo;t think you need this unless I&rsquo;m running HD video constantly. A lot of people, like my dad, use their Pi&rsquo;s as DVRs</li>
+</ul>
+
+
+<p>I ended up doing a headless setup where I ssh&rsquo;d in from my laptop (more on this later). This eliminated the need for: Monitor, Keyboard, Mouse, Display Cable. And switching to ethernet meant no need for a wifi adapter</p>
+
+<h3>Setup</h3>
+
+<ul>
+<li>Download Noobs (make sure not copy files in, not the folder)</li>
+<li>Download and use formatter, make sure to have lock switch off</li>
+<li>Plug everything in</li>
+<li>Turn on, Install Raspian</li>
+<li>Initial Settings screen: Turn on SSH, expand filesystem</li>
+</ul>
+
+
+<p>Setting up headless</p>
+
+<h3>Programming</h3>
+
+<p>I got my inspiration from: <a href="https://goo.gl/nq50lE">Speaking Alarm Clock</a>, <a href="https://github.com/skiwithpete/alarmpi">github available here</a>. And some better <a href="https://goo.gl/Ucjzhc">Alternative Alarm Clock Projects</a>, most notably the <a href="https://github.com/bubbl/SimpleGoogleAlarmClock">Simple Google Alarm Clock</a></p>
+
+<h3>Brickwalls</h3>
+
+<p>Here are some problems that took longer to solve than they should have. In other words, things I learned:</p>
+]]></content>
+  </entry>
+  
+</feed>

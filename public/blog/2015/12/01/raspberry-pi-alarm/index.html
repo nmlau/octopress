@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Raspberry Pi Alarm - Nicks Octopress Blog</title>
+  <meta name="author" content="Nicholas Lau">
+
+  
+  <meta name="description" content="todo:
+- change goo.gl links to full ones
+- add the github somewhere, https://github.com/nmlau/RPiAlarm Under Construction Introduction I&rsquo;ve &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nicks Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-70876418-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nicks Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:octopress.nicksdevspot.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about/">About Me</a></li>
+  <li><a href="/resume/Resume.pdf">Resume</a></li>
+</ul>
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Raspberry Pi Alarm</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-12-01T16:16:28-08:00" pubdate data-updated="true"></time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>todo:
+- change goo.gl links to full ones
+- add the github somewhere, <a href="https://github.com/nmlau/RPiAlarm">https://github.com/nmlau/RPiAlarm</a></p>
+
+<h2>Under Construction</h2>
+
+<h3>Introduction</h3>
+
+<p>I&rsquo;ve always had trouble waking up. Sometimes I wake up, sometimes I don&rsquo;t, sometimes I just end up lying in bed&hellip; it&rsquo;s been a lifetime point of stress. But in the last few months I&rsquo;ve found a solution that works for me. I use the <a href="http://www.sleepcycle.com/">Sleep Cycle Phone App</a> to gently wake me up so I&rsquo;m ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.</p>
+
+<p>But with the larger problem solved, there&rsquo;s always more you can do to make it more perfect. Right now I&rsquo;m using an iPad as my out of bed alarm. There&rsquo;s a lot of problems here: it&rsquo;s a really pricey device being used for a very simple task, it can be inefficient to turn off or adjust alarm times (I don&rsquo;t enjoy the gui), the battery will eventually run out, and if I wake up early there&rsquo;s no kill button to stop my normal alarm from going off without remembering to turn them back on.</p>
+
+<p>There&rsquo;s a lot of pros though, the battery lasts for several weeks, it doesn&rsquo;t need to be plugged in (I&rsquo;m a little OCD and don&rsquo;t want extra wires).</p>
+
+<p>On top of this, I&rsquo;ve been hearing about Raspberry Pi&rsquo;s for years and have always wanted to mess around with one. This seemed like the perfect project to get started on the DIY journey.</p>
+
+<h3>Components</h3>
+
+<p>How I chose my components, used these two guides: <a href="http://goo.gl/EOip4i">Getting Started Guide</a> and <a href="http://goo.gl/YA8hUI">Component Guide</a></p>
+
+<p>Here&rsquo;s what I bought:</p>
+
+<ul>
+<li><a href="http://www.alliedelec.com/raspberry-pi-raspberry-pi-2-model-b/70465426/">Raspberry Pi 2</a></li>
+<li><a href="http://www.amazon.com/gp/product/B004TA0AUW/">MicroSD Card - Transcend Class 10</a> (preferably preloaded with NOOBS, but it&rsquo;s easy to set it up yourself)</li>
+<li><a href="http://www.amazon.com/dp/B003MTTJOY">WiFi Adapter - Edimax</a> I got the Edimax rather than the <a href="http://www.amazon.com/dp/B00EQT0YK2/">Panda 300Mbps</a>, because it has a nano adapter and the Panda is overkill at 300Mbps. Or just use ethernet.</li>
+<li><a href="http://www.amazon.com/gp/product/B00OY7HR1U">Power Adapter - Northpada</a> Northpada because better reviews, higher mAH, one piece charger. In hindsight, I should have just used one of the many micro USB cables I have sitting around and plugged them into a usb outlet.</li>
+<li><a href="http://goo.gl/54ZQH4">Case</a>, although at first I accidentally bought the a <a href="http://www.amazon.com/gp/product/B008TCUXLW">Model 1 Case</a></li>
+</ul>
+
+
+<p>Already owned:</p>
+
+<ul>
+<li><a href="http://www.amazon.com/Dell-UltraSharp-27-Inch-LED-Lit-Monitor/dp/B00P0EQD1Q">Monitor</a>, any monitor will do. HDMI is more convenient though</li>
+<li><a href="http://shop.daskeyboard.com/products/das-keyboard-ultimate-model-s">Keyboard</a>, you can use any usb keyboard, I had a few lying around. Wireless is always convenient too</li>
+<li><a href="http://www.amazon.com/gp/product/B003TG75EG">Mouse</a>, and any usb mouse. Wireless always good</li>
+<li><a href="http://www.amazon.com/gp/product/B0002L5R78">HDMI Display Cable</a>, Raspberry Pi has a HDMI display port, I&rsquo;m sure you&rsquo;ve got one lying around. Or if your monitor can&rsquo;t do HDMI, use one of the many adapters out there. All modern display cables are digital and can be converted from one to another.</li>
+<li><a href="http://www.amazon.com/gp/product/B00316263Y">Ethernet</a>, Got hundreds of these too</li>
+<li><a href="http://www.amazon.com/dp/B00YARCGOC">Speaker</a>, Choose the favorite one you&rsquo;ve got lying around. All you need is a 3.5mm Audio cable to plug it in</li>
+</ul>
+
+
+<p>Messing with Infrared:</p>
+
+<ul>
+<li>Mini Remote Control (IR), <a href="http://goo.gl/xIfdZ">http://goo.gl/xIfdZ</a></li>
+<li>IR Receiver Sensor, <a href="http://goo.gl/SkpM2">http://goo.gl/SkpM2</a></li>
+<li>Ribbon Cable</li>
+<li>Breadboard</li>
+<li>3 LEDs</li>
+<li>Wires (3 for LED Positives, 3 for LED Negatives, 3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)</li>
+<li>R1 270n, whatever the yellow boxes are, (<a href="http://goo.gl/eLDBsQ">http://goo.gl/eLDBsQ</a>)</li>
+<li>Note: Might be able to attach IR sensor straight to GPIO. ALso, LEDs and most wires are just for testing</li>
+</ul>
+
+
+<p>Optional:</p>
+
+<ul>
+<li>Heatsink, don&rsquo;t think you need this unless I&rsquo;m running HD video constantly. A lot of people, like my dad, use their Pi&rsquo;s as DVRs</li>
+</ul>
+
+
+<p>I ended up doing a headless setup where I ssh&rsquo;d in from my laptop (more on this later). This eliminated the need for: Monitor, Keyboard, Mouse, Display Cable. And switching to ethernet meant no need for a wifi adapter</p>
+
+<h3>Setup</h3>
+
+<ul>
+<li>Download Noobs (make sure not copy files in, not the folder)</li>
+<li>Download and use formatter, make sure to have lock switch off</li>
+<li>Plug everything in</li>
+<li>Turn on, Install Raspian</li>
+<li>Initial Settings screen: Turn on SSH, expand filesystem</li>
+</ul>
+
+
+<p>Setting up headless</p>
+
+<h3>Programming</h3>
+
+<p>I got my inspiration from: <a href="https://goo.gl/nq50lE">Speaking Alarm Clock</a>, <a href="https://github.com/skiwithpete/alarmpi">github available here</a>. And some better <a href="https://goo.gl/Ucjzhc">Alternative Alarm Clock Projects</a>, most notably the <a href="https://github.com/bubbl/SimpleGoogleAlarmClock">Simple Google Alarm Clock</a></p>
+
+<h3>Brickwalls</h3>
+
+<p>Here are some problems that took longer to solve than they should have. In other words, things I learned:</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nicholas Lau</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-12-01T16:16:28-08:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/alarm/'>alarm</a>, <a class='category' href='/blog/categories/diy/'>diy</a>, <a class='category' href='/blog/categories/raspberry-pi/'>raspberry pi</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/" data-via="" data-counturl="http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/12/01/a-tale-of-two-cities-by-charles-dickens/" title="Previous Post: A Tale of Two Cities by Charles Dickens">&laquo; A Tale of Two Cities by Charles Dickens</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Some Projects</h1>
+  <ul id="projects">
+    <li class="project"><a href="http://blog.nicklau.io/">Old Blog</a></li>
+    <li class="project"><a href="http://upload-app.nicklau.io/">Photo Upload App</a></li>
+    <li class="project"><a href="http://sample-app.nicklau.io/">Sample App</a></li>
+    <li class="project"><a href="http://www.nicklau.io/">Raspberry Pi (Coming Soon)</a></li>
+    <li class="project"><a href="http://www.nicklau.io/">Javascript Game (Coming Soon)</a></li>
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/12/01/raspberry-pi-alarm/">Raspberry Pi Alarm</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/01/a-tale-of-two-cities-by-charles-dickens/">A Tale of Two Cities by Charles Dickens</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/11/01/meditations-by-marcus-aurelius/">Meditations by Marcus Aurelius</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/06/10/japan-part-2/">Backpacking Japan: Part 2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/30/japan/">Backpacking Japan</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/nmlau">@nmlau</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'nmlau',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Nicholas Lau -
+  <span class="credit">Definitely not Powered by <a href="http://octopress.org">Octopress</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian</a></span>
+  <!--
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian Kraft Fotografie</a></span>
+  -->
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'wwwnicklauio';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/';
+        var disqus_url = 'http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
