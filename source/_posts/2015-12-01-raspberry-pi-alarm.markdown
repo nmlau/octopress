@@ -8,7 +8,6 @@ published: true
 ---
 
 todo:
-- change goo.gl links to full ones
 - add the github somewhere, https://github.com/nmlau/RPiAlarm
 
 ## Under Construction
@@ -23,9 +22,11 @@ There's a lot of pros though, the battery lasts for several weeks, it doesn't ne
 
 On top of this, I've been hearing about Raspberry Pi's for years and have always wanted to mess around with one. This seemed like the perfect project to get started on the DIY journey.
 
+Note: this isn't so much of a guide as my reflections on my journey to solidify the things I learned.
+
 ### Components
 
-How I chose my components, used these two guides: [Getting Started Guide](http://goo.gl/EOip4i) and [Component Guide](http://goo.gl/YA8hUI)
+How I chose my components, used these two guides: [Getting Started Guide](http://www.howtogeek.com/138281/the-htg-guide-to-getting-started-with-raspberry-pi/all/) and [Component Guide](http://www.htpcbeginner.com/raspberry-pi-accessories-for-xbmc-media-center/2/)
 
 Here's what I bought:
 
@@ -33,7 +34,7 @@ Here's what I bought:
 - [MicroSD Card - Transcend Class 10](http://www.amazon.com/gp/product/B004TA0AUW/) (preferably preloaded with NOOBS, but it's easy to set it up yourself)
 - [WiFi Adapter - Edimax](http://www.amazon.com/dp/B003MTTJOY) I got the Edimax rather than the [Panda 300Mbps](http://www.amazon.com/dp/B00EQT0YK2/), because it has a nano adapter and the Panda is overkill at 300Mbps. Or just use ethernet.
 - [Power Adapter - Northpada](http://www.amazon.com/gp/product/B00OY7HR1U) Northpada because better reviews, higher mAH, one piece charger. In hindsight, I should have just used one of the many micro USB cables I have sitting around and plugged them into a usb outlet.
-- [Case](http://goo.gl/54ZQH4), although at first I accidentally bought the a [Model 1 Case](http://www.amazon.com/gp/product/B008TCUXLW)
+- [Case](http://www.amazon.com/gp/product/B00MQLB1N6), although at first I accidentally bought the a [Model 1 Case](http://www.amazon.com/gp/product/B008TCUXLW)
 
 Already owned:
 
@@ -46,13 +47,13 @@ Already owned:
 
 Messing with Infrared:
 
-- Mini Remote Control (IR), http://goo.gl/xIfdZ
-- IR Receiver Sensor, http://goo.gl/SkpM2
+- Mini Remote Control (IR), http://www.adafruit.com/products/389
+- IR Receiver Sensor, http://www.adafruit.com/products/157
 - Ribbon Cable
 - Breadboard
 - 3 LEDs
 - Wires (3 for LED Positives, 3 for LED Negatives, 3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)
-- R1 270n, whatever the yellow boxes are, (http://goo.gl/eLDBsQ)
+- R1 270n, whatever the yellow boxes are, (http://ozzmaker.com/wp-content/uploads/2013/10/IRwiring2.png?csspreview=true)
 - Note: Might be able to attach IR sensor straight to GPIO. ALso, LEDs and most wires are just for testing
 
 Optional:
@@ -69,12 +70,28 @@ I ended up doing a headless setup where I ssh'd in from my laptop (more on this 
 - Turn on, Install Raspian
 - Initial Settings screen: Turn on SSH, expand filesystem
 
-Setting up headless
+[Setting up headless](https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=74176):
+I'm a little bit of a neat freak. And I don't have enough space at the moment for a dedicated work bench. So shortly after I went through all the trouble of acquiring and plugging in all the components plugged in I realized I could do better. A headless setup means all the pi needs is an internet connection (wifi adapter or ethernet) and I can use it over ssh.
+
+I got to learn a lot about networking, having to mess around with commands like 'arp -a', 'nmap', modifying /etc/ssh/ssh_config, [learn about MAC and ARP addresses](http://whatismyipaddress.com/mac-address)
+
+Even once I was connected, the workflow was mediocre until I was able to setup:
+File Transfer using afp (appletalk protocol) to pi, http://goo.gl/I5FOIr
+-Install netatalk on pi, afp in from mac
+-This let me use finder and all my os x apps to access my pi's files. Much better than the trouble I was having with Filezilla. Incredibly convenient although it did leave hidden .AppleDouble folders in every directory
+Another huge thing was using tmux combined with dtach. Tmux meant I only had to ssh in one time, then I could split that session into several windows. dtach allowed me to shut the pi off, ssh back in jump right back to my desired tmux session.
+
+Random note: sshing in forced me to use command line a lot. Which inspired me to read a few [guides on CLI](), [vim](), that got me play with my profiles (my vim is beautiful now - [image of Solarized profile]()) to setup my profiles like [this](https://github.com/nmlau/profiles)
 
 ### Programming
 
-I got my inspiration from: [Speaking Alarm Clock](https://goo.gl/nq50lE), [github available here](https://github.com/skiwithpete/alarmpi). And some better [Alternative Alarm Clock Projects](https://goo.gl/Ucjzhc), most notably the [Simple Google Alarm Clock](https://github.com/bubbl/SimpleGoogleAlarmClock)
+I got my inspiration from: [Speaking Alarm Clock](https://www.youtube.com/watch?v=julETnOLkaU), [github available here](https://github.com/skiwithpete/alarmpi). And some better [Alternative Alarm Clock Projects](https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=95500), most notably the [Simple Google Alarm Clock](https://github.com/bubbl/SimpleGoogleAlarmClock)
+
+One set the alarm with chronjobs, another by hardcoding, but I really liked the Google Calendar integration. And plan to add some pyfeed stuff, particularily to get weather. I also stole how they used datetime module, config parser, os and mpg123 to play sound files. However, all these projects were deprecated because of changes to the Google Calendar Service API.
 
 ### Brickwalls
 
 Here are some problems that took longer to solve than they should have. In other words, things I learned:
+-Setup was actually the longest part, I had to follow a lot of tutorials that didn't work without going in and understanding the commands better
+-Changes in Google Calendar API also slowed me down more than they should have. I accidentally setup the deprecated API at first... wish they had thrown a note on the article that it had been deprcated two years ago!
+-Just learning python so had some trouble here, easily fixed though. Just read some guides, learned syntax better, got the normal tools like pdb for debugger

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: shortcuts | Nicks Octopress Blog]]></title>
+  <link href="http://octopress.nicksdevspot.com/blog/categories/shortcuts/atom.xml" rel="self"/>
+  <link href="http://octopress.nicksdevspot.com/"/>
+  <updated>2015-12-04T16:35:23-08:00</updated>
+  <id>http://octopress.nicksdevspot.com/</id>
+  <author>
+    <name><![CDATA[Nicholas Lau]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Favorite Things]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/12/03/favorite-things/"/>
+    <updated>2015-12-03T00:26:08-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/12/03/favorite-things</id>
+    <content type="html"><![CDATA[<p>I was showing my friends something on the internet the other day when I realized they didn&rsquo;t know how to hotkey between tabs. Both of them were engineers, one even a software. It blew my mind that people don&rsquo;t know these things, which got my thinking about what I used. I ended up making a list&hellip; so I figured I might as well share it. I&rsquo;ll throw on a quick summary for why I use all these things</p>
+
+<p>I&rsquo;ve mostly found these small workflow shortcuts though annoyance at multiple keystrokes or dislike of leaving the keyboard.</p>
+
+<p>Chrome Shortcuts
+-opt+cmd+del for chrome history
+Gmail Shortcuts</p>
+
+<p>Chrome Extensions:
+Vimium, I couldn&rsquo;t live without this one. It lets you use chrome with vim inspired shortcuts. Hit &rsquo;d' to go down half a page, &lsquo;k&rsquo; to scroll up, &lsquo;gi&rsquo; to move cursor to a textarea then &lsquo;tab&rsquo; to move to the next textarea, etc
+Papaly, I have two tabs pinned&hellip; gmail and papaly. Papaly lets me save links in a quick and organized manner, letting me keep my browser uncluttered
+Facebook: News Feed Blocker, Facebook Unseen (I know this should be in App-Specific&hellip; but for real). When you open facebook to jump on the messenger, the feed is less likely to draw you in&hellip; and unseen so that you can read messages without beening inclined to answer them until it&rsquo;s more convenient. Remember when the &lsquo;seen at 4:21&rsquo; feature was new and everyone despised it?
+Empty New Tab Page, Because it cleans up your interface ever so slightly, &ldquo;a clean room is a clean mind&rdquo;
+Imagus
+Privacy: Ghostery, TrackMeNot, uBlockOrigin
+goo.gl URL Shortener</p>
+
+<p>Flux
+Moom
+Copy Clip
+VPN
+Dropbox (Sublime text) -> Nebulous
+Evernote</p>
+
+<p>Peace of Mind: Crashplan, Mint, 1Password</p>
+
+<p>App Specific: Mint Mojito, Google Calendar Scroll Disabler, The Camelizer, Reddit Enhancement Suite, Download FB Album mod, Boomerang for gmail</p>
+
+<p>Maybe:
+Pomodoro Timer</p>
+]]></content>
+  </entry>
+  
+</feed>
