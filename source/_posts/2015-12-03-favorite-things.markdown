@@ -10,8 +10,12 @@ I was showing my friends something on the internet the other day when I realized
 
 I've mostly found these small workflow shortcuts though annoyance at multiple keystrokes or dislike of leaving the keyboard.
 
+<!-- more -->
+
 Chrome Shortcuts
 -opt+cmd+del for chrome history
+-Switching between tabs, jumping between tabs
+-Moving to address bar
 Gmail Shortcuts
 
 Chrome Extensions:
