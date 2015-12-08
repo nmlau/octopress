@@ -11,7 +11,7 @@ published: true
 
 ### Introduction
 
-[pic]
+{% img /images/pi/pi.jpg 'pi.jpg' %}
 
 I've always had trouble waking up. Sometimes I wake up, sometimes I don't, sometimes I just end up lying in bed... it's been a lifetime point of stress. But in the last few months I've found a solution that works for me. I use the [Sleep Cycle Phone App](http://www.sleepcycle.com/) to gently wake me up so I'm ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.
 
@@ -97,8 +97,9 @@ One of them suggested setting up a socket to listen for real world events, so I'
 ### Brickwalls
 
 Here are some problems that took longer to solve than they should have. In other words, things I learned:
--Setup was actually the longest part, I had to follow a lot of tutorials that didn't work without going in and understanding the commands better
--Changes in Google Calendar API also slowed me down more than they should have. I accidentally setup the deprecated API at first... wish they had thrown a note on the article that it had been deprcated two years ago!
--Just learning python so had some trouble here, easily fixed though. Just read some guides, learned syntax better, got the normal tools like pdb for debugger
--Learned how to use a GPIO, got my EE friends to show me how to use a breadboard, ribbon cable, wiring, etc. Closest I had gotten to this stuff before was an FPGA in my embedded systems course or using VHDL to design a CPU although no actual hardware was involved in that.
--Time was a huge hassle, I learned a lot about how the time modules worked together, and about formatting. I'll probably swap that all out at some point and just use the arrow module
+
+* Setup was actually the longest part, I had to follow a lot of tutorials that didn't work without going in and understanding the commands better
+* Changes in Google Calendar API also slowed me down more than they should have. I accidentally setup the deprecated API at first... wish they had thrown a note on the article that it had been deprcated two years ago!
+* Just learning python so had some trouble here, easily fixed though. Just read some guides, learned syntax better, got the normal tools like pdb for debugger
+* Learned how to use a GPIO, got my EE friends to show me how to use a breadboard, ribbon cable, wiring, etc. Closest I had gotten to this stuff before was an FPGA in my embedded systems course or using VHDL to design a CPU although no actual hardware was involved in that.
+* Time was a huge hassle, I learned a lot about how the time modules worked together, and about formatting. I'll probably swap that all out at some point and just use the arrow module

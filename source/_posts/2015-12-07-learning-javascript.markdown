@@ -8,18 +8,18 @@ categories: [javascript, game, phaser, crockford, mozilla]
 
 I've always been interested in learning Javascript, but have been too overwhelmed by the abundance of resources out there. I finally took the time to do some thorough looking around with lead me to this Stack Overflow [link](http://goo.gl/iPMGV) on resources for learning Javascript. This lead me to the MDN Javascript Reintroduction and Crockfords Lectures.
 
-* [Mozilla Developer Network (MDN) Reintroduction](https://goo.gl/89Taee) 
+* [Mozilla Developer Network (MDN) Reintroduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
 ## Crockford on Javascript
 
-* [Volume 1: The Early Years](https://goo.gl/snYql6)
-* [Chapter 2: And Then There Was JavaScript](https://goo.gl/Fu8c07)
-* [Act III: Function the Ultimate](https://goo.gl/hsLTwc)
-* [Episode IV: The Matamorphasis of Ajax](https://goo.gl/XsnSst)
-* [Part 5: The End of All Things](https://goo.gl/t6jsVk)
-* [Scene 6: Loopage](https://goo.gl/9sqk03)
-* [Level 7: ECMAScript 5: The new Parts](https://goo.gl/fnjHS0)
-* [Section 8: Programming Style & Your Brain](https://goo.gl/6wS997)
+* [Volume 1: The Early Years](https://www.youtube.com/watch?v=JxAXlJEmNMg)
+* [Chapter 2: And Then There Was JavaScript](https://www.youtube.com/watch?v=RO1Wnu-xKoY)
+* [Act III: Function the Ultimate](https://www.youtube.com/watch?v=ya4UHuXNygM)
+* [Episode IV: The Matamorphasis of Ajax](https://www.youtube.com/watch?v=Fv9qT9joc0M)
+* [Part 5: The End of All Things](https://www.youtube.com/watch?v=47Ceot8yqeI)
+* [Scene 6: Loopage](https://www.youtube.com/watch?v=QgwSUtYSUqA)
+* [Level 7: ECMAScript 5: The new Parts](https://www.youtube.com/watch?v=UTEqr0IlFKY)
+* [Section 8: Programming Style & Your Brain](https://www.youtube.com/watch?v=taaEzHI9xyY)
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ Now that I knew a lot of the theory behind Javascript, it was time to practice a
 
 ## MDN Game Development Workflows
 
-* [2D Breakout in pure JS](https://goo.gl/LD1vsB)
-* [2D Breakout game using Phaser](https://goo.gl/Y9zVC4)
-* [2D Maze game with device orientation Phaser](https://goo.gl/wgeQNh)
+* [2D Breakout in pure JS](https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript)
+* [2D Breakout game using Phaser](https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_Phaser)
+* [2D Maze game with device orientation Phaser](https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation)
   <!-- * [Try it!]({{ root_url }} /source/resources/games/breakout/index.html)) -->
