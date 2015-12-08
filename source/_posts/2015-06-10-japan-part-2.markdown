@@ -8,7 +8,7 @@ categories: [Travel, Japan]
 
 {% img /images/japan/6_tokyo_again/train_fuji.jpg 'train_fuji.jpg' %}
 
-We caught a pretty good view of Mount Fuji as we sped by on the Shinkansen
+We caught a pretty good view of Mount Fuji as we sped by on the Shinkansen.
 
 <!-- more -->
 

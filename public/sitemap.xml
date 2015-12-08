@@ -117,4 +117,16 @@
   <url>
     <loc>http://octopress.nicksdevspot.com/blog/categories/mozilla/</loc>
   </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/resources/games/breakout/index.html</loc>
+    <lastmod>2015-11-27T18:00:19-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/resources/games/phaserbreakout/index.html</loc>
+    <lastmod>2015-12-07T16:24:27-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/resources/games/phasermaze/index.html</loc>
+    <lastmod>2015-12-02T15:34:24-08:00</lastmod>
+  </url>
 </urlset>

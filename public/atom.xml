@@ -4,7 +4,7 @@
   <title><![CDATA[Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2015-12-08T06:40:04-08:00</updated>
+  <updated>2015-12-08T07:52:10-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -18,7 +18,7 @@
     <link href="http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript/"/>
     <updated>2015-12-07T15:22:29-08:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve always been interested in learning Javascript, but have been too overwhelmed by the abundance of resources out there. I finally took the time to do some thorough looking around with lead me to this <a href="http://goo.gl/iPMGV">stack overflow link</a>. This lead me to the MDN Javascript Reintroduction and Crockfords Lectures.</p>
+    <content type="html"><![CDATA[<p>I&rsquo;ve always been interested in learning Javascript, but have been too overwhelmed by the abundance of resources out there. I finally took the time to do some thorough looking around with lead me to this Stack Overflow <a href="http://goo.gl/iPMGV">link</a> on resources for learning Javascript. This lead me to the MDN Javascript Reintroduction and Crockfords Lectures.</p>
 
 <ul>
 <li><a href="https://goo.gl/89Taee">Mozilla Developer Network (MDN) Reintroduction</a></li>
@@ -49,7 +49,8 @@
 <ul>
 <li><a href="https://goo.gl/LD1vsB">2D Breakout in pure JS</a></li>
 <li><a href="https://goo.gl/Y9zVC4">2D Breakout game using Phaser</a></li>
-<li><a href="https://goo.gl/wgeQNh">2D Maze game with device orientation Phaser</a></li>
+<li><a href="https://goo.gl/wgeQNh">2D Maze game with device orientation Phaser</a>
+<!-- * [Try it!]( /source/resources/games/breakout/index.html)) --></li>
 </ul>
 
 ]]></content>
@@ -283,7 +284,7 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
     <id>http://octopress.nicksdevspot.com/blog/2015/06/10/japan-part-2</id>
     <content type="html"><![CDATA[<p><img src="http://octopress.nicksdevspot.com/images/japan/6_tokyo_again/train_fuji.jpg" title="'train_fuji.jpg'" ></p>
 
-<p>We caught a pretty good view of Mount Fuji as we sped by on the Shinkansen</p>
+<p>We caught a pretty good view of Mount Fuji as we sped by on the Shinkansen.</p>
 
 <!-- more -->
 
@@ -886,7 +887,7 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
 
 <p>When I set out on the biggest adventure of my life, I was afraid it somehow wouldn&rsquo;t match up to expectations. And expectations were high after hearing stories and having wanted to go for years. So I&rsquo;m happy to say that Vietnam was perfect, it was a crazy and exhilarating adventure of strange things and marvelous places.</p>
 
-<p>Here are some highlights from the trip</p>
+<p>Here are some highlights from the trip:</p>
 
 <!-- more -->
 
