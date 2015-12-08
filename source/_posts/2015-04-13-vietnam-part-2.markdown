@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Backpacking in Vietnam: Part 2"
+title: "Backpacking Vietnam: Part 2"
 date: 2015-04-13 16:06:52 -0700
 comments: true
 categories: [Travel, Vietnam]

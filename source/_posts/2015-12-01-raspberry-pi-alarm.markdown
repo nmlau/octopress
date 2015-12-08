@@ -11,7 +11,7 @@ published: true
 
 ### Introduction
 
-Put a pic here
+[pic]
 
 I've always had trouble waking up. Sometimes I wake up, sometimes I don't, sometimes I just end up lying in bed... it's been a lifetime point of stress. But in the last few months I've found a solution that works for me. I use the [Sleep Cycle Phone App](http://www.sleepcycle.com/) to gently wake me up so I'm ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.
 

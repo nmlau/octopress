@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meditations by Marcus Aurelius"
-date: 2015-11-01 12:51:55 -0800
+date: 2015-09-12 12:51:55 -0800
 comments: true
 categories: [Reading, Meditations, Marcus Aurelius]
 ---
@@ -25,6 +25,6 @@ Book 11.10
 Book 11.27
 >"The Pythagoreans bid us in the morning look to the heavens that we may be reminded of those bodies that continually do the same things and in the same manner perform their work, and also be reminded of their purity and nudity. For there is no veil over a star."
 
-Finally, I didn't take down the quote for this. But something very valuable I learned from this book is: If you're ashamed of telling people about something you did. Then learn from that and don't do it in the future
+Finally, I didn't take down the quote for this. But something very valuable I learned from this book is: If you're ashamed too ashamed to tell others about what you've done. Then learn and don't do the same thing in the future.
 
-Inspired by Jesca's  [Lines For Thoughts](https://linesforthoughts.wordpress.com/)
+Inspired by Jesca's [Lines For Thoughts](https://linesforthoughts.wordpress.com/)

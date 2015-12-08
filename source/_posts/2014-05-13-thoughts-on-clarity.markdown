@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Random Personal Statement"
+title: "Thoughts on Clarity"
 date: 2014-05-13 23:16:04 -0700
 comments: true
 categories: [Thoughts]

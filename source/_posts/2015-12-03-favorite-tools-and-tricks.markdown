@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Favorite Things"
+title: "Favorite Tools and Tricks"
 date: 2015-12-03 00:26:08 -0800
 comments: true
 categories: [shortcuts]

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: crockford | Nicks Octopress Blog]]></title>
+  <link href="http://octopress.nicksdevspot.com/blog/categories/crockford/atom.xml" rel="self"/>
+  <link href="http://octopress.nicksdevspot.com/"/>
+  <updated>2015-12-08T06:40:04-08:00</updated>
+  <id>http://octopress.nicksdevspot.com/</id>
+  <author>
+    <name><![CDATA[Nicholas Lau]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Javascript]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript/"/>
+    <updated>2015-12-07T15:22:29-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve always been interested in learning Javascript, but have been too overwhelmed by the abundance of resources out there. I finally took the time to do some thorough looking around with lead me to this <a href="http://goo.gl/iPMGV">stack overflow link</a>. This lead me to the MDN Javascript Reintroduction and Crockfords Lectures.</p>
+
+<ul>
+<li><a href="https://goo.gl/89Taee">Mozilla Developer Network (MDN) Reintroduction</a></li>
+</ul>
+
+
+<h2>Crockford on Javascript</h2>
+
+<ul>
+<li><a href="https://goo.gl/snYql6">Volume 1: The Early Years</a></li>
+<li><a href="https://goo.gl/Fu8c07">Chapter 2: And Then There Was JavaScript</a></li>
+<li><a href="https://goo.gl/hsLTwc">Act III: Function the Ultimate</a></li>
+<li><a href="https://goo.gl/XsnSst">Episode IV: The Matamorphasis of Ajax</a></li>
+<li><a href="https://goo.gl/t6jsVk">Part 5: The End of All Things</a></li>
+<li><a href="https://goo.gl/9sqk03">Scene 6: Loopage</a></li>
+<li><a href="https://goo.gl/fnjHS0">Level 7: ECMAScript 5: The new Parts</a></li>
+<li><a href="https://goo.gl/6wS997">Section 8: Programming Style &amp; Your Brain</a></li>
+</ul>
+
+
+<!-- more -->
+
+
+<p>Now that I knew a lot of the theory behind Javascript, it was time to practice applying it. I decided to make a game.</p>
+
+<h2>MDN Game Development Workflows</h2>
+
+<ul>
+<li><a href="https://goo.gl/LD1vsB">2D Breakout in pure JS</a></li>
+<li><a href="https://goo.gl/Y9zVC4">2D Breakout game using Phaser</a></li>
+<li><a href="https://goo.gl/wgeQNh">2D Maze game with device orientation Phaser</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

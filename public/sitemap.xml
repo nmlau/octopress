@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/12/03/favorite-things/</loc>
+    <loc>http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript/</loc>
+    <lastmod>2015-12-07T15:22:29-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/2015/12/03/favorite-tools-and-tricks/</loc>
     <lastmod>2015-12-03T00:26:08-08:00</lastmod>
   </url>
   <url>
@@ -9,12 +13,12 @@
     <lastmod>2015-12-01T16:16:28-08:00</lastmod>
   </url>
   <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/12/01/a-tale-of-two-cities-by-charles-dickens/</loc>
-    <lastmod>2015-12-01T13:17:47-08:00</lastmod>
+    <loc>http://octopress.nicksdevspot.com/blog/2015/10/27/a-tale-of-two-cities-by-charles-dickens/</loc>
+    <lastmod>2015-10-27T14:17:47-07:00</lastmod>
   </url>
   <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/11/01/meditations-by-marcus-aurelius/</loc>
-    <lastmod>2015-11-01T12:51:55-08:00</lastmod>
+    <loc>http://octopress.nicksdevspot.com/blog/2015/09/12/meditations-by-marcus-aurelius/</loc>
+    <lastmod>2015-09-12T13:51:55-07:00</lastmod>
   </url>
   <url>
     <loc>http://octopress.nicksdevspot.com/blog/2015/06/10/japan-part-2/</loc>
@@ -41,7 +45,7 @@
     <lastmod>2015-03-01T15:06:52-08:00</lastmod>
   </url>
   <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2014/05/13/random-personal-statement/</loc>
+    <loc>http://octopress.nicksdevspot.com/blog/2014/05/13/thoughts-on-clarity/</loc>
     <lastmod>2014-05-13T23:16:04-07:00</lastmod>
   </url>
   <url>
@@ -54,7 +58,7 @@
     <loc>http://octopress.nicksdevspot.com/about/</loc>
   </url>
   <url>
-    <loc>http://octopress.nicksdevspot.com/resume/</loc>
+    <loc>http://octopress.nicksdevspot.com/resources/resume/</loc>
   </url>
   <url>
     <loc>http://octopress.nicksdevspot.com/blog/categories/thoughts/</loc>
@@ -99,6 +103,18 @@
     <loc>http://octopress.nicksdevspot.com/blog/categories/shortcuts/</loc>
   </url>
   <url>
-    <loc>http://octopress.nicksdevspot.com/posts/2/</loc>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/javascript/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/game/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/phaser/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/crockford/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/mozilla/</loc>
   </url>
 </urlset>
