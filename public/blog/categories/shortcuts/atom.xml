@@ -4,7 +4,7 @@
   <title><![CDATA[Category: shortcuts | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/shortcuts/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2015-12-08T13:05:13-08:00</updated>
+  <updated>2015-12-10T13:51:51-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -102,6 +102,7 @@
 <ul>
 <li>ctrl+cmd+up/down arrows, swap rows up and down.</li>
 <li>ctrl+shift+up/down arrows, quickly spawn multiple cursors for some efficient editing.</li>
+<li>cmd+k then cmd+b, hide/show sidebar</li>
 </ul>
 
 
