@@ -4,7 +4,7 @@
   <title><![CDATA[Category: javascript | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-01-05T10:16:47-08:00</updated>
+  <updated>2016-01-05T10:22:58-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -54,7 +54,7 @@
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation">2D Maze game with device orientation Phaser</a>
 
 <ul>
-<li><a href="/resources/games/phaserbreakout/">Try it!</a></li>
+<li><a href="/resources/games/PhaserBreakout/">Try it!</a></li>
 </ul>
 </li>
 </ul>
