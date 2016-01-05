@@ -4,7 +4,7 @@
   <title><![CDATA[Category: crockford | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/crockford/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-01-05T09:56:11-08:00</updated>
+  <updated>2016-01-05T10:16:47-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -18,7 +18,9 @@
     <link href="http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript/"/>
     <updated>2015-12-07T15:22:29-08:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve always been interested in learning Javascript, but have been too overwhelmed by the abundance of resources out there. I finally took the time to do some thorough looking around with lead me to this Stack Overflow <a href="http://goo.gl/iPMGV">link</a> on resources for learning Javascript. This lead me to the MDN Javascript Reintroduction and Crockfords Lectures.</p>
+    <content type="html"><![CDATA[<h2>Under Construction</h2>
+
+<p>I&rsquo;ve always been interested in learning Javascript, but have been too overwhelmed by the abundance of resources out there. I finally took the time to do some thorough looking around with lead me to this Stack Overflow <a href="http://goo.gl/iPMGV">link</a> on resources for learning Javascript. This lead me to the MDN Javascript Reintroduction and Crockfords Lectures.</p>
 
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">Mozilla Developer Network (MDN) Reintroduction</a></li>
@@ -52,7 +54,19 @@
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation">2D Maze game with device orientation Phaser</a>
 
 <ul>
-<li><a href="/game/">Try it!</a></li>
+<li><a href="/resources/games/phaserbreakout/">Try it!</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h2>MDN Game Development Workflows</h2>
+
+<ul>
+<li><a href="https://github.com/nmlau/vim-maze">My Game</a>
+
+<ul>
+<li><a href="/resources/games/vimmaze/">Try it!</a></li>
 </ul>
 </li>
 </ul>
