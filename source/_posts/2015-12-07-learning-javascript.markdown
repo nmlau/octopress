@@ -30,6 +30,7 @@ Now that I knew a lot of the theory behind Javascript, it was time to practice a
 ## MDN Game Development Workflows
 
 * [2D Breakout in pure JS](https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript)
+  * [Try it!]({{ root_url }}/resources/games/breakout/)
 * [2D Breakout game using Phaser](https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_Phaser)
   * [Try it!]({{ root_url }}/resources/games/phaserBreakout/)
 * [2D Maze game with device orientation Phaser](https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation)
