@@ -3,7 +3,7 @@ layout: post
 title: "Research Papers: System and Language Design"
 date: 2015-12-10 13:46:43 -0800
 comments: true
-categories: 
+categories: [reading, computer science, research papers, design, Tony Hoare, Fred Brooks, Leslie Lamport, Turing Award Speech]
 published: false
 
 ---

@@ -4,7 +4,7 @@
   <title><![CDATA[Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2015-12-10T13:51:51-08:00</updated>
+  <updated>2016-01-05T09:56:05-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -12,6 +12,120 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MyFitnessJourney]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/12/18/myfitnessjourney/"/>
+    <updated>2015-12-18T06:37:41-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/12/18/myfitnessjourney</id>
+    <content type="html"><![CDATA[<h2>Under Construction</h2>
+
+<h3>Introduction</h3>
+
+<p>I&rsquo;ll start with a disclaimer: This isn&rsquo;t a guide. This is <em>my</em> fitness journey, how I achieved <em>my</em> goals with the time and effort <em>I</em> was willing to put forth. Although, at the same time, I&rsquo;m a pretty normal guy so maybe these things will apply to you as well. Also, friends will often ask for advice so I figure I can just direct them here rather than attempt to cover everything poorly in person, and have them not retain that much.</p>
+
+<ul>
+<li>Background</li>
+<li>What I used to do</li>
+<li>Transition to Power Lifting</li>
+<li>Studying</li>
+<li>Nutrition, Lifting, Sleep, <em>Sustainability</em></li>
+<li>Cutting</li>
+<li>Bulking</li>
+<li>Progress Pics and Body Scan results</li>
+<li>Favorite Resources</li>
+</ul>
+
+
+<h3>Background</h3>
+
+<p>Since June I&rsquo;ve gone from 139 lbs to 143 lbs. From:</p>
+
+<ul>
+<li>67.2 lbs of Skeletal Muscle Mass, 21.2 lbs of Body Fat Mass, with a 15.1 Body Fat percentage</li>
+<li>72.3 lbs of Skeletal Muscle Mass, 16.3 lbs of Body Fat Mass, with a 11.4 Body Fat percentage</li>
+</ul>
+
+
+<p>Here&rsquo;s some of my lifts, I&rsquo;ve mostly moved into intermediate going on proficient territory. So I&rsquo;m pretty happy but I&rsquo;ve got a long ways to go:</p>
+
+<table>
+<thead>
+<tr>
+<th> <strong>Lift</strong>       </th>
+<th> <strong>5 Rep Max (lbs)</strong> </th>
+<th> <strong>Theoretical 1 Rep (lbs)</strong> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> Back Squat     </td>
+<td> 240                 </td>
+<td> 280                      </td>
+</tr>
+<tr>
+<td> Deadlift       </td>
+<td> 240                 </td>
+<td> 280                      </td>
+</tr>
+<tr>
+<td> Bench Press    </td>
+<td> 185                 </td>
+<td> 225                      </td>
+</tr>
+<tr>
+<td> Overhead Press </td>
+<td> 115                 </td>
+<td> 135                      </td>
+</tr>
+<tr>
+<td> Pull-up        </td>
+<td> 45                  </td>
+<td> 75                       </td>
+</tr>
+<tr>
+<td> Pendlay Row    </td>
+<td> 135                 </td>
+<td> 155                      </td>
+</tr>
+</tbody>
+</table>
+
+
+<!-- more -->
+
+
+<h3>What I used to Do</h3>
+
+<p>I&rsquo;ve always been casually interested in fitness. I was raised on sports, and have played the majority of sports with my friends at some point. From rugby, wrestling, wiffleball, ping pong, etc. I ran track and cross country in highschool which got me a free member ship to the gym. So I would jog over to the local gym and work out on the machines, religiously following the given Range of Motion. I would do sets of 75 ten pound dumbbell curls, pushups to feel more productive while watching the sharks or warriors play.</p>
+
+<p>During university, I would find routines off the internet, often combining them into some strange amalgamation based on what I thought was best. I would drink whey protein, and make mediocre progress until midterms or finals came by and then start all over again. Overall, I saw little progress over the course of 4 years.</p>
+
+<h3>Transition to Power Lifting</h3>
+
+<p>Then I discovered power lifting. This by itself wasn&rsquo;t the most important thing, that was the resources it lead me too. But we&rsquo;ll get to that later. I picked up the beginner powerlifing routine Stronglifts 5x5s. Yes, I was still a beginner after 4 years. This routine forced me to pick up a bunch of important lifts that I had been neglecting or had been too afraid to try, such as Squats, Deadlifts, and Overhead Press. It made them easy to pick up by starting the weights very low. It provided things beyond lifts and reps, such as when to deload.</p>
+
+<h3>Studying</h3>
+
+<h3>Nutrition, Lifting, Sleep, <em>Sustainability</em></h3>
+
+<h3>Cutting</h3>
+
+<h3>Bulking</h3>
+
+<h3>Progress Pics and Body Scan results</h3>
+
+<h3>Favorite Resources</h3>
+
+<ul>
+<li><a href="http://examine.com/">Examine</a></li>
+<li><a href="https://www.reddit.com/r/Fitness">r/fitness</a></li>
+<li><a href="http://symmetricstrength.com/">Symmetric Strength</a></li>
+<li><a href="http://iifym.com/iifym-calculator/">iifym</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Learning Javascript]]></title>
@@ -50,7 +164,11 @@
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript">2D Breakout in pure JS</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_Phaser">2D Breakout game using Phaser</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation">2D Maze game with device orientation Phaser</a>
-<!-- * [Try it!]( /source/resources/games/breakout/index.html)) --></li>
+
+<ul>
+<li><a href="http://octopress.nicksdevspot.com/game/">Try it!</a></li>
+</ul>
+</li>
 </ul>
 
 ]]></content>

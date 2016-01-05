@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://octopress.nicksdevspot.com/blog/2015/12/18/myfitnessjourney/</loc>
+    <lastmod>2015-12-18T06:37:41-08:00</lastmod>
+  </url>
+  <url>
     <loc>http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript/</loc>
     <lastmod>2015-12-07T15:22:29-08:00</lastmod>
   </url>
@@ -118,6 +122,19 @@
     <loc>http://octopress.nicksdevspot.com/blog/categories/mozilla/</loc>
   </url>
   <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/fitness/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/nutrition/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/routine/</loc>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/game/index.html</loc>
+    <lastmod>2015-12-07T16:24:27-08:00</lastmod>
+  </url>
+  <url>
     <loc>http://octopress.nicksdevspot.com/resources/games/breakout/index.html</loc>
     <lastmod>2015-11-27T18:00:19-08:00</lastmod>
   </url>
@@ -128,5 +145,9 @@
   <url>
     <loc>http://octopress.nicksdevspot.com/resources/games/phasermaze/index.html</loc>
     <lastmod>2015-12-02T15:34:24-08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://octopress.nicksdevspot.com/resources/games/vim-maze/index.html</loc>
+    <lastmod>2015-12-28T11:03:25-08:00</lastmod>
   </url>
 </urlset>
