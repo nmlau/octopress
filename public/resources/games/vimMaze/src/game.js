@@ -48,6 +48,7 @@ PhaserGame.Game.prototype = {
 
             //  We need this because the assets are on Amazon S3
             //  Remove the next 2 lines if running locally
+            // this.load.baseURL = 'http://www.nicklau.io/resources/games/phaserMaze/';
             // this.load.baseURL = 'http://files.phaser.io.s3.amazonaws.com/codingtips/issue005/';
             // this.load.crossOrigin = 'anonymous';
 

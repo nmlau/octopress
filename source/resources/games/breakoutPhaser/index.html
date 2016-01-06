@@ -23,7 +23,7 @@
     var startButton;
 
     function preload() {
-        handleRemoteImagesOnJSFiddle();
+        // handleRemoteImagesOnJSFiddle();
         game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         game.scale.pageAlignHorizontally = true;
         game.scale.pageAlignVertically = true;
@@ -75,10 +75,10 @@
     }
 
     // this function (needed only on JSFiddle) take care of loading the images from the remote server
-    function handleRemoteImagesOnJSFiddle() {
-        game.load.baseURL = 'http://www.nicklau.io/resources/games/phaserBreakout/';
-        game.load.crossOrigin = 'anonymous';
-    }
+    // function handleRemoteImagesOnJSFiddle() {
+    //     game.load.baseURL = 'http://www.nicklau.io/resources/games/phaserBreakout/';
+    //     game.load.crossOrigin = 'anonymous';
+    // }
 
     function initBricks() {
         brickInfo = {
