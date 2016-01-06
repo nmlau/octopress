@@ -1,8 +1,8 @@
 Ball.Preloader = function(game) {};
 Ball.Preloader.prototype = {
 	preload: function() {
-		this.load.baseURL = 'http://www.nicklau.io/resources/games/phaserMaze/';
-    this.load.crossOrigin = 'anonymous';
+		// this.load.baseURL = 'http://www.nicklau.io/resources/games/phaserMaze/';
+  //   this.load.crossOrigin = 'anonymous';
 
 		this.preloadBg = this.add.sprite((Ball._WIDTH-297)*0.5, (Ball._HEIGHT-145)*0.5, 'preloaderBg');
 		this.preloadBar = this.add.sprite((Ball._WIDTH-158)*0.5, (Ball._HEIGHT-50)*0.5, 'preloaderBar');
