@@ -19,6 +19,8 @@ I've always been interested in learning Javascript, but have been too overwhelme
 * MDN Game Development Workflows
 * Building a Game
 
+<!-- more -->
+
 ### MDN Reintroduction
 
 * [Mozilla Developer Network (MDN) Reintroduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
@@ -33,8 +35,6 @@ I've always been interested in learning Javascript, but have been too overwhelme
 * [Scene 6: Loopage](https://www.youtube.com/watch?v=QgwSUtYSUqA)
 * [Level 7: ECMAScript 5: The new Parts](https://www.youtube.com/watch?v=UTEqr0IlFKY)
 * [Section 8: Programming Style & Your Brain](https://www.youtube.com/watch?v=taaEzHI9xyY)
-
-<!-- more -->
 
 Now that I knew a lot of the theory behind Javascript, it was time to practice applying it. I decided to make a game.
 

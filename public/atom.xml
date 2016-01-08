@@ -4,7 +4,7 @@
   <title><![CDATA[Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-01-07T16:09:57-08:00</updated>
+  <updated>2016-01-07T21:32:23-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -31,6 +31,9 @@
 <li>Profiles</li>
 <li>One-liner for Killing Applications</li>
 </ul>
+
+
+<!-- more -->
 
 
 <h3>Art of the CommandLine</h3>
@@ -326,6 +329,9 @@ alias killapp=&lsquo;function <em>killapp(){ps -ax | grep $1 | awk &ldquo;{print
 </ul>
 
 
+<!-- more -->
+
+
 <h3>MDN Reintroduction</h3>
 
 <ul>
@@ -345,9 +351,6 @@ alias killapp=&lsquo;function <em>killapp(){ps -ax | grep $1 | awk &ldquo;{print
 <li><a href="https://www.youtube.com/watch?v=UTEqr0IlFKY">Level 7: ECMAScript 5: The new Parts</a></li>
 <li><a href="https://www.youtube.com/watch?v=taaEzHI9xyY">Section 8: Programming Style &amp; Your Brain</a></li>
 </ul>
-
-
-<!-- more -->
 
 
 <p>Now that I knew a lot of the theory behind Javascript, it was time to practice applying it. I decided to make a game.</p>

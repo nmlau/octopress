@@ -20,6 +20,8 @@ published: true
 * Profiles
 * One-liner for Killing Applications
 
+<!-- more -->
+
 ### Art of the CommandLine
 
 I've always been interested in learning the CommandLine better. So I was pretty excited to find this guide on Hackernews, or was it r/programming? [The Art of the CommandLine](https://github.com/jlevy/the-art-of-command-line) works as an overview of the most useful things, giving a short introduction so you know what's what. You can then look more into the things using 'man' or a quick google search.
