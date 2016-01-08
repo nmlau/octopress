@@ -1,0 +1,431 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Commandline Shenanigans - Nicks Octopress Blog</title>
+  <meta name="author" content="Nicholas Lau">
+
+  
+  <meta name="description" content="Under Construction Important Note: Nothing I did worked the first time, so I was constantly forced to solve new problems and learn new things Table &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nicks Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-70876418-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nicks Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:octopress.nicksdevspot.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about/">About Me</a></li>
+  <li><a href="/resources/resume/Resume.pdf">Resume</a></li>
+</ul>
+
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Commandline Shenanigans</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+<time class='entry-date' datetime='2016-01-07T14:57:53-08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>7</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>2:57 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h1>Under Construction</h1>
+
+<h4><strong>Important Note: Nothing I did worked the first time, so I was constantly forced to solve new problems and learn new things</strong></h4>
+
+<h3>Table of Contents</h3>
+
+<ul>
+<li>Art of the CommandLine</li>
+<li>Mastering Vim</li>
+<li>Tmux</li>
+<li>Profiles</li>
+<li>One-liner for Killing Applications</li>
+</ul>
+
+
+<h3>Art of the CommandLine</h3>
+
+<p>I&rsquo;ve always been interested in learning the CommandLine better. So I was pretty excited to find this guide on Hackernews, or was it r/programming? <a href="https://github.com/jlevy/the-art-of-command-line">The Art of the CommandLine</a> works as an overview of the most useful things, giving a short introduction so you know what&rsquo;s what. You can then look more into the things using &lsquo;man&rsquo; or a quick google search.</p>
+
+<p>Here&rsquo;s a portion of my raw notes (things that were relatively new to me):</p>
+
+<ul>
+<li>Everyday Use:
+
+<ul>
+<li>xargs (example makes no sense)</li>
+<li>HERE document (code block that io redirects list to a command)</li>
+<li>mosh (ssh type thing using udp)</li>
+<li>percol/fzf (interactive selection of values from output of another command)</li>
+</ul>
+</li>
+<li>Processing Files and Data:
+
+<ul>
+<li>uniq (uniq reports or filters out repeated lines in a file, these would be perfect for lucky times)</li>
+<li>cut/paste/join, pretty intuitive names but never used or seen these used before</li>
+<li>awk/sed, awk is a pattern directed scanning and processing language, sed is a stream editor</li>
+<li>repren, for complex renames</li>
+<li>rysnc, versatile and fast file copying tools</li>
+<li>shuf, shuffle or select random names</li>
+<li>patch, works with diff to be the standard for patching source code</li>
+<li>hd/hexdump/xxd/bvi/biew/strings+grep/xdelta3 for binary files&hellip;</li>
+<li>iconv, convert text encodings</li>
+<li>split/csplit to split by size or pattern</li>
+<li>zless, zmore, zcat, zgrep to operate on compressed files</li>
+</ul>
+</li>
+<li>Cool things:
+
+<ul>
+<li>Press ctrl-r repeatedly to cycle through more matches,&hellip; or hit the right arrow to put the result in the current -line</li>
+<li>ctrl-a, #, enter //enters command as comment so you can go back and edit it later</li>
+<li>Brace expansion using {&hellip;}, cp somefile{,.bak} (which expands to cp somefile somefile.bak)</li>
+<li>The output of a command can be treated like a file via &lt;(some command). ie, vim &lt;(env)</li>
+<li>man ascii</li>
+<li>tmux/screen to multiplex the screen (byobu to enhance tmux, dtach for session persistence)</li>
+<li>fpp (pathpicker) looks incredibly useful</li>
+<li>tab literal, ctrl-v [Tab] or write $&lsquo;\t&rsquo; (the latter is better as you can copy/paste it)</li>
+</ul>
+</li>
+</ul>
+
+
+<p>After going through this I decided to dive deeper into:</p>
+
+<ul>
+<li>xargs</li>
+<li>grep</li>
+<li>vim</li>
+<li>tmux/dtach (although I wasn&rsquo;t happy with dtach and use tmuxinator instead)</li>
+<li>zsh</li>
+<li>profiles (terminal, bash, key remapping, etc)</li>
+<li>cleaning up my environment (ex: had brew and macports fighting with eachother)</li>
+</ul>
+
+
+<p>Notes:
+OS X Only:
+-&ldquo;To enable the Option key in Mac OS Terminal as an alt key (such as used in the commands above like alt-b, alt-f, etc.), open Preferences -> Profiles -> Keyboard and select "Use Option as Meta key&rdquo;.&ldquo;
+-How to change option to meta key properly: <a href="http://goo.gl/jrJDW">http://goo.gl/jrJDW</a>
+-Holy shit now emacs is usable, and it was easy to fix</p>
+
+<h3>Mastering Vim</h3>
+
+<p>I used vim a lot of school, but just got by rather than pushing the boundaries of what it can actually do. Yes I do love sublime text and neat things it can do like multiple cursors. But vim is incredible, and there is a reason people have been using it for decades.</p>
+
+<p>Inspired by The Art of the CommandLine, I found this, <a href="https://danielmiessler.com/study/vim/">Mastering Vim</a>.</p>
+
+<p>Here&rsquo;s a portion of my notes:</p>
+
+<ul>
+<li>u and U interaction is unintuitive to me</li>
+<li>CTRL+G, line number+G</li>
+<li>CTRL-O, CTRL-I</li>
+<li>%</li>
+<li>:#,#s/old/new/g</li>
+<li>:%s/old/new/g</li>
+<li>:%s/old/new/gc</li>
+<li>:!</li>
+<li>:set ic hls is</li>
+<li>:set incsearch</li>
+<li>:set noic</li>
+<li>:nohlsearch</li>
+<li>/ignore\c</li>
+<li>:e (followed by CTRL+D)</li>
+<li>CTRL+L for redraw</li>
+<li>CTRL+[ for ESC</li>
+<li>CTRL+E for scroll up</li>
+<li>CTRL+Y for scroll down</li>
+<li>zz, zt, zb for scroll</li>
+</ul>
+
+
+<p>To practice I went through vimtutor and played <a href="http://vim-adventures.com/">vim adventures</a>. Now I&rsquo;m making a Javascript game with the Phaser framework that will make use of vim commands for controls</p>
+
+<h3>Tmux</h3>
+
+<p>Tmux would have been an absolute lifesaver when I was back in school. Since I did a lot of my work by sshing into the school servers. So many regrets.</p>
+
+<p>First thing I did was change to prefix from Ctrl+a to Ctrl+b.</p>
+
+<p>The Art of the CommandLine recommended dtach for session persistence, but I found it didn&rsquo;t work very smoothly. Setting up Tmuxinator solved the problem though.</p>
+
+<h3>Profiles</h3>
+
+<p>You can find most of my <a href="https://github.com/nmlau/profiles">Profiles</a> here. This allows them to be cloned in and set up easily. Also allows me to keep track of them in one place. Since hitting &lsquo;ls -al&rsquo; in ~/ is kind of messing.</p>
+
+<p>I did a lot of messing around with my profiles and environment:</p>
+
+<ul>
+<li>setup zsh and oh my zsh</li>
+<li>installed solarized dark theme for terminal</li>
+<li>changed to iTerm2</li>
+<li>remapped keys: caps to control, remapping vims &lsquo;jk&rsquo; to escape</li>
+<li>got rid of macports and fixed brews permissions (lots of running &lsquo;brew doctor&rsquo;)</li>
+<li>changed host/terminal name</li>
+</ul>
+
+
+<h3>One-liner for Killing Applications</h3>
+
+<p>[2] Figure out how to combine kill processes:</p>
+
+<ul>
+<li>Ask on Stackoverflow?</li>
+<li>kill <code>jobs -ps</code> # Kill jobs running in background</li>
+<li>ps -ax | grep Finder</li>
+<li>kill -9 390</li>
+<li>zsh: jobs -p | awk &lsquo;{print $3}&rsquo; | xargs kill</li>
+<li>ps -ax | grep Finder | awk &lsquo;{print $3}&rsquo;</li>
+<li>ps -ax | grep &lsquo;TextEdit&rsquo; | awk &lsquo;{print $1}&rsquo; | xargs kill -9</li>
+<li>Bash functions for replacement text, <a href="http://goo.gl/zqlude">http://goo.gl/zqlude</a></li>
+<li>Single in double quotes or vice versa to escape, <a href="http://goo.gl/ccL5mp">http://goo.gl/ccL5mp</a></li>
+<li>alias blah=&lsquo;function <em>blah(){ echo &ldquo;First: $1&rdquo;; echo &ldquo;Second: $2&rdquo;; };</em>blah&rsquo;</li>
+<li>alias killapp=&lsquo;function <em>killapp(){ps -ax | grep Finder};</em>killapp&rsquo;</li>
+<li>alias killapp=&lsquo;function <em>killapp(){ps -ax | grep $1 | awk &rsquo;{print $1}&lsquo; | xargs kill -9};</em>killapp&rsquo;</li>
+<li>alias killapptest=&lsquo;function <em>killapp(){arg1=&ldquo;$1&rdquo;; ps -ax | grep $arg1};</em>killapp&rsquo; //using variable</li>
+<li>alias killapptest=&lsquo;function <em>killapp(){arg1=&ldquo;$1&rdquo;; ps -ax | grep $arg1 | awk &ldquo;{print $1}&rdquo;;</em>killapp&rsquo; //using variable</li>
+<li>FINAL:
+alias killapp=&lsquo;function <em>killapp(){ps -ax | grep $1 | awk &ldquo;{print \$1}&rdquo; | xargs kill -9};</em>killapp&rsquo;</li>
+<li>Not perfect, grep seems to find itself</li>
+<li>pgrep or &lsquo;ps aux | grep -v grep | grep &ldquo;fnord&rdquo;&rsquo; would fix finding itself, <a href="http://goo.gl/H9XhRL">http://goo.gl/H9XhRL</a></li>
+<li>Running simplehttp server on different port, but don&rsquo;t run below 1024, <a href="http://goo.gl/tvTJmx">http://goo.gl/tvTJmx</a></li>
+<li>Fixing my &lsquo;awk {print $1}&rsquo; conflicting $1 issue, <a href="http://goo.gl/Sct0Ji">http://goo.gl/Sct0Ji</a></li>
+</ul>
+
+
+<p>WELL LOOKS LIKE I JUST REINVENTED PGREP/PKILL, THERE GOES AN HOUR AND SOME PRIDE. WELL I GUESS I LEARNED SOMETHING AT LEAST</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nicholas Lau</span></span>
+
+      
+
+
+
+<time class='entry-date' datetime='2016-01-07T14:57:53-08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>7</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>2:57 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/commandline/'>commandline</a>, <a class='category' href='/blog/categories/shell/'>shell</a>, <a class='category' href='/blog/categories/tmux/'>tmux</a>, <a class='category' href='/blog/categories/vim/'>vim</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/12/18/myfitnessjourney/" title="Previous Post: MyFitnessJourney">&laquo; MyFitnessJourney</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Some Projects</h1>
+  <ul id="projects">
+    <li class="project"><a href="blog.nicklau.io/">Old Blog</a></li>
+    <li class="project"><a href="upload-app.nicklau.io/">Photo Upload App</a></li>
+    <li class="project"><a href="sample-app.nicklau.io/">Sample App</a></li>
+    <li class="project"><a href= /blog/2015/12/01/raspberry-pi-alarm/ }>Raspberry Pi Alarm (Under Construction)</a></li>
+    <li class="project"><a href= /blog/2015/12/07/learning-javascript/ }>Javascript Game (Under Construction)</a></li>
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/01/07/commandline-shenanigans/">Commandline Shenanigans</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/18/myfitnessjourney/">MyFitnessJourney</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/07/learning-javascript/">Learning Javascript</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/03/favorite-tools-and-tricks/">Favorite Tools and Tricks</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/01/raspberry-pi-alarm/">Raspberry Pi Alarm</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/nmlau">@nmlau</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'nmlau',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - Nicholas Lau -
+  <span class="credit">Definitely not Powered by <a href="http://octopress.org">Octopress</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian</a></span>
+  <!--
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian Kraft Fotografie</a></span>
+  -->
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'wwwnicklauio';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans/';
+        var disqus_url = 'http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

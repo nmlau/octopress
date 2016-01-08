@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: shell | Nicks Octopress Blog]]></title>
+  <link href="http://octopress.nicksdevspot.com/blog/categories/shell/atom.xml" rel="self"/>
+  <link href="http://octopress.nicksdevspot.com/"/>
+  <updated>2016-01-07T16:09:57-08:00</updated>
+  <id>http://octopress.nicksdevspot.com/</id>
+  <author>
+    <name><![CDATA[Nicholas Lau]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Commandline Shenanigans]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans/"/>
+    <updated>2016-01-07T14:57:53-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans</id>
+    <content type="html"><![CDATA[<h1>Under Construction</h1>
+
+<h4><strong>Important Note: Nothing I did worked the first time, so I was constantly forced to solve new problems and learn new things</strong></h4>
+
+<h3>Table of Contents</h3>
+
+<ul>
+<li>Art of the CommandLine</li>
+<li>Mastering Vim</li>
+<li>Tmux</li>
+<li>Profiles</li>
+<li>One-liner for Killing Applications</li>
+</ul>
+
+
+<h3>Art of the CommandLine</h3>
+
+<p>I&rsquo;ve always been interested in learning the CommandLine better. So I was pretty excited to find this guide on Hackernews, or was it r/programming? <a href="https://github.com/jlevy/the-art-of-command-line">The Art of the CommandLine</a> works as an overview of the most useful things, giving a short introduction so you know what&rsquo;s what. You can then look more into the things using &lsquo;man&rsquo; or a quick google search.</p>
+
+<p>Here&rsquo;s a portion of my raw notes (things that were relatively new to me):</p>
+
+<ul>
+<li>Everyday Use:
+
+<ul>
+<li>xargs (example makes no sense)</li>
+<li>HERE document (code block that io redirects list to a command)</li>
+<li>mosh (ssh type thing using udp)</li>
+<li>percol/fzf (interactive selection of values from output of another command)</li>
+</ul>
+</li>
+<li>Processing Files and Data:
+
+<ul>
+<li>uniq (uniq reports or filters out repeated lines in a file, these would be perfect for lucky times)</li>
+<li>cut/paste/join, pretty intuitive names but never used or seen these used before</li>
+<li>awk/sed, awk is a pattern directed scanning and processing language, sed is a stream editor</li>
+<li>repren, for complex renames</li>
+<li>rysnc, versatile and fast file copying tools</li>
+<li>shuf, shuffle or select random names</li>
+<li>patch, works with diff to be the standard for patching source code</li>
+<li>hd/hexdump/xxd/bvi/biew/strings+grep/xdelta3 for binary files&hellip;</li>
+<li>iconv, convert text encodings</li>
+<li>split/csplit to split by size or pattern</li>
+<li>zless, zmore, zcat, zgrep to operate on compressed files</li>
+</ul>
+</li>
+<li>Cool things:
+
+<ul>
+<li>Press ctrl-r repeatedly to cycle through more matches,&hellip; or hit the right arrow to put the result in the current -line</li>
+<li>ctrl-a, #, enter //enters command as comment so you can go back and edit it later</li>
+<li>Brace expansion using {&hellip;}, cp somefile{,.bak} (which expands to cp somefile somefile.bak)</li>
+<li>The output of a command can be treated like a file via &lt;(some command). ie, vim &lt;(env)</li>
+<li>man ascii</li>
+<li>tmux/screen to multiplex the screen (byobu to enhance tmux, dtach for session persistence)</li>
+<li>fpp (pathpicker) looks incredibly useful</li>
+<li>tab literal, ctrl-v [Tab] or write $&lsquo;\t&rsquo; (the latter is better as you can copy/paste it)</li>
+</ul>
+</li>
+</ul>
+
+
+<p>After going through this I decided to dive deeper into:</p>
+
+<ul>
+<li>xargs</li>
+<li>grep</li>
+<li>vim</li>
+<li>tmux/dtach (although I wasn&rsquo;t happy with dtach and use tmuxinator instead)</li>
+<li>zsh</li>
+<li>profiles (terminal, bash, key remapping, etc)</li>
+<li>cleaning up my environment (ex: had brew and macports fighting with eachother)</li>
+</ul>
+
+
+<p>Notes:
+OS X Only:
+-&ldquo;To enable the Option key in Mac OS Terminal as an alt key (such as used in the commands above like alt-b, alt-f, etc.), open Preferences -> Profiles -> Keyboard and select "Use Option as Meta key&rdquo;.&ldquo;
+-How to change option to meta key properly: <a href="http://goo.gl/jrJDW">http://goo.gl/jrJDW</a>
+-Holy shit now emacs is usable, and it was easy to fix</p>
+
+<h3>Mastering Vim</h3>
+
+<p>I used vim a lot of school, but just got by rather than pushing the boundaries of what it can actually do. Yes I do love sublime text and neat things it can do like multiple cursors. But vim is incredible, and there is a reason people have been using it for decades.</p>
+
+<p>Inspired by The Art of the CommandLine, I found this, <a href="https://danielmiessler.com/study/vim/">Mastering Vim</a>.</p>
+
+<p>Here&rsquo;s a portion of my notes:</p>
+
+<ul>
+<li>u and U interaction is unintuitive to me</li>
+<li>CTRL+G, line number+G</li>
+<li>CTRL-O, CTRL-I</li>
+<li>%</li>
+<li>:#,#s/old/new/g</li>
+<li>:%s/old/new/g</li>
+<li>:%s/old/new/gc</li>
+<li>:!</li>
+<li>:set ic hls is</li>
+<li>:set incsearch</li>
+<li>:set noic</li>
+<li>:nohlsearch</li>
+<li>/ignore\c</li>
+<li>:e (followed by CTRL+D)</li>
+<li>CTRL+L for redraw</li>
+<li>CTRL+[ for ESC</li>
+<li>CTRL+E for scroll up</li>
+<li>CTRL+Y for scroll down</li>
+<li>zz, zt, zb for scroll</li>
+</ul>
+
+
+<p>To practice I went through vimtutor and played <a href="http://vim-adventures.com/">vim adventures</a>. Now I&rsquo;m making a Javascript game with the Phaser framework that will make use of vim commands for controls</p>
+
+<h3>Tmux</h3>
+
+<p>Tmux would have been an absolute lifesaver when I was back in school. Since I did a lot of my work by sshing into the school servers. So many regrets.</p>
+
+<p>First thing I did was change to prefix from Ctrl+a to Ctrl+b.</p>
+
+<p>The Art of the CommandLine recommended dtach for session persistence, but I found it didn&rsquo;t work very smoothly. Setting up Tmuxinator solved the problem though.</p>
+
+<h3>Profiles</h3>
+
+<p>You can find most of my <a href="https://github.com/nmlau/profiles">Profiles</a> here. This allows them to be cloned in and set up easily. Also allows me to keep track of them in one place. Since hitting &lsquo;ls -al&rsquo; in ~/ is kind of messing.</p>
+
+<p>I did a lot of messing around with my profiles and environment:</p>
+
+<ul>
+<li>setup zsh and oh my zsh</li>
+<li>installed solarized dark theme for terminal</li>
+<li>changed to iTerm2</li>
+<li>remapped keys: caps to control, remapping vims &lsquo;jk&rsquo; to escape</li>
+<li>got rid of macports and fixed brews permissions (lots of running &lsquo;brew doctor&rsquo;)</li>
+<li>changed host/terminal name</li>
+</ul>
+
+
+<h3>One-liner for Killing Applications</h3>
+
+<p>[2] Figure out how to combine kill processes:</p>
+
+<ul>
+<li>Ask on Stackoverflow?</li>
+<li>kill <code>jobs -ps</code> # Kill jobs running in background</li>
+<li>ps -ax | grep Finder</li>
+<li>kill -9 390</li>
+<li>zsh: jobs -p | awk &lsquo;{print $3}&rsquo; | xargs kill</li>
+<li>ps -ax | grep Finder | awk &lsquo;{print $3}&rsquo;</li>
+<li>ps -ax | grep &lsquo;TextEdit&rsquo; | awk &lsquo;{print $1}&rsquo; | xargs kill -9</li>
+<li>Bash functions for replacement text, <a href="http://goo.gl/zqlude">http://goo.gl/zqlude</a></li>
+<li>Single in double quotes or vice versa to escape, <a href="http://goo.gl/ccL5mp">http://goo.gl/ccL5mp</a></li>
+<li>alias blah=&lsquo;function <em>blah(){ echo &ldquo;First: $1&rdquo;; echo &ldquo;Second: $2&rdquo;; };</em>blah&rsquo;</li>
+<li>alias killapp=&lsquo;function <em>killapp(){ps -ax | grep Finder};</em>killapp&rsquo;</li>
+<li>alias killapp=&lsquo;function <em>killapp(){ps -ax | grep $1 | awk &rsquo;{print $1}&lsquo; | xargs kill -9};</em>killapp&rsquo;</li>
+<li>alias killapptest=&lsquo;function <em>killapp(){arg1=&ldquo;$1&rdquo;; ps -ax | grep $arg1};</em>killapp&rsquo; //using variable</li>
+<li>alias killapptest=&lsquo;function <em>killapp(){arg1=&ldquo;$1&rdquo;; ps -ax | grep $arg1 | awk &ldquo;{print $1}&rdquo;;</em>killapp&rsquo; //using variable</li>
+<li>FINAL:
+alias killapp=&lsquo;function <em>killapp(){ps -ax | grep $1 | awk &ldquo;{print \$1}&rdquo; | xargs kill -9};</em>killapp&rsquo;</li>
+<li>Not perfect, grep seems to find itself</li>
+<li>pgrep or &lsquo;ps aux | grep -v grep | grep &ldquo;fnord&rdquo;&rsquo; would fix finding itself, <a href="http://goo.gl/H9XhRL">http://goo.gl/H9XhRL</a></li>
+<li>Running simplehttp server on different port, but don&rsquo;t run below 1024, <a href="http://goo.gl/tvTJmx">http://goo.gl/tvTJmx</a></li>
+<li>Fixing my &lsquo;awk {print $1}&rsquo; conflicting $1 issue, <a href="http://goo.gl/Sct0Ji">http://goo.gl/Sct0Ji</a></li>
+</ul>
+
+
+<p>WELL LOOKS LIKE I JUST REINVENTED PGREP/PKILL, THERE GOES AN HOUR AND SOME PRIDE. WELL I GUESS I LEARNED SOMETHING AT LEAST</p>
+]]></content>
+  </entry>
+  
+</feed>

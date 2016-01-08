@@ -6,13 +6,24 @@ comments: true
 categories: [javascript, game, phaser, crockford, mozilla]
 ---
 
-## Under Construction
+# Under Construction
+
+### Introduction
 
 I've always been interested in learning Javascript, but have been too overwhelmed by the abundance of resources out there. I finally took the time to do some thorough looking around with lead me to this Stack Overflow [link](http://goo.gl/iPMGV) on resources for learning Javascript. This lead me to the MDN Javascript Reintroduction and Crockfords Lectures.
 
+### Table of Contents
+
+* MDN Reintroduction
+* Crockford on Javascript
+* MDN Game Development Workflows
+* Building a Game
+
+### MDN Reintroduction
+
 * [Mozilla Developer Network (MDN) Reintroduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
-## Crockford on Javascript
+### Crockford on Javascript
 
 * [Volume 1: The Early Years](https://www.youtube.com/watch?v=JxAXlJEmNMg)
 * [Chapter 2: And Then There Was JavaScript](https://www.youtube.com/watch?v=RO1Wnu-xKoY)
@@ -36,7 +47,7 @@ Now that I knew a lot of the theory behind Javascript, it was time to practice a
 * [2D Maze game with device orientation Phaser](https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation)
   * [Try it!]({{ root_url }}/resources/games/phaserMaze/)
 
-## MDN Game Development Workflows
+## Building a Game
 
 * [My Game](https://github.com/nmlau/vim-maze)
   * [Try it!]({{ root_url }}/resources/games/vimMaze/)
