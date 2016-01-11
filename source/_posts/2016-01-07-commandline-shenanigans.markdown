@@ -18,8 +18,6 @@ published: true
 
 <!-- more -->
 
-**Important Note: Nothing I did worked the first time, so I was constantly forced to solve new problems and learn new things**
-
 <a name="artofthecommandline"></a>
 ### Art of the Command Line
 
@@ -52,7 +50,7 @@ It was a fantastic review of the stuff I knew and introduced me to lots of new t
   * man ascii
   * tmux/screen to multiplex the screen (byobu to enhance tmux, dtach for session persistence)
   * fpp (pathpicker) looks incredibly useful
-  * tab literal, ctrl-v [Tab] or write $'\t' (the latter is better as you can copy/paste it)
+  * Tab literal, ctrl-v [Tab] or write $'\t' (the latter is better as you can copy/paste it)
   * OSX: "Use Option as Meta key". To enable the Option key in Mac OS Terminal as an alt key (such as used in the commands above like alt-b, alt-f, etc.). Does wonders for emacs.
 
 After going through this I decided to dive deeper into:
@@ -62,8 +60,8 @@ After going through this I decided to dive deeper into:
 * vim
 * tmux/dtach (although I wasn't happy with dtach and use tmuxinator instead)
 * zsh
-* profiles (terminal, bash, key remapping, etc)
-* cleaning up my environment (ex: had brew and macports fighting with eachother)
+* Profiles (terminal, bash, key remapping, etc)
+* Cleaning up my environment (ex: had brew and macports fighting with eachother)
 
 <a name="masteringvim"></a>
 ### Mastering Vim
@@ -99,13 +97,13 @@ To practice I went through vimtutor and played [vim adventures](http://vim-adven
 <a name="tmux"></a>
 ### Tmux
 
-"tmux is a "terminal multiplexer", it enables a number of terminals (or windows) to be accessed and controlled from a single terminal. tmux is intended to be a simple, modern, BSD-licensed alternative to programs such as GNU screen."
+"[tmux](https://tmux.github.io/) is a "terminal multiplexer", it enables a number of terminals (or windows) to be accessed and controlled from a single terminal. tmux is intended to be a simple, modern, BSD-licensed alternative to programs such as GNU screen."
 
 Tmux would have been an absolute lifesaver when I was back in school as I did a lot of my work by sshing into the school servers. It would have allowed me to login once and create multiple panes/windows instead of having to login multiple times. So many regrets. It has been instrumental for sshing in and working with my raspberry pi though.
 
 First thing I did was change to prefix from ctrl+a to ctrl+b. The prefix is what you use before entering tmux commands. ctrl+a was originally saved for screen (since the creator of tmux used screen while developing tmux). However, ctrl+a is much easier on your fingers than ctrl+a.
 
-The Art of the CommandLine recommended dtach for session persistence, but I found the redraw to be very buggy. So I looked around and found Tmuxinator, which gas worked perfectly!
+The Art of the CommandLine recommended dtach for session persistence, but I found the redraw to be very buggy. So I looked around and found [Tmuxinator](https://github.com/tmuxinator/tmuxinator), which gas worked perfectly!
 
 <a name="profiles"></a>
 ### Profiles
@@ -114,12 +112,12 @@ You can find most of my [Profiles](https://github.com/nmlau/profiles) here. This
 
 I messed around with my profiles and environment:
 
-* setup zsh and oh my zsh
-* installed solarized dark theme for terminal
-* changed to iTerm2
-* remapped keys: caps to control, remapping vims 'jk' to escape
-* got rid of macports and fixed brews permissions (lots of running 'brew doctor')
-* changed host/terminal name
+* Setup [zsh](http://www.zsh.org/) and [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+* Installed [Solarized Dark theme](http://ethanschoonover.com/solarized) for terminal
+* Changed to [iTerm2](https://www.iterm2.com/)
+* Remapped keys: caps to control, remapping vims 'jk' to escape
+* Fixed up [Homebrew](http://brew.sh/) by getting rid of macports, fixing permissions, etc (lots of running 'brew doctor')
+* Changed host/terminal name
 * etc
 
 <a name="onelinerforkillingapplications"></a>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: vim | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/vim/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-01-11T13:27:17-08:00</updated>
+  <updated>2016-01-11T13:34:07-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -31,8 +31,6 @@
 
 <!-- more -->
 
-
-<p><strong>Important Note: Nothing I did worked the first time, so I was constantly forced to solve new problems and learn new things</strong></p>
 
 <p><a name="artofthecommandline"></a></p>
 
@@ -78,7 +76,7 @@
 <li>man ascii</li>
 <li>tmux/screen to multiplex the screen (byobu to enhance tmux, dtach for session persistence)</li>
 <li>fpp (pathpicker) looks incredibly useful</li>
-<li>tab literal, ctrl-v [Tab] or write $&lsquo;\t&rsquo; (the latter is better as you can copy/paste it)</li>
+<li>Tab literal, ctrl-v [Tab] or write $&lsquo;\t&rsquo; (the latter is better as you can copy/paste it)</li>
 <li>OSX: &ldquo;Use Option as Meta key&rdquo;. To enable the Option key in Mac OS Terminal as an alt key (such as used in the commands above like alt-b, alt-f, etc.). Does wonders for emacs.</li>
 </ul>
 </li>
@@ -93,8 +91,8 @@
 <li>vim</li>
 <li>tmux/dtach (although I wasn&rsquo;t happy with dtach and use tmuxinator instead)</li>
 <li>zsh</li>
-<li>profiles (terminal, bash, key remapping, etc)</li>
-<li>cleaning up my environment (ex: had brew and macports fighting with eachother)</li>
+<li>Profiles (terminal, bash, key remapping, etc)</li>
+<li>Cleaning up my environment (ex: had brew and macports fighting with eachother)</li>
 </ul>
 
 
@@ -137,13 +135,13 @@
 
 <h3>Tmux</h3>
 
-<p>&ldquo;tmux is a "terminal multiplexer&rdquo;, it enables a number of terminals (or windows) to be accessed and controlled from a single terminal. tmux is intended to be a simple, modern, BSD-licensed alternative to programs such as GNU screen."</p>
+<p>&ldquo;<a href="https://tmux.github.io/">tmux</a> is a "terminal multiplexer&rdquo;, it enables a number of terminals (or windows) to be accessed and controlled from a single terminal. tmux is intended to be a simple, modern, BSD-licensed alternative to programs such as GNU screen."</p>
 
 <p>Tmux would have been an absolute lifesaver when I was back in school as I did a lot of my work by sshing into the school servers. It would have allowed me to login once and create multiple panes/windows instead of having to login multiple times. So many regrets. It has been instrumental for sshing in and working with my raspberry pi though.</p>
 
 <p>First thing I did was change to prefix from ctrl+a to ctrl+b. The prefix is what you use before entering tmux commands. ctrl+a was originally saved for screen (since the creator of tmux used screen while developing tmux). However, ctrl+a is much easier on your fingers than ctrl+a.</p>
 
-<p>The Art of the CommandLine recommended dtach for session persistence, but I found the redraw to be very buggy. So I looked around and found Tmuxinator, which gas worked perfectly!</p>
+<p>The Art of the CommandLine recommended dtach for session persistence, but I found the redraw to be very buggy. So I looked around and found <a href="https://github.com/tmuxinator/tmuxinator">Tmuxinator</a>, which gas worked perfectly!</p>
 
 <p><a name="profiles"></a></p>
 
@@ -154,12 +152,12 @@
 <p>I messed around with my profiles and environment:</p>
 
 <ul>
-<li>setup zsh and oh my zsh</li>
-<li>installed solarized dark theme for terminal</li>
-<li>changed to iTerm2</li>
-<li>remapped keys: caps to control, remapping vims &lsquo;jk&rsquo; to escape</li>
-<li>got rid of macports and fixed brews permissions (lots of running &lsquo;brew doctor&rsquo;)</li>
-<li>changed host/terminal name</li>
+<li>Setup <a href="http://www.zsh.org/">zsh</a> and <a href="https://github.com/robbyrussell/oh-my-zsh">Oh My Zsh</a></li>
+<li>Installed <a href="http://ethanschoonover.com/solarized">Solarized Dark theme</a> for terminal</li>
+<li>Changed to <a href="https://www.iterm2.com/">iTerm2</a></li>
+<li>Remapped keys: caps to control, remapping vims &lsquo;jk&rsquo; to escape</li>
+<li>Fixed up <a href="http://brew.sh/">Homebrew</a> by getting rid of macports, fixing permissions, etc (lots of running &lsquo;brew doctor&rsquo;)</li>
+<li>Changed host/terminal name</li>
 <li>etc</li>
 </ul>
 
