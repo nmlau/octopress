@@ -4,7 +4,7 @@
   <title><![CDATA[Category: shell | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/shell/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-01-07T21:32:23-08:00</updated>
+  <updated>2016-01-11T13:27:17-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -18,29 +18,29 @@
     <link href="http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans/"/>
     <updated>2016-01-07T14:57:53-08:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans</id>
-    <content type="html"><![CDATA[<h1>Under Construction</h1>
-
-<h4><strong>Important Note: Nothing I did worked the first time, so I was constantly forced to solve new problems and learn new things</strong></h4>
-
-<h3>Table of Contents</h3>
+    <content type="html"><![CDATA[<h3>Table of Contents</h3>
 
 <ul>
-<li>Art of the CommandLine</li>
-<li>Mastering Vim</li>
-<li>Tmux</li>
-<li>Profiles</li>
-<li>One-liner for Killing Applications</li>
+<li><a href="#artofthecommandline">Art of the Command Line</a></li>
+<li><a href="#masteringvim">Mastering Vim</a></li>
+<li><a href="#tmux">Tmux</a></li>
+<li><a href="#profiles">Profiles</a></li>
+<li><a href="#onelinerforkillingapplications">One-liner for Killing Applications</a></li>
 </ul>
 
 
 <!-- more -->
 
 
-<h3>Art of the CommandLine</h3>
+<p><strong>Important Note: Nothing I did worked the first time, so I was constantly forced to solve new problems and learn new things</strong></p>
 
-<p>I&rsquo;ve always been interested in learning the CommandLine better. So I was pretty excited to find this guide on Hackernews, or was it r/programming? <a href="https://github.com/jlevy/the-art-of-command-line">The Art of the CommandLine</a> works as an overview of the most useful things, giving a short introduction so you know what&rsquo;s what. You can then look more into the things using &lsquo;man&rsquo; or a quick google search.</p>
+<p><a name="artofthecommandline"></a></p>
 
-<p>Here&rsquo;s a portion of my raw notes (things that were relatively new to me):</p>
+<h3>Art of the Command Line</h3>
+
+<p>I&rsquo;ve always been interested in learning the Command Line better. So I was pretty excited to find this guide on <a href="https://news.ycombinator.com/">Hacker News</a>, or was it <a href="https://www.reddit.com/r/programming/">r/programming</a>? <a href="https://github.com/jlevy/the-art-of-command-line">The Art of the CommandLine</a> by <a href="https://github.com/jlevy">jlevy</a> works as an overview of the most useful things, giving a short introduction so you know what&rsquo;s what. You can then look more into the things using &lsquo;man&rsquo; or a quick google search.</p>
+
+<p>It was a fantastic review of the stuff I knew and introduced me to lots of new tools. Here&rsquo;s a portion of my raw notes on things that were relatively new to me:</p>
 
 <ul>
 <li>Everyday Use:
@@ -79,6 +79,7 @@
 <li>tmux/screen to multiplex the screen (byobu to enhance tmux, dtach for session persistence)</li>
 <li>fpp (pathpicker) looks incredibly useful</li>
 <li>tab literal, ctrl-v [Tab] or write $&lsquo;\t&rsquo; (the latter is better as you can copy/paste it)</li>
+<li>OSX: &ldquo;Use Option as Meta key&rdquo;. To enable the Option key in Mac OS Terminal as an alt key (such as used in the commands above like alt-b, alt-f, etc.). Does wonders for emacs.</li>
 </ul>
 </li>
 </ul>
@@ -97,17 +98,13 @@
 </ul>
 
 
-<p>Notes:
-OS X Only:
--&ldquo;To enable the Option key in Mac OS Terminal as an alt key (such as used in the commands above like alt-b, alt-f, etc.), open Preferences -> Profiles -> Keyboard and select "Use Option as Meta key&rdquo;.&ldquo;
--How to change option to meta key properly: <a href="http://goo.gl/jrJDW">http://goo.gl/jrJDW</a>
--Holy shit now emacs is usable, and it was easy to fix</p>
+<p><a name="masteringvim"></a></p>
 
 <h3>Mastering Vim</h3>
 
-<p>I used vim a lot of school, but just got by rather than pushing the boundaries of what it can actually do. Yes I do love sublime text and neat things it can do like multiple cursors. But vim is incredible, and there is a reason people have been using it for decades.</p>
+<p>Vim needs no introduction. I used vim a lot during university, but just got by rather than pushing the boundaries of what it can actually do. Yes I do love sublime text and neat things it can do like multiple cursors. But vim is incredible, and there is a reason people have been using it for decades.</p>
 
-<p>Inspired by The Art of the CommandLine, I found this, <a href="https://danielmiessler.com/study/vim/">Mastering Vim</a>.</p>
+<p>Inspired by The Art of the CommandLine, I found this went searching for a Vim Guide and found <a href="https://danielmiessler.com/study/vim/">Mastering Vim by Daniel Miessler</a>.</p>
 
 <p>Here&rsquo;s a portion of my notes:</p>
 
@@ -136,19 +133,25 @@ OS X Only:
 
 <p>To practice I went through vimtutor and played <a href="http://vim-adventures.com/">vim adventures</a>. Now I&rsquo;m making a Javascript game with the Phaser framework that will make use of vim commands for controls</p>
 
+<p><a name="tmux"></a></p>
+
 <h3>Tmux</h3>
 
-<p>Tmux would have been an absolute lifesaver when I was back in school. Since I did a lot of my work by sshing into the school servers. So many regrets.</p>
+<p>&ldquo;tmux is a "terminal multiplexer&rdquo;, it enables a number of terminals (or windows) to be accessed and controlled from a single terminal. tmux is intended to be a simple, modern, BSD-licensed alternative to programs such as GNU screen."</p>
 
-<p>First thing I did was change to prefix from Ctrl+a to Ctrl+b.</p>
+<p>Tmux would have been an absolute lifesaver when I was back in school as I did a lot of my work by sshing into the school servers. It would have allowed me to login once and create multiple panes/windows instead of having to login multiple times. So many regrets. It has been instrumental for sshing in and working with my raspberry pi though.</p>
 
-<p>The Art of the CommandLine recommended dtach for session persistence, but I found it didn&rsquo;t work very smoothly. Setting up Tmuxinator solved the problem though.</p>
+<p>First thing I did was change to prefix from ctrl+a to ctrl+b. The prefix is what you use before entering tmux commands. ctrl+a was originally saved for screen (since the creator of tmux used screen while developing tmux). However, ctrl+a is much easier on your fingers than ctrl+a.</p>
+
+<p>The Art of the CommandLine recommended dtach for session persistence, but I found the redraw to be very buggy. So I looked around and found Tmuxinator, which gas worked perfectly!</p>
+
+<p><a name="profiles"></a></p>
 
 <h3>Profiles</h3>
 
-<p>You can find most of my <a href="https://github.com/nmlau/profiles">Profiles</a> here. This allows them to be cloned in and set up easily. Also allows me to keep track of them in one place. Since hitting &lsquo;ls -al&rsquo; in ~/ is kind of messing.</p>
+<p>You can find most of my <a href="https://github.com/nmlau/profiles">Profiles</a> here. This allows them to be cloned in and set up quickly and conveniently. It also allows me to keep track of them in one place. Since hitting &lsquo;ls -al&rsquo; in ~/ is kind of messy.</p>
 
-<p>I did a lot of messing around with my profiles and environment:</p>
+<p>I messed around with my profiles and environment:</p>
 
 <ul>
 <li>setup zsh and oh my zsh</li>
@@ -157,38 +160,58 @@ OS X Only:
 <li>remapped keys: caps to control, remapping vims &lsquo;jk&rsquo; to escape</li>
 <li>got rid of macports and fixed brews permissions (lots of running &lsquo;brew doctor&rsquo;)</li>
 <li>changed host/terminal name</li>
+<li>etc</li>
 </ul>
 
+
+<p><a name="onelinerforkillingapplications"></a></p>
 
 <h3>One-liner for Killing Applications</h3>
 
-<p>[2] Figure out how to combine kill processes:</p>
+<p>Art of the Command Line brought up these:</p>
 
-<ul>
-<li>Ask on Stackoverflow?</li>
-<li>kill <code>jobs -ps</code> # Kill jobs running in background</li>
-<li>ps -ax | grep Finder</li>
-<li>kill -9 390</li>
-<li>zsh: jobs -p | awk &lsquo;{print $3}&rsquo; | xargs kill</li>
-<li>ps -ax | grep Finder | awk &lsquo;{print $3}&rsquo;</li>
-<li>ps -ax | grep &lsquo;TextEdit&rsquo; | awk &lsquo;{print $1}&rsquo; | xargs kill -9</li>
-<li>Bash functions for replacement text, <a href="http://goo.gl/zqlude">http://goo.gl/zqlude</a></li>
-<li>Single in double quotes or vice versa to escape, <a href="http://goo.gl/ccL5mp">http://goo.gl/ccL5mp</a></li>
-<li>alias blah=&lsquo;function <em>blah(){ echo &ldquo;First: $1&rdquo;; echo &ldquo;Second: $2&rdquo;; };</em>blah&rsquo;</li>
-<li>alias killapp=&lsquo;function <em>killapp(){ps -ax | grep Finder};</em>killapp&rsquo;</li>
-<li>alias killapp=&lsquo;function <em>killapp(){ps -ax | grep $1 | awk &rsquo;{print $1}&lsquo; | xargs kill -9};</em>killapp&rsquo;</li>
-<li>alias killapptest=&lsquo;function <em>killapp(){arg1=&ldquo;$1&rdquo;; ps -ax | grep $arg1};</em>killapp&rsquo; //using variable</li>
-<li>alias killapptest=&lsquo;function <em>killapp(){arg1=&ldquo;$1&rdquo;; ps -ax | grep $arg1 | awk &ldquo;{print $1}&rdquo;;</em>killapp&rsquo; //using variable</li>
-<li>FINAL:
-alias killapp=&lsquo;function <em>killapp(){ps -ax | grep $1 | awk &ldquo;{print \$1}&rdquo; | xargs kill -9};</em>killapp&rsquo;</li>
-<li>Not perfect, grep seems to find itself</li>
-<li>pgrep or &lsquo;ps aux | grep -v grep | grep &ldquo;fnord&rdquo;&rsquo; would fix finding itself, <a href="http://goo.gl/H9XhRL">http://goo.gl/H9XhRL</a></li>
-<li>Running simplehttp server on different port, but don&rsquo;t run below 1024, <a href="http://goo.gl/tvTJmx">http://goo.gl/tvTJmx</a></li>
-<li>Fixing my &lsquo;awk {print $1}&rsquo; conflicting $1 issue, <a href="http://goo.gl/Sct0Ji">http://goo.gl/Sct0Ji</a></li>
-</ul>
+<pre><code class="bash">ps -ax | grep Finder
+kill -9 390
+</code></pre>
 
+<p>And I had run into this command: kill <code>jobs -ps</code>, when messing around with background processes</p>
 
-<p>WELL LOOKS LIKE I JUST REINVENTED PGREP/PKILL, THERE GOES AN HOUR AND SOME PRIDE. WELL I GUESS I LEARNED SOMETHING AT LEAST</p>
+<p>At the same time, I&rsquo;ve always been frustrated by how much time it takes to start up Activity Monitor, search for the offending process, and then clicking multiple times to force quit it. And I&rsquo;ve always got a terminal open so why not just use that and get it done with no waiting, few key presses, and zero clicks. So I looked back at these commands which were pretty close already. I figured I&rsquo;d learn some bash and try to combine them into a one liner that I could throw into an alias for my .zshrc.</p>
+
+<p>I started with this, it read from jobs. And awk would pass the process id column to xargs which would call &lsquo;kill&rsquo; on them</p>
+
+<pre><code class="bash">zsh: jobs -p | awk '{print $3}' | xargs kill
+</code></pre>
+
+<p>But jobs obviously wasn&rsquo;t right, we wanted &lsquo;ps -ax&rsquo; and to use grep to target the offending app. As well as &lsquo;kill -9&rsquo; to forcequit.</p>
+
+<pre><code class="bash">ps -ax | grep Finder | awk '{print $3}'
+ps -ax | grep 'TextEdit' | awk '{print $1}' | xargs kill -9
+</code></pre>
+
+<p>Now there was the issue of passing in the app name as a variable, which requires a <a href="http://stackoverflow.com/questions/941338/how-to-pass-command-line-arguments-to-a-shell-alias">bash function</a>.</p>
+
+<pre><code class="bash">alias killapp='function _killapp(){ps -ax | grep $1 | awk '{print $1}' | xargs kill -9};_killapp'
+</code></pre>
+
+<p>However, now the the grep $1 and awk $1 interfere with eachother. You can pass grep directly to xargs, &lsquo;&hellip; grep $1 | xargs kill -9&rsquo;&hellip; but that&rsquo;s not ideal. I tried a few things, like using a variable. As well as a variety of backslashes and <a href="http://superuser.com/questions/114798/is-there-a-way-to-escape-single-quotes-in-the-shell">quotes around quotes</a></p>
+
+<pre><code class="bash">alias killapptest='function _killapp(){arg1="$1"; ps -ax | grep $arg1 | awk "{print $1}";_killapp' //using variable
+</code></pre>
+
+<p>Eventually I found the way that worked, by <a href="http://stackoverflow.com/questions/7244534/using-awk-in-bash-alias-or-function">escaping the $</a>:</p>
+
+<pre><code class="bash">* alias killapp='function _killapp(){ps -ax | grep $1 | awk "{print \$1}" | xargs kill -9};_killapp'
+</code></pre>
+
+<p>But not perfect, since grep would find itself. To solve this I found this <a href="http://unix.stackexchange.com/questions/74185/how-can-i-prevent-grep-from-showing-up-in-ps-results">stackoverflow thread</a> which recommended:</p>
+
+<pre><code class="bash">pgrep or 'ps aux | grep -v grep | grep "fnord"'
+</code></pre>
+
+<p>Looking more into pgrep, I remembered seeing it along with pkill in the Art of the Command Line under <a href="https://github.com/jlevy/the-art-of-command-line#everyday-use">Everyday Use</a>. And so with some frustration, to quote myself at that moment:</p>
+
+<blockquote><p>WELL LOOKS LIKE I JUST REINVENTED PGREP/PKILL, THERE GOES AN HOUR AND SOME PRIDE. WELL I GUESS I LEARNED SOMETHING AT LEAST</p></blockquote>
 ]]></content>
   </entry>
   

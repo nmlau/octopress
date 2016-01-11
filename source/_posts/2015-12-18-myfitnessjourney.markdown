@@ -34,14 +34,14 @@ Since June I've gone from 139 lbs to 143 lbs. From:
 
 Here's some of my lifts, I've mostly moved into intermediate going on proficient territory. So I'm pretty happy but I've got a long ways to go:
 
-| **Lift**       | **5 Rep Max (lbs)** | **Theoretical 1 Rep (lbs)** |
-| -------------  | -------------       | -------------            |
-| Back Squat     | 240                 | 280                      |
-| Deadlift       | 240                 | 280                      |
-| Bench Press    | 185                 | 225                      |
-| Overhead Press | 115                 | 135                      |
-| Pull-up        | 45                  | 75                       |
-| Pendlay Row    | 135                 | 155                      |
+| **Lift**          | **5 Rep Max (lbs)** | **Theoretical 1 Rep (lbs)** |
+| -------------     | -------------       | -------------            |
+| Back Squat        | 240                 | 280                      |
+| Deadlift          | 240                 | 280                      |
+| Bench Press       | 185                 | 225                      |
+| Overhead Press    | 115                 | 135                      |
+| Weighted Pull-up  | 45                  | 75                       |
+| Pendlay Row       | 135                 | 155                      |
 
 <!-- more -->
 
