@@ -28,7 +28,7 @@ Being a computer science major, I've always wanted a website and since I've been
 
 This blog was originally written by messing around with Michael Hartl's Ruby on Rails Tutorial and Ryan Bates Railscasts. It was later changed to Octopress for built in functionality and a more static webapp so I wouldn't have to worry about the model part of mvc.
 
-I'm Nick Lau, I graduated from UCSD in 2013 with a Bachelors of Science in Computer Science. I have a diverse range of interests, including videogames, sports, nutrition, meditation, yoga, reading, watching tv, music, organization, clothing, travel, and picking up random scraps of knowledge (particularily about programming).
+I'm Nick Lau, I graduated from UCSD in 2013 with a Bachelors of Science in Computer Science. I have a diverse range of interests, including videogames, sports, nutrition, meditation, yoga, reading, watching tv, music, organization, clothing, travel, and picking up random scraps of knowledge and organizing them in my personal knowledge base.
 
 <a name="hobbies"></a>
 ### Hobbies
@@ -41,7 +41,7 @@ I would be lying if I said videogames didn't influence my decision to major in C
 <a name="sports"></a>
 #### Sports
 
-I adore sports and have casually played most of them, I've played hockey for about 15 years, traveling to tournaments as far as AAU junior olympics in Philadelphia, coaching my high school's JV team, and playing for the club team at UCSD. Pingpong was the way my friends and I passed the time in high school (we had a table in our garage). The insanely cheap $4/hr billiards hall at UCSD gameroom actually probably came to cost me a couple hundred dollars... Played intramural tennis and loved hitting around with friends during highschool and throughout college. Oh, and I ran track and crosscountry for my highschool team, managing a 5 minute mile! During Highschool my friends and I would pass time playing wiffleball, soccer, football, golf, wrestling, really anything you could imagine... even imaginary things like golf hockey and improvised rugby.
+I adore sports and have casually played most of them, I've played hockey for about 15 years, traveling to tournaments as far as AAU junior olympics in Philadelphia, coaching my high school's JV team to a Division Championship, and playing for the club team at UCSD. My high school team won 5 Division Championships while I was with them, and placed second multiple times in D1 (that's out of five divisions each with about 10 teams). Pingpong was the way my friends and I passed the time in high school (we had a table in our garage). The insanely cheap $4/hr billiards hall at UCSD gameroom actually probably came to cost me a couple hundred dollars... Played intramural tennis and loved hitting around with friends during highschool and throughout college. Oh, and I ran track and crosscountry for my highschool team, running a sub 5 minute mile! During Highschool my friends and I would pass time playing wiffleball, soccer, football, golf, wrestling, really anything you could imagine... even imaginary things like golf hockey and improvised rugby.
 
 <a name="fitness"></a>
 #### Fitness
