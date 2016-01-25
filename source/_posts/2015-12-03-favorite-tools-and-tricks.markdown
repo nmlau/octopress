@@ -68,6 +68,8 @@ I've mostly found these through annoyance at minor inconveniences, whether they 
 * ctrl+cmd+up/down arrows, swap rows up and down.
 * ctrl+shift+up/down arrows, quickly spawn multiple cursors for some efficient editing.
 * cmd+k then cmd+b, hide/show sidebar
+* ctrl+shift+k, delete the current line your cursor is on
+* Many many more, but I don't want to go overboard
 
 ### OS X
 

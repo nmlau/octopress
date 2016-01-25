@@ -36,7 +36,7 @@ I'm Nick Lau, I graduated from UCSD in 2013 with a Bachelors of Science in Compu
 <a name="videogames"></a>
 #### Videogames
 
-I would be lying if I said videogames didn't influence my decision to major in Computer Science. Currently my favorite videogame is League of Legends (licknau) where I've made it up to 79 LP in Plat 1 (putting me in the top 1-2% of the playerbase). Followed by Tetris where I've hit rank cap on every version I've played, Rank 100 God of Tetris on Facebook's tetris battle and Rank 20 with 999 points on tetrisfriends. I've always loved videogames, particularily computer games (WoW, Counterstrike, Age of Empires) and Nintendo (Super Smash Bros, Final Fantasy, DS games).
+I would be lying if I said videogames didn't influence my decision to major in Computer Science. Currently my favorite videogame is League of Legends (licknau) where I've made it up to 79 LP in Plat 1 (putting me in the top 1-2% of the playerbase). Followed by Tetris where I've hit rank cap on every version I've played, Rank 110 God of Tetris on Facebook's tetris battle and Rank 20 with 999 points on tetrisfriends. I've always loved videogames, particularily computer games (WoW, Counterstrike, Age of Empires) and Nintendo (Super Smash Bros, Final Fantasy, DS games).
 
 <a name="sports"></a>
 #### Sports
@@ -61,6 +61,8 @@ Graduating from UCSD meant the end of Sixteen years in the education system. Whe
 <a name="travel"></a>
 #### Travel
 
+Backpacked around Asia for several months. I spent a month in Vietnam and Japan as well as a couple weeks in Hong Kong. It was an eye opening and life changing experience. It was a huge step out of my comfort zone and has given me a huge confidence boost. That I can set out on my own and be independent! I also had the opportunity to meet some fantastic people and share persepectives with them. The world is an expansive and interesting place, I look forward to seeing more of it in the future.
+
 <a name="programming"></a>
 #### Programming
 
@@ -69,15 +71,15 @@ Programming has very much become a hobby to me. I am an avid reader of resources
 In the last couple months, I've learned and extended my knowledge of several technologies: git, sublime text (using lints, bracket addons, and its incredibly flexible settings), command line interface, basic scripting with bash and python, UML (Unified Modeling Language), Ruby on Rails (using with RSpec, Capybara, New Relic, Heroku, PostgreSQL, and much much more), Ruby (through codewars.com and codeacademy), Object Orientated Programming and software development (through Code Complete 2, stack overflow, and simply looking up every possible question I could think of), C++ (google's opensourced codelabs - style guide), DNS (through struggles with gandi.net), Javascript (through Crockfords yui Lectures and MDN's Guides), Distributed Systems (Research papers like Amazon Dynamo and Google MapReduce), DIY projects with my Raspberry Pi. Furthermore, I've been reading blogs such as www.joelonsoftware.com and steve-yegge.blogspot.com which have helped me understand the software industry better (which I feel is very important as a relatively new grad).
 
 <a name="technologies"></a>
-#### Technologies behind this app
+#### Technologies behind this Blog
 
 This blog webapp utilizes the technologies/services:
 
 +   Ruby on Rails obviously!
-+   ~~Devise for user, session, and password management.~~
-+   ~~Bootstrap to make things look pretty since I'm no css wizard.~~
-+   ~~Rspec and Capybara for quick automated testing.~~
 +   Octopress, powered by Jekyll. A blogging framework for hackers.
 +   Heroku for hosting online as well as the New Relic addon to stop the dyno from idling.
 +   gandi.net for hosting and dns services.
++   ~~Devise for user, session, and password management.~~
++   ~~Bootstrap to make things look pretty since I'm no css wizard.~~
++   ~~Rspec and Capybara for quick automated testing.~~
 

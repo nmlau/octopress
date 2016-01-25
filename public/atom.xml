@@ -4,7 +4,7 @@
   <title><![CDATA[Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-01-11T13:34:07-08:00</updated>
+  <updated>2016-01-11T13:37:09-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -381,7 +381,12 @@
 <ul>
 <li><a href="https://www.youtube.com/watch?v=JxAXlJEmNMg">Volume 1: The Early Years</a></li>
 <li><a href="https://www.youtube.com/watch?v=RO1Wnu-xKoY">Chapter 2: And Then There Was JavaScript</a></li>
-<li><a href="https://www.youtube.com/watch?v=ya4UHuXNygM">Act III: Function the Ultimate</a></li>
+<li><a href="https://www.youtube.com/watch?v=ya4UHuXNygM">Act III: Function the Ultimate</a>
+
+<ul>
+<li>This talk also convinced me to pick up Little Schemer, promising that it would &ldquo;change the way you think, and there aren&rsquo;t a lot of books that will do that&rdquo;</li>
+</ul>
+</li>
 <li><a href="https://www.youtube.com/watch?v=Fv9qT9joc0M">Episode IV: The Matamorphasis of Ajax</a></li>
 <li><a href="https://www.youtube.com/watch?v=47Ceot8yqeI">Part 5: The End of All Things</a></li>
 <li><a href="https://www.youtube.com/watch?v=QgwSUtYSUqA">Scene 6: Loopage</a></li>

@@ -30,6 +30,7 @@ I've always been interested in learning Javascript, but have been too overwhelme
 * [Volume 1: The Early Years](https://www.youtube.com/watch?v=JxAXlJEmNMg)
 * [Chapter 2: And Then There Was JavaScript](https://www.youtube.com/watch?v=RO1Wnu-xKoY)
 * [Act III: Function the Ultimate](https://www.youtube.com/watch?v=ya4UHuXNygM)
+  * This talk also convinced me to pick up Little Schemer, promising that it would "change the way you think, and there aren't a lot of books that will do that"
 * [Episode IV: The Matamorphasis of Ajax](https://www.youtube.com/watch?v=Fv9qT9joc0M)
 * [Part 5: The End of All Things](https://www.youtube.com/watch?v=47Ceot8yqeI)
 * [Scene 6: Loopage](https://www.youtube.com/watch?v=QgwSUtYSUqA)
