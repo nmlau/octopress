@@ -23,3 +23,19 @@ class SinatraStaticServer < Sinatra::Base
 end
 
 run SinatraStaticServer
+
+
+# Setting up Rack::Cache (more in gemfile)
+require 'dalli'
+require 'rack-cache'
+require 'memcachier'
+
+use Rack::Cache,
+  verbose: true,
+  metastore:   Dalli::Client.new,
+  entitystore: "file:tmp/cache/rack/body"
+
+use Rack::Static,
+  :urls => ["/assets", "/images", "/javascripts", "/stylesheets", "/media" ],
+  :root => 'public',
+  :cache_control => 'public, max-age=2592000'

@@ -16,3 +16,8 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.4.2'
+
+# Setting up Rack::Cache (more in config.ru)
+gem 'dalli'
+gem 'rack-cache'
+gem 'memcachier'
