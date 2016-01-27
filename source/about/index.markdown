@@ -77,8 +77,9 @@ This blog webapp utilizes the technologies/services:
 
 +   Ruby on Rails obviously!
 +   Octopress, powered by Jekyll. A blogging framework for hackers.
-+   Heroku for hosting online as well as the New Relic addon to stop the dyno from idling.
 +   gandi.net for hosting and dns services.
++   Rack::Cache for faster loading
++   ~~Heroku for hosting online as well as the New Relic addon to stop the dyno from idling.~~
 +   ~~Devise for user, session, and password management.~~
 +   ~~Bootstrap to make things look pretty since I'm no css wizard.~~
 +   ~~Rspec and Capybara for quick automated testing.~~
