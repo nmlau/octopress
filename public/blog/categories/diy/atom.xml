@@ -4,7 +4,7 @@
   <title><![CDATA[Category: diy | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/diy/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-01-27T09:12:40-08:00</updated>
+  <updated>2016-02-05T14:52:48-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -22,7 +22,7 @@
 
 <h3>Introduction</h3>
 
-<p><img src="/images/pi/pi.jpg" title="&lsquo;pi.jpg&rsquo;" ></p>
+<p><img src="/images/pi_post/pi.jpg" title="&lsquo;pi.jpg&rsquo;" ></p>
 
 <p>I&rsquo;ve always had trouble waking up. Sometimes I wake up, sometimes I don&rsquo;t, sometimes I just end up lying in bed&hellip; it&rsquo;s been a lifetime point of stress. But in the last few months I&rsquo;ve found a solution that works for me. I use the <a href="http://www.sleepcycle.com/">Sleep Cycle Phone App</a> to gently wake me up so I&rsquo;m ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.</p>
 
@@ -64,16 +64,15 @@
 </ul>
 
 
-<p><a href="http://ozzmaker.com/2013/10/24/how-to-control-the-gpio-on-a-raspberry-pi-with-an-ir-remote/">Messing with Infrared</a>:</p>
+<p><a href="http://ozzmaker.com/2013/10/24/how-to-control-the-gpio-on-a-raspberry-pi-with-an-ir-remote/">Hooking up Infrared Remote</a>:</p>
 
 <ul>
 <li><a href="http://www.adafruit.com/products/389">Mini Remote Control (IR)</a></li>
 <li><a href="http://www.adafruit.com/products/157">IR Receiver Sensor</a></li>
 <li>Ribbon Cable</li>
+<li>Breakout (40 pin)</li>
 <li>Breadboard</li>
-<li>3 LEDs</li>
-<li>Wires (3 for LED Positives, 3 for LED Negatives, 3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)</li>
-<li><a href="http://ozzmaker.com/wp-content/uploads/2013/10/IRwiring2.png?csspreview=true">R1 270n, whatever the yellow boxes are</a></li>
+<li>Wires (3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)</li>
 <li>Note: Might be able to attach IR sensor straight to GPIO. ALso, LEDs and most wires are just for testing</li>
 </ul>
 
@@ -109,7 +108,7 @@ File Transfer using <a href="http://raspberrypi.stackexchange.com/questions/8950
 -This let me use finder and all my os x apps to access my pi&rsquo;s files. Much better than the trouble I was having with Filezilla. Incredibly convenient although it did leave hidden .AppleDouble folders in every directory
 Another huge thing was using tmux combined with dtach. Tmux meant I only had to ssh in one time, then I could split that session into several windows. dtach allowed me to shut the pi off, ssh back in jump right back to my desired tmux session.</p>
 
-<p>Random note: sshing in forced me to use command line a lot. Which inspired me to read a few <a href="">guides on CLI</a>, <a href="">vim</a>, that got me play with my profiles (my vim is beautiful now - <a href="">image of Solarized profile</a>) to setup my profiles like <a href="https://github.com/nmlau/profiles">this</a></p>
+<p>Random note: sshing in forced me to use command line a lot. Which inspired me to read a few <a href="https://github.com/jlevy/the-art-of-command-line">guides on CLI</a>, <a href="https://danielmiessler.com/study/vim/">vim</a>, that got me play with my profiles (my vim is beautiful now - <a href="/images/pi_post/tmux_solarized_dark_profile.png">image of Solarized profile with tmux</a>) to setup my profiles like <a href="https://github.com/nmlau/profiles">this</a>. Not to mention finally setting up zsh, more convenient keykindings, etc.</p>
 
 <h3>Programming</h3>
 

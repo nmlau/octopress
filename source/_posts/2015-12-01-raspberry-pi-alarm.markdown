@@ -11,7 +11,7 @@ published: true
 
 ### Introduction
 
-{% img /images/pi/pi.jpg 'pi.jpg' %}
+{% img /images/pi_post/pi.jpg 'pi.jpg' %}
 
 I've always had trouble waking up. Sometimes I wake up, sometimes I don't, sometimes I just end up lying in bed... it's been a lifetime point of stress. But in the last few months I've found a solution that works for me. I use the [Sleep Cycle Phone App](http://www.sleepcycle.com/) to gently wake me up so I'm ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.
 
@@ -46,15 +46,14 @@ Already owned:
 - [Ethernet](http://www.amazon.com/gp/product/B00316263Y), Got hundreds of these too
 - [Speaker](http://www.amazon.com/dp/B00YARCGOC), Choose the favorite one you've got lying around. All you need is a 3.5mm Audio cable to plug it in
 
-[Messing with Infrared](http://ozzmaker.com/2013/10/24/how-to-control-the-gpio-on-a-raspberry-pi-with-an-ir-remote/):
+[Hooking up Infrared Remote](http://ozzmaker.com/2013/10/24/how-to-control-the-gpio-on-a-raspberry-pi-with-an-ir-remote/):
 
 - [Mini Remote Control (IR)](http://www.adafruit.com/products/389)
 - [IR Receiver Sensor](http://www.adafruit.com/products/157)
 - Ribbon Cable
+- Breakout (40 pin)
 - Breadboard
-- 3 LEDs
-- Wires (3 for LED Positives, 3 for LED Negatives, 3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)
-- [R1 270n, whatever the yellow boxes are](http://ozzmaker.com/wp-content/uploads/2013/10/IRwiring2.png?csspreview=true)
+- Wires (3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)
 - Note: Might be able to attach IR sensor straight to GPIO. ALso, LEDs and most wires are just for testing
 
 Optional:
@@ -82,7 +81,7 @@ File Transfer using [afp (appletalk protocol) to pi](http://raspberrypi.stackexc
 -This let me use finder and all my os x apps to access my pi's files. Much better than the trouble I was having with Filezilla. Incredibly convenient although it did leave hidden .AppleDouble folders in every directory
 Another huge thing was using tmux combined with dtach. Tmux meant I only had to ssh in one time, then I could split that session into several windows. dtach allowed me to shut the pi off, ssh back in jump right back to my desired tmux session.
 
-Random note: sshing in forced me to use command line a lot. Which inspired me to read a few [guides on CLI](), [vim](), that got me play with my profiles (my vim is beautiful now - [image of Solarized profile]()) to setup my profiles like [this](https://github.com/nmlau/profiles)
+Random note: sshing in forced me to use command line a lot. Which inspired me to read a few [guides on CLI](https://github.com/jlevy/the-art-of-command-line), [vim](https://danielmiessler.com/study/vim/), that got me play with my profiles (my vim is beautiful now - [image of Solarized profile with tmux]({{ root_url }}/images/pi_post/tmux_solarized_dark_profile.png)) to setup my profiles like [this](https://github.com/nmlau/profiles). Not to mention finally setting up zsh, more convenient keykindings, etc.
 
 ### Programming
 
