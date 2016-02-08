@@ -3,7 +3,7 @@ layout: post
 title: "MyFitnessJourney"
 date: 2015-12-18 06:37:41 -0800
 comments: true
-categories: [fitness, nutrition, routine]
+categories: [hobby, fitness, nutrition, routine]
 published: true
 ---
 

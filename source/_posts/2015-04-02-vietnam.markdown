@@ -3,7 +3,7 @@ layout: post
 title: "Backpacking Vietnam"
 date: 2015-04-02 16:06:52 -0700
 comments: true
-categories: [Travel, Vietnam]
+categories: [hobby, travel, vietnam]
 ---
 
 {% img /images/vietnam/halong_bay.jpg 'Quynh's Panorama shot, halong.jpg' %}

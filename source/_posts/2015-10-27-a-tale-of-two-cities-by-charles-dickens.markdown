@@ -3,7 +3,7 @@ layout: post
 title: "A Tale of Two Cities by Charles Dickens"
 date: 2015-10-27 13:17:47 -0800
 comments: true
-categories: [Reading, A Tale of Two Cities, Marcus Aurelius]
+categories: [hobby, reading, a tale of two cities, charles dickens]
 ---
 
 Here are some of my favorite quotes from A Tale of Two Cities by Charles Dickens:

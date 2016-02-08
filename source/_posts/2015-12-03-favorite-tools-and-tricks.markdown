@@ -3,7 +3,7 @@ layout: post
 title: "Favorite Tools and Tricks"
 date: 2015-12-03 00:26:08 -0800
 comments: true
-categories: [shortcuts]
+categories: [hobby, technical]
 ---
 
 I was showing two of my engineer buddies something on my laptop when I realized they didn't know how to shortcut between tabs. It blew my mind that people don't know these things, which got my thinking about all the little tips and tricks I've picked up over the years. I ended up making a list... so I figured I might as well share it. I'll throw on a quick summary for why I use all these things. For example:
@@ -23,7 +23,7 @@ I've mostly found these through annoyance at minor inconveniences, whether they 
 
 ### Gmail Shortcuts (have to enable them)
 
-* Refresh inbox, U
+* Refresh inbox, u
 * Move between messages, j/k
 * Archive and Move between messages, {/}
 * Move to search bar, /

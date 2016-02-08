@@ -3,7 +3,7 @@ layout: post
 title: "Raspberry Pi Alarm"
 date: 2015-12-01 16:16:28 -0800
 comments: true
-categories: [Raspberry Pi, DIY, Alarm]
+categories: [technical, projects, raspberry pi, diy, alarm]
 published: true
 ---
 
@@ -54,7 +54,7 @@ Already owned:
 - Breakout (40 pin)
 - Breadboard
 - Wires (3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)
-- Note: Might be able to attach IR sensor straight to GPIO. ALso, LEDs and most wires are just for testing
+- Notes: Might be able to attach IR sensor straight to GPIO. Also, LEDs and most wires are just for testing. Yes, can solder wires straight to GPIO, but that would be permanent. But I could solder wires to breakout and not need the breadboard. Also, don't need LEDs or capacitors for testing, can see input to socket on commandline. Getting all these components was somewhat of a hassle, borrowed parts from a friend but didn't realize he had the old 24 pin breakout/ribbon.
 
 Optional:
 
@@ -92,6 +92,8 @@ I got my inspiration from: [Speaking Alarm Clock](https://www.youtube.com/watch?
 One set the alarm with chronjobs, another by hardcoding, but I really liked the Google Calendar integration. And plan to add some pyfeed stuff, particularily to get weather. I also stole how they used datetime module, config parser, os and mpg123 to play sound files. However, all these projects were deprecated because of changes to the Google Calendar Service API.
 
 One of them suggested setting up a socket to listen for real world events, so I'm setting one up to work with an Infrared Remote (IR).
+
+Was actually pretty easy to setup, I was worried since it seemed like there were a lot of places for it to go wrong. I've never breadboarded before so I was pleasantly surprised by how easy it was. Python and Linux provide easy to use libraries like lirc to decode infrared signals and provide them to a socket. I did have some trouble with mode2 (measures pulse/space length of infarred signals), but was able to troubleshoot that by modifying some .conf files.
 
 ### Brickwalls
 

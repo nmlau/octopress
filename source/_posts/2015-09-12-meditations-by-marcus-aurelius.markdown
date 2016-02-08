@@ -3,7 +3,7 @@ layout: post
 title: "Meditations by Marcus Aurelius"
 date: 2015-09-12 12:51:55 -0800
 comments: true
-categories: [Reading, Meditations, Marcus Aurelius]
+categories: [hobby, reading, meditations, marcus aurelius]
 ---
 
 Here are some of my favorite quotes from Meditations by Marcus Aurelius:

@@ -3,7 +3,7 @@ layout: post
 title: "Learning Javascript"
 date: 2015-12-07 15:22:29 -0800
 comments: true
-categories: [javascript, game, phaser, crockford, mozilla]
+categories: [technical, project, javascript, videogame, phaser, douglas crockford]
 ---
 
 # Under Construction

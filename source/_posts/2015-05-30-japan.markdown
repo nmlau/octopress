@@ -3,7 +3,7 @@ layout: post
 title: "Backpacking Japan"
 date: 2015-05-30 17:30:23 -0700
 comments: true
-categories: [Travel, Japan]
+categories: [hobby, travel, japan]
 ---
 
 {% img /images/japan/2_kyoto/nara_temple_todai-ji.jpg 'nara_temple_todai-ji.jpg' %}

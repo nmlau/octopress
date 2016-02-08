@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: projects | Nicks Octopress Blog]]></title>
+  <link href="http://octopress.nicksdevspot.com/blog/categories/projects/atom.xml" rel="self"/>
+  <link href="http://octopress.nicksdevspot.com/"/>
+  <updated>2016-02-08T10:46:15-08:00</updated>
+  <id>http://octopress.nicksdevspot.com/</id>
+  <author>
+    <name><![CDATA[Nicholas Lau]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Raspberry Pi Alarm]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/"/>
+    <updated>2015-12-01T16:16:28-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm</id>
+    <content type="html"><![CDATA[<h2>Under Construction</h2>
+
+<h3>Introduction</h3>
+
+<p><img src="/images/pi_post/pi.jpg" title="&lsquo;pi.jpg&rsquo;" ></p>
+
+<p>I&rsquo;ve always had trouble waking up. Sometimes I wake up, sometimes I don&rsquo;t, sometimes I just end up lying in bed&hellip; it&rsquo;s been a lifetime point of stress. But in the last few months I&rsquo;ve found a solution that works for me. I use the <a href="http://www.sleepcycle.com/">Sleep Cycle Phone App</a> to gently wake me up so I&rsquo;m ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.</p>
+
+<p>But with the larger problem solved, there&rsquo;s always more you can do to make it more perfect. Right now I&rsquo;m using an iPad as my out of bed alarm. There&rsquo;s a lot of problems here: it&rsquo;s a really pricey device being used for a very simple task, it can be inefficient to turn off or adjust alarm times (I don&rsquo;t enjoy the gui), the battery will eventually run out, and if I wake up early there&rsquo;s no kill button to stop my normal alarm from going off without remembering to turn them back on.</p>
+
+<p>There&rsquo;s a lot of pros though, the battery lasts for several weeks, it doesn&rsquo;t need to be plugged in (I&rsquo;m a little OCD and don&rsquo;t want extra wires).</p>
+
+<p>On top of this, I&rsquo;ve been hearing about Raspberry Pi&rsquo;s for years and have always wanted to mess around with one. This seemed like the perfect project to get started on the DIY journey.</p>
+
+<p>Note: this isn&rsquo;t so much of a guide as my reflections on my journey to solidify the things I learned.</p>
+
+<!-- more -->
+
+
+<h3>Components</h3>
+
+<p>How I chose my components, used these two guides: <a href="http://www.howtogeek.com/138281/the-htg-guide-to-getting-started-with-raspberry-pi/all/">Getting Started Guide</a> and <a href="http://www.htpcbeginner.com/raspberry-pi-accessories-for-xbmc-media-center/2/">Component Guide</a></p>
+
+<p>Here&rsquo;s what I bought:</p>
+
+<ul>
+<li><a href="http://www.alliedelec.com/raspberry-pi-raspberry-pi-2-model-b/70465426/">Raspberry Pi 2</a></li>
+<li><a href="http://www.amazon.com/gp/product/B004TA0AUW/">MicroSD Card - Transcend Class 10</a> (preferably preloaded with NOOBS, but it&rsquo;s easy to set it up yourself)</li>
+<li><a href="http://www.amazon.com/dp/B003MTTJOY">WiFi Adapter - Edimax</a> I got the Edimax rather than the <a href="http://www.amazon.com/dp/B00EQT0YK2/">Panda 300Mbps</a>, because it has a nano adapter and the Panda is overkill at 300Mbps. Or just use ethernet.</li>
+<li><a href="http://www.amazon.com/gp/product/B00OY7HR1U">Power Adapter - Northpada</a> Northpada because better reviews, higher mAH, one piece charger. In hindsight, I should have just used one of the many micro USB cables I have sitting around and plugged them into a usb outlet.</li>
+<li><a href="http://www.amazon.com/gp/product/B00MQLB1N6">Case</a>, although at first I accidentally bought the a <a href="http://www.amazon.com/gp/product/B008TCUXLW">Model 1 Case</a></li>
+</ul>
+
+
+<p>Already owned:</p>
+
+<ul>
+<li><a href="http://www.amazon.com/Dell-UltraSharp-27-Inch-LED-Lit-Monitor/dp/B00P0EQD1Q">Monitor</a>, any monitor will do. HDMI is more convenient though</li>
+<li><a href="http://shop.daskeyboard.com/products/das-keyboard-ultimate-model-s">Keyboard</a>, you can use any usb keyboard, I had a few lying around. Wireless is always convenient too</li>
+<li><a href="http://www.amazon.com/gp/product/B003TG75EG">Mouse</a>, and any usb mouse. Wireless always good</li>
+<li><a href="http://www.amazon.com/gp/product/B0002L5R78">HDMI Display Cable</a>, Raspberry Pi has a HDMI display port, I&rsquo;m sure you&rsquo;ve got one lying around. Or if your monitor can&rsquo;t do HDMI, use one of the many adapters out there. All modern display cables are digital and can be converted from one to another.</li>
+<li><a href="http://www.amazon.com/gp/product/B00316263Y">Ethernet</a>, Got hundreds of these too</li>
+<li><a href="http://www.amazon.com/dp/B00YARCGOC">Speaker</a>, Choose the favorite one you&rsquo;ve got lying around. All you need is a 3.5mm Audio cable to plug it in</li>
+</ul>
+
+
+<p><a href="http://ozzmaker.com/2013/10/24/how-to-control-the-gpio-on-a-raspberry-pi-with-an-ir-remote/">Hooking up Infrared Remote</a>:</p>
+
+<ul>
+<li><a href="http://www.adafruit.com/products/389">Mini Remote Control (IR)</a></li>
+<li><a href="http://www.adafruit.com/products/157">IR Receiver Sensor</a></li>
+<li>Ribbon Cable</li>
+<li>Breakout (40 pin)</li>
+<li>Breadboard</li>
+<li>Wires (3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)</li>
+<li>Notes: Might be able to attach IR sensor straight to GPIO. Also, LEDs and most wires are just for testing. Yes, can solder wires straight to GPIO, but that would be permanent. But I could solder wires to breakout and not need the breadboard. Also, don&rsquo;t need LEDs or capacitors for testing, can see input to socket on commandline. Getting all these components was somewhat of a hassle, borrowed parts from a friend but didn&rsquo;t realize he had the old 24 pin breakout/ribbon.</li>
+</ul>
+
+
+<p>Optional:</p>
+
+<ul>
+<li>Heatsink, don&rsquo;t think you need this unless I&rsquo;m running HD video constantly. A lot of people, like my dad, use their Pi&rsquo;s as DVRs</li>
+</ul>
+
+
+<p>I ended up doing a headless setup where I ssh&rsquo;d in from my laptop (more on this later). This eliminated the need for: Monitor, Keyboard, Mouse, Display Cable. And switching to ethernet meant no need for a wifi adapter</p>
+
+<h3>Setup</h3>
+
+<ul>
+<li>Download Noobs (make sure not copy files in, not the folder)</li>
+<li>Download and use formatter, make sure to have lock switch off</li>
+<li>Plug everything in</li>
+<li>Turn on, Install Raspian</li>
+<li>Initial Settings screen: Turn on SSH, expand filesystem</li>
+</ul>
+
+
+<p><a href="https://www.raspberrypi.org/forums/viewtopic.php?f=91&amp;t=74176">Setting up headless</a>:
+I&rsquo;m a little bit of a neat freak. And I don&rsquo;t have enough space at the moment for a dedicated work bench. So shortly after I went through all the trouble of acquiring and plugging in all the components plugged in I realized I could do better. A headless setup means all the pi needs is an internet connection (wifi adapter or ethernet) and I can use it over ssh.</p>
+
+<p>I got to learn a lot about networking, having to mess around with commands like &lsquo;arp -a&rsquo;, &lsquo;nmap&rsquo;, modifying /etc/ssh/ssh_config, <a href="http://whatismyipaddress.com/mac-address">learn about MAC and ARP addresses</a></p>
+
+<p>Even once I was connected, the workflow was mediocre until I was able to setup:
+File Transfer using <a href="http://raspberrypi.stackexchange.com/questions/8950/copy-files-from-osx-to-from-pi">afp (appletalk protocol) to pi</a>
+-Install netatalk on pi, afp in from mac
+-This let me use finder and all my os x apps to access my pi&rsquo;s files. Much better than the trouble I was having with Filezilla. Incredibly convenient although it did leave hidden .AppleDouble folders in every directory
+Another huge thing was using tmux combined with dtach. Tmux meant I only had to ssh in one time, then I could split that session into several windows. dtach allowed me to shut the pi off, ssh back in jump right back to my desired tmux session.</p>
+
+<p>Random note: sshing in forced me to use command line a lot. Which inspired me to read a few <a href="https://github.com/jlevy/the-art-of-command-line">guides on CLI</a>, <a href="https://danielmiessler.com/study/vim/">vim</a>, that got me play with my profiles (my vim is beautiful now - <a href="/images/pi_post/tmux_solarized_dark_profile.png">image of Solarized profile with tmux</a>) to setup my profiles like <a href="https://github.com/nmlau/profiles">this</a>. Not to mention finally setting up zsh, more convenient keykindings, etc.</p>
+
+<h3>Programming</h3>
+
+<p>Source available on <a href="https://github.com/nmlau/RPiAlarm">github</a></p>
+
+<p>I got my inspiration from: <a href="https://www.youtube.com/watch?v=julETnOLkaU">Speaking Alarm Clock</a>, <a href="https://github.com/skiwithpete/alarmpi">github available here</a>. And some better <a href="https://www.raspberrypi.org/forums/viewtopic.php?f=41&amp;t=95500">Alternative Alarm Clock Projects</a>, most notably the <a href="https://github.com/bubbl/SimpleGoogleAlarmClock">Simple Google Alarm Clock</a></p>
+
+<p>One set the alarm with chronjobs, another by hardcoding, but I really liked the Google Calendar integration. And plan to add some pyfeed stuff, particularily to get weather. I also stole how they used datetime module, config parser, os and mpg123 to play sound files. However, all these projects were deprecated because of changes to the Google Calendar Service API.</p>
+
+<p>One of them suggested setting up a socket to listen for real world events, so I&rsquo;m setting one up to work with an Infrared Remote (IR).</p>
+
+<p>Was actually pretty easy to setup, I was worried since it seemed like there were a lot of places for it to go wrong. I&rsquo;ve never breadboarded before so I was pleasantly surprised by how easy it was. Python and Linux provide easy to use libraries like lirc to decode infrared signals and provide them to a socket. I did have some trouble with mode2 (measures pulse/space length of infarred signals), but was able to troubleshoot that by modifying some .conf files.</p>
+
+<h3>Brickwalls</h3>
+
+<p>Here are some problems that took longer to solve than they should have. In other words, things I learned:</p>
+
+<ul>
+<li>Setup was actually the longest part, I had to follow a lot of tutorials that didn&rsquo;t work without going in and understanding the commands better</li>
+<li>Changes in Google Calendar API also slowed me down more than they should have. I accidentally setup the deprecated API at first&hellip; wish they had thrown a note on the article that it had been deprcated two years ago!</li>
+<li>Just learning python so had some trouble here, easily fixed though. Just read some guides, learned syntax better, got the normal tools like pdb for debugger</li>
+<li>Learned how to use a GPIO, got my EE friends to show me how to use a breadboard, ribbon cable, wiring, etc. Closest I had gotten to this stuff before was an FPGA in my embedded systems course or using VHDL to design a CPU although no actual hardware was involved in that.</li>
+<li>Time was a huge hassle, I learned a lot about how the time modules worked together, and about formatting. I&rsquo;ll probably swap that all out at some point and just use the arrow module</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

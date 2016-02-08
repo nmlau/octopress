@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: technical | Nicks Octopress Blog]]></title>
+  <link href="http://octopress.nicksdevspot.com/blog/categories/technical/atom.xml" rel="self"/>
+  <link href="http://octopress.nicksdevspot.com/"/>
+  <updated>2016-02-08T10:46:15-08:00</updated>
+  <id>http://octopress.nicksdevspot.com/</id>
+  <author>
+    <name><![CDATA[Nicholas Lau]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Commandline Shenanigans]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans/"/>
+    <updated>2016-01-07T14:57:53-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans</id>
+    <content type="html"><![CDATA[<h3>Table of Contents</h3>
+
+<ul>
+<li><a href="#artofthecommandline">Art of the Command Line</a></li>
+<li><a href="#masteringvim">Mastering Vim</a></li>
+<li><a href="#tmux">Tmux</a></li>
+<li><a href="#profiles">Profiles</a></li>
+<li><a href="#onelinerforkillingapplications">One-liner for Killing Applications</a></li>
+</ul>
+
+
+<!-- more -->
+
+
+<p><a name="artofthecommandline"></a></p>
+
+<h3>Art of the Command Line</h3>
+
+<p>I&rsquo;ve always been interested in learning the Command Line better. So I was pretty excited to find this guide on <a href="https://news.ycombinator.com/">Hacker News</a>, or was it <a href="https://www.reddit.com/r/programming/">r/programming</a>? <a href="https://github.com/jlevy/the-art-of-command-line">The Art of the CommandLine</a> by <a href="https://github.com/jlevy">jlevy</a> works as an overview of the most useful things, giving a short introduction so you know what&rsquo;s what. You can then look more into the things using &lsquo;man&rsquo; or a quick google search.</p>
+
+<p>It was a fantastic review of the stuff I knew and introduced me to lots of new tools. Here&rsquo;s a portion of my raw notes on things that were relatively new to me:</p>
+
+<ul>
+<li>Everyday Use:
+
+<ul>
+<li>xargs (example makes no sense)</li>
+<li>HERE document (code block that io redirects list to a command)</li>
+<li>mosh (ssh type thing using udp)</li>
+<li>percol/fzf (interactive selection of values from output of another command)</li>
+</ul>
+</li>
+<li>Processing Files and Data:
+
+<ul>
+<li>uniq (uniq reports or filters out repeated lines in a file, these would be perfect for lucky times)</li>
+<li>cut/paste/join, pretty intuitive names but never used or seen these used before</li>
+<li>awk/sed, awk is a pattern directed scanning and processing language, sed is a stream editor</li>
+<li>repren, for complex renames</li>
+<li>rysnc, versatile and fast file copying tools</li>
+<li>shuf, shuffle or select random names</li>
+<li>patch, works with diff to be the standard for patching source code</li>
+<li>hd/hexdump/xxd/bvi/biew/strings+grep/xdelta3 for binary files&hellip;</li>
+<li>iconv, convert text encodings</li>
+<li>split/csplit to split by size or pattern</li>
+<li>zless, zmore, zcat, zgrep to operate on compressed files</li>
+</ul>
+</li>
+<li>Cool things:
+
+<ul>
+<li>Press ctrl-r repeatedly to cycle through more matches,&hellip; or hit the right arrow to put the result in the current -line</li>
+<li>ctrl-a, #, enter //enters command as comment so you can go back and edit it later</li>
+<li>Brace expansion using {&hellip;}, cp somefile{,.bak} (which expands to cp somefile somefile.bak)</li>
+<li>The output of a command can be treated like a file via &lt;(some command). ie, vim &lt;(env)</li>
+<li>man ascii</li>
+<li>tmux/screen to multiplex the screen (byobu to enhance tmux, dtach for session persistence)</li>
+<li>fpp (pathpicker) looks incredibly useful</li>
+<li>Tab literal, ctrl-v [Tab] or write $&lsquo;\t&rsquo; (the latter is better as you can copy/paste it)</li>
+<li>OSX: &ldquo;Use Option as Meta key&rdquo;. To enable the Option key in Mac OS Terminal as an alt key (such as used in the commands above like alt-b, alt-f, etc.). Does wonders for emacs.</li>
+</ul>
+</li>
+</ul>
+
+
+<p>After going through this I decided to dive deeper into:</p>
+
+<ul>
+<li>xargs</li>
+<li>grep</li>
+<li>vim</li>
+<li>tmux/dtach (although I wasn&rsquo;t happy with dtach and use tmuxinator instead)</li>
+<li>zsh</li>
+<li>Profiles (terminal, bash, key remapping, etc)</li>
+<li>Cleaning up my environment (ex: had brew and macports fighting with eachother)</li>
+</ul>
+
+
+<p><a name="masteringvim"></a></p>
+
+<h3>Mastering Vim</h3>
+
+<p>Vim needs no introduction. I used vim a lot during university, but just got by rather than pushing the boundaries of what it can actually do. Yes I do love sublime text and neat things it can do like multiple cursors. But vim is incredible, and there is a reason people have been using it for decades.</p>
+
+<p>Inspired by The Art of the CommandLine, I found this went searching for a Vim Guide and found <a href="https://danielmiessler.com/study/vim/">Mastering Vim by Daniel Miessler</a>.</p>
+
+<p>Here&rsquo;s a portion of my notes:</p>
+
+<ul>
+<li>u and U interaction is unintuitive to me</li>
+<li>CTRL+G, line number+G</li>
+<li>CTRL-O, CTRL-I</li>
+<li>%</li>
+<li>:#,#s/old/new/g</li>
+<li>:%s/old/new/g</li>
+<li>:%s/old/new/gc</li>
+<li>:!</li>
+<li>:set ic hls is</li>
+<li>:set incsearch</li>
+<li>:set noic</li>
+<li>:nohlsearch</li>
+<li>/ignore\c</li>
+<li>:e (followed by CTRL+D)</li>
+<li>CTRL+L for redraw</li>
+<li>CTRL+[ for ESC</li>
+<li>CTRL+E for scroll up</li>
+<li>CTRL+Y for scroll down</li>
+<li>zz, zt, zb for scroll</li>
+</ul>
+
+
+<p>To practice I went through vimtutor and played <a href="http://vim-adventures.com/">vim adventures</a>. Now I&rsquo;m making a Javascript game with the Phaser framework that will make use of vim commands for controls</p>
+
+<p><a name="tmux"></a></p>
+
+<h3>Tmux</h3>
+
+<p>&ldquo;<a href="https://tmux.github.io/">tmux</a> is a "terminal multiplexer&rdquo;, it enables a number of terminals (or windows) to be accessed and controlled from a single terminal. tmux is intended to be a simple, modern, BSD-licensed alternative to programs such as GNU screen."</p>
+
+<p>Tmux would have been an absolute lifesaver when I was back in school as I did a lot of my work by sshing into the school servers. It would have allowed me to login once and create multiple panes/windows instead of having to login multiple times. So many regrets. It has been instrumental for sshing in and working with my raspberry pi though.</p>
+
+<p>First thing I did was change to prefix from ctrl+a to ctrl+b. The prefix is what you use before entering tmux commands. ctrl+a was originally saved for screen (since the creator of tmux used screen while developing tmux). However, ctrl+a is much easier on your fingers than ctrl+a.</p>
+
+<p>The Art of the CommandLine recommended dtach for session persistence, but I found the redraw to be very buggy. So I looked around and found <a href="https://github.com/tmuxinator/tmuxinator">Tmuxinator</a>, which gas worked perfectly!</p>
+
+<p><a name="profiles"></a></p>
+
+<h3>Profiles</h3>
+
+<p>You can find most of my <a href="https://github.com/nmlau/profiles">Profiles</a> here. This allows them to be cloned in and set up quickly and conveniently. It also allows me to keep track of them in one place. Since hitting &lsquo;ls -al&rsquo; in ~/ is kind of messy.</p>
+
+<p>I messed around with my profiles and environment:</p>
+
+<ul>
+<li>Setup <a href="http://www.zsh.org/">zsh</a> and <a href="https://github.com/robbyrussell/oh-my-zsh">Oh My Zsh</a></li>
+<li>Installed <a href="http://ethanschoonover.com/solarized">Solarized Dark theme</a> for terminal</li>
+<li>Changed to <a href="https://www.iterm2.com/">iTerm2</a></li>
+<li>Remapped keys: caps to control, remapping vims &lsquo;jk&rsquo; to escape</li>
+<li>Fixed up <a href="http://brew.sh/">Homebrew</a> by getting rid of macports, fixing permissions, etc (lots of running &lsquo;brew doctor&rsquo;)</li>
+<li>Changed host/terminal name</li>
+<li>etc</li>
+</ul>
+
+
+<p><a name="onelinerforkillingapplications"></a></p>
+
+<h3>One-liner for Killing Applications</h3>
+
+<p>Art of the Command Line brought up these:</p>
+
+<pre><code class="bash">ps -ax | grep Finder
+kill -9 390
+</code></pre>
+
+<p>And I had run into this command: kill <code>jobs -ps</code>, when messing around with background processes</p>
+
+<p>At the same time, I&rsquo;ve always been frustrated by how much time it takes to start up Activity Monitor, search for the offending process, and then clicking multiple times to force quit it. And I&rsquo;ve always got a terminal open so why not just use that and get it done with no waiting, few key presses, and zero clicks. So I looked back at these commands which were pretty close already. I figured I&rsquo;d learn some bash and try to combine them into a one liner that I could throw into an alias for my .zshrc.</p>
+
+<p>I started with this, it read from jobs. And awk would pass the process id column to xargs which would call &lsquo;kill&rsquo; on them</p>
+
+<pre><code class="bash">zsh: jobs -p | awk '{print $3}' | xargs kill
+</code></pre>
+
+<p>But jobs obviously wasn&rsquo;t right, we wanted &lsquo;ps -ax&rsquo; and to use grep to target the offending app. As well as &lsquo;kill -9&rsquo; to forcequit.</p>
+
+<pre><code class="bash">ps -ax | grep Finder | awk '{print $3}'
+ps -ax | grep 'TextEdit' | awk '{print $1}' | xargs kill -9
+</code></pre>
+
+<p>Now there was the issue of passing in the app name as a variable, which requires a <a href="http://stackoverflow.com/questions/941338/how-to-pass-command-line-arguments-to-a-shell-alias">bash function</a>.</p>
+
+<pre><code class="bash">alias killapp='function _killapp(){ps -ax | grep $1 | awk '{print $1}' | xargs kill -9};_killapp'
+</code></pre>
+
+<p>However, now the the grep $1 and awk $1 interfere with eachother. You can pass grep directly to xargs, &lsquo;&hellip; grep $1 | xargs kill -9&rsquo;&hellip; but that&rsquo;s not ideal. I tried a few things, like using a variable. As well as a variety of backslashes and <a href="http://superuser.com/questions/114798/is-there-a-way-to-escape-single-quotes-in-the-shell">quotes around quotes</a></p>
+
+<pre><code class="bash">alias killapptest='function _killapp(){arg1="$1"; ps -ax | grep $arg1 | awk "{print $1}";_killapp' //using variable
+</code></pre>
+
+<p>Eventually I found the way that worked, by <a href="http://stackoverflow.com/questions/7244534/using-awk-in-bash-alias-or-function">escaping the $</a>:</p>
+
+<pre><code class="bash">* alias killapp='function _killapp(){ps -ax | grep $1 | awk "{print \$1}" | xargs kill -9};_killapp'
+</code></pre>
+
+<p>But not perfect, since grep would find itself. To solve this I found this <a href="http://unix.stackexchange.com/questions/74185/how-can-i-prevent-grep-from-showing-up-in-ps-results">stackoverflow thread</a> which recommended:</p>
+
+<pre><code class="bash">pgrep or 'ps aux | grep -v grep | grep "fnord"'
+</code></pre>
+
+<p>Looking more into pgrep, I remembered seeing it along with pkill in the Art of the Command Line under <a href="https://github.com/jlevy/the-art-of-command-line#everyday-use">Everyday Use</a>. And so with some frustration, to quote myself at that moment:</p>
+
+<blockquote><p>WELL LOOKS LIKE I JUST REINVENTED PGREP/PKILL, THERE GOES AN HOUR AND SOME PRIDE. WELL I GUESS I LEARNED SOMETHING AT LEAST</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Javascript]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript/"/>
+    <updated>2015-12-07T15:22:29-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript</id>
+    <content type="html"><![CDATA[<h1>Under Construction</h1>
+
+<h3>Introduction</h3>
+
+<p>I&rsquo;ve always been interested in learning Javascript, but have been too overwhelmed by the abundance of resources out there. I finally took the time to do some thorough looking around with lead me to this Stack Overflow <a href="http://goo.gl/iPMGV">link</a> on resources for learning Javascript. This lead me to the MDN Javascript Reintroduction and Crockfords Lectures.</p>
+
+<h3>Table of Contents</h3>
+
+<ul>
+<li>MDN Reintroduction</li>
+<li>Crockford on Javascript</li>
+<li>MDN Game Development Workflows</li>
+<li>Building a Game</li>
+</ul>
+
+
+<!-- more -->
+
+
+<h3>MDN Reintroduction</h3>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">Mozilla Developer Network (MDN) Reintroduction</a></li>
+</ul>
+
+
+<h3>Crockford on Javascript</h3>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=JxAXlJEmNMg">Volume 1: The Early Years</a></li>
+<li><a href="https://www.youtube.com/watch?v=RO1Wnu-xKoY">Chapter 2: And Then There Was JavaScript</a></li>
+<li><a href="https://www.youtube.com/watch?v=ya4UHuXNygM">Act III: Function the Ultimate</a>
+
+<ul>
+<li>This talk also convinced me to pick up Little Schemer, promising that it would &ldquo;change the way you think, and there aren&rsquo;t a lot of books that will do that&rdquo;</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=Fv9qT9joc0M">Episode IV: The Matamorphasis of Ajax</a></li>
+<li><a href="https://www.youtube.com/watch?v=47Ceot8yqeI">Part 5: The End of All Things</a></li>
+<li><a href="https://www.youtube.com/watch?v=QgwSUtYSUqA">Scene 6: Loopage</a></li>
+<li><a href="https://www.youtube.com/watch?v=UTEqr0IlFKY">Level 7: ECMAScript 5: The new Parts</a></li>
+<li><a href="https://www.youtube.com/watch?v=taaEzHI9xyY">Section 8: Programming Style &amp; Your Brain</a></li>
+</ul>
+
+
+<p>Now that I knew a lot of the theory behind Javascript, it was time to practice applying it. I decided to make a game.</p>
+
+<h2>MDN Game Development Workflows</h2>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript">2D Breakout in pure JS</a>
+
+<ul>
+<li><a href="/resources/games/breakout/">Try it!</a></li>
+</ul>
+</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_Phaser">2D Breakout game using Phaser</a>
+
+<ul>
+<li><a href="/resources/games/breakoutPhaser/">Try it!</a></li>
+</ul>
+</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation">2D Maze game with device orientation Phaser</a>
+
+<ul>
+<li><a href="/resources/games/phaserMaze/">Try it!</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Building a Game</h2>
+
+<ul>
+<li><a href="https://github.com/nmlau/vim-maze">My Game</a>
+
+<ul>
+<li><a href="/resources/games/vimMaze/">Try it!</a></li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Favorite Tools and Tricks]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/12/03/favorite-tools-and-tricks/"/>
+    <updated>2015-12-03T00:26:08-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/12/03/favorite-tools-and-tricks</id>
+    <content type="html"><![CDATA[<p>I was showing two of my engineer buddies something on my laptop when I realized they didn&rsquo;t know how to shortcut between tabs. It blew my mind that people don&rsquo;t know these things, which got my thinking about all the little tips and tricks I&rsquo;ve picked up over the years. I ended up making a list&hellip; so I figured I might as well share it. I&rsquo;ll throw on a quick summary for why I use all these things. For example:</p>
+
+<ul>
+<li><em>Google</em>, Really really good search engine. A strong alternative to Bing if you&rsquo;re willing to give up the $125/year that Microsoft will give you for clicks.</li>
+</ul>
+
+
+<p>I&rsquo;ve mostly found these through annoyance at minor inconveniences, whether they be multiple keystrokes or the laborious task of moving my hands to the keyboard and back.</p>
+
+<!-- more -->
+
+
+<h3>Chrome Shortcuts</h3>
+
+<ul>
+<li>Remove item from search bar and history, opt+cmd+del</li>
+<li>Switching between tabs, shift+opt+{} or ctrl+shift+tab</li>
+<li>Jumping between tabs, cmd+(0-9)</li>
+<li>Moving to address bar, cmd+L</li>
+</ul>
+
+
+<h3>Gmail Shortcuts (have to enable them)</h3>
+
+<ul>
+<li>Refresh inbox, u</li>
+<li>Move between messages, j/k</li>
+<li>Archive and Move between messages, {/}</li>
+<li>Move to search bar, /</li>
+<li>Open message, o</li>
+<li>Move between Folders, g+(i for inbox)(t for sent)(l for label)(s for starred)(a for all)</li>
+<li>Compose, c</li>
+<li>Send, cmd+enter</li>
+</ul>
+
+
+<h3>Chrome Extensions</h3>
+
+<ul>
+<li><em>Vimium</em>, I couldn&rsquo;t live without this one. It lets you use chrome with vim inspired shortcuts. Hit &rsquo;d' to go down half a page, &lsquo;k&rsquo; to scroll up, &lsquo;gi&rsquo; to move cursor to a textarea then &lsquo;tab&rsquo; to move to the next textarea, etc.</li>
+<li><em>Papaly</em>, I have two tabs pinned&hellip; gmail and papaly. Papaly lets me save links in a quick and organized manner, letting me keep my browser uncluttered.</li>
+<li><em>Empty New Tab Page</em>, Because it cleans up your interface ever so slightly, &ldquo;a clean room is a clean mind&rdquo;.</li>
+<li><em>Imagus</em>, hover to see full size image. Have it configured to show image on shift press.</li>
+<li><em>goo.gl URL Shortener</em>, this is very particular to my workflow. Whenever I find something valuable on the internet, I&rsquo;ll throw a quick summary and it&rsquo;s goog.gl link on a plain text to review later.</li>
+</ul>
+
+
+<h3>Privacy</h3>
+
+<ul>
+<li><em>Ghostery</em>, Ghostery blocks 3rd party trackers, make sure to disable GhostRank.</li>
+<li><em>TrackMeNot</em>, clicks every ad (but doesn&rsquo;t load them) to obfuscate your actual activity.</li>
+<li><em>uBlockOrigin</em>, uBlockOrigin, largely superior Adblock Plus. More efficient.</li>
+</ul>
+
+
+<h3>Software</h3>
+
+<ul>
+<li><em>Flux</em>, reduces eyestrain by adapting your computer screen to the time of day. Takes some adjusting to. But after that you won&rsquo;t be able to live without it.</li>
+<li><em>Moom</em>, window management, lets me move my windows anywhere I want with an efficient hotkey. Mandatory if you&rsquo;re working with larger monitors (I have a 27" and 24").</li>
+<li><em>VPN</em>, lets me feel safe when I&rsquo;m on public wifi. Was especially useful when I backed around Asia. I personally use Private Internet Access (PIA), one of the bigger providers.</li>
+<li><em>Copy Clip</em>, clipboard manager for os x. It&rsquo;s free, why not?</li>
+<li><em>Google Spreadsheets</em>, have several of these setup for subjects that require more organization. Is conveniently synced between phone and computers.</li>
+<li><em>Pomodoro Timer</em>, more for my workflow. I work on tasks in 30 minute chunks so its perfect.</li>
+</ul>
+
+
+<h3>Knowledge base</h3>
+
+<ul>
+<li><em>Sublime Text</em>, have it opened with entire Dropbox directory. cmd+shift+f executes an interactive grep-like search, makes it very easy to find what I&rsquo;m looking for. cmd+t lets me quickly open whatever file I want.</li>
+<li><em>Nebulous for iOS</em>, plain text editor and Dropbox compatibility. Lets me view and edit my knowledge base. Great for my todo lists and to productively kill time when I&rsquo;m waiting in line.</li>
+<li><em>Dropbox</em>, keeps everything synced. Although I did have to pay for more storage.</li>
+<li><em>Org mode</em>, incredible! Plan to integrate this into workflow shortly.</li>
+<li><em>Evernote</em>, you all know what this is. I&rsquo;m not it&rsquo;s biggest fan, eventually I want to move to an org mode + dropbox + sublime/nebulous workflow. But for now, I use its reminders to re-expose me to particularily interesting pieces of knowledge. Huge issues include: inconvenient exporting, no multiple hierachies of notes/notebooks, ads everywhere, general bugginess.</li>
+</ul>
+
+
+<h3>Sublime Text</h3>
+
+<ul>
+<li>ctrl+cmd+up/down arrows, swap rows up and down.</li>
+<li>ctrl+shift+up/down arrows, quickly spawn multiple cursors for some efficient editing.</li>
+<li>cmd+k then cmd+b, hide/show sidebar</li>
+<li>ctrl+shift+k, delete the current line your cursor is on</li>
+<li>Many many more, but I don&rsquo;t want to go overboard</li>
+</ul>
+
+
+<h3>OS X</h3>
+
+<ul>
+<li><em>Spotlight</em>, cmd+space. Let&rsquo;s you find anything on your computer quickly and conveniently. Whether it&rsquo;s an application, file, widget.</li>
+<li><em>Hot Corners</em>, move the mouse to bottom left or right corner to put my laptop to sleep. Lets me take faster bathroom breaks at the coffee shop.</li>
+<li>Remapping Caps to Control at OS level (Modifier Keys). Especially useful for the Command Line Interface. Who uses Caps Lock anyways.</li>
+<li>PLEASE NEVER MOVE THROUGH TEXT BY HOLDING THE ARROW KEYS (and try to avoid the mouse). cmd+left/right arrows, move to beginning or end of line. option+left/right arrow, move a word at a time, similar to vim&rsquo;s &lsquo;w&rsquo; and &lsquo;b&rsquo; commands.</li>
+</ul>
+
+
+<h3>Peace of Mind</h3>
+
+<ul>
+<li><em>Crashplan</em>, backs up my computer to a remote location every night while I&rsquo;m sleeping. I backup with my harddrive weekly for a local backup. So unless the right data center and my house burn down simultaneously I&rsquo;m fine.</li>
+<li><em>Mint</em>, free personal budgeting application. I used to constantly worry about whether I was getting mischarged, having my credit cards stolen, or paying fees I shouldn&rsquo;t be. With this I can check every couple days and never have to worry.</li>
+<li><em>1Password</em>, just in case I forget. Sync my keychain over dropbox so it&rsquo;s available in case of emergencies.</li>
+</ul>
+
+
+<h3>App Specific</h3>
+
+<ul>
+<li><em>Mint Mojito</em>, improves ui for mint. You can cut out sections you don&rsquo;t want, like: recommendations, ads, etc&hellip;</li>
+<li><em>Google Calendar Scroll Disabler</em>, because the trackpad is way too sensitive and I often found myself a year ahead of where I wanted to be.</li>
+<li><em>The Camelizer</em>, tracks Amazon prices. Let&rsquo;s you see if you&rsquo;re getting a good deal or should wait. Can set price watches that will notify you when the price drops to what you&rsquo;re willing to pay. Along this note, using ifttt to watch rss feeds or using slickdeals deal watchers is really effective as well.</li>
+<li><em>Reddit Enhancement Suite</em>, I can&rsquo;t remember what it was like to not have this.</li>
+<li><em>Download FB Album mod</em>, lets you download albums off Facebook, in case they ever go out of business.</li>
+<li><em>Boomerang for Gmail</em>, Lets you program mail to be sent at certain times. Nice when you&rsquo;re doing email at 3am, but want it sent out at a reasonable time.</li>
+<li>Facebook: <em>News Feed Blocker</em>, <em>Facebook Unseen</em> (I know this should be in App-Specific&hellip; but for real). When you open facebook to jump on the messenger, the feed is less likely to draw you in&hellip; and unseen so that you can read messages without beening inclined to answer them until it&rsquo;s more convenient. Remember when the &lsquo;seen at 4:21&rsquo; feature was new and everyone despised it?</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Raspberry Pi Alarm]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/"/>
+    <updated>2015-12-01T16:16:28-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm</id>
+    <content type="html"><![CDATA[<h2>Under Construction</h2>
+
+<h3>Introduction</h3>
+
+<p><img src="/images/pi_post/pi.jpg" title="&lsquo;pi.jpg&rsquo;" ></p>
+
+<p>I&rsquo;ve always had trouble waking up. Sometimes I wake up, sometimes I don&rsquo;t, sometimes I just end up lying in bed&hellip; it&rsquo;s been a lifetime point of stress. But in the last few months I&rsquo;ve found a solution that works for me. I use the <a href="http://www.sleepcycle.com/">Sleep Cycle Phone App</a> to gently wake me up so I&rsquo;m ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.</p>
+
+<p>But with the larger problem solved, there&rsquo;s always more you can do to make it more perfect. Right now I&rsquo;m using an iPad as my out of bed alarm. There&rsquo;s a lot of problems here: it&rsquo;s a really pricey device being used for a very simple task, it can be inefficient to turn off or adjust alarm times (I don&rsquo;t enjoy the gui), the battery will eventually run out, and if I wake up early there&rsquo;s no kill button to stop my normal alarm from going off without remembering to turn them back on.</p>
+
+<p>There&rsquo;s a lot of pros though, the battery lasts for several weeks, it doesn&rsquo;t need to be plugged in (I&rsquo;m a little OCD and don&rsquo;t want extra wires).</p>
+
+<p>On top of this, I&rsquo;ve been hearing about Raspberry Pi&rsquo;s for years and have always wanted to mess around with one. This seemed like the perfect project to get started on the DIY journey.</p>
+
+<p>Note: this isn&rsquo;t so much of a guide as my reflections on my journey to solidify the things I learned.</p>
+
+<!-- more -->
+
+
+<h3>Components</h3>
+
+<p>How I chose my components, used these two guides: <a href="http://www.howtogeek.com/138281/the-htg-guide-to-getting-started-with-raspberry-pi/all/">Getting Started Guide</a> and <a href="http://www.htpcbeginner.com/raspberry-pi-accessories-for-xbmc-media-center/2/">Component Guide</a></p>
+
+<p>Here&rsquo;s what I bought:</p>
+
+<ul>
+<li><a href="http://www.alliedelec.com/raspberry-pi-raspberry-pi-2-model-b/70465426/">Raspberry Pi 2</a></li>
+<li><a href="http://www.amazon.com/gp/product/B004TA0AUW/">MicroSD Card - Transcend Class 10</a> (preferably preloaded with NOOBS, but it&rsquo;s easy to set it up yourself)</li>
+<li><a href="http://www.amazon.com/dp/B003MTTJOY">WiFi Adapter - Edimax</a> I got the Edimax rather than the <a href="http://www.amazon.com/dp/B00EQT0YK2/">Panda 300Mbps</a>, because it has a nano adapter and the Panda is overkill at 300Mbps. Or just use ethernet.</li>
+<li><a href="http://www.amazon.com/gp/product/B00OY7HR1U">Power Adapter - Northpada</a> Northpada because better reviews, higher mAH, one piece charger. In hindsight, I should have just used one of the many micro USB cables I have sitting around and plugged them into a usb outlet.</li>
+<li><a href="http://www.amazon.com/gp/product/B00MQLB1N6">Case</a>, although at first I accidentally bought the a <a href="http://www.amazon.com/gp/product/B008TCUXLW">Model 1 Case</a></li>
+</ul>
+
+
+<p>Already owned:</p>
+
+<ul>
+<li><a href="http://www.amazon.com/Dell-UltraSharp-27-Inch-LED-Lit-Monitor/dp/B00P0EQD1Q">Monitor</a>, any monitor will do. HDMI is more convenient though</li>
+<li><a href="http://shop.daskeyboard.com/products/das-keyboard-ultimate-model-s">Keyboard</a>, you can use any usb keyboard, I had a few lying around. Wireless is always convenient too</li>
+<li><a href="http://www.amazon.com/gp/product/B003TG75EG">Mouse</a>, and any usb mouse. Wireless always good</li>
+<li><a href="http://www.amazon.com/gp/product/B0002L5R78">HDMI Display Cable</a>, Raspberry Pi has a HDMI display port, I&rsquo;m sure you&rsquo;ve got one lying around. Or if your monitor can&rsquo;t do HDMI, use one of the many adapters out there. All modern display cables are digital and can be converted from one to another.</li>
+<li><a href="http://www.amazon.com/gp/product/B00316263Y">Ethernet</a>, Got hundreds of these too</li>
+<li><a href="http://www.amazon.com/dp/B00YARCGOC">Speaker</a>, Choose the favorite one you&rsquo;ve got lying around. All you need is a 3.5mm Audio cable to plug it in</li>
+</ul>
+
+
+<p><a href="http://ozzmaker.com/2013/10/24/how-to-control-the-gpio-on-a-raspberry-pi-with-an-ir-remote/">Hooking up Infrared Remote</a>:</p>
+
+<ul>
+<li><a href="http://www.adafruit.com/products/389">Mini Remote Control (IR)</a></li>
+<li><a href="http://www.adafruit.com/products/157">IR Receiver Sensor</a></li>
+<li>Ribbon Cable</li>
+<li>Breakout (40 pin)</li>
+<li>Breadboard</li>
+<li>Wires (3v3 power to IR Out, Ground to IR GND, GPIO 18 - PCM_CLK to IR Vs)</li>
+<li>Notes: Might be able to attach IR sensor straight to GPIO. Also, LEDs and most wires are just for testing. Yes, can solder wires straight to GPIO, but that would be permanent. But I could solder wires to breakout and not need the breadboard. Also, don&rsquo;t need LEDs or capacitors for testing, can see input to socket on commandline. Getting all these components was somewhat of a hassle, borrowed parts from a friend but didn&rsquo;t realize he had the old 24 pin breakout/ribbon.</li>
+</ul>
+
+
+<p>Optional:</p>
+
+<ul>
+<li>Heatsink, don&rsquo;t think you need this unless I&rsquo;m running HD video constantly. A lot of people, like my dad, use their Pi&rsquo;s as DVRs</li>
+</ul>
+
+
+<p>I ended up doing a headless setup where I ssh&rsquo;d in from my laptop (more on this later). This eliminated the need for: Monitor, Keyboard, Mouse, Display Cable. And switching to ethernet meant no need for a wifi adapter</p>
+
+<h3>Setup</h3>
+
+<ul>
+<li>Download Noobs (make sure not copy files in, not the folder)</li>
+<li>Download and use formatter, make sure to have lock switch off</li>
+<li>Plug everything in</li>
+<li>Turn on, Install Raspian</li>
+<li>Initial Settings screen: Turn on SSH, expand filesystem</li>
+</ul>
+
+
+<p><a href="https://www.raspberrypi.org/forums/viewtopic.php?f=91&amp;t=74176">Setting up headless</a>:
+I&rsquo;m a little bit of a neat freak. And I don&rsquo;t have enough space at the moment for a dedicated work bench. So shortly after I went through all the trouble of acquiring and plugging in all the components plugged in I realized I could do better. A headless setup means all the pi needs is an internet connection (wifi adapter or ethernet) and I can use it over ssh.</p>
+
+<p>I got to learn a lot about networking, having to mess around with commands like &lsquo;arp -a&rsquo;, &lsquo;nmap&rsquo;, modifying /etc/ssh/ssh_config, <a href="http://whatismyipaddress.com/mac-address">learn about MAC and ARP addresses</a></p>
+
+<p>Even once I was connected, the workflow was mediocre until I was able to setup:
+File Transfer using <a href="http://raspberrypi.stackexchange.com/questions/8950/copy-files-from-osx-to-from-pi">afp (appletalk protocol) to pi</a>
+-Install netatalk on pi, afp in from mac
+-This let me use finder and all my os x apps to access my pi&rsquo;s files. Much better than the trouble I was having with Filezilla. Incredibly convenient although it did leave hidden .AppleDouble folders in every directory
+Another huge thing was using tmux combined with dtach. Tmux meant I only had to ssh in one time, then I could split that session into several windows. dtach allowed me to shut the pi off, ssh back in jump right back to my desired tmux session.</p>
+
+<p>Random note: sshing in forced me to use command line a lot. Which inspired me to read a few <a href="https://github.com/jlevy/the-art-of-command-line">guides on CLI</a>, <a href="https://danielmiessler.com/study/vim/">vim</a>, that got me play with my profiles (my vim is beautiful now - <a href="/images/pi_post/tmux_solarized_dark_profile.png">image of Solarized profile with tmux</a>) to setup my profiles like <a href="https://github.com/nmlau/profiles">this</a>. Not to mention finally setting up zsh, more convenient keykindings, etc.</p>
+
+<h3>Programming</h3>
+
+<p>Source available on <a href="https://github.com/nmlau/RPiAlarm">github</a></p>
+
+<p>I got my inspiration from: <a href="https://www.youtube.com/watch?v=julETnOLkaU">Speaking Alarm Clock</a>, <a href="https://github.com/skiwithpete/alarmpi">github available here</a>. And some better <a href="https://www.raspberrypi.org/forums/viewtopic.php?f=41&amp;t=95500">Alternative Alarm Clock Projects</a>, most notably the <a href="https://github.com/bubbl/SimpleGoogleAlarmClock">Simple Google Alarm Clock</a></p>
+
+<p>One set the alarm with chronjobs, another by hardcoding, but I really liked the Google Calendar integration. And plan to add some pyfeed stuff, particularily to get weather. I also stole how they used datetime module, config parser, os and mpg123 to play sound files. However, all these projects were deprecated because of changes to the Google Calendar Service API.</p>
+
+<p>One of them suggested setting up a socket to listen for real world events, so I&rsquo;m setting one up to work with an Infrared Remote (IR).</p>
+
+<p>Was actually pretty easy to setup, I was worried since it seemed like there were a lot of places for it to go wrong. I&rsquo;ve never breadboarded before so I was pleasantly surprised by how easy it was. Python and Linux provide easy to use libraries like lirc to decode infrared signals and provide them to a socket. I did have some trouble with mode2 (measures pulse/space length of infarred signals), but was able to troubleshoot that by modifying some .conf files.</p>
+
+<h3>Brickwalls</h3>
+
+<p>Here are some problems that took longer to solve than they should have. In other words, things I learned:</p>
+
+<ul>
+<li>Setup was actually the longest part, I had to follow a lot of tutorials that didn&rsquo;t work without going in and understanding the commands better</li>
+<li>Changes in Google Calendar API also slowed me down more than they should have. I accidentally setup the deprecated API at first&hellip; wish they had thrown a note on the article that it had been deprcated two years ago!</li>
+<li>Just learning python so had some trouble here, easily fixed though. Just read some guides, learned syntax better, got the normal tools like pdb for debugger</li>
+<li>Learned how to use a GPIO, got my EE friends to show me how to use a breadboard, ribbon cable, wiring, etc. Closest I had gotten to this stuff before was an FPGA in my embedded systems course or using VHDL to design a CPU although no actual hardware was involved in that.</li>
+<li>Time was a huge hassle, I learned a lot about how the time modules worked together, and about formatting. I&rsquo;ll probably swap that all out at some point and just use the arrow module</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
