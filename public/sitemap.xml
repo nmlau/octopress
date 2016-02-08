@@ -111,7 +111,7 @@
     <loc>http://octopress.nicksdevspot.com/blog/categories/technical/</loc>
   </url>
   <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/projects/</loc>
+    <loc>http://octopress.nicksdevspot.com/blog/categories/project/</loc>
   </url>
   <url>
     <loc>http://octopress.nicksdevspot.com/blog/categories/raspberry-pi/</loc>
@@ -121,9 +121,6 @@
   </url>
   <url>
     <loc>http://octopress.nicksdevspot.com/blog/categories/alarm/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/project/</loc>
   </url>
   <url>
     <loc>http://octopress.nicksdevspot.com/blog/categories/javascript/</loc>

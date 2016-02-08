@@ -3,7 +3,7 @@ layout: post
 title: "Raspberry Pi Alarm"
 date: 2015-12-01 16:16:28 -0800
 comments: true
-categories: [technical, projects, raspberry pi, diy, alarm]
+categories: [technical, project, raspberry pi, diy, alarm]
 published: true
 ---
 
