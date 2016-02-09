@@ -6,26 +6,30 @@ comments: true
 categories: [technical, project, javascript, videogame, phaser, douglas crockford]
 ---
 
-# Under Construction
+## Under Construction
 
+### Table of Contents
+
+* [Introduction](#introduction)
+* [MDN Reintroduction](#mdnreintroduction)
+* [Crockford on JavaScript](#crockfordonjavascript)
+* [MDN Game Development Workflows](#mdngamedevelopment)
+* [Building a Game](#buildingagame)
+
+<a name="introduction"></a>
 ### Introduction
 
 I've always been interested in learning Javascript, but have been too overwhelmed by the abundance of resources out there. I finally took the time to do some thorough looking around with lead me to this Stack Overflow [link](http://goo.gl/iPMGV) on resources for learning Javascript. This lead me to the MDN Javascript Reintroduction and Crockfords Lectures.
 
-### Table of Contents
-
-* MDN Reintroduction
-* Crockford on Javascript
-* MDN Game Development Workflows
-* Building a Game
-
 <!-- more -->
 
+<a name="mdnreintroduction"></a>
 ### MDN Reintroduction
 
-* [Mozilla Developer Network (MDN) Reintroduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+* [Mozilla Developer Network (MDN) Reintroduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
-### Crockford on Javascript
+<a name="crockfordonjavascript"></a>
+### Crockford on JavaScript
 
 * [Volume 1: The Early Years](https://www.youtube.com/watch?v=JxAXlJEmNMg)
 * [Chapter 2: And Then There Was JavaScript](https://www.youtube.com/watch?v=RO1Wnu-xKoY)
@@ -39,7 +43,8 @@ I've always been interested in learning Javascript, but have been too overwhelme
 
 Now that I knew a lot of the theory behind Javascript, it was time to practice applying it. I decided to make a game.
 
-## MDN Game Development Workflows
+<a name="mdngamedevelopment"></a>
+### MDN Game Development Workflows
 
 * [2D Breakout in pure JS](https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript)
   * [Try it!]({{ root_url }}/resources/games/breakout/)
@@ -48,7 +53,8 @@ Now that I knew a lot of the theory behind Javascript, it was time to practice a
 * [2D Maze game with Device Orientation using Phaser](https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation)
   * [Try it!]({{ root_url }}/resources/games/phaserMaze/)
 
-## Building a Game
+<a name="buildingagame"></a>
+### Building a Game
 
 * [My Game](https://github.com/nmlau/vim-maze)
   * [Try it!]({{ root_url }}/resources/games/vimMaze/)
