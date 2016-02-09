@@ -4,7 +4,7 @@
   <title><![CDATA[Category: douglas crockford | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/douglas-crockford/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-02-08T17:09:22-08:00</updated>
+  <updated>2016-02-09T12:27:35-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -80,7 +80,7 @@
 <li><a href="/resources/games/breakoutPhaser/">Try it!</a></li>
 </ul>
 </li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation">2D Maze game with device orientation Phaser</a>
+<li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation">2D Maze game with Device Orientation using Phaser</a>
 
 <ul>
 <li><a href="/resources/games/phaserMaze/">Try it!</a></li>

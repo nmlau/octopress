@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-02-09T12:19:35-08:00</updated>
+  <updated>2016-02-09T12:27:35-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -20,19 +20,17 @@
     <id>http://octopress.nicksdevspot.com/blog/2014/06/13/learning-ruby-on-rails</id>
     <content type="html"><![CDATA[<h2>Under Construction</h2>
 
-<p>Source on <a href="https://github.com/nmlau/octopress">github</a>
-Hosted at <a href="http://www.nicklau.io/">nicklau.io</a></p>
-
 <h3>Table of Contents</h3>
 
 <ul>
-<li><a href="#">Introduction</a></li>
-<li><a href="#">Learning Rails</a></li>
-<li><a href="#">Apps</a></li>
-<li><a href="#">Octopress</a></li>
-<li><a href="#">What I Learned</a></li>
-<li><a href="#">Conclusion</a></li>
-<li><a href="#">Technologies behind this Blog</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#learningrails">Learning Rails</a></li>
+<li><a href="#apps">Apps</a></li>
+<li><a href="#octopress">Octopress</a></li>
+<li><a href="#whatilearned">What I Learned</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#technologies">Technologies behind this Blog</a></li>
+<li><a href="#source">Source</a></li>
 </ul>
 
 
@@ -44,15 +42,21 @@ Hosted at <a href="http://www.nicklau.io/">nicklau.io</a></p>
 
 <p>This was one of my first truly independent projects. Prior to this I had always had a partner, professor, TA, etc to fall back on if I got stuck. So this project was stepping out of my comfort zone, which is always difficult. But as I&rsquo;ve found, pushing those boundaries has great reward and brings a certain feeling of personal pride and independence.</p>
 
+<p><a name="learningrails"></a></p>
+
 <h3>Learning Rails</h3>
 
 <p>To learn Ruby on Rails I made use of <a href="https://www.codecademy.com/learn/ruby">Codeacademy Ruby Guide</a>, <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Ruby on Rails Tutorial</a>, and <a href="http://railscasts.com/">Railscast</a>. Codeacademy was fairly basic and I think is catered towards complete beginners. But looking through there I found some good basic guides to brush up on things like git or commandline. Michael Hartl&rsquo;s tutorial was incredible and even after finishing it I would come back and use it as a reference guide. For things that Michael Hartl&rsquo;s guide couldn&rsquo;t cover I would look through Railscast.</p>
+
+<p><a name="apps"></a></p>
 
 <h3>Apps</h3>
 
 <p>I started off wanting to build a blog, so I modified Hartl&rsquo;s code for that purpose. Building a dynamic mysql blogged webapp. I wanted to try something a little bit different as well so I build a <a href="upload-app.nicklau.io/">Photo Uploading app</a>. It seemed like it would be difficult but by utilitizing Ruby on Rails gems it turned out to be easy. The Cloudinary gem was quick to setup and did all the heavy lifting, offering a way to upload and store images in the cloud.</p>
 
 <p>I wasn&rsquo;t entirely happy with the blog though, as a one person blog I found the dynamic nature to be redundant. Then I got lucky browsing around the internet reading blogs. I found that this <a href="http://octopress.org/docs/setup/">&lsquo;Octopress Blog: A Blogging Framework for Hackers&rsquo;</a> came up repeatedly, so I decided to check it out. Turns out it was exactly what I was looking for. I thought Ruby on Rails did a lot of the work for me, but Octopress utilizes Jekyll to do even more. It generates posts, provides tools like improved image tags. And above all it is static, so no need for a database, one less thing to worry about breaking. It also takes care of the UI, and lets you download template themes for a personal flare. Or quickly plugin fun additions like Disqus or Google Analytics.</p>
+
+<p><a name="whatilearned"></a></p>
 
 <h3>What I Learned</h3>
 
@@ -71,9 +75,13 @@ Hosted at <a href="http://www.nicklau.io/">nicklau.io</a></p>
 
 <p>I learned random invaluable things like Lorem Ipsum and the origins of foobar.</p>
 
+<p><a name="conclusion"></a></p>
+
 <h3>Conclusion</h3>
 
 <p>Overall I found it very analagous to backpacking around Asia. When you first set out its terrifying, you have no one to rely on. But you learn and quickly find everything to be very easy. You meet incredible people who want to help you. You discover new things about yourself and come out of it a stronger and more independent individual.</p>
+
+<p><a name="technologies"></a></p>
 
 <h3>Technologies behind this Blog</h3>
 
@@ -88,6 +96,16 @@ Hosted at <a href="http://www.nicklau.io/">nicklau.io</a></p>
 <li>Devise for user, session, and password management.</li>
 <li>Bootstrap to make things look pretty since I’m no css wizard.</li>
 <li>Rspec and Capybara for quick automated testing.</li>
+</ul>
+
+
+<p><a name="source"></a></p>
+
+<h3>Source</h3>
+
+<ul>
+<li>Source on <a href="https://github.com/nmlau/octopress">github</a></li>
+<li>Hosted at <a href="http://www.nicklau.io/">nicklau.io</a></li>
 </ul>
 
 ]]></content>

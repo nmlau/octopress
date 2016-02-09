@@ -45,7 +45,7 @@ Now that I knew a lot of the theory behind Javascript, it was time to practice a
   * [Try it!]({{ root_url }}/resources/games/breakout/)
 * [2D Breakout game using Phaser](https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_Phaser)
   * [Try it!]({{ root_url }}/resources/games/breakoutPhaser/)
-* [2D Maze game with device orientation Phaser](https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation)
+* [2D Maze game with Device Orientation using Phaser](https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation)
   * [Try it!]({{ root_url }}/resources/games/phaserMaze/)
 
 ## Building a Game
