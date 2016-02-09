@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Learning Ruby on Rails - Nicks Octopress Blog</title>
+  <meta name="author" content="Nicholas Lau">
+
+  
+  <meta name="description" content="Under Construction Source on github
+Hosted at nicklau.io Table of Contents Introduction
+Learning Rails
+Apps
+Octopress
+What I Learned
+Conclusion &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://octopress.nicksdevspot.com/blog/2014/06/13/learning-ruby-on-rails/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nicks Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-70876418-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nicks Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:octopress.nicksdevspot.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about/">About Me</a></li>
+  <li><a href="/resources/resume/Resume.pdf">Resume</a></li>
+</ul>
+
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Learning Ruby on Rails</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+<time class='entry-date' datetime='2014-06-13T17:16:28-07:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>5:16 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2>Under Construction</h2>
+
+<p>Source on <a href="https://github.com/nmlau/octopress">github</a>
+Hosted at <a href="http://www.nicklau.io/">nicklau.io</a></p>
+
+<h3>Table of Contents</h3>
+
+<ul>
+<li><a href="#">Introduction</a></li>
+<li><a href="#">Learning Rails</a></li>
+<li><a href="#">Apps</a></li>
+<li><a href="#">Octopress</a></li>
+<li><a href="#">What I Learned</a></li>
+<li><a href="#">Conclusion</a></li>
+<li><a href="#">Technologies behind this Blog</a></li>
+</ul>
+
+
+<p><a name="introduction"></a></p>
+
+<h3>Introduction</h3>
+
+<p>I&rsquo;ve always wanted a personal website, for such a long time that I can&rsquo;t even remember the original reason. But it always felt so difficult, like there would be hoop after hoop to jump through. And there were, but I found that each hoop was very easy to jump through, with fantastic resources and frameworks doing almost the entirety of the leg work.</p>
+
+<p>This was one of my first truly independent projects. Prior to this I had always had a partner, professor, TA, etc to fall back on if I got stuck. So this project was stepping out of my comfort zone, which is always difficult. But as I&rsquo;ve found, pushing those boundaries has great reward and brings a certain feeling of personal pride and independence.</p>
+
+<h3>Learning Rails</h3>
+
+<p>To learn Ruby on Rails I made use of <a href="https://www.codecademy.com/learn/ruby">Codeacademy Ruby Guide</a>, <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Ruby on Rails Tutorial</a>, and <a href="http://railscasts.com/">Railscast</a>. Codeacademy was fairly basic and I think is catered towards complete beginners. But looking through there I found some good basic guides to brush up on things like git or commandline. Michael Hartl&rsquo;s tutorial was incredible and even after finishing it I would come back and use it as a reference guide. For things that Michael Hartl&rsquo;s guide couldn&rsquo;t cover I would look through Railscast.</p>
+
+<h3>Apps</h3>
+
+<p>I started off wanting to build a blog, so I modified Hartl&rsquo;s code for that purpose. Building a dynamic mysql blogged webapp. I wanted to try something a little bit different as well so I build a <a href="upload-app.nicklau.io/">Photo Uploading app</a>. It seemed like it would be difficult but by utilitizing Ruby on Rails gems it turned out to be easy. The Cloudinary gem was quick to setup and did all the heavy lifting, offering a way to upload and store images in the cloud.</p>
+
+<p>I wasn&rsquo;t entirely happy with the blog though, as a one person blog I found the dynamic nature to be redundant. Then I got lucky browsing around the internet reading blogs. I found that this &lsquo;Octopress Blog: A Blogging Framework for Hackers&rsquo; came up repeatedly, so I decided to check it out. Turns out it was exactly what I was looking for. I thought Ruby on Rails did a lot of the work for me, but Octopress utilizes Jekyll to do even more. It generates posts, provides tools like improved image tags. And above all it is static, so no need for a database, one less thing to worry about breaking. It also takes care of the UI, and lets you download template themes for a personal flare. Or quickly plugin fun additions like Disqus or Google Analytics.</p>
+
+<h3>What I Learned</h3>
+
+<p>I learned far more than just Ruby and Ruby on Rails. The nature of an independent project is that every step you have to search for the proper tool to do this or that, and you end up finding a lot of new things. For example, I fell in love with the three window (commandline, editor, browser) workflow. I got more comfortable with using commandline debuggers, helping to reduce my dependence on the bloated IDEs I had been stuck with in college. The commandline is very romanticized and it was awesome to get to know it better.</p>
+
+<p>I found out how easy things are, especially since Ruby on Rails has such a strong community. Heroku makes it effortless to deploy your app, gems like New Relic can monitor your app with less than 10 lines and 10 minutes of work. When I wanted to speed my app up, it took copying and pasting in two short blurbs and installing a gem. The hours I spent building a login system from scratch in Michael Hartl&rsquo;s tutorial was replaced instantaneously with the Devise gem (the understanding I got from the tutorial can not be replaced though). I remember setting the devise gem up and looking for the generated code (I thought it was a scaffold). But after checking git and seeing that there were actually no changes to the source&hellip; that the system actually worked!</p>
+
+<p>This is where I started to understand how much of programming is simply reading and interface and plugging to pieces together. How layers like ActiveRecord could be laid on top of your database so that it could handle anything from postgresql, mysql, etc. How REST could be laid on top off resources and interact with them through universal verbs/actions.</p>
+
+<p>I learned to write user stories and plan out my code better before I started typing (school projects would generally provide structure). I learned to use git better, to branch on features and merge them back only once completed. And that they were only completed once that had an automated test suite. And to use Test Driven Development to make sure they that new features were fulfilling their test cases. I had theoretically known what MVC and REST were, but here I got some first hand experience with them. Things I take for granted like how to write in Markdown.</p>
+
+<p>University didn&rsquo;t expose me to the most interesting language, there were a few weeks of ocaml and python, but asides from that mostly Java and C++. I found Ruby to be very refreshing, being able to do things like
+<a href="http://blog.jayfields.com/2008/03/ruby-inject.html">inject</a>. Or easy list comprehension and array splicing like python. Or how as a dynamic language, it would have really cool methods like &lsquo;method_missing()&rsquo;, lazy evaluation, or would put &lsquo;?&rsquo; or &lsquo;!&rsquo; if it returned a boolean or modified data, respectively. How it had an REPL to play around with an idea, or first class functions (procs, lambdas, closures) intead of the mess that Java callbacks are. It also enforced the idea that despite all the differences, at their root all the languages were very similar. Sure there would be some different syntax, typing, or libraries but in the end it all came down to the idea of structured programming: that everything could be done with a combination of sequence, selection, iteration.</p>
+
+<p>I bought a domain and learned how to use its DNS, which was actually one of the biggest hassles. There isn&rsquo;t a wealth of helpful information online about hosting, and it&rsquo;s very unhelpful that providers work differently so the guides you find aren&rsquo;t entirely applicable. However, the longer it takes you to find something out, the better you understand it, so no harm there.</p>
+
+<p>I learned random invaluable things like Lorem Ipsum and the origins of foobar.</p>
+
+<h3>Conclusion</h3>
+
+<p>Overall I found it very analagous to backpacking around Asia. When you first set out its terrifying, you have no one to rely on. But you learn and quickly find everything to be very easy. You meet incredible people who want to help you. You discover new things about yourself and come out of it a stronger and more independent individual.</p>
+
+<h3>Technologies behind this Blog</h3>
+
+<p>This blog webapp utilizes the technologies/services:</p>
+
+<ul>
+<li>Ruby on Rails obviously!</li>
+<li>Octopress, powered by Jekyll. A blogging framework for hackers.</li>
+<li>gandi.net for hosting and dns services.</li>
+<li>Rack::Cache for faster loading</li>
+<li>Heroku for hosting online as well as the New Relic addon to stop the dyno from idling.</li>
+<li>Devise for user, session, and password management.</li>
+<li>Bootstrap to make things look pretty since I’m no css wizard.</li>
+<li>Rspec and Capybara for quick automated testing.</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nicholas Lau</span></span>
+
+      
+
+
+
+<time class='entry-date' datetime='2014-06-13T17:16:28-07:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>5:16 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/blog/'>blog</a>, <a class='category' href='/blog/categories/project/'>project</a>, <a class='category' href='/blog/categories/ruby-on-rails/'>ruby on rails</a>, <a class='category' href='/blog/categories/technical/'>technical</a>, <a class='category' href='/blog/categories/web/'>web</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/05/13/thoughts-on-clarity/" title="Previous Post: Thoughts on Clarity">&laquo; Thoughts on Clarity</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2015/03/01/asia-trip-2015/" title="Next Post: Asia Trip 2015">Asia Trip 2015 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Some Projects</h1>
+  <ul id="projects">
+    <li class="project"><a href="blog.nicklau.io/">Old Blog</a></li>
+    <li class="project"><a href="upload-app.nicklau.io/">Photo Upload App</a></li>
+    <li class="project"><a href="sample-app.nicklau.io/">Sample App</a></li>
+    <li class="project"><a href= /blog/2015/12/01/raspberry-pi-alarm/ }>Raspberry Pi Alarm (Under Construction)</a></li>
+    <li class="project"><a href= /blog/2015/12/07/learning-javascript/ }>Javascript Game (Under Construction)</a></li>
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/01/07/commandline-shenanigans/">Commandline Shenanigans</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/18/myfitnessjourney/">MyFitnessJourney</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/07/learning-javascript/">Learning Javascript</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/03/favorite-tools-and-tricks/">Favorite Tools and Tricks</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/01/raspberry-pi-alarm/">Raspberry Pi Alarm</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/nmlau">@nmlau</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'nmlau',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - Nicholas Lau -
+  <span class="credit">Definitely not Powered by <a href="http://octopress.org">Octopress</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian</a></span>
+  <!--
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian Kraft Fotografie</a></span>
+  -->
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'wwwnicklauio';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://octopress.nicksdevspot.com/blog/2014/06/13/learning-ruby-on-rails/';
+        var disqus_url = 'http://octopress.nicksdevspot.com/blog/2014/06/13/learning-ruby-on-rails/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

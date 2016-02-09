@@ -10,6 +10,8 @@ published: true
 
 ### Table of Contents
 
+{% img /images/commandline_post/tmux_solarized_dark_profile.png 'tmux_solarized_dark_profile.png' %}
+
 * [Art of the Command Line](#artofthecommandline)
 * [Mastering Vim](#masteringvim)
 * [Tmux](#tmux)

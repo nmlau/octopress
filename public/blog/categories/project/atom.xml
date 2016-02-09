@@ -4,7 +4,7 @@
   <title><![CDATA[Category: project | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/project/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-02-08T10:46:18-08:00</updated>
+  <updated>2016-02-08T17:09:22-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -110,6 +110,19 @@
     <id>http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm</id>
     <content type="html"><![CDATA[<h2>Under Construction</h2>
 
+<h3>Table of Contents</h3>
+
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#components">Components</a></li>
+<li><a href="#setup">Setup</a></li>
+<li><a href="#programming">Programming</a></li>
+<li><a href="#brickwalls">Brickwalls</a></li>
+</ul>
+
+
+<p><a name="introduction"></a></p>
+
 <h3>Introduction</h3>
 
 <p><img src="/images/pi_post/pi.jpg" title="&lsquo;pi.jpg&rsquo;" ></p>
@@ -126,6 +139,8 @@
 
 <!-- more -->
 
+
+<p><a name="components"></a></p>
 
 <h3>Components</h3>
 
@@ -176,6 +191,8 @@
 
 <p>I ended up doing a headless setup where I ssh&rsquo;d in from my laptop (more on this later). This eliminated the need for: Monitor, Keyboard, Mouse, Display Cable. And switching to ethernet meant no need for a wifi adapter</p>
 
+<p><a name="setup"></a></p>
+
 <h3>Setup</h3>
 
 <ul>
@@ -200,6 +217,8 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
 
 <p>Random note: sshing in forced me to use command line a lot. Which inspired me to read a few <a href="https://github.com/jlevy/the-art-of-command-line">guides on CLI</a>, <a href="https://danielmiessler.com/study/vim/">vim</a>, that got me play with my profiles (my vim is beautiful now - <a href="/images/pi_post/tmux_solarized_dark_profile.png">image of Solarized profile with tmux</a>) to setup my profiles like <a href="https://github.com/nmlau/profiles">this</a>. Not to mention finally setting up zsh, more convenient keykindings, etc.</p>
 
+<p><a name="programming"></a></p>
+
 <h3>Programming</h3>
 
 <p>Source available on <a href="https://github.com/nmlau/RPiAlarm">github</a></p>
@@ -212,6 +231,8 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
 
 <p>Was actually pretty easy to setup, I was worried since it seemed like there were a lot of places for it to go wrong. I&rsquo;ve never breadboarded before so I was pleasantly surprised by how easy it was. Python and Linux provide easy to use libraries like lirc to decode infrared signals and provide them to a socket. I did have some trouble with mode2 (measures pulse/space length of infarred signals), but was able to troubleshoot that by modifying some .conf files.</p>
 
+<p><a name="brickwalls"></a></p>
+
 <h3>Brickwalls</h3>
 
 <p>Here are some problems that took longer to solve than they should have. In other words, things I learned:</p>
@@ -222,6 +243,86 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
 <li>Just learning python so had some trouble here, easily fixed though. Just read some guides, learned syntax better, got the normal tools like pdb for debugger</li>
 <li>Learned how to use a GPIO, got my EE friends to show me how to use a breadboard, ribbon cable, wiring, etc. Closest I had gotten to this stuff before was an FPGA in my embedded systems course or using VHDL to design a CPU although no actual hardware was involved in that.</li>
 <li>Time was a huge hassle, I learned a lot about how the time modules worked together, and about formatting. I&rsquo;ll probably swap that all out at some point and just use the arrow module</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Ruby on Rails]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2014/06/13/learning-ruby-on-rails/"/>
+    <updated>2014-06-13T17:16:28-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2014/06/13/learning-ruby-on-rails</id>
+    <content type="html"><![CDATA[<h2>Under Construction</h2>
+
+<p>Source on <a href="https://github.com/nmlau/octopress">github</a>
+Hosted at <a href="http://www.nicklau.io/">nicklau.io</a></p>
+
+<h3>Table of Contents</h3>
+
+<ul>
+<li><a href="#">Introduction</a></li>
+<li><a href="#">Learning Rails</a></li>
+<li><a href="#">Apps</a></li>
+<li><a href="#">Octopress</a></li>
+<li><a href="#">What I Learned</a></li>
+<li><a href="#">Conclusion</a></li>
+<li><a href="#">Technologies behind this Blog</a></li>
+</ul>
+
+
+<p><a name="introduction"></a></p>
+
+<h3>Introduction</h3>
+
+<p>I&rsquo;ve always wanted a personal website, for such a long time that I can&rsquo;t even remember the original reason. But it always felt so difficult, like there would be hoop after hoop to jump through. And there were, but I found that each hoop was very easy to jump through, with fantastic resources and frameworks doing almost the entirety of the leg work.</p>
+
+<p>This was one of my first truly independent projects. Prior to this I had always had a partner, professor, TA, etc to fall back on if I got stuck. So this project was stepping out of my comfort zone, which is always difficult. But as I&rsquo;ve found, pushing those boundaries has great reward and brings a certain feeling of personal pride and independence.</p>
+
+<h3>Learning Rails</h3>
+
+<p>To learn Ruby on Rails I made use of <a href="https://www.codecademy.com/learn/ruby">Codeacademy Ruby Guide</a>, <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Ruby on Rails Tutorial</a>, and <a href="http://railscasts.com/">Railscast</a>. Codeacademy was fairly basic and I think is catered towards complete beginners. But looking through there I found some good basic guides to brush up on things like git or commandline. Michael Hartl&rsquo;s tutorial was incredible and even after finishing it I would come back and use it as a reference guide. For things that Michael Hartl&rsquo;s guide couldn&rsquo;t cover I would look through Railscast.</p>
+
+<h3>Apps</h3>
+
+<p>I started off wanting to build a blog, so I modified Hartl&rsquo;s code for that purpose. Building a dynamic mysql blogged webapp. I wanted to try something a little bit different as well so I build a <a href="upload-app.nicklau.io/">Photo Uploading app</a>. It seemed like it would be difficult but by utilitizing Ruby on Rails gems it turned out to be easy. The Cloudinary gem was quick to setup and did all the heavy lifting, offering a way to upload and store images in the cloud.</p>
+
+<p>I wasn&rsquo;t entirely happy with the blog though, as a one person blog I found the dynamic nature to be redundant. Then I got lucky browsing around the internet reading blogs. I found that this &lsquo;Octopress Blog: A Blogging Framework for Hackers&rsquo; came up repeatedly, so I decided to check it out. Turns out it was exactly what I was looking for. I thought Ruby on Rails did a lot of the work for me, but Octopress utilizes Jekyll to do even more. It generates posts, provides tools like improved image tags. And above all it is static, so no need for a database, one less thing to worry about breaking. It also takes care of the UI, and lets you download template themes for a personal flare. Or quickly plugin fun additions like Disqus or Google Analytics.</p>
+
+<h3>What I Learned</h3>
+
+<p>I learned far more than just Ruby and Ruby on Rails. The nature of an independent project is that every step you have to search for the proper tool to do this or that, and you end up finding a lot of new things. For example, I fell in love with the three window (commandline, editor, browser) workflow. I got more comfortable with using commandline debuggers, helping to reduce my dependence on the bloated IDEs I had been stuck with in college. The commandline is very romanticized and it was awesome to get to know it better.</p>
+
+<p>I found out how easy things are, especially since Ruby on Rails has such a strong community. Heroku makes it effortless to deploy your app, gems like New Relic can monitor your app with less than 10 lines and 10 minutes of work. When I wanted to speed my app up, it took copying and pasting in two short blurbs and installing a gem. The hours I spent building a login system from scratch in Michael Hartl&rsquo;s tutorial was replaced instantaneously with the Devise gem (the understanding I got from the tutorial can not be replaced though). I remember setting the devise gem up and looking for the generated code (I thought it was a scaffold). But after checking git and seeing that there were actually no changes to the source&hellip; that the system actually worked!</p>
+
+<p>This is where I started to understand how much of programming is simply reading and interface and plugging to pieces together. How layers like ActiveRecord could be laid on top of your database so that it could handle anything from postgresql, mysql, etc. How REST could be laid on top off resources and interact with them through universal verbs/actions.</p>
+
+<p>I learned to write user stories and plan out my code better before I started typing (school projects would generally provide structure). I learned to use git better, to branch on features and merge them back only once completed. And that they were only completed once that had an automated test suite. And to use Test Driven Development to make sure they that new features were fulfilling their test cases. I had theoretically known what MVC and REST were, but here I got some first hand experience with them. Things I take for granted like how to write in Markdown.</p>
+
+<p>University didn&rsquo;t expose me to the most interesting language, there were a few weeks of ocaml and python, but asides from that mostly Java and C++. I found Ruby to be very refreshing, being able to do things like
+<a href="http://blog.jayfields.com/2008/03/ruby-inject.html">inject</a>. Or easy list comprehension and array splicing like python. Or how as a dynamic language, it would have really cool methods like &lsquo;method_missing()&rsquo;, lazy evaluation, or would put &lsquo;?&rsquo; or &lsquo;!&rsquo; if it returned a boolean or modified data, respectively. How it had an REPL to play around with an idea, or first class functions (procs, lambdas, closures) intead of the mess that Java callbacks are. It also enforced the idea that despite all the differences, at their root all the languages were very similar. Sure there would be some different syntax, typing, or libraries but in the end it all came down to the idea of structured programming: that everything could be done with a combination of sequence, selection, iteration.</p>
+
+<p>I bought a domain and learned how to use its DNS, which was actually one of the biggest hassles. There isn&rsquo;t a wealth of helpful information online about hosting, and it&rsquo;s very unhelpful that providers work differently so the guides you find aren&rsquo;t entirely applicable. However, the longer it takes you to find something out, the better you understand it, so no harm there.</p>
+
+<p>I learned random invaluable things like Lorem Ipsum and the origins of foobar.</p>
+
+<h3>Conclusion</h3>
+
+<p>Overall I found it very analagous to backpacking around Asia. When you first set out its terrifying, you have no one to rely on. But you learn and quickly find everything to be very easy. You meet incredible people who want to help you. You discover new things about yourself and come out of it a stronger and more independent individual.</p>
+
+<h3>Technologies behind this Blog</h3>
+
+<p>This blog webapp utilizes the technologies/services:</p>
+
+<ul>
+<li>Ruby on Rails obviously!</li>
+<li>Octopress, powered by Jekyll. A blogging framework for hackers.</li>
+<li>gandi.net for hosting and dns services.</li>
+<li>Rack::Cache for faster loading</li>
+<li>Heroku for hosting online as well as the New Relic addon to stop the dyno from idling.</li>
+<li>Devise for user, session, and password management.</li>
+<li>Bootstrap to make things look pretty since I’m no css wizard.</li>
+<li>Rspec and Capybara for quick automated testing.</li>
 </ul>
 
 ]]></content>

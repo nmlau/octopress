@@ -9,6 +9,15 @@ published: true
 
 ## Under Construction
 
+### Table of Contents
+
+* [Introduction](#introduction)
+* [Components](#components)
+* [Setup](#setup)
+* [Programming](#programming)
+* [Brickwalls](#brickwalls)
+
+<a name="introduction"></a>
 ### Introduction
 
 {% img /images/pi_post/pi.jpg 'pi.jpg' %}
@@ -25,6 +34,7 @@ Note: this isn't so much of a guide as my reflections on my journey to solidify 
 
 <!-- more -->
 
+<a name="components"></a>
 ### Components
 
 How I chose my components, used these two guides: [Getting Started Guide](http://www.howtogeek.com/138281/the-htg-guide-to-getting-started-with-raspberry-pi/all/) and [Component Guide](http://www.htpcbeginner.com/raspberry-pi-accessories-for-xbmc-media-center/2/)
@@ -62,6 +72,7 @@ Optional:
 
 I ended up doing a headless setup where I ssh'd in from my laptop (more on this later). This eliminated the need for: Monitor, Keyboard, Mouse, Display Cable. And switching to ethernet meant no need for a wifi adapter
 
+<a name="setup"></a>
 ### Setup
 
 - Download Noobs (make sure not copy files in, not the folder)
@@ -83,6 +94,7 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
 
 Random note: sshing in forced me to use command line a lot. Which inspired me to read a few [guides on CLI](https://github.com/jlevy/the-art-of-command-line), [vim](https://danielmiessler.com/study/vim/), that got me play with my profiles (my vim is beautiful now - [image of Solarized profile with tmux]({{ root_url }}/images/pi_post/tmux_solarized_dark_profile.png)) to setup my profiles like [this](https://github.com/nmlau/profiles). Not to mention finally setting up zsh, more convenient keykindings, etc.
 
+<a name="programming"></a>
 ### Programming
 
 Source available on [github](https://github.com/nmlau/RPiAlarm)
@@ -95,6 +107,7 @@ One of them suggested setting up a socket to listen for real world events, so I'
 
 Was actually pretty easy to setup, I was worried since it seemed like there were a lot of places for it to go wrong. I've never breadboarded before so I was pleasantly surprised by how easy it was. Python and Linux provide easy to use libraries like lirc to decode infrared signals and provide them to a socket. I did have some trouble with mode2 (measures pulse/space length of infarred signals), but was able to troubleshoot that by modifying some .conf files.
 
+<a name="brickwalls"></a>
 ### Brickwalls
 
 Here are some problems that took longer to solve than they should have. In other words, things I learned:
