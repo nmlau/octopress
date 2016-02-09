@@ -19,6 +19,7 @@ footer: true
   - [Learning](#learning)
   - [Travel](#travel)
   - [Programming](#programming)
+  - [Cooking](#cooking)
 - [Technologies behind this App](#technologies)
 
 <a name="Hello"></a>
@@ -70,17 +71,7 @@ Programming has very much become a hobby to me. I am an avid reader of resources
 
 In the last couple months, I've learned and extended my knowledge of several technologies: git, sublime text (using lints, bracket addons, and its incredibly flexible settings), command line interface, basic scripting with bash and python, UML (Unified Modeling Language), Ruby on Rails (using with RSpec, Capybara, New Relic, Heroku, PostgreSQL, and much much more), Ruby (through codewars.com and codeacademy), Object Orientated Programming and software development (through Code Complete 2, stack overflow, and simply looking up every possible question I could think of), C++ (google's opensourced codelabs - style guide), DNS (through struggles with gandi.net), Javascript (through Crockfords yui Lectures and MDN's Guides), Distributed Systems (Research papers like Amazon Dynamo and Google MapReduce), DIY projects with my Raspberry Pi. Furthermore, I've been reading blogs such as www.joelonsoftware.com and steve-yegge.blogspot.com which have helped me understand the software industry better (which I feel is very important as a relatively new grad).
 
-<a name="technologies"></a>
-#### Technologies behind this Blog
+<a name="cooking"></a>
+#### Cooking
 
-This blog webapp utilizes the technologies/services:
-
-+   Ruby on Rails obviously!
-+   Octopress, powered by Jekyll. A blogging framework for hackers.
-+   gandi.net for hosting and dns services.
-+   Rack::Cache for faster loading
-+   ~~Heroku for hosting online as well as the New Relic addon to stop the dyno from idling.~~
-+   ~~Devise for user, session, and password management.~~
-+   ~~Bootstrap to make things look pretty since I'm no css wizard.~~
-+   ~~Rspec and Capybara for quick automated testing.~~
-
+A relatively new interest of mine. Is mostly in the learning phase, browsing blogs and forums, taking notes and trying out some basic recipes. Hopefully something big comes out of this!

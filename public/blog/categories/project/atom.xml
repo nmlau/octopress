@@ -4,7 +4,7 @@
   <title><![CDATA[Category: project | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/project/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-02-08T17:09:22-08:00</updated>
+  <updated>2016-02-09T12:19:35-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -71,19 +71,19 @@
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript">2D Breakout in pure JS</a>
 
 <ul>
-<li><a href="/resources/games/breakout/">Try it!</a></li>
+<li><a href="{{%20root_url%20}}/resources/games/breakout/">Try it!</a></li>
 </ul>
 </li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_Phaser">2D Breakout game using Phaser</a>
 
 <ul>
-<li><a href="/resources/games/breakoutPhaser/">Try it!</a></li>
+<li><a href="{{%20root_url%20}}/resources/games/breakoutPhaser/">Try it!</a></li>
 </ul>
 </li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation">2D Maze game with device orientation Phaser</a>
 
 <ul>
-<li><a href="/resources/games/phaserMaze/">Try it!</a></li>
+<li><a href="{{%20root_url%20}}/resources/games/phaserMaze/">Try it!</a></li>
 </ul>
 </li>
 </ul>
@@ -95,7 +95,7 @@
 <li><a href="https://github.com/nmlau/vim-maze">My Game</a>
 
 <ul>
-<li><a href="/resources/games/vimMaze/">Try it!</a></li>
+<li><a href="{{%20root_url%20}}/resources/games/vimMaze/">Try it!</a></li>
 </ul>
 </li>
 </ul>
@@ -125,7 +125,7 @@
 
 <h3>Introduction</h3>
 
-<p><img src="/images/pi_post/pi.jpg" title="&lsquo;pi.jpg&rsquo;" ></p>
+<p>{% img /images/pi_post/pi.jpg &lsquo;pi.jpg&rsquo; %}</p>
 
 <p>I&rsquo;ve always had trouble waking up. Sometimes I wake up, sometimes I don&rsquo;t, sometimes I just end up lying in bed&hellip; it&rsquo;s been a lifetime point of stress. But in the last few months I&rsquo;ve found a solution that works for me. I use the <a href="http://www.sleepcycle.com/">Sleep Cycle Phone App</a> to gently wake me up so I&rsquo;m ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.</p>
 
@@ -215,7 +215,7 @@ File Transfer using <a href="http://raspberrypi.stackexchange.com/questions/8950
 -This let me use finder and all my os x apps to access my pi&rsquo;s files. Much better than the trouble I was having with Filezilla. Incredibly convenient although it did leave hidden .AppleDouble folders in every directory
 Another huge thing was using tmux combined with dtach. Tmux meant I only had to ssh in one time, then I could split that session into several windows. dtach allowed me to shut the pi off, ssh back in jump right back to my desired tmux session.</p>
 
-<p>Random note: sshing in forced me to use command line a lot. Which inspired me to read a few <a href="https://github.com/jlevy/the-art-of-command-line">guides on CLI</a>, <a href="https://danielmiessler.com/study/vim/">vim</a>, that got me play with my profiles (my vim is beautiful now - <a href="/images/pi_post/tmux_solarized_dark_profile.png">image of Solarized profile with tmux</a>) to setup my profiles like <a href="https://github.com/nmlau/profiles">this</a>. Not to mention finally setting up zsh, more convenient keykindings, etc.</p>
+<p>Random note: sshing in forced me to use command line a lot. Which inspired me to read a few <a href="https://github.com/jlevy/the-art-of-command-line">guides on CLI</a>, <a href="https://danielmiessler.com/study/vim/">vim</a>, that got me play with my profiles (my vim is beautiful now - <a href="{{%20root_url%20}}/images/pi_post/tmux_solarized_dark_profile.png">image of Solarized profile with tmux</a>) to setup my profiles like <a href="https://github.com/nmlau/profiles">this</a>. Not to mention finally setting up zsh, more convenient keykindings, etc.</p>
 
 <p><a name="programming"></a></p>
 
@@ -287,7 +287,7 @@ Hosted at <a href="http://www.nicklau.io/">nicklau.io</a></p>
 
 <p>I started off wanting to build a blog, so I modified Hartl&rsquo;s code for that purpose. Building a dynamic mysql blogged webapp. I wanted to try something a little bit different as well so I build a <a href="upload-app.nicklau.io/">Photo Uploading app</a>. It seemed like it would be difficult but by utilitizing Ruby on Rails gems it turned out to be easy. The Cloudinary gem was quick to setup and did all the heavy lifting, offering a way to upload and store images in the cloud.</p>
 
-<p>I wasn&rsquo;t entirely happy with the blog though, as a one person blog I found the dynamic nature to be redundant. Then I got lucky browsing around the internet reading blogs. I found that this &lsquo;Octopress Blog: A Blogging Framework for Hackers&rsquo; came up repeatedly, so I decided to check it out. Turns out it was exactly what I was looking for. I thought Ruby on Rails did a lot of the work for me, but Octopress utilizes Jekyll to do even more. It generates posts, provides tools like improved image tags. And above all it is static, so no need for a database, one less thing to worry about breaking. It also takes care of the UI, and lets you download template themes for a personal flare. Or quickly plugin fun additions like Disqus or Google Analytics.</p>
+<p>I wasn&rsquo;t entirely happy with the blog though, as a one person blog I found the dynamic nature to be redundant. Then I got lucky browsing around the internet reading blogs. I found that this <a href="http://octopress.org/docs/setup/">&lsquo;Octopress Blog: A Blogging Framework for Hackers&rsquo;</a> came up repeatedly, so I decided to check it out. Turns out it was exactly what I was looking for. I thought Ruby on Rails did a lot of the work for me, but Octopress utilizes Jekyll to do even more. It generates posts, provides tools like improved image tags. And above all it is static, so no need for a database, one less thing to worry about breaking. It also takes care of the UI, and lets you download template themes for a personal flare. Or quickly plugin fun additions like Disqus or Google Analytics.</p>
 
 <h3>What I Learned</h3>
 
