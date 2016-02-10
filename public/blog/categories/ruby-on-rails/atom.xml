@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby on rails | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/ruby-on-rails/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-02-09T12:39:46-08:00</updated>
+  <updated>2016-02-10T15:23:57-08:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -54,7 +54,7 @@
 
 <p>I started off wanting to build a blog, so I modified Hartl&rsquo;s code for that purpose. Building a dynamic mysql blogged webapp. I wanted to try something a little bit different as well so I build a <a href="upload-app.nicklau.io/">Photo Uploading app</a>. It seemed like it would be difficult but by utilitizing Ruby on Rails gems it turned out to be easy. The Cloudinary gem was quick to setup and did all the heavy lifting, offering a way to upload and store images in the cloud.</p>
 
-<p>I wasn&rsquo;t entirely happy with the blog though, as a one person blog I found the dynamic nature to be redundant. Then I got lucky browsing around the internet reading blogs. I found that this <a href="http://octopress.org/docs/setup/">&lsquo;Octopress Blog: A Blogging Framework for Hackers&rsquo;</a> came up repeatedly, so I decided to check it out. Turns out it was exactly what I was looking for. I thought Ruby on Rails did a lot of the work for me, but Octopress utilizes Jekyll to do even more. It generates posts, provides tools like improved image tags. And above all it is static, so no need for a database, one less thing to worry about breaking. It also takes care of the UI, and lets you download template themes for a personal flare. Or quickly plugin fun additions like Disqus or Google Analytics.</p>
+<p>I wasn&rsquo;t entirely happy with the blog though, as a one person blog I found the dynamic nature to be redundant. Then I got lucky browsing around the internet reading blogs. I found that this <a href="http://octopress.org/docs/setup/">&lsquo;Octopress Blog: A Blogging Framework for Hackers&rsquo;</a> came up repeatedly, so I decided to check it out. Turns out it was exactly what I was looking for. I thought Ruby on Rails did a lot of the work for me, but Octopress utilizes Jekyll to do even more. It generates posts, provides tools like improved image tags. And above all it is static, so no need for a database, one less thing to worry about breaking. It also takes care of the UI, and lets you download template themes for a personal flare. Or quickly plugin fun additions like Disqus or Google Analytics. Above all its static, so I don&rsquo;t have to worry about the model part of MVC.</p>
 
 <p><a name="whatilearned"></a></p>
 

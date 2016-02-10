@@ -10,7 +10,7 @@ footer: true
 {% img /images/vietnam/7_sapa/sapa_looking_away.jpg 'sapa_looking_away.jpg' %}
 
 - [Hello](#hello)
-- [Hobbies](#hobbies)
+- [Interests](#interests)
   - [Sports](#sports)
   - [Videogames](#videogames)
   - [Sports](#sports)
@@ -20,6 +20,7 @@ footer: true
   - [Travel](#travel)
   - [Programming](#programming)
   - [Cooking](#cooking)
+  - [Routine](#routine)
 - [Technologies behind this App](#technologies)
 
 <a name="Hello"></a>
@@ -27,12 +28,10 @@ footer: true
 
 Being a computer science major, I've always wanted a website and since I've been wanting to learn Rails... two birds with one stone! You can find the source code at github.
 
-This blog was originally written by messing around with Michael Hartl's Ruby on Rails Tutorial and Ryan Bates Railscasts. It was later changed to Octopress for built in functionality and a more static webapp so I wouldn't have to worry about the model part of mvc.
-
 I'm Nick Lau, I graduated from UCSD in 2013 with a Bachelors of Science in Computer Science. I have a diverse range of interests, including videogames, sports, nutrition, meditation, yoga, reading, watching tv, music, organization, clothing, travel, and picking up random scraps of knowledge and organizing them in my personal knowledge base.
 
-<a name="hobbies"></a>
-### Hobbies
+<a name="interests"></a>
+### Interests
 
 <a name="videogames"></a>
 #### Videogames
@@ -75,3 +74,6 @@ In the last couple months, I've learned and extended my knowledge of several tec
 #### Cooking
 
 A relatively new interest of mine. Is mostly in the learning phase, browsing blogs and forums, taking notes and trying out some basic recipes. Hopefully something big comes out of this!
+
+<a name="routine"></a>
+#### Routine

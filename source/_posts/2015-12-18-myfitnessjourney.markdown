@@ -13,6 +13,8 @@ published: true
 
 I'll start with a disclaimer: This isn't a guide. This is *my* fitness journey, how I achieved *my* goals with the time and effort *I* was willing to put forth. Although, at the same time, I'm a pretty normal guy so maybe these things will apply to you as well. Also, friends will often ask for advice so I figure I can just direct them here rather than attempt to cover everything poorly in person, and have them not retain that much.
 
+This whole post could be summed up with: Eat, Sleep, Workout, Be Consistent
+
 ### Table of Contents
 
 * Background
