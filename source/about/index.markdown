@@ -26,7 +26,7 @@ footer: true
 <a name="Hello"></a>
 ### Hello
 
-Being a computer science major, I've always wanted a website and since I've been wanting to learn Rails... two birds with one stone! You can find the source code at github.
+Being a computer science major, I've always wanted a website and since I've been wanting to learn Rails... two birds with one stone! You can find the source code at [github](https://github.com/nmlau/octopress).
 
 I'm Nick Lau, I graduated from UCSD in 2013 with a Bachelors of Science in Computer Science. I have a diverse range of interests, including videogames, sports, nutrition, meditation, yoga, reading, watching tv, music, organization, clothing, travel, and picking up random scraps of knowledge and organizing them in my personal knowledge base.
 
