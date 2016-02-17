@@ -32,9 +32,9 @@ Vim Cheatsheets with nice progression, http://goo.gl/4MgL
 ==================== Todo ====================
 
 Active:
+[1] Get rid of magic numbers
 
 Todo:
-[1] Get rid of magic numbers
 [2] Load Text
 [1] Setup Items
 
