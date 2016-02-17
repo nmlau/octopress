@@ -3,7 +3,7 @@ function Counter(game) {
   this.time = 0;
   this.totalTime = 0;
   this.fontstyle = { font: "24px Arial", fill: "#ffffff" };
-}
+;}
 
 Counter.prototype.create = function() {
   this.time = 0;
