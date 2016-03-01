@@ -25,6 +25,9 @@ Book 11.10
 Book 11.27
 >"The Pythagoreans bid us in the morning look to the heavens that we may be reminded of those bodies that continually do the same things and in the same manner perform their work, and also be reminded of their purity and nudity. For there is no veil over a star."
 
+Book 5.16 (The Best for Last)
+>"Such are your habitual thoughts, such also will be the character of your mind; for the soul is dyed by the thoughts. Dye it then with a continuous series of such thoughts as these..."
+
 Finally, I didn't take down the quote for this. But something very valuable I learned from this book is: If you're ashamed too ashamed to tell others about what you've done. Then learn and don't do the same thing in the future.
 
 Inspired by Jesca's [Lines For Thoughts](https://linesforthoughts.wordpress.com/)
