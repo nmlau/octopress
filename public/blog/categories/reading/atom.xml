@@ -4,7 +4,7 @@
   <title><![CDATA[Category: reading | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/reading/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-04-08T13:00:12-07:00</updated>
+  <updated>2016-04-08T14:11:51-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -14,94 +14,111 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Little Schemer by Daniel Friedman and Matthias Felleisen]]></title>
+    <title type="html"><![CDATA[Little Schemer by Friedman and Felleisen]]></title>
     <link href="http://octopress.nicksdevspot.com/blog/2016/04/03/little-schemer/"/>
     <updated>2016-04-03T13:51:55-07:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2016/04/03/little-schemer</id>
-    <content type="html"><![CDATA[<h2>Under Construction</h2>
+    <content type="html"><![CDATA[<p>With the exception of a quarter or two, University exclusively taught in the Object Oriented Procedural Paradigm. And while that will always feel like home&hellip; I don&rsquo;t spend that much time at home. It&rsquo;s nice to get out of your comfort zone, and go explore and learn new things. So I decided to pick up Little Schemer and gain some insight into Recursion and the Functional Programming paradigm.</p>
 
-<p>With the exception of a quarter or two, University exclusively taught in the Object Oriented Procedural Paradigm. And while that will always feel like home&hellip; I don&rsquo;t spend that much time at home. It&rsquo;s nice to get out of your comfort zone, and go explore and learn new things. So I decided to pick up Little Schemer and gain some insight into Recursion and the Functional programming paradigm.</p>
+<p>While learning JavaScript I watched Douglas Crockford&rsquo;s lecture on JavaScript, <a href="https://goo.gl/hsLTwc">Act III: Function the Ultimate</a>. In this talk he recommended Little Schemer, promising that it would &ldquo;Change the way you think, and there aren&rsquo;t a lot of books that will do that&rdquo;. It wasn&rsquo;t the first time that I had heard of the book, but this gave me to push to go out and pick it up.</p>
 
-<p>While learning JavaScript I watched Douglas Crockford&rsquo;s lecture on JavaScript: <a href="https://goo.gl/hsLTwc">Act III: Function the Ultimate</a>. In this talk he recommended Little Schemer, promising that it would &ldquo;Change the way you think, and there aren&rsquo;t a lot of books that will do that&rdquo;. It wasn&rsquo;t the first time that I had heard of the book, but this gave me to push to pick it up.</p>
+<p>I can happily say that it did not disappoint. I&rsquo;ve always been fascinated by graphs and how easily that can model real world problems. And this book has pushed me towards some key insights there&hellip; which will probably get a full blog post in the future. But to put in a words I never thought I&rsquo;d say: I now find it easier to think in recursion - since I know that if I can cover all the possible cases I&rsquo;ll eventually reach the solution.</p>
 
-<p>I can say happily that it did not disappoint. I&rsquo;ve always been fascinated by graphs and how easily that can model real world problems. And this book has pushed me towards some key insights there&hellip; which I will have to write a full blog post on in the future. But to put in a words I never thought I&rsquo;d say: I now find it easier to think in recursion - since I know that if I can cover all the possible cases I&rsquo;ll eventually reach the solution.</p>
-
-<p>So without further ado, here are some of my favorite quotes from Little Schemer by Daniel Friedman and Matthias Felleisen:</p>
+<p>Here are some of my favorite quotes and ideas from Little Schemer:</p>
 
 <!-- more -->
 
 
-<p>Note that Little Schemer isn&rsquo;t normal book, it&rsquo;s based on lecture slides and works in a Q&amp;A format. [(action) Put a picture] as an example. It also assumes zero knowledge of Scheme. So it starts very easy and builds you up from the basics. And eventually gets to some really cool stuff towards the end [spoiler tag]: Collectors, Applicative-Order Y-Combinator, Interpreter</p>
+<p>Note that Little Schemer isn&rsquo;t formatted like a normal book, it&rsquo;s based on lecture slides and works in a Q&amp;A format. You can see a short excerpt below. It also assumes zero knowledge of Scheme so it starts with the basic building blocks of the language and builds up from there. It builds up very quickly and gets to some really cool stuff towards the end: Collectors, Applicative-Order Y-Combinator, Interpreter.</p>
 
-<p>Little Schemer, pg 23</p>
+<p><img src="/images/little_schemer_post/little_schemer_sample.png" title="&lsquo;little_schemer_sample.png&rsquo;" ></p>
 
-<blockquote><p>&ldquo;What is the next question? else.&rdquo;
-&ldquo;Why is else the next question? Because we do not need to ask any more questions.&rdquo;
-&ldquo;Why do we not need to ask any more questions? Because a list can be empty, can have an atom in the first position, or can have a list in the first position&rdquo;
-&ldquo;Is else really a question? Yes, else is a question whose value is always true.&rdquo;</p></blockquote>
+<p>pg 23</p>
 
-<p>Fourth Commandment:</p>
+<blockquote><p>&ldquo;What is the next question? else.&rdquo;</p>
+
+<p>&ldquo;Why is else the next question? Because we do not need to ask any more questions.&rdquo;</p>
+
+<p>&ldquo;Why do we not need to ask any more questions? Because a list can be empty, can have an atom in the first position, or can have a list in the first position&rdquo;</p>
+
+<p>&ldquo;Is else really a question? Yes, else is a question whose value is always true.&rdquo;</p></blockquote>
+
+<p>Fourth Commandment</p>
 
 <blockquote><p>&ldquo;Always change at least one argument while recurring. It must be changed to be closer to termination. The changing argument must be tested in the terminating condition: when using cdr, test termination with null?&rdquo;</p></blockquote>
 
-<p>pg 83,</p>
+<p>pg 83</p>
 
-<blockquote><p>Because all *-functions work on lists that are either:
-  -empty
-  -an atom consed onto a list, or
-  -a list consed onto a list</p></blockquote>
+<blockquote><p>Because all *-functions work on lists that are either:</p>
 
-<p>Recursive way of looking at short-circuting, pg 88</p>
+<blockquote><ul>
+<li>empty</li>
+<li>an atom consed onto a list, or</li>
+<li>a list consed onto a list</li>
+</ul>
+</blockquote></blockquote>
 
-<blockquote><p>Question: Do you remember what (or &hellip;) does?
-Anaser: (or &hellip;) asks questions one at a time until it finds one that is true. Then (or&hellip;) stops, makeing its value true. If it cannot find a true argument, the value of (or &hellip;) is false
-And the opposite for (and &hellip;)</p></blockquote>
+<p>Recursive way of looking at short-circuiting, pg 88</p>
 
-<p>pg 91, Sixth Commandment</p>
+<blockquote><p>Question: Do you remember what (or &hellip;) does?</p>
+
+<p>Answer: (or &hellip;) asks questions one at a time until it finds one that is true. Then (or&hellip;) stops, making its value true. If it cannot find a true argument, the value of (or &hellip;) is false. And the opposite for (and &hellip;)</p></blockquote>
+
+<p>Sixth Commandment</p>
 
 <blockquote><p>&ldquo;But then the  says: "Simplify only after the function is correct&rdquo;, so I shouldn&rsquo;t have skipped to the next iteration, and should have done the first version first because its easier to verify"</p></blockquote>
 
 <p>pg 98</p>
 
-<blockquote><p>Why is (n + 3) a good representation?
-Because
-1. (n + 3) is an S-expresssion. It can therefore serve as an argument for a function.
-2. It structurally resembles n + 3</p></blockquote>
+<blockquote><p>Why is (n + 3) a good representation?</p>
 
-<p>pg 107, Eight Commandment</p>
+<p>Because:</p>
+
+<blockquote><ol>
+<li>(n + 3) is an S-expression. It can therefore serve as an argument for a function.</li>
+<li>It structurally resembles n + 3</li>
+</ol>
+</blockquote></blockquote>
+
+<p>Eight Commandment</p>
 
 <blockquote><p>Use help functions to abstract from representations</p></blockquote>
 
 <p>pg 107</p>
 
-<blockquote><p>&ldquo;Numbers are representations? Yes. For example 4 stands for the concept four. We chose that symbol because we are accustomed to arabic representations.&rdquo;</p></blockquote>
+<blockquote><p>&ldquo;Numbers are representations? Yes. For example 4 stands for the concept four. We chose that symbol because we are accustomed to Arabic representations.&rdquo;</p></blockquote>
 
 <p>pg 127</p>
 
-<blockquote><p>What kind of values can functions return? Lists and atoms (and functions)
-Lambdas (currying) were discovered by Moses Schonfinkel and Haskell B Curry</p></blockquote>
+<blockquote><p>What kind of values can functions return? Lists and atoms (and functions)</p>
+
+<p>Note: Lambdas (currying) were discovered by Moses Schonfinkel and Haskell B Curry</p></blockquote>
 
 <p>pg 150</p>
 
-<blockquote><p>Can you guess what sorn stands for? Nope. Symbol or Number
-Unnatural Recursion, does not recur on a part of lat (but on a result of a passed around function)</p></blockquote>
+<blockquote><p>Can you guess what sorn stands for? Symbol or Number</p>
 
-<p>I didn&rsquo;t collect a lot of quotes from the last 3 chapters (collectors, Y-Comb, intepreter), but here are some of my notes:</p>
+<p>Unnatural Recursion, does not recur on a part of lat (but on a result of a passed around function)</p></blockquote>
 
-<blockquote><p>Really very mind expanding, chapter 9 and 10 are brutal. I thought 8 was hard with collectors but I got that in 2 reads. 9 I&rsquo;ve already read twice and it still blows my mind.
-Wow this book is going to break my brain, really cool. Using tables for stack frames and language (identifiers to primitivies/values)
-(Stack overflow) Long story short, it allows you to implement recursion in a language that doesn&rsquo;t necessarily support it natively.</p></blockquote>
+<p>I didn&rsquo;t collect a lot of quotes from the last 3 chapters (collectors, Y-Comb, interpreter), but here are some of my notes:</p>
 
-<p>Y-combinator steps in my words</p>
+<blockquote><p>Really very mind expanding, chapter 9 and 10 are brutal. I thought 8 was hard with collectors but I got that in 2 reads. 9 I&rsquo;ve already read twice and it still blows my mind.</p>
 
-<blockquote><p>length loses define, redefine length over and over with eternity as end point (use eternity because you lost length)
-remove repetitions with create mk-length that creates length-like function
-don&rsquo;t need eternity because you never reach it
-pass mk-length to itself so it never runs out, but isn&rsquo;t infinite because of base case
-make mk-length mk-length into a lambda that returns a function, so you can abstract it out and separate it from length</p></blockquote>
+<p>Using tables for stack frames and language (identifiers to primitives/values)</p>
 
-<p>(action)
-Look through chapters 8-10 for some quotes</p>
+<p>Stack overflow on Applicative-Order Y-Combinator: Long story short, it allows you to implement recursion in a language that doesn&rsquo;t necessarily support it natively.</p></blockquote>
+
+<p>Y-combinator Proof steps in my words</p>
+
+<blockquote><p>Length loses define, redefine length over and over with eternity as end point (use eternity because you lost length)</p>
+
+<p>Remove repetitions with create mk-length that creates length-like function</p>
+
+<p>Don&rsquo;t need eternity because you never reach it</p>
+
+<p>Pass mk-length to itself so it never runs out, but isn&rsquo;t infinite because of base case</p>
+
+<p>Make mk-length mk-length into a lambda that returns a function, so you can abstract it out and separate it from length</p></blockquote>
 
 <p>Learning more, recommends:</p>
 
@@ -110,121 +127,103 @@ Look through chapters 8-10 for some quotes</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Commandline Shenanigans]]></title>
-    <link href="http://octopress.nicksdevspot.com/blog/2016/01/07/shenanigans/"/>
-    <updated>2016-01-07T14:57:53-08:00</updated>
-    <id>http://octopress.nicksdevspot.com/blog/2016/01/07/shenanigans</id>
-    <content type="html"><![CDATA[<h3>Table of Contents</h3>
-
-<p>Test</p>
-
-<!-- more -->
-
-
-
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Mindfulness in Plain English by Henepola Gunaratana]]></title>
     <link href="http://octopress.nicksdevspot.com/blog/2016/01/04/mindfulness-in-plan-english/"/>
     <updated>2016-01-04T12:51:55-08:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2016/01/04/mindfulness-in-plan-english</id>
-    <content type="html"><![CDATA[<h2>Under Construction</h2>
+    <content type="html"><![CDATA[<p>I&rsquo;ve always been interested in meditation. Having grown up in the Silicon Valley, I&rsquo;ve found that the heart of the tech world has an ironic obsession with spirituality. While not busy mining the finest 1&rsquo;s and 0&rsquo;s from the Silicon Valley Mines, idols like Steve Jobs are/were well known for their obsession with spirituality.</p>
 
-<p>I&rsquo;ve always been interested in meditation. Having grown up in the Silicon Valley, I&rsquo;ve found that the heart of the tech world has an ironic obsession with spirituality. While not busy mining the finest 1&rsquo;s and 0&rsquo;s from the Silcion Valley Mines, idols like Steve Jobs were well known for their obsession with spirituality.</p>
+<p>About a year or two ago I began to read more about meditation and started integrating a basic form of deep breathing into my life. After backpacking around Southeast and East Asia for a few months this amateur interest gained steam. Theravada Buddhism is very popular in Southeast Asia, so during my month in Vietnam I had lots of exposure to it while visiting shrines or hanging out with natives. Zen Buddhism is more popular in East Asia, which matches my ethnicity (I&rsquo;m half Chinese and half Japanese).</p>
 
-<p>About a year or two ago I began to read more about meditation and started integrating a basic form of deep breathing into my life. After backpacking around Southeast and East Asia for a few months this amateur interest gained steam. Theravada Buddhism is very popular in Southeast Asia, so during my month in Vietnam I had lots of exposure to it while visiting shrines or hanging out with natives. Zen Buddhism is more poplular in East Asia, which matches my ethnicity (I&rsquo;m half Chinese and half Japanese).</p>
+<p>After reading around online and practicing the basics I found - r/meditation is a fantastic resource! I decided I wanted to dive deeper into the Theravada school of Buddhism. This was because it was more based on the scriptures and thus can be self-studied while Zen tends to need a mentor or teacher to guide you. Thus, I decided to read Mindfulness in Plain English, a well known and practical book on Theravada meditation.</p>
 
-<p>After reading around online and practicing the basics I found - r/meditation is a fantastic resource! I decided I wanted to dive depper into the Theravada school of Buddhism. This was because it was more based on the scriptures and thus can be self-studied while Zen tends to need a mentor or teacher to guide you. Thus, I decided to read Mindfulness in Plain English, a well known and practical book on Theravada meditation.</p>
-
-<p>Here are some of my favorite quotes from Mindfulness in Plain English by Henepola Gunaratana. These first four are actually ideas that I keep onhand and reread on a weekly basis.</p>
+<p>Here are some of my favorite quotes from Mindfulness in Plain English by Henepola Gunaratana. These first four are actually ideas that I keep on hand and reread on a weekly basis.</p>
 
 <p>pg 8</p>
 
 <blockquote><p>Cool ideas in how you grasp at the happy 10%, reject the sad 10% and ignore the neutral 80% (Retrieve actual Quote from book)</p></blockquote>
 
-<p>pg 29 (pdf)</p>
+<p>pg 29 (pdf version)</p>
 
 <blockquote><p>&ldquo;That initial perception will spark pleasant, unpleasant or neutral feelings. That is a universal phenomenon. It occurs in the mind of others just as it does in his, and he should see that clearly. Following these feelings various reactions may arise. He may feel greed, lust, or jealousy. He may feel fear, worry, restlessness or boredom. These reactions are universal. He simple notes them and then generalizes. He should realize that these reactions are normal human responses and can arise in anybody.&rdquo;</p></blockquote>
 
-<p>Chapter 11</p>
+<p>Chapter 11: Dealing with Distractions</p>
 
-<blockquote><p>&ldquo;Like the breath, mental states have three stages: beginning, middle, and end. Often when you realize your concentration has drifted and you&rsquo;ve been thinking awhile&hellip; it&rsquo;s cause the mental state is near its end. You have to learn to find it at the beginning (as it rises out of your unconscious) and gently watch it through to its end.&rdquo;</p></blockquote>
+<blockquote><p>&ldquo;Like the breath, mental states have three stages: beginning, middle, and end. Often when you realize your concentration has drifted and you&rsquo;ve been thinking awhile&hellip; it&rsquo;s cause the mental state is near its end. You have to learn to find it at the beginning (as it rises out of your unconscious) and gently watch it through to its end.&rdquo;</p>
 
-<p>More from Chapter 11</p>
-
-<blockquote><p>&ldquo;We are constantly conceptualizing, to solve our problems, to communicate. But with mindfulness you examine before conceptualization, and look at the pure nature of mental phenomena.&rdquo;</p></blockquote>
+<p>&ldquo;We are constantly conceptualizing, to solve our problems, to communicate. But with mindfulness you examine before conceptualization, and look at the pure nature of mental phenomena.&rdquo;</p></blockquote>
 
 <p>And many more to follow below!</p>
 
 <!-- more -->
 
 
-<p>I have a friend who&rsquo;s an actor LA, this quote reminded me of my conversations of him. As well as showing a practial application of mindfulness - that you can change who you are with it. pg 25</p>
+<p>I have a friend who&rsquo;s an actor LA, this quote reminded me of my conversations of him. As well as showing a practical application of mindfulness - that you can change who you are with it. pg 25</p>
 
-<blockquote><p>&ldquo;Tantric&hellip; The self-concept or ego is nothing more than a set of reactions and mental images that are artificially pasted to the flowing process of pure awareness&hellip; The student is given a particular religious image to meditate upon, for examle, one of the deities from the tantric pantheon&hellip;. She takes off her own identity and puts on another. During the process, she is able to watch the way in which the ego is constructed and put in place. She comes to recognize the arbitrary nature of all egos, including her own, and she excapes from bondage to the ego. She is left in a state where she may have an ego if she so chosses - either her own or whichever other she might wish - or she can make do without one&rdquo;</p></blockquote>
+<blockquote><p>&ldquo;Tantric&hellip; The self-concept or ego is nothing more than a set of reactions and mental images that are artificially pasted to the flowing process of pure awareness&hellip; The student is given a particular religious image to meditate upon, for example, one of the deities from the tantric pantheon&hellip;. She takes off her own identity and puts on another. During the process, she is able to watch the way in which the ego is constructed and put in place. She comes to recognize the arbitrary nature of all egos, including her own, and she escapes from bondage to the ego. She is left in a state where she may have an ego if she so chooses - either her own or whichever other she might wish - or she can make do without one.&rdquo;</p></blockquote>
 
-<p>pg 25,</p>
+<p>pg 25</p>
 
-<blockquote><p>&ldquo;The object of vipassana practice is to learn to see the truths of impermanence, unsatisfactoriness, and selflessness of phenomena. We think we are doing this already, but that is an illusion. It comes from the fact that we are paying so little attention to the ongoing surge of our own life experiences that we might just as well be asleep. We are simply not paying enough attention to nootice that we are not paying attention. It is another Catch-22&rdquo;</p></blockquote>
+<blockquote><p>&ldquo;The object of Vipassana practice is to learn to see the truths of impermanence, unsatisfactoriness, and selflessness of phenomena. We think we are doing this already, but that is an illusion. It comes from the fact that we are paying so little attention to the ongoing surge of our own life experiences that we might just as well be asleep. We are simply not paying enough attention to notice that we are not paying attention. It is another Catch-22.&rdquo;</p></blockquote>
 
-<p>pg 27 (pdf)</p>
+<p>pg 27 (pdf version)</p>
 
-<blockquote><p>&ldquo;10. Don&rsquo;t ponder: You don&rsquo;t need to figure everything out. Discursive thinking won&rsquo;t free you from the trap. In mediation, the mind is purified naturally by mindfulness, by wordless bare attention. Habitual deliberation is not necessary to eliminate those things that are keeping you in bondage. All that is necessary is a clear, non-conceptual perception of what they are and how they work. That alone is sufficient to dissolve them. Concepts and reasoning just get in the way. Don&rsquo;t think. See.&rdquo;</p></blockquote>
+<blockquote><p>&ldquo;10. Don&rsquo;t ponder: You don&rsquo;t need to figure everything out. Discursive thinking won&rsquo;t free you from the trap. In meditation, the mind is purified naturally by mindfulness, by wordless bare attention. Habitual deliberation is not necessary to eliminate those things that are keeping you in bondage. All that is necessary is a clear, non-conceptual perception of what they are and how they work. That alone is sufficient to dissolve them. Concepts and reasoning just get in the way. Don&rsquo;t think. See.&rdquo;</p></blockquote>
 
-<p>pg 29 (pdf)</p>
+<p>pg 29 (pdf version)</p>
 
 <blockquote><p>&ldquo;When the meditator perceives any sensory object, he is not to dwell upon it in the ordinary egotistical way. He should rather examine the very process of perception itself. He should watch the feelings that arise and the mental activities that follow. He should note the changes that occur in his own consciousness as a result. In watching all these phenomena, the meditator must be aware of the universality of what he is seeing. That initial perception will spark pleasant, unpleasant or neutral feelings. That is a universal phenomenon. It occurs in the mind of others just as it does in his, and he should see that clearly. Following these feelings various reactions may arise. He may feel greed, lust, or jealousy. He may feel fear, worry, restlessness or boredom. These reactions are universal. He simple notes them and then generalizes. He should realize that these reactions are normal human responses and can arise in anybody.&rdquo;</p></blockquote>
 
-<p>pg 29 (pdf)</p>
+<p>pg 29 (pdf version)</p>
 
 <blockquote><p>&ldquo;At that point, without trying to confuse the feeling with the mental formations, we should isolate the feeling as feeling and watch it mindfully. Feeling is one of the seven universal mental factors. The other six are contact, perception, mental formations, concentration, life force, and awareness.&rdquo;</p></blockquote>
 
-<p>pg 34 (pdf)</p>
+<p>pg 34 (pdf version)</p>
 
-<blockquote><p>&ldquo;d) The fourth method is to take a long breath. When the lungs are full, mentally count "one&rdquo; and breath out completely until the lungs are empty of fresh air. Then count mentally &ldquo;two&rdquo;. Take a long breath again and count &ldquo;three&rdquo; and breathe completely out as before. When the lungs are empty of fresh air, count mentally &ldquo;four&rdquo;. Count your breath in this manner up to ten. Then count backward from ten to one. Count again from one to ten and then ten to one."</p></blockquote>
+<blockquote><p>&ldquo;The fourth method is to take a long breath. When the lungs are full, mentally count "one&rdquo; and breath out completely until the lungs are empty of fresh air. Then count mentally &ldquo;two&rdquo;. Take a long breath again and count &ldquo;three&rdquo; and breathe completely out as before. When the lungs are empty of fresh air, count mentally &ldquo;four&rdquo;. Count your breath in this manner up to ten. Then count backward from ten to one. Count again from one to ten and then ten to one."</p></blockquote>
 
-<p>Chapter 5</p>
+<p>Chapter 5: The Practice</p>
 
-<blockquote><p>The practice: Start with Empathy and loving kindness, Three deep breaths to concentrate, then tip of nostrils, then find your sign</p></blockquote>
+<blockquote><p>Overview: Start with Empathy and loving kindness, Three deep breaths to concentrate, then tip of nostrils, then find your sign</p></blockquote>
 
 <p>pg 93</p>
 
-<blockquote><p>Pain is inevitable, suffering is not</p></blockquote>
+<blockquote><p>&ldquo;Pain is inevitable, suffering is not&rdquo;</p></blockquote>
 
-<p>Chapter 10 on dealing with problems</p>
+<p>Chapter 10: Dealing with Problems</p>
 
-<blockquote><p>Blissful feeling or sense of failure are actually drawing you away from mindfulness</p></blockquote>
+<blockquote><p>Blissful feelings or sense of failure is actually drawing you away from mindfulness</p></blockquote>
 
 <p>pg 113</p>
 
 <blockquote><p>&ldquo;Thoughts of greed cover everything connected with desire, from outright avarice for material gain, all the way down to a subtle need to be respected as a moral person. Thoughts of hatred run the gamut from petty peevishness to murderous rage. Delusion covers everything from daydreaming through actual hallucinations. Generosity cancels greed. Benevolence and compassion cancel hatred. You can find a specific antidote for any troubling thought if you just think about it a while.&rdquo;</p></blockquote>
 
-<p>Chapter 11, dealing with distractions 2</p>
+<p>Chapter 11: Dealing with Distractions</p>
 
-<blockquote><p>&ldquo;Temporarily meditate on distractions. Wordlessly answer these questions: what is it, how strong is it, how long does it last&rdquo;
-&ldquo;Like the breath, mental states have three stages: beginning, middle, and end. Often when you realize you&rsquo;re concentration has drifted and you&rsquo;ve been thinking awhile&hellip; it&rsquo;s cause the mental state is near its end. You have to learn to find it at the beginning (as it rises out of your unconscious) and gently watch it through to its end&rdquo;
-&ldquo;We are constantly conceptualizing, to solve our problems, to communicate. But with mindfulness you examine before conceptualization, and look at the pure nature of mental phenomena&rdquo;
-&ldquo;Realize that you have been off the track for such and such a length of time and go back to the breath. There is no need for any negative reaction at all. The very act of realizing that you have been off the track is an active awareness. It is an exercise of pure mindfulness all by itself.&rdquo;</p></blockquote>
+<blockquote><p>&ldquo;Temporarily meditate on distractions. Wordlessly answer these questions: what is it, how strong is it, how long does it last&rdquo;</p>
+
+<p>&ldquo;Realize that you have been off the track for such and such a length of time and go back to the breath. There is no need for any negative reaction at all. The very act of realizing that you have been off the track is an active awareness. It is an exercise of pure mindfulness all by itself.&rdquo;</p></blockquote>
 
 <p>Chapter 14, Mindfulness vs Concentration</p>
 
 <blockquote><p>A distinction that I hadn&rsquo;t realized:
-Mindfulness is more important overall, but concentration is what you have to focus on in the begininng. Or else monkey mind will overwhelm mindfulness with random chatter. Overall, mindfulness will lead to better concentration by making you aware that your concentration has slipped and allowing you to re-engage it</p></blockquote>
+Mindfulness is more important overall, but concentration is what you have to focus on in the begininng. Or else monkey mind will overwhelm mindfulness with random chatter. Overall, mindfulness will lead to better concentration by making you aware that your concentration has slipped and allowing you to re-engage it.</p></blockquote>
 
-<p>The Power of Loving Friendliness, The Four Sublime States</p>
+<p>The Power of Loving Friendliness: The Four Sublime States</p>
 
-<blockquote><p>Loving Friendliness, Compassion, Appreciative Joy, and Equanimity
-Uses the metaphor of having a child. Before the child is born, it&rsquo;s already being cared for regardless of its actions. This is metta or loving friendliness. As the infant starts exploring the world, it will hurt itself sometimes, and the parents feel the same pain. This is compassion. When the child gets older and goes to school, it will have successes, and the parents will feel happiness for it. This is appreciative joy. Finally, when the child goes out on his own,  the parents will practice equanimity: the appreciate that they have done all they could for the child but no longer steer the outcome of the child&rsquo;s life</p></blockquote>
+<blockquote><p>Loving Friendliness, Compassion, Appreciative Joy, and Equanimity</p>
+
+<p>Uses the metaphor of having a child. Before the child is born, it&rsquo;s already being cared for regardless of its actions. This is metta or loving friendliness. As the infant starts exploring the world, it will hurt itself sometimes, and the parents feel the same pain. This is compassion. When the child gets older and goes to school, it will have successes, and the parents will feel happiness for it. This is appreciative joy. Finally, when the child goes out on his own,  the parents will practice equanimity: the appreciate that they have done all they could for the child but no longer steer the outcome of the child&rsquo;s life</p></blockquote>
 
 <p>Appendix: the Context of the Tradition</p>
 
-<blockquote><p>Vipassana is &ldquo;insight&rdquo;, a clear awareness of exactly what is happening as it happens
-Samatha can be translated as &ldquo;concentration&rdquo; or &ldquo;tranquillity,&rdquo; and is a state in which the mind is focused only on one item, brought to rest, and not allowed to wander"
-This book focuses on Theravada Buddhishm, common in South and Southeast Asia. The other main school is Mahaya Buddhism which is more common in East Asia, mainly the Zen school. A quick google search shows that Theravada is better for my situation, although it doesn&rsquo;t line up with my heritage. The reasons for this is that it is more based on scriptures so less based on teacher</p></blockquote>
+<blockquote><p>Vipassana is &ldquo;insight&rdquo;, a clear awareness of exactly what is happening as it happens</p>
 
-<p>As a disclaimer: I&rsquo;m not a big fan of the intro, it is very preachy. Promising the solution to all lifes problems and happiness, blah blah. I feel like I&rsquo;m being sold snake oil. It mocks normal people and the way they live&hellip; for example, page 8. I HATE THIS PARAGRAPH, civilization is responsible for so much good. Technology has raised our standard of living insanely. And no people are not trying to steal my watch.</p>
+<p>Samatha can be translated as &ldquo;concentration&rdquo; or &ldquo;tranquility,&rdquo; and is a state in which the mind is focused only on one item, brought to rest, and not allowed to wander"</p>
+
+<p>This book focuses on Theravada Buddhism, common in South and Southeast Asia. The other main school is Mahaya Buddhism which is more common in East Asia, mainly the Zen school. A quick Google search shows that Theravada is better for my situation, although it doesn&rsquo;t line up with my heritage. The reasons for this is that it is more based on scriptures so less based on teacher</p></blockquote>
+
+<p>As a disclaimer: I&rsquo;m not a big fan of the introduction. It promises the solution to all lives problems and happiness - I feel like I&rsquo;m being sold snake oil. It also mocks normal people and the way they live&hellip; for example, the quote below from page 8. Civilization is responsible for so much good and technology has raised our standard of living to a level that was unimaginable just a century ago.</p>
 
 <blockquote><p>&ldquo;Wait a minute, though. Peace and happiness! Isn&rsquo;t that what civilization is all about? We build skyscrapers and freeways. We have paid vacations, TV sets. We provide free hospitals and sick leaves, Social Security and welfare benefits. All of that is aimed at providing some measure of peace and happiness. Yet the rate of mental illness climbs steadily, and the crime rates rise faster. The streets are crawling with delinquents and unstable individuals. Stick your arms outside the safety of your own door and somebody is very likely to steal your watch! Something is not working. A happy man does not feel driven to kill. We like to think that our society is exploiting every area of human knowledge in order to achieve peace and happiness.&rdquo;</p></blockquote>
 ]]></content>

@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Little Schemer by Daniel Friedman and Matthias Felleisen - Nicks Octopress Blog</title>
+  <title>Little Schemer by Friedman and Felleisen - Nicks Octopress Blog</title>
   <meta name="author" content="Nicholas Lau">
 
   
-  <meta name="description" content="Under Construction With the exception of a quarter or two, University exclusively taught in the Object Oriented Procedural Paradigm. And while that &hellip;">
+  <meta name="description" content="With the exception of a quarter or two, University exclusively taught in the Object Oriented Procedural Paradigm. And while that will always feel &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">Little Schemer by Daniel Friedman and Matthias Felleisen</h1>
+      <h1 class="entry-title">Little Schemer by Friedman and Felleisen</h1>
     
     
       <p class="meta">
@@ -97,90 +97,107 @@
   </header>
 
 
-<div class="entry-content"><h2>Under Construction</h2>
+<div class="entry-content"><p>With the exception of a quarter or two, University exclusively taught in the Object Oriented Procedural Paradigm. And while that will always feel like home&hellip; I don&rsquo;t spend that much time at home. It&rsquo;s nice to get out of your comfort zone, and go explore and learn new things. So I decided to pick up Little Schemer and gain some insight into Recursion and the Functional Programming paradigm.</p>
 
-<p>With the exception of a quarter or two, University exclusively taught in the Object Oriented Procedural Paradigm. And while that will always feel like home&hellip; I don&rsquo;t spend that much time at home. It&rsquo;s nice to get out of your comfort zone, and go explore and learn new things. So I decided to pick up Little Schemer and gain some insight into Recursion and the Functional programming paradigm.</p>
+<p>While learning JavaScript I watched Douglas Crockford&rsquo;s lecture on JavaScript, <a href="https://goo.gl/hsLTwc">Act III: Function the Ultimate</a>. In this talk he recommended Little Schemer, promising that it would &ldquo;Change the way you think, and there aren&rsquo;t a lot of books that will do that&rdquo;. It wasn&rsquo;t the first time that I had heard of the book, but this gave me to push to go out and pick it up.</p>
 
-<p>While learning JavaScript I watched Douglas Crockford&rsquo;s lecture on JavaScript: <a href="https://goo.gl/hsLTwc">Act III: Function the Ultimate</a>. In this talk he recommended Little Schemer, promising that it would &ldquo;Change the way you think, and there aren&rsquo;t a lot of books that will do that&rdquo;. It wasn&rsquo;t the first time that I had heard of the book, but this gave me to push to pick it up.</p>
+<p>I can happily say that it did not disappoint. I&rsquo;ve always been fascinated by graphs and how easily that can model real world problems. And this book has pushed me towards some key insights there&hellip; which will probably get a full blog post in the future. But to put in a words I never thought I&rsquo;d say: I now find it easier to think in recursion - since I know that if I can cover all the possible cases I&rsquo;ll eventually reach the solution.</p>
 
-<p>I can say happily that it did not disappoint. I&rsquo;ve always been fascinated by graphs and how easily that can model real world problems. And this book has pushed me towards some key insights there&hellip; which I will have to write a full blog post on in the future. But to put in a words I never thought I&rsquo;d say: I now find it easier to think in recursion - since I know that if I can cover all the possible cases I&rsquo;ll eventually reach the solution.</p>
-
-<p>So without further ado, here are some of my favorite quotes from Little Schemer by Daniel Friedman and Matthias Felleisen:</p>
+<p>Here are some of my favorite quotes and ideas from Little Schemer:</p>
 
 <!-- more -->
 
 
-<p>Note that Little Schemer isn&rsquo;t normal book, it&rsquo;s based on lecture slides and works in a Q&amp;A format. [(action) Put a picture] as an example. It also assumes zero knowledge of Scheme. So it starts very easy and builds you up from the basics. And eventually gets to some really cool stuff towards the end [spoiler tag]: Collectors, Applicative-Order Y-Combinator, Interpreter</p>
+<p>Note that Little Schemer isn&rsquo;t formatted like a normal book, it&rsquo;s based on lecture slides and works in a Q&amp;A format. You can see a short excerpt below. It also assumes zero knowledge of Scheme so it starts with the basic building blocks of the language and builds up from there. It builds up very quickly and gets to some really cool stuff towards the end: Collectors, Applicative-Order Y-Combinator, Interpreter.</p>
 
-<p>Little Schemer, pg 23</p>
+<p><img src="/images/little_schemer_post/little_schemer_sample.png" title="'little_schemer_sample.png'" ></p>
 
-<blockquote><p>&ldquo;What is the next question? else.&rdquo;
-&ldquo;Why is else the next question? Because we do not need to ask any more questions.&rdquo;
-&ldquo;Why do we not need to ask any more questions? Because a list can be empty, can have an atom in the first position, or can have a list in the first position&rdquo;
-&ldquo;Is else really a question? Yes, else is a question whose value is always true.&rdquo;</p></blockquote>
+<p>pg 23</p>
 
-<p>Fourth Commandment:</p>
+<blockquote><p>&ldquo;What is the next question? else.&rdquo;</p>
+
+<p>&ldquo;Why is else the next question? Because we do not need to ask any more questions.&rdquo;</p>
+
+<p>&ldquo;Why do we not need to ask any more questions? Because a list can be empty, can have an atom in the first position, or can have a list in the first position&rdquo;</p>
+
+<p>&ldquo;Is else really a question? Yes, else is a question whose value is always true.&rdquo;</p></blockquote>
+
+<p>Fourth Commandment</p>
 
 <blockquote><p>&ldquo;Always change at least one argument while recurring. It must be changed to be closer to termination. The changing argument must be tested in the terminating condition: when using cdr, test termination with null?&rdquo;</p></blockquote>
 
-<p>pg 83,</p>
+<p>pg 83</p>
 
-<blockquote><p>Because all *-functions work on lists that are either:
-  -empty
-  -an atom consed onto a list, or
-  -a list consed onto a list</p></blockquote>
+<blockquote><p>Because all *-functions work on lists that are either:</p>
 
-<p>Recursive way of looking at short-circuting, pg 88</p>
+<blockquote><ul>
+<li>empty</li>
+<li>an atom consed onto a list, or</li>
+<li>a list consed onto a list</li>
+</ul>
+</blockquote></blockquote>
 
-<blockquote><p>Question: Do you remember what (or &hellip;) does?
-Anaser: (or &hellip;) asks questions one at a time until it finds one that is true. Then (or&hellip;) stops, makeing its value true. If it cannot find a true argument, the value of (or &hellip;) is false
-And the opposite for (and &hellip;)</p></blockquote>
+<p>Recursive way of looking at short-circuiting, pg 88</p>
 
-<p>pg 91, Sixth Commandment</p>
+<blockquote><p>Question: Do you remember what (or &hellip;) does?</p>
+
+<p>Answer: (or &hellip;) asks questions one at a time until it finds one that is true. Then (or&hellip;) stops, making its value true. If it cannot find a true argument, the value of (or &hellip;) is false. And the opposite for (and &hellip;)</p></blockquote>
+
+<p>Sixth Commandment</p>
 
 <blockquote><p>&ldquo;But then the  says: "Simplify only after the function is correct&rdquo;, so I shouldn&rsquo;t have skipped to the next iteration, and should have done the first version first because its easier to verify"</p></blockquote>
 
 <p>pg 98</p>
 
-<blockquote><p>Why is (n + 3) a good representation?
-Because
-1. (n + 3) is an S-expresssion. It can therefore serve as an argument for a function.
-2. It structurally resembles n + 3</p></blockquote>
+<blockquote><p>Why is (n + 3) a good representation?</p>
 
-<p>pg 107, Eight Commandment</p>
+<p>Because:</p>
+
+<blockquote><ol>
+<li>(n + 3) is an S-expression. It can therefore serve as an argument for a function.</li>
+<li>It structurally resembles n + 3</li>
+</ol>
+</blockquote></blockquote>
+
+<p>Eight Commandment</p>
 
 <blockquote><p>Use help functions to abstract from representations</p></blockquote>
 
 <p>pg 107</p>
 
-<blockquote><p>&ldquo;Numbers are representations? Yes. For example 4 stands for the concept four. We chose that symbol because we are accustomed to arabic representations.&rdquo;</p></blockquote>
+<blockquote><p>&ldquo;Numbers are representations? Yes. For example 4 stands for the concept four. We chose that symbol because we are accustomed to Arabic representations.&rdquo;</p></blockquote>
 
 <p>pg 127</p>
 
-<blockquote><p>What kind of values can functions return? Lists and atoms (and functions)
-Lambdas (currying) were discovered by Moses Schonfinkel and Haskell B Curry</p></blockquote>
+<blockquote><p>What kind of values can functions return? Lists and atoms (and functions)</p>
+
+<p>Note: Lambdas (currying) were discovered by Moses Schonfinkel and Haskell B Curry</p></blockquote>
 
 <p>pg 150</p>
 
-<blockquote><p>Can you guess what sorn stands for? Nope. Symbol or Number
-Unnatural Recursion, does not recur on a part of lat (but on a result of a passed around function)</p></blockquote>
+<blockquote><p>Can you guess what sorn stands for? Symbol or Number</p>
 
-<p>I didn&rsquo;t collect a lot of quotes from the last 3 chapters (collectors, Y-Comb, intepreter), but here are some of my notes:</p>
+<p>Unnatural Recursion, does not recur on a part of lat (but on a result of a passed around function)</p></blockquote>
 
-<blockquote><p>Really very mind expanding, chapter 9 and 10 are brutal. I thought 8 was hard with collectors but I got that in 2 reads. 9 I&rsquo;ve already read twice and it still blows my mind.
-Wow this book is going to break my brain, really cool. Using tables for stack frames and language (identifiers to primitivies/values)
-(Stack overflow) Long story short, it allows you to implement recursion in a language that doesn&rsquo;t necessarily support it natively.</p></blockquote>
+<p>I didn&rsquo;t collect a lot of quotes from the last 3 chapters (collectors, Y-Comb, interpreter), but here are some of my notes:</p>
 
-<p>Y-combinator steps in my words</p>
+<blockquote><p>Really very mind expanding, chapter 9 and 10 are brutal. I thought 8 was hard with collectors but I got that in 2 reads. 9 I&rsquo;ve already read twice and it still blows my mind.</p>
 
-<blockquote><p>length loses define, redefine length over and over with eternity as end point (use eternity because you lost length)
-remove repetitions with create mk-length that creates length-like function
-don&rsquo;t need eternity because you never reach it
-pass mk-length to itself so it never runs out, but isn&rsquo;t infinite because of base case
-make mk-length mk-length into a lambda that returns a function, so you can abstract it out and separate it from length</p></blockquote>
+<p>Using tables for stack frames and language (identifiers to primitives/values)</p>
 
-<p>(action)
-Look through chapters 8-10 for some quotes</p>
+<p>Stack overflow on Applicative-Order Y-Combinator: Long story short, it allows you to implement recursion in a language that doesn&rsquo;t necessarily support it natively.</p></blockquote>
+
+<p>Y-combinator Proof steps in my words</p>
+
+<blockquote><p>Length loses define, redefine length over and over with eternity as end point (use eternity because you lost length)</p>
+
+<p>Remove repetitions with create mk-length that creates length-like function</p>
+
+<p>Don&rsquo;t need eternity because you never reach it</p>
+
+<p>Pass mk-length to itself so it never runs out, but isn&rsquo;t infinite because of base case</p>
+
+<p>Make mk-length mk-length into a lambda that returns a function, so you can abstract it out and separate it from length</p></blockquote>
 
 <p>Learning more, recommends:</p>
 
@@ -220,7 +237,7 @@ Look through chapters 8-10 for some quotes</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2016/01/07/shenanigans/" title="Previous Post: Commandline Shenanigans">&laquo; Commandline Shenanigans</a>
+        <a class="basic-alignment left" href="/blog/2016/01/07/commandline-shenanigans/" title="Previous Post: Commandline Shenanigans">&laquo; Commandline Shenanigans</a>
       
       
     </p>
@@ -253,11 +270,7 @@ Look through chapters 8-10 for some quotes</p>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2016/04/03/little-schemer/">Little Schemer by Daniel Friedman and Matthias Felleisen</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/01/07/shenanigans/">Commandline Shenanigans</a>
+        <a href="/blog/2016/04/03/little-schemer/">Little Schemer by Friedman and Felleisen</a>
       </li>
     
       <li class="post">
@@ -270,6 +283,10 @@ Look through chapters 8-10 for some quotes</p>
     
       <li class="post">
         <a href="/blog/2015/12/18/myfitnessjourney/">MyFitnessJourney</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/07/learning-javascript/">Learning Javascript</a>
       </li>
     
   </ul>
