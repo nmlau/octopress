@@ -5,7 +5,6 @@ date: 2016-01-07 14:57:53 -0800
 comments: true
 categories: [technical, commandline, shell, vim, tmux]
 published: true
-
 ---
 
 ### Table of Contents

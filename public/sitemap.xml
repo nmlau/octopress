@@ -1,187 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans/</loc>
-    <lastmod>2016-01-07T14:57:53-08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/12/18/myfitnessjourney/</loc>
-    <lastmod>2015-12-18T06:37:41-08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript/</loc>
-    <lastmod>2015-12-07T15:22:29-08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/12/03/favorite-tools-and-tricks/</loc>
-    <lastmod>2015-12-03T00:26:08-08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/</loc>
-    <lastmod>2015-12-01T16:16:28-08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/10/27/a-tale-of-two-cities-by-charles-dickens/</loc>
-    <lastmod>2015-10-27T14:17:47-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/09/12/meditations-by-marcus-aurelius/</loc>
-    <lastmod>2015-09-12T13:51:55-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/06/15/japan-part-2/</loc>
-    <lastmod>2015-06-15T19:15:23-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/05/30/japan/</loc>
-    <lastmod>2015-05-30T17:30:23-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/04/23/hong-kong/</loc>
-    <lastmod>2015-04-23T17:30:08-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/04/13/vietnam-part-2/</loc>
-    <lastmod>2015-04-13T16:06:52-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/04/02/vietnam/</loc>
-    <lastmod>2015-04-02T16:06:52-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2015/03/01/asia-trip-2015/</loc>
-    <lastmod>2015-03-01T15:06:52-08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2014/06/13/learning-ruby-on-rails/</loc>
-    <lastmod>2014-06-13T17:16:28-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/2014/05/13/thoughts-on-clarity/</loc>
-    <lastmod>2014-05-13T23:16:04-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/archives/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/about/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/resources/resume/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/thoughts/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/writing/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/technical/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/project/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/ruby-on-rails/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/web/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/blog/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/hobby/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/travel/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/asia/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/vietnam/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/hong-kong/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/japan/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/reading/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/meditations/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/marcus-aurelius/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/a-tale-of-two-cities/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/charles-dickens/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/raspberry-pi/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/diy/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/alarm/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/javascript/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/videogame/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/phaser/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/douglas-crockford/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/fitness/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/nutrition/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/routine/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/commandline/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/shell/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/vim/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/blog/categories/tmux/</loc>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/resources/games/breakout/index.html</loc>
-    <lastmod>2015-11-27T18:00:19-08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/resources/games/breakoutPhaser/index.html</loc>
-    <lastmod>2016-01-05T16:38:17-08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/resources/games/phaserMaze/index.html</loc>
-    <lastmod>2016-01-05T15:11:21-08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://octopress.nicksdevspot.com/resources/games/vimMaze/index.html</loc>
-    <lastmod>2016-02-17T13:11:32-08:00</lastmod>
-  </url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2016/04/03/little-schemer/</loc>
+<lastmod>2016-04-03T13:51:55-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2016/01/07/shenanigans/</loc>
+<lastmod>2016-01-07T14:57:53-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans/</loc>
+<lastmod>2016-01-07T14:57:53-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2016/01/04/mindfulness-in-plan-english/</loc>
+<lastmod>2016-01-04T12:51:55-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/12/18/myfitnessjourney/</loc>
+<lastmod>2015-12-18T06:37:41-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/12/07/learning-javascript/</loc>
+<lastmod>2015-12-07T15:22:29-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/12/03/favorite-tools-and-tricks/</loc>
+<lastmod>2015-12-03T00:26:08-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/12/01/raspberry-pi-alarm/</loc>
+<lastmod>2015-12-01T16:16:28-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/10/27/a-tale-of-two-cities-by-charles-dickens/</loc>
+<lastmod>2015-10-27T14:17:47-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/09/12/meditations-by-marcus-aurelius/</loc>
+<lastmod>2015-09-12T13:51:55-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/08/15/japan-part-2/</loc>
+<lastmod>2015-08-15T19:15:23-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/06/30/japan/</loc>
+<lastmod>2015-06-30T17:30:23-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/05/23/hong-kong/</loc>
+<lastmod>2015-05-23T17:30:08-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/05/13/vietnam-part-2/</loc>
+<lastmod>2015-05-13T16:06:52-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/05/02/vietnam/</loc>
+<lastmod>2015-05-02T16:06:52-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2015/03/01/asia-trip-2015/</loc>
+<lastmod>2015-03-01T15:06:52-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2014/06/13/learning-ruby-on-rails/</loc>
+<lastmod>2014-06-13T17:16:28-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/2014/05/13/thoughts-on-clarity/</loc>
+<lastmod>2014-05-13T23:16:04-07:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/archives/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/about/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/resources/resume/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/thoughts/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/writing/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/technical/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/project/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/ruby-on-rails/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/web/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/blog/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/hobby/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/travel/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/asia/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/vietnam/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/hong-kong/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/japan/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/reading/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/meditations/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/marcus-aurelius/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/a-tale-of-two-cities/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/charles-dickens/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/raspberry-pi/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/diy/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/alarm/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/javascript/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/videogame/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/phaser/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/douglas-crockford/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/fitness/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/nutrition/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/routine/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/mindfulness-in-plain-english/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/henepola-gunaratana/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/commandline/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/shell/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/vim/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/tmux/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/little-schemer/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/daniel-friedman/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/blog/categories/matthias-felleisen/</loc>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/resources/games/breakout/index.html</loc>
+<lastmod>2015-11-27T18:00:19-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/resources/games/breakoutPhaser/index.html</loc>
+<lastmod>2016-01-05T16:38:17-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/resources/games/phaserMaze/index.html</loc>
+<lastmod>2016-01-05T15:11:21-08:00</lastmod>
+</url>
+<url>
+<loc>http://octopress.nicksdevspot.com/resources/games/vimMaze/index.html</loc>
+<lastmod>2016-02-17T13:11:32-08:00</lastmod>
+</url>
 </urlset>

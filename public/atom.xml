@@ -4,7 +4,7 @@
   <title><![CDATA[Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-03-01T11:38:20-08:00</updated>
+  <updated>2016-04-08T13:00:12-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -12,6 +12,118 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Little Schemer by Daniel Friedman and Matthias Felleisen]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2016/04/03/little-schemer/"/>
+    <updated>2016-04-03T13:51:55-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2016/04/03/little-schemer</id>
+    <content type="html"><![CDATA[<h2>Under Construction</h2>
+
+<p>With the exception of a quarter or two, University exclusively taught in the Object Oriented Procedural Paradigm. And while that will always feel like home&hellip; I don&rsquo;t spend that much time at home. It&rsquo;s nice to get out of your comfort zone, and go explore and learn new things. So I decided to pick up Little Schemer and gain some insight into Recursion and the Functional programming paradigm.</p>
+
+<p>While learning JavaScript I watched Douglas Crockford&rsquo;s lecture on JavaScript: <a href="https://goo.gl/hsLTwc">Act III: Function the Ultimate</a>. In this talk he recommended Little Schemer, promising that it would &ldquo;Change the way you think, and there aren&rsquo;t a lot of books that will do that&rdquo;. It wasn&rsquo;t the first time that I had heard of the book, but this gave me to push to pick it up.</p>
+
+<p>I can say happily that it did not disappoint. I&rsquo;ve always been fascinated by graphs and how easily that can model real world problems. And this book has pushed me towards some key insights there&hellip; which I will have to write a full blog post on in the future. But to put in a words I never thought I&rsquo;d say: I now find it easier to think in recursion - since I know that if I can cover all the possible cases I&rsquo;ll eventually reach the solution.</p>
+
+<p>So without further ado, here are some of my favorite quotes from Little Schemer by Daniel Friedman and Matthias Felleisen:</p>
+
+<!-- more -->
+
+
+<p>Note that Little Schemer isn&rsquo;t normal book, it&rsquo;s based on lecture slides and works in a Q&amp;A format. [(action) Put a picture] as an example. It also assumes zero knowledge of Scheme. So it starts very easy and builds you up from the basics. And eventually gets to some really cool stuff towards the end [spoiler tag]: Collectors, Applicative-Order Y-Combinator, Interpreter</p>
+
+<p>Little Schemer, pg 23</p>
+
+<blockquote><p>&ldquo;What is the next question? else.&rdquo;
+&ldquo;Why is else the next question? Because we do not need to ask any more questions.&rdquo;
+&ldquo;Why do we not need to ask any more questions? Because a list can be empty, can have an atom in the first position, or can have a list in the first position&rdquo;
+&ldquo;Is else really a question? Yes, else is a question whose value is always true.&rdquo;</p></blockquote>
+
+<p>Fourth Commandment:</p>
+
+<blockquote><p>&ldquo;Always change at least one argument while recurring. It must be changed to be closer to termination. The changing argument must be tested in the terminating condition: when using cdr, test termination with null?&rdquo;</p></blockquote>
+
+<p>pg 83,</p>
+
+<blockquote><p>Because all *-functions work on lists that are either:
+  -empty
+  -an atom consed onto a list, or
+  -a list consed onto a list</p></blockquote>
+
+<p>Recursive way of looking at short-circuting, pg 88</p>
+
+<blockquote><p>Question: Do you remember what (or &hellip;) does?
+Anaser: (or &hellip;) asks questions one at a time until it finds one that is true. Then (or&hellip;) stops, makeing its value true. If it cannot find a true argument, the value of (or &hellip;) is false
+And the opposite for (and &hellip;)</p></blockquote>
+
+<p>pg 91, Sixth Commandment</p>
+
+<blockquote><p>&ldquo;But then the  says: "Simplify only after the function is correct&rdquo;, so I shouldn&rsquo;t have skipped to the next iteration, and should have done the first version first because its easier to verify"</p></blockquote>
+
+<p>pg 98</p>
+
+<blockquote><p>Why is (n + 3) a good representation?
+Because
+1. (n + 3) is an S-expresssion. It can therefore serve as an argument for a function.
+2. It structurally resembles n + 3</p></blockquote>
+
+<p>pg 107, Eight Commandment</p>
+
+<blockquote><p>Use help functions to abstract from representations</p></blockquote>
+
+<p>pg 107</p>
+
+<blockquote><p>&ldquo;Numbers are representations? Yes. For example 4 stands for the concept four. We chose that symbol because we are accustomed to arabic representations.&rdquo;</p></blockquote>
+
+<p>pg 127</p>
+
+<blockquote><p>What kind of values can functions return? Lists and atoms (and functions)
+Lambdas (currying) were discovered by Moses Schonfinkel and Haskell B Curry</p></blockquote>
+
+<p>pg 150</p>
+
+<blockquote><p>Can you guess what sorn stands for? Nope. Symbol or Number
+Unnatural Recursion, does not recur on a part of lat (but on a result of a passed around function)</p></blockquote>
+
+<p>I didn&rsquo;t collect a lot of quotes from the last 3 chapters (collectors, Y-Comb, intepreter), but here are some of my notes:</p>
+
+<blockquote><p>Really very mind expanding, chapter 9 and 10 are brutal. I thought 8 was hard with collectors but I got that in 2 reads. 9 I&rsquo;ve already read twice and it still blows my mind.
+Wow this book is going to break my brain, really cool. Using tables for stack frames and language (identifiers to primitivies/values)
+(Stack overflow) Long story short, it allows you to implement recursion in a language that doesn&rsquo;t necessarily support it natively.</p></blockquote>
+
+<p>Y-combinator steps in my words</p>
+
+<blockquote><p>length loses define, redefine length over and over with eternity as end point (use eternity because you lost length)
+remove repetitions with create mk-length that creates length-like function
+don&rsquo;t need eternity because you never reach it
+pass mk-length to itself so it never runs out, but isn&rsquo;t infinite because of base case
+make mk-length mk-length into a lambda that returns a function, so you can abstract it out and separate it from length</p></blockquote>
+
+<p>(action)
+Look through chapters 8-10 for some quotes</p>
+
+<p>Learning more, recommends:</p>
+
+<blockquote><p>Polya, George. How to Solve it</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Commandline Shenanigans]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2016/01/07/shenanigans/"/>
+    <updated>2016-01-07T14:57:53-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2016/01/07/shenanigans</id>
+    <content type="html"><![CDATA[<h3>Table of Contents</h3>
+
+<p>Test</p>
+
+<!-- more -->
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Commandline Shenanigans]]></title>
@@ -232,6 +344,111 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Mindfulness in Plain English by Henepola Gunaratana]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2016/01/04/mindfulness-in-plan-english/"/>
+    <updated>2016-01-04T12:51:55-08:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2016/01/04/mindfulness-in-plan-english</id>
+    <content type="html"><![CDATA[<h2>Under Construction</h2>
+
+<p>I&rsquo;ve always been interested in meditation. Having grown up in the Silicon Valley, I&rsquo;ve found that the heart of the tech world has an ironic obsession with spirituality. While not busy mining the finest 1&rsquo;s and 0&rsquo;s from the Silcion Valley Mines, idols like Steve Jobs were well known for their obsession with spirituality.</p>
+
+<p>About a year or two ago I began to read more about meditation and started integrating a basic form of deep breathing into my life. After backpacking around Southeast and East Asia for a few months this amateur interest gained steam. Theravada Buddhism is very popular in Southeast Asia, so during my month in Vietnam I had lots of exposure to it while visiting shrines or hanging out with natives. Zen Buddhism is more poplular in East Asia, which matches my ethnicity (I&rsquo;m half Chinese and half Japanese).</p>
+
+<p>After reading around online and practicing the basics I found - r/meditation is a fantastic resource! I decided I wanted to dive depper into the Theravada school of Buddhism. This was because it was more based on the scriptures and thus can be self-studied while Zen tends to need a mentor or teacher to guide you. Thus, I decided to read Mindfulness in Plain English, a well known and practical book on Theravada meditation.</p>
+
+<p>Here are some of my favorite quotes from Mindfulness in Plain English by Henepola Gunaratana. These first four are actually ideas that I keep onhand and reread on a weekly basis.</p>
+
+<p>pg 8</p>
+
+<blockquote><p>Cool ideas in how you grasp at the happy 10%, reject the sad 10% and ignore the neutral 80% (Retrieve actual Quote from book)</p></blockquote>
+
+<p>pg 29 (pdf)</p>
+
+<blockquote><p>&ldquo;That initial perception will spark pleasant, unpleasant or neutral feelings. That is a universal phenomenon. It occurs in the mind of others just as it does in his, and he should see that clearly. Following these feelings various reactions may arise. He may feel greed, lust, or jealousy. He may feel fear, worry, restlessness or boredom. These reactions are universal. He simple notes them and then generalizes. He should realize that these reactions are normal human responses and can arise in anybody.&rdquo;</p></blockquote>
+
+<p>Chapter 11</p>
+
+<blockquote><p>&ldquo;Like the breath, mental states have three stages: beginning, middle, and end. Often when you realize your concentration has drifted and you&rsquo;ve been thinking awhile&hellip; it&rsquo;s cause the mental state is near its end. You have to learn to find it at the beginning (as it rises out of your unconscious) and gently watch it through to its end.&rdquo;</p></blockquote>
+
+<p>More from Chapter 11</p>
+
+<blockquote><p>&ldquo;We are constantly conceptualizing, to solve our problems, to communicate. But with mindfulness you examine before conceptualization, and look at the pure nature of mental phenomena.&rdquo;</p></blockquote>
+
+<p>And many more to follow below!</p>
+
+<!-- more -->
+
+
+<p>I have a friend who&rsquo;s an actor LA, this quote reminded me of my conversations of him. As well as showing a practial application of mindfulness - that you can change who you are with it. pg 25</p>
+
+<blockquote><p>&ldquo;Tantric&hellip; The self-concept or ego is nothing more than a set of reactions and mental images that are artificially pasted to the flowing process of pure awareness&hellip; The student is given a particular religious image to meditate upon, for examle, one of the deities from the tantric pantheon&hellip;. She takes off her own identity and puts on another. During the process, she is able to watch the way in which the ego is constructed and put in place. She comes to recognize the arbitrary nature of all egos, including her own, and she excapes from bondage to the ego. She is left in a state where she may have an ego if she so chosses - either her own or whichever other she might wish - or she can make do without one&rdquo;</p></blockquote>
+
+<p>pg 25,</p>
+
+<blockquote><p>&ldquo;The object of vipassana practice is to learn to see the truths of impermanence, unsatisfactoriness, and selflessness of phenomena. We think we are doing this already, but that is an illusion. It comes from the fact that we are paying so little attention to the ongoing surge of our own life experiences that we might just as well be asleep. We are simply not paying enough attention to nootice that we are not paying attention. It is another Catch-22&rdquo;</p></blockquote>
+
+<p>pg 27 (pdf)</p>
+
+<blockquote><p>&ldquo;10. Don&rsquo;t ponder: You don&rsquo;t need to figure everything out. Discursive thinking won&rsquo;t free you from the trap. In mediation, the mind is purified naturally by mindfulness, by wordless bare attention. Habitual deliberation is not necessary to eliminate those things that are keeping you in bondage. All that is necessary is a clear, non-conceptual perception of what they are and how they work. That alone is sufficient to dissolve them. Concepts and reasoning just get in the way. Don&rsquo;t think. See.&rdquo;</p></blockquote>
+
+<p>pg 29 (pdf)</p>
+
+<blockquote><p>&ldquo;When the meditator perceives any sensory object, he is not to dwell upon it in the ordinary egotistical way. He should rather examine the very process of perception itself. He should watch the feelings that arise and the mental activities that follow. He should note the changes that occur in his own consciousness as a result. In watching all these phenomena, the meditator must be aware of the universality of what he is seeing. That initial perception will spark pleasant, unpleasant or neutral feelings. That is a universal phenomenon. It occurs in the mind of others just as it does in his, and he should see that clearly. Following these feelings various reactions may arise. He may feel greed, lust, or jealousy. He may feel fear, worry, restlessness or boredom. These reactions are universal. He simple notes them and then generalizes. He should realize that these reactions are normal human responses and can arise in anybody.&rdquo;</p></blockquote>
+
+<p>pg 29 (pdf)</p>
+
+<blockquote><p>&ldquo;At that point, without trying to confuse the feeling with the mental formations, we should isolate the feeling as feeling and watch it mindfully. Feeling is one of the seven universal mental factors. The other six are contact, perception, mental formations, concentration, life force, and awareness.&rdquo;</p></blockquote>
+
+<p>pg 34 (pdf)</p>
+
+<blockquote><p>&ldquo;d) The fourth method is to take a long breath. When the lungs are full, mentally count "one&rdquo; and breath out completely until the lungs are empty of fresh air. Then count mentally &ldquo;two&rdquo;. Take a long breath again and count &ldquo;three&rdquo; and breathe completely out as before. When the lungs are empty of fresh air, count mentally &ldquo;four&rdquo;. Count your breath in this manner up to ten. Then count backward from ten to one. Count again from one to ten and then ten to one."</p></blockquote>
+
+<p>Chapter 5</p>
+
+<blockquote><p>The practice: Start with Empathy and loving kindness, Three deep breaths to concentrate, then tip of nostrils, then find your sign</p></blockquote>
+
+<p>pg 93</p>
+
+<blockquote><p>Pain is inevitable, suffering is not</p></blockquote>
+
+<p>Chapter 10 on dealing with problems</p>
+
+<blockquote><p>Blissful feeling or sense of failure are actually drawing you away from mindfulness</p></blockquote>
+
+<p>pg 113</p>
+
+<blockquote><p>&ldquo;Thoughts of greed cover everything connected with desire, from outright avarice for material gain, all the way down to a subtle need to be respected as a moral person. Thoughts of hatred run the gamut from petty peevishness to murderous rage. Delusion covers everything from daydreaming through actual hallucinations. Generosity cancels greed. Benevolence and compassion cancel hatred. You can find a specific antidote for any troubling thought if you just think about it a while.&rdquo;</p></blockquote>
+
+<p>Chapter 11, dealing with distractions 2</p>
+
+<blockquote><p>&ldquo;Temporarily meditate on distractions. Wordlessly answer these questions: what is it, how strong is it, how long does it last&rdquo;
+&ldquo;Like the breath, mental states have three stages: beginning, middle, and end. Often when you realize you&rsquo;re concentration has drifted and you&rsquo;ve been thinking awhile&hellip; it&rsquo;s cause the mental state is near its end. You have to learn to find it at the beginning (as it rises out of your unconscious) and gently watch it through to its end&rdquo;
+&ldquo;We are constantly conceptualizing, to solve our problems, to communicate. But with mindfulness you examine before conceptualization, and look at the pure nature of mental phenomena&rdquo;
+&ldquo;Realize that you have been off the track for such and such a length of time and go back to the breath. There is no need for any negative reaction at all. The very act of realizing that you have been off the track is an active awareness. It is an exercise of pure mindfulness all by itself.&rdquo;</p></blockquote>
+
+<p>Chapter 14, Mindfulness vs Concentration</p>
+
+<blockquote><p>A distinction that I hadn&rsquo;t realized:
+Mindfulness is more important overall, but concentration is what you have to focus on in the begininng. Or else monkey mind will overwhelm mindfulness with random chatter. Overall, mindfulness will lead to better concentration by making you aware that your concentration has slipped and allowing you to re-engage it</p></blockquote>
+
+<p>The Power of Loving Friendliness, The Four Sublime States</p>
+
+<blockquote><p>Loving Friendliness, Compassion, Appreciative Joy, and Equanimity
+Uses the metaphor of having a child. Before the child is born, it&rsquo;s already being cared for regardless of its actions. This is metta or loving friendliness. As the infant starts exploring the world, it will hurt itself sometimes, and the parents feel the same pain. This is compassion. When the child gets older and goes to school, it will have successes, and the parents will feel happiness for it. This is appreciative joy. Finally, when the child goes out on his own,  the parents will practice equanimity: the appreciate that they have done all they could for the child but no longer steer the outcome of the child&rsquo;s life</p></blockquote>
+
+<p>Appendix: the Context of the Tradition</p>
+
+<blockquote><p>Vipassana is &ldquo;insight&rdquo;, a clear awareness of exactly what is happening as it happens
+Samatha can be translated as &ldquo;concentration&rdquo; or &ldquo;tranquillity,&rdquo; and is a state in which the mind is focused only on one item, brought to rest, and not allowed to wander"
+This book focuses on Theravada Buddhishm, common in South and Southeast Asia. The other main school is Mahaya Buddhism which is more common in East Asia, mainly the Zen school. A quick google search shows that Theravada is better for my situation, although it doesn&rsquo;t line up with my heritage. The reasons for this is that it is more based on scriptures so less based on teacher</p></blockquote>
+
+<p>As a disclaimer: I&rsquo;m not a big fan of the intro, it is very preachy. Promising the solution to all lifes problems and happiness, blah blah. I feel like I&rsquo;m being sold snake oil. It mocks normal people and the way they live&hellip; for example, page 8. I HATE THIS PARAGRAPH, civilization is responsible for so much good. Technology has raised our standard of living insanely. And no people are not trying to steal my watch.</p>
+
+<blockquote><p>&ldquo;Wait a minute, though. Peace and happiness! Isn&rsquo;t that what civilization is all about? We build skyscrapers and freeways. We have paid vacations, TV sets. We provide free hospitals and sick leaves, Social Security and welfare benefits. All of that is aimed at providing some measure of peace and happiness. Yet the rate of mental illness climbs steadily, and the crime rates rise faster. The streets are crawling with delinquents and unstable individuals. Stick your arms outside the safety of your own door and somebody is very likely to steal your watch! Something is not working. A happy man does not feel driven to kill. We like to think that our society is exploiting every area of human knowledge in order to achieve peace and happiness.&rdquo;</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[MyFitnessJourney]]></title>
     <link href="http://octopress.nicksdevspot.com/blog/2015/12/18/myfitnessjourney/"/>
     <updated>2015-12-18T06:37:41-08:00</updated>
@@ -382,8 +599,13 @@
 
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">Mozilla Developer Network (MDN) Reintroduction to JavaScript</a></li>
+<li><a href="http://beej.us/blog/data/javascript-prototypes-inheritance/">Beej Guide: JavaScript Prototypes and Inheritance</a></li>
 </ul>
 
+
+<p>Learning javascript made me realize how little I knew about the languages I was comfortable with. Programming in my comfort languages (Java/C++) had become almost like being fluent in English, I forgot a many of the little details and rules here and there.</p>
+
+<p>It was a good dose of reality to get me out of my comfort zone and push me to learn the deeper details of languages.</p>
 
 <p><a name="crockfordonjavascript"></a></p>
 
@@ -403,6 +625,39 @@
 <li><a href="https://www.youtube.com/watch?v=QgwSUtYSUqA">Scene 6: Loopage</a></li>
 <li><a href="https://www.youtube.com/watch?v=UTEqr0IlFKY">Level 7: ECMAScript 5: The new Parts</a></li>
 <li><a href="https://www.youtube.com/watch?v=taaEzHI9xyY">Section 8: Programming Style &amp; Your Brain</a></li>
+</ul>
+
+
+<p>The first two talks are a history lesson, very informative. A lot of the languages and software architects have come up in random reading around the internet, such as some of my favorite (research) papers:</p>
+
+<ul>
+<li>Ken Thompson&rsquo;s Turing Award Lecture, &ldquo;Reflections on Trusting Trust&rdquo;</li>
+<li>Lamport&rsquo;s &ldquo;The Future of Computing: Logic or Biology&rdquo;</li>
+<li>CAR Hoare, &ldquo;The Emperor&rsquo;s Old Clothes&rdquo;</li>
+<li>Fred Brooks (1986), &ldquo;No Silver Bullet&rdquo;</li>
+<li>Parnas, David L. “Designing Software for Ease of Extension and Contraction.”</li>
+</ul>
+
+
+<p>I really enjoyed the foundations of JavaScript. How Netscape had Brendan Eich create a web language. He wanted to base it on Scheme, but Netscape put its foot down and said they wanted it to be more approachable. So Eich used the syntax of JavaScript, the first-class functions of Scheme, and the Prototype Chain of Self to make one of the most popular languages of all time. And in 4 weeks! Although this short time frame is responsible for a lot of JavaScript&rsquo;s blunders which are slowly being repaired (ES6 Strict was a big jump).</p>
+
+<p>Some benefits of Prototyped OOP:</p>
+
+<ul>
+<li>Trivial to make new &ldquo;classes&rdquo;, avoids lots of boilerplate</li>
+<li>More &ldquo;functional&rdquo; style</li>
+<li>Change behavior at runtime</li>
+<li>Easy multiple inheritance, don&rsquo;t need crazy and hard to maintain type hierarchy</li>
+<li>Property modifiers</li>
+</ul>
+
+
+<p>Wouldn&rsquo;t be complete without cons list:</p>
+
+<ul>
+<li>Lose static typing</li>
+<li>Performance overhead, still have to check inheritance hierarchy and compiler can&rsquo;t help you out</li>
+<li>New is scary, can easily accidentally clobber global object</li>
 </ul>
 
 
@@ -438,6 +693,8 @@
 
 <h3>Building a Game</h3>
 
+<p>You can try it out, it is still a work in progress though. It was really fun to not just program this, but design it, create the maps&hellip; to have complete control. I did have several issues developing it though, mostly with JavaScript.</p>
+
 <ul>
 <li><a href="https://github.com/nmlau/vim-maze">My Game</a>
 
@@ -445,6 +702,19 @@
 <li><a href="http://octopress.nicksdevspot.com/resources/games/vimMaze/">Try it!</a></li>
 </ul>
 </li>
+</ul>
+
+
+<p>List of issues and what I learned:</p>
+
+<ul>
+<li>Hosting issues: browser was caching objects so when I updated and went to test my changes&hellip; everything would be the same. Octopress had some issues with actually changing letter capitalization in the repo that prevented a few scripts from loading properly.</li>
+<li>Maps: used Tile Map Editor to generate json maps.</li>
+<li>Pass in method, not method call as callback. If you pass the method call then it will only get called once AND have the wrong context.</li>
+<li>Make sure to pass the context. &lsquo;this&rsquo; isn&rsquo;t passed around implicitly like in java, context is generally one part of a long list of arguments.</li>
+<li>Using an unfamiliar framework in a new language was difficult. While Java does have varargs, the way Javascript parameters work was still weird, like how you could leave them out and wouldn&rsquo;t even get a warning. Even with the docs open, a lot of the high level functions had huge lists of parameters and I would often misread, misunderstand, or forget something.</li>
+<li>Modularizing. Awkward in Phaser, it doesn&rsquo;t provide a built in way to do it. This is because sites like to have games in a single minified js file. Being used to OOPs highly structured and separated classes this was kind of weird. But hey, this is what you learn new technologies and languages for.</li>
+<li>Debugging. The console has awesome debugger tools built in. Just throw the &lsquo;debugger&rsquo; statement into your Javascript code. I make sure to use the &lsquo;.js&rsquo; library rather than &lsquo;min.js&rsquo; so I can use the debugger to source code dive.</li>
 </ul>
 
 ]]></content>
@@ -594,6 +864,7 @@
 <li><a href="#setup">Setup</a></li>
 <li><a href="#programming">Programming</a></li>
 <li><a href="#brickwalls">Brickwalls</a></li>
+<li><a href="#nextsteps">Next Steps</a></li>
 </ul>
 
 
@@ -721,6 +992,14 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
 <li>Time was a huge hassle, I learned a lot about how the time modules worked together, and about formatting. I&rsquo;ll probably swap that all out at some point and just use the arrow module</li>
 </ul>
 
+
+<p><a name="nextsteps"></a></p>
+
+<h3>Next Steps</h3>
+
+<p>You can see in the picture at the top that it is a mess of components. Breadboarding is more of a testing thing, I&rsquo;ll have to learn to solder to get around it. Luckily I have lots of Mechanical Engineering friends. It still won&rsquo;t be organized enough for me though, next it will need a case/enclosing to keep it all in one place and organize the cables it needs (power/ethernet). As to why I want to use ethernet, my home&rsquo;s wifi can be inconsistent and I don&rsquo;t trust it to wake me up.</p>
+
+<p>Power is a huge issue, the iPad I&rsquo;m using for my alarm right now can go for months without being charged. I really like how it doesn&rsquo;t need a wire running to it&hellip; I&rsquo;ll have to look into how I can get a wireless setup for my pi alarm clock. I know they have external battery packs, but can it last as long as the iPad can?</p>
 ]]></content>
   </entry>
   
@@ -789,9 +1068,9 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
   
   <entry>
     <title type="html"><![CDATA[Backpacking Japan: Part 2]]></title>
-    <link href="http://octopress.nicksdevspot.com/blog/2015/06/15/japan-part-2/"/>
-    <updated>2015-06-15T19:15:23-07:00</updated>
-    <id>http://octopress.nicksdevspot.com/blog/2015/06/15/japan-part-2</id>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/08/15/japan-part-2/"/>
+    <updated>2015-08-15T19:15:23-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/08/15/japan-part-2</id>
     <content type="html"><![CDATA[<p>It&rsquo;s incredible how fast the months can pass when you&rsquo;re having fun! As the trip came to a close we headed further into Japan to explore Osaka and Hiroshima before heading back to Tokyo. We actually went back to Tokyo earlier than we had planned, since it was just that incredible!</p>
 
 <p><img src="http://octopress.nicksdevspot.com/images/japan/6_tokyo_again/train_fuji.jpg" title="'train_fuji.jpg'" ></p>
@@ -1001,9 +1280,9 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
   
   <entry>
     <title type="html"><![CDATA[Backpacking Japan]]></title>
-    <link href="http://octopress.nicksdevspot.com/blog/2015/05/30/japan/"/>
-    <updated>2015-05-30T17:30:23-07:00</updated>
-    <id>http://octopress.nicksdevspot.com/blog/2015/05/30/japan</id>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/06/30/japan/"/>
+    <updated>2015-06-30T17:30:23-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/06/30/japan</id>
     <content type="html"><![CDATA[<p><img src="http://octopress.nicksdevspot.com/images/japan/2_kyoto/nara_temple_todai-ji.jpg" title="'nara_temple_todai-ji.jpg'" ></p>
 
 <p>While Vietnam was more of an adventure, Japan fell on the vacation side. The hospitality was incredible and the hostels felt like 5 star hotels. The cuisine was full of novel tastes and textures. The culture was quirky and energetic. Most importantly though, I got to visit one of my homelands, something I&rsquo;ve always wanted to do.</p>
@@ -1162,9 +1441,9 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
   
   <entry>
     <title type="html"><![CDATA[Backpacking Hong Kong]]></title>
-    <link href="http://octopress.nicksdevspot.com/blog/2015/04/23/hong-kong/"/>
-    <updated>2015-04-23T17:30:08-07:00</updated>
-    <id>http://octopress.nicksdevspot.com/blog/2015/04/23/hong-kong</id>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/05/23/hong-kong/"/>
+    <updated>2015-05-23T17:30:08-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/05/23/hong-kong</id>
     <content type="html"><![CDATA[<p><img src="http://octopress.nicksdevspot.com/images/hong_kong/tai_mei_tuk/tai_mei_tuk_biking.jpg" title="'tai_mei_tuk_biking.jpg'" ></p>
 
 <p>I had originally planned to go to China during this period but decided a couple weeks would not be nearly enough time and didn&rsquo;t want to waste a six month, relatively expensive visa on it. So I decided to go to Hong Kong instead.</p>
@@ -1304,9 +1583,9 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
   
   <entry>
     <title type="html"><![CDATA[Backpacking Vietnam: Part 2]]></title>
-    <link href="http://octopress.nicksdevspot.com/blog/2015/04/13/vietnam-part-2/"/>
-    <updated>2015-04-13T16:06:52-07:00</updated>
-    <id>http://octopress.nicksdevspot.com/blog/2015/04/13/vietnam-part-2</id>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/05/13/vietnam-part-2/"/>
+    <updated>2015-05-13T16:06:52-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/05/13/vietnam-part-2</id>
     <content type="html"><![CDATA[<p><img src="http://octopress.nicksdevspot.com/images/vietnam/7_sapa/sapa_looking_away.jpg" title="'sapa_looking_away.jpg'" ></p>
 
 <p>After a couple weeks Andreas' Visa expired and he headed back to the U.S. The rest of us had planned to head to Indonesia at this point but decided we wanted more time in Vietnam. Zach, Quynh, and Sherrie headed south for the sunny beach resort of Nha Trang while Amber and I set off west for the green hills of Sapa before heading south back into central Vietnam.</p>
@@ -1392,9 +1671,9 @@ Another huge thing was using tmux combined with dtach. Tmux meant I only had to 
   
   <entry>
     <title type="html"><![CDATA[Backpacking Vietnam]]></title>
-    <link href="http://octopress.nicksdevspot.com/blog/2015/04/02/vietnam/"/>
-    <updated>2015-04-02T16:06:52-07:00</updated>
-    <id>http://octopress.nicksdevspot.com/blog/2015/04/02/vietnam</id>
+    <link href="http://octopress.nicksdevspot.com/blog/2015/05/02/vietnam/"/>
+    <updated>2015-05-02T16:06:52-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2015/05/02/vietnam</id>
     <content type="html"><![CDATA[<p><img src="http://octopress.nicksdevspot.com/images/vietnam/halong_bay.jpg" title="'Quynh's Panorama shot, halong.jpg'" ></p>
 
 <p>When I set out on the biggest adventure of my life, I was afraid it somehow wouldn&rsquo;t match up to expectations. And expectations were high after hearing stories and having wanted to go for years. So I&rsquo;m happy to say that Vietnam was perfect, it was a crazy and exhilarating adventure of strange things and marvelous places.</p>

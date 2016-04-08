@@ -129,8 +129,13 @@ Building a Game &hellip;">
 
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">Mozilla Developer Network (MDN) Reintroduction to JavaScript</a></li>
+<li><a href="http://beej.us/blog/data/javascript-prototypes-inheritance/">Beej Guide: JavaScript Prototypes and Inheritance</a></li>
 </ul>
 
+
+<p>Learning javascript made me realize how little I knew about the languages I was comfortable with. Programming in my comfort languages (Java/C++) had become almost like being fluent in English, I forgot a many of the little details and rules here and there.</p>
+
+<p>It was a good dose of reality to get me out of my comfort zone and push me to learn the deeper details of languages.</p>
 
 <p><a name="crockfordonjavascript"></a></p>
 
@@ -150,6 +155,39 @@ Building a Game &hellip;">
 <li><a href="https://www.youtube.com/watch?v=QgwSUtYSUqA">Scene 6: Loopage</a></li>
 <li><a href="https://www.youtube.com/watch?v=UTEqr0IlFKY">Level 7: ECMAScript 5: The new Parts</a></li>
 <li><a href="https://www.youtube.com/watch?v=taaEzHI9xyY">Section 8: Programming Style &amp; Your Brain</a></li>
+</ul>
+
+
+<p>The first two talks are a history lesson, very informative. A lot of the languages and software architects have come up in random reading around the internet, such as some of my favorite (research) papers:</p>
+
+<ul>
+<li>Ken Thompson&rsquo;s Turing Award Lecture, &ldquo;Reflections on Trusting Trust&rdquo;</li>
+<li>Lamport&rsquo;s &ldquo;The Future of Computing: Logic or Biology&rdquo;</li>
+<li>CAR Hoare, &ldquo;The Emperor&rsquo;s Old Clothes&rdquo;</li>
+<li>Fred Brooks (1986), &ldquo;No Silver Bullet&rdquo;</li>
+<li>Parnas, David L. “Designing Software for Ease of Extension and Contraction.”</li>
+</ul>
+
+
+<p>I really enjoyed the foundations of JavaScript. How Netscape had Brendan Eich create a web language. He wanted to base it on Scheme, but Netscape put its foot down and said they wanted it to be more approachable. So Eich used the syntax of JavaScript, the first-class functions of Scheme, and the Prototype Chain of Self to make one of the most popular languages of all time. And in 4 weeks! Although this short time frame is responsible for a lot of JavaScript&rsquo;s blunders which are slowly being repaired (ES6 Strict was a big jump).</p>
+
+<p>Some benefits of Prototyped OOP:</p>
+
+<ul>
+<li>Trivial to make new &ldquo;classes&rdquo;, avoids lots of boilerplate</li>
+<li>More &ldquo;functional&rdquo; style</li>
+<li>Change behavior at runtime</li>
+<li>Easy multiple inheritance, don&rsquo;t need crazy and hard to maintain type hierarchy</li>
+<li>Property modifiers</li>
+</ul>
+
+
+<p>Wouldn&rsquo;t be complete without cons list:</p>
+
+<ul>
+<li>Lose static typing</li>
+<li>Performance overhead, still have to check inheritance hierarchy and compiler can&rsquo;t help you out</li>
+<li>New is scary, can easily accidentally clobber global object</li>
 </ul>
 
 
@@ -185,6 +223,8 @@ Building a Game &hellip;">
 
 <h3>Building a Game</h3>
 
+<p>You can try it out, it is still a work in progress though. It was really fun to not just program this, but design it, create the maps&hellip; to have complete control. I did have several issues developing it though, mostly with JavaScript.</p>
+
 <ul>
 <li><a href="https://github.com/nmlau/vim-maze">My Game</a>
 
@@ -192,6 +232,19 @@ Building a Game &hellip;">
 <li><a href="/resources/games/vimMaze/">Try it!</a></li>
 </ul>
 </li>
+</ul>
+
+
+<p>List of issues and what I learned:</p>
+
+<ul>
+<li>Hosting issues: browser was caching objects so when I updated and went to test my changes&hellip; everything would be the same. Octopress had some issues with actually changing letter capitalization in the repo that prevented a few scripts from loading properly.</li>
+<li>Maps: used Tile Map Editor to generate json maps.</li>
+<li>Pass in method, not method call as callback. If you pass the method call then it will only get called once AND have the wrong context.</li>
+<li>Make sure to pass the context. &lsquo;this&rsquo; isn&rsquo;t passed around implicitly like in java, context is generally one part of a long list of arguments.</li>
+<li>Using an unfamiliar framework in a new language was difficult. While Java does have varargs, the way Javascript parameters work was still weird, like how you could leave them out and wouldn&rsquo;t even get a warning. Even with the docs open, a lot of the high level functions had huge lists of parameters and I would often misread, misunderstand, or forget something.</li>
+<li>Modularizing. Awkward in Phaser, it doesn&rsquo;t provide a built in way to do it. This is because sites like to have games in a single minified js file. Being used to OOPs highly structured and separated classes this was kind of weird. But hey, this is what you learn new technologies and languages for.</li>
+<li>Debugging. The console has awesome debugger tools built in. Just throw the &lsquo;debugger&rsquo; statement into your Javascript code. I make sure to use the &lsquo;.js&rsquo; library rather than &lsquo;min.js&rsquo; so I can use the debugger to source code dive.</li>
 </ul>
 
 </div>
@@ -264,23 +317,23 @@ Building a Game &hellip;">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/04/03/little-schemer/">Little Schemer by Daniel Friedman and Matthias Felleisen</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/07/shenanigans/">Commandline Shenanigans</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/01/07/commandline-shenanigans/">Commandline Shenanigans</a>
       </li>
     
       <li class="post">
+        <a href="/blog/2016/01/04/mindfulness-in-plan-english/">Mindfulness in Plain English by Henepola Gunaratana</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/12/18/myfitnessjourney/">MyFitnessJourney</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/12/07/learning-javascript/">Learning Javascript</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/12/03/favorite-tools-and-tricks/">Favorite Tools and Tricks</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/12/01/raspberry-pi-alarm/">Raspberry Pi Alarm</a>
       </li>
     
   </ul>

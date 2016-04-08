@@ -16,6 +16,7 @@ published: true
 * [Setup](#setup)
 * [Programming](#programming)
 * [Brickwalls](#brickwalls)
+* [Next Steps](#nextsteps)
 
 <a name="introduction"></a>
 ### Introduction
@@ -117,3 +118,10 @@ Here are some problems that took longer to solve than they should have. In other
 * Just learning python so had some trouble here, easily fixed though. Just read some guides, learned syntax better, got the normal tools like pdb for debugger
 * Learned how to use a GPIO, got my EE friends to show me how to use a breadboard, ribbon cable, wiring, etc. Closest I had gotten to this stuff before was an FPGA in my embedded systems course or using VHDL to design a CPU although no actual hardware was involved in that.
 * Time was a huge hassle, I learned a lot about how the time modules worked together, and about formatting. I'll probably swap that all out at some point and just use the arrow module
+
+<a name="nextsteps"></a>
+### Next Steps
+
+You can see in the picture at the top that it is a mess of components. Breadboarding is more of a testing thing, I'll have to learn to solder to get around it. Luckily I have lots of Mechanical Engineering friends. It still won't be organized enough for me though, next it will need a case/enclosing to keep it all in one place and organize the cables it needs (power/ethernet). As to why I want to use ethernet, my home's wifi can be inconsistent and I don't trust it to wake me up.
+
+Power is a huge issue, the iPad I'm using for my alarm right now can go for months without being charged. I really like how it doesn't need a wire running to it... I'll have to look into how I can get a wireless setup for my pi alarm clock. I know they have external battery packs, but can it last as long as the iPad can?

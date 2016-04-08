@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Little Schemer by Daniel Friedman and Matthias Felleisen - Nicks Octopress Blog</title>
+  <meta name="author" content="Nicholas Lau">
+
+  
+  <meta name="description" content="Under Construction With the exception of a quarter or two, University exclusively taught in the Object Oriented Procedural Paradigm. And while that &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://octopress.nicksdevspot.com/blog/2016/04/03/little-schemer/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nicks Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-70876418-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nicks Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:octopress.nicksdevspot.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about/">About Me</a></li>
+  <li><a href="/resources/resume/Resume.pdf">Resume</a></li>
+</ul>
+
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Little Schemer by Daniel Friedman and Matthias Felleisen</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+<time class='entry-date' datetime='2016-04-03T13:51:55-07:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2016</span></span> <span class='time'>1:51 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2>Under Construction</h2>
+
+<p>With the exception of a quarter or two, University exclusively taught in the Object Oriented Procedural Paradigm. And while that will always feel like home&hellip; I don&rsquo;t spend that much time at home. It&rsquo;s nice to get out of your comfort zone, and go explore and learn new things. So I decided to pick up Little Schemer and gain some insight into Recursion and the Functional programming paradigm.</p>
+
+<p>While learning JavaScript I watched Douglas Crockford&rsquo;s lecture on JavaScript: <a href="https://goo.gl/hsLTwc">Act III: Function the Ultimate</a>. In this talk he recommended Little Schemer, promising that it would &ldquo;Change the way you think, and there aren&rsquo;t a lot of books that will do that&rdquo;. It wasn&rsquo;t the first time that I had heard of the book, but this gave me to push to pick it up.</p>
+
+<p>I can say happily that it did not disappoint. I&rsquo;ve always been fascinated by graphs and how easily that can model real world problems. And this book has pushed me towards some key insights there&hellip; which I will have to write a full blog post on in the future. But to put in a words I never thought I&rsquo;d say: I now find it easier to think in recursion - since I know that if I can cover all the possible cases I&rsquo;ll eventually reach the solution.</p>
+
+<p>So without further ado, here are some of my favorite quotes from Little Schemer by Daniel Friedman and Matthias Felleisen:</p>
+
+<!-- more -->
+
+
+<p>Note that Little Schemer isn&rsquo;t normal book, it&rsquo;s based on lecture slides and works in a Q&amp;A format. [(action) Put a picture] as an example. It also assumes zero knowledge of Scheme. So it starts very easy and builds you up from the basics. And eventually gets to some really cool stuff towards the end [spoiler tag]: Collectors, Applicative-Order Y-Combinator, Interpreter</p>
+
+<p>Little Schemer, pg 23</p>
+
+<blockquote><p>&ldquo;What is the next question? else.&rdquo;
+&ldquo;Why is else the next question? Because we do not need to ask any more questions.&rdquo;
+&ldquo;Why do we not need to ask any more questions? Because a list can be empty, can have an atom in the first position, or can have a list in the first position&rdquo;
+&ldquo;Is else really a question? Yes, else is a question whose value is always true.&rdquo;</p></blockquote>
+
+<p>Fourth Commandment:</p>
+
+<blockquote><p>&ldquo;Always change at least one argument while recurring. It must be changed to be closer to termination. The changing argument must be tested in the terminating condition: when using cdr, test termination with null?&rdquo;</p></blockquote>
+
+<p>pg 83,</p>
+
+<blockquote><p>Because all *-functions work on lists that are either:
+  -empty
+  -an atom consed onto a list, or
+  -a list consed onto a list</p></blockquote>
+
+<p>Recursive way of looking at short-circuting, pg 88</p>
+
+<blockquote><p>Question: Do you remember what (or &hellip;) does?
+Anaser: (or &hellip;) asks questions one at a time until it finds one that is true. Then (or&hellip;) stops, makeing its value true. If it cannot find a true argument, the value of (or &hellip;) is false
+And the opposite for (and &hellip;)</p></blockquote>
+
+<p>pg 91, Sixth Commandment</p>
+
+<blockquote><p>&ldquo;But then the  says: "Simplify only after the function is correct&rdquo;, so I shouldn&rsquo;t have skipped to the next iteration, and should have done the first version first because its easier to verify"</p></blockquote>
+
+<p>pg 98</p>
+
+<blockquote><p>Why is (n + 3) a good representation?
+Because
+1. (n + 3) is an S-expresssion. It can therefore serve as an argument for a function.
+2. It structurally resembles n + 3</p></blockquote>
+
+<p>pg 107, Eight Commandment</p>
+
+<blockquote><p>Use help functions to abstract from representations</p></blockquote>
+
+<p>pg 107</p>
+
+<blockquote><p>&ldquo;Numbers are representations? Yes. For example 4 stands for the concept four. We chose that symbol because we are accustomed to arabic representations.&rdquo;</p></blockquote>
+
+<p>pg 127</p>
+
+<blockquote><p>What kind of values can functions return? Lists and atoms (and functions)
+Lambdas (currying) were discovered by Moses Schonfinkel and Haskell B Curry</p></blockquote>
+
+<p>pg 150</p>
+
+<blockquote><p>Can you guess what sorn stands for? Nope. Symbol or Number
+Unnatural Recursion, does not recur on a part of lat (but on a result of a passed around function)</p></blockquote>
+
+<p>I didn&rsquo;t collect a lot of quotes from the last 3 chapters (collectors, Y-Comb, intepreter), but here are some of my notes:</p>
+
+<blockquote><p>Really very mind expanding, chapter 9 and 10 are brutal. I thought 8 was hard with collectors but I got that in 2 reads. 9 I&rsquo;ve already read twice and it still blows my mind.
+Wow this book is going to break my brain, really cool. Using tables for stack frames and language (identifiers to primitivies/values)
+(Stack overflow) Long story short, it allows you to implement recursion in a language that doesn&rsquo;t necessarily support it natively.</p></blockquote>
+
+<p>Y-combinator steps in my words</p>
+
+<blockquote><p>length loses define, redefine length over and over with eternity as end point (use eternity because you lost length)
+remove repetitions with create mk-length that creates length-like function
+don&rsquo;t need eternity because you never reach it
+pass mk-length to itself so it never runs out, but isn&rsquo;t infinite because of base case
+make mk-length mk-length into a lambda that returns a function, so you can abstract it out and separate it from length</p></blockquote>
+
+<p>(action)
+Look through chapters 8-10 for some quotes</p>
+
+<p>Learning more, recommends:</p>
+
+<blockquote><p>Polya, George. How to Solve it</p></blockquote>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nicholas Lau</span></span>
+
+      
+
+
+
+<time class='entry-date' datetime='2016-04-03T13:51:55-07:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2016</span></span> <span class='time'>1:51 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/daniel-friedman/'>daniel friedman</a>, <a class='category' href='/blog/categories/hobby/'>hobby</a>, <a class='category' href='/blog/categories/little-schemer/'>little schemer</a>, <a class='category' href='/blog/categories/matthias-felleisen/'>matthias felleisen</a>, <a class='category' href='/blog/categories/reading/'>reading</a>, <a class='category' href='/blog/categories/technical/'>technical</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/01/07/shenanigans/" title="Previous Post: Commandline Shenanigans">&laquo; Commandline Shenanigans</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Some Projects</h1>
+  <ul id="projects">
+    <li class="project"><a href="blog.nicklau.io/">Old Blog</a></li>
+    <li class="project"><a href="upload-app.nicklau.io/">Photo Upload App</a></li>
+    <li class="project"><a href="sample-app.nicklau.io/">Sample App</a></li>
+    <li class="project"><a href= /blog/2015/12/01/raspberry-pi-alarm/ }>Raspberry Pi Alarm</a></li>
+    <li class="project"><a href= /blog/2015/12/07/learning-javascript/ }>Javascript Game</a></li>
+    <li class="project"><a href= /blog/2014/06/13/learning-ruby-on-rails/ }>Ruby on Rails</a></li>
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/04/03/little-schemer/">Little Schemer by Daniel Friedman and Matthias Felleisen</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/07/shenanigans/">Commandline Shenanigans</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/07/commandline-shenanigans/">Commandline Shenanigans</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2016/01/04/mindfulness-in-plan-english/">Mindfulness in Plain English by Henepola Gunaratana</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/18/myfitnessjourney/">MyFitnessJourney</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/nmlau">@nmlau</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'nmlau',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - Nicholas Lau -
+  <span class="credit">Definitely not Powered by <a href="http://octopress.org">Octopress</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian</a></span>
+  <!--
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a>. Background image by <a href="http://www.flickr.com/photos/89433098@N04/">Florian Kraft Fotografie</a></span>
+  -->
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'wwwnicklauio';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://octopress.nicksdevspot.com/blog/2016/04/03/little-schemer/';
+        var disqus_url = 'http://octopress.nicksdevspot.com/blog/2016/04/03/little-schemer/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
