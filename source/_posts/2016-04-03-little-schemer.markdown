@@ -12,15 +12,15 @@ While learning JavaScript I watched Douglas Crockford's lecture on JavaScript, [
 
 I can happily say that it did not disappoint. I've always been fascinated by graphs and how easily that can model real world problems. And this book has pushed me towards some key insights there... which will probably get a full blog post in the future. But to put in a words I never thought I'd say: I now find it easier to think in recursion - since I know that if I can cover all the possible cases I'll eventually reach the solution.
 
+{% img /images/little_schemer_post/little_schemer_sample.png 'little_schemer_sample.png' %}
+
+Note that Little Schemer isn't formatted like a normal book, it's based on lecture slides and works in a Q&A format. You can see a short excerpt above. It also assumes zero knowledge of Scheme so it starts with the basic building blocks of the language and builds up from there. It builds up very quickly and gets to some really cool stuff towards the end: Collectors, Applicative-Order Y-Combinator, Interpreter.
+
 Here are some of my favorite quotes and ideas from Little Schemer:
 
 <!-- more -->
 
-Note that Little Schemer isn't formatted like a normal book, it's based on lecture slides and works in a Q&A format. You can see a short excerpt below. It also assumes zero knowledge of Scheme so it starts with the basic building blocks of the language and builds up from there. It builds up very quickly and gets to some really cool stuff towards the end: Collectors, Applicative-Order Y-Combinator, Interpreter.
-
-{% img /images/little_schemer_post/little_schemer_sample.png 'little_schemer_sample.png' %}
-
-pg 23
+Chapter 2: Do it, Do it Again, and Again, and Again... pg 23
 >"What is the next question? else."
 
 >"Why is else the next question? Because we do not need to ask any more questions."
@@ -32,61 +32,64 @@ pg 23
 Fourth Commandment
 >"Always change at least one argument while recurring. It must be changed to be closer to termination. The changing argument must be tested in the terminating condition: when using cdr, test termination with null?"
 
-pg 83
-> Because all *-functions work on lists that are either:
+Chapter 5: *Oh My Gawd*: It's Full of Stars, pg 83
+>Because all *-functions work on lists that are either:
 >
-> > * empty
-> > * an atom consed onto a list, or
-> > * a list consed onto a list
+>>* empty
+>>* an atom consed onto a list, or
+>>* a list consed onto a list
 
-Recursive way of looking at short-circuiting, pg 88
-> Question: Do you remember what (or ...) does?
+Chapter 5: *Oh My Gawd*: It's Full of Stars, another way of looking at short-circuiting, pg 88
+>Question: Do you remember what (or ...) does?
 
-> Answer: (or ...) asks questions one at a time until it finds one that is true. Then (or...) stops, making its value true. If it cannot find a true argument, the value of (or ...) is false. And the opposite for (and ...)
+>Answer: (or ...) asks questions one at a time until it finds one that is true. Then (or...) stops, making its value true. If it cannot find a true argument, the value of (or ...) is false. And the opposite for (and ...)
 
 Sixth Commandment
-> "But then the  says: "Simplify only after the function is correct", so I shouldn't have skipped to the next iteration, and should have done the first version first because its easier to verify"
+>"But then the  says: "Simplify only after the function is correct", so I shouldn't have skipped to the next iteration, and should have done the first version first because its easier to verify"
 
-pg 98
-> Why is (n + 3) a good representation?
+Chapter 6: Shadows, pg 98
+>Why is (n + 3) a good representation?
 
-> Because:
-> > 1. (n + 3) is an S-expression. It can therefore serve as an argument for a function.
-> > 2. It structurally resembles n + 3
+>Because:
+>>1. (n + 3) is an S-expression. It can therefore serve as an argument for a function.
+>>2. It structurally resembles n + 3
 
 Eight Commandment
-> Use help functions to abstract from representations
+>Use help functions to abstract from representations
 
-pg 107
-> "Numbers are representations? Yes. For example 4 stands for the concept four. We chose that symbol because we are accustomed to Arabic representations."
+Chapter 6: Shadows, pg 107
+>"Numbers are representations? Yes. For example 4 stands for the concept four. We chose that symbol because we are accustomed to Arabic representations."
 
-pg 127
-> What kind of values can functions return? Lists and atoms (and functions)
+Chapter 8: Lambda the Ultimate, pg 127
+>What kind of values can functions return? Lists and atoms (and functions)
 
-> Note: Lambdas (currying) were discovered by Moses Schonfinkel and Haskell B Curry
+>Note: Lambdas (currying) were discovered by Moses Schonfinkel and Haskell B Curry
 
-pg 150
-> Can you guess what sorn stands for? Symbol or Number
+Chapter 9: ... and Again, and Again, and Again, ... pg 150
+>Can you guess what sorn stands for? Symbol or Number
 
-> Unnatural Recursion, does not recur on a part of lat (but on a result of a passed around function)
+>Unnatural Recursion, does not recur on a part of lat (but on a result of a passed around function)
+
+Chapter 10: What is the Value of All of This? pg 184
+>"It is a special form that takes any number of cond-lines. It considers each line in turn. If the question part of the left is false, it looks at the rest of the lines. Otherwise it proceeds to answer the right part. If it sees an else-line, it treats that cond-line as if its question part were true" 
 
 I didn't collect a lot of quotes from the last 3 chapters (collectors, Y-Comb, interpreter), but here are some of my notes:
-> Really very mind expanding, chapter 9 and 10 are brutal. I thought 8 was hard with collectors but I got that in 2 reads. 9 I've already read twice and it still blows my mind.
+>Really very mind expanding, chapter 9 and 10 are brutal. I thought 8 was hard with collectors but I got that in 2 reads. 9 I've already read twice and it still blows my mind.
 
-> Using tables for stack frames and language (identifiers to primitives/values)
+>Using tables for stack frames and language (identifiers to primitives/values)
 
-> Stack overflow on Applicative-Order Y-Combinator: Long story short, it allows you to implement recursion in a language that doesn't necessarily support it natively.
+>Stack overflow on Applicative-Order Y-Combinator: Long story short, it allows you to implement recursion in a language that doesn't necessarily support it natively.
 
 Y-combinator Proof steps in my words
-> Length loses define, redefine length over and over with eternity as end point (use eternity because you lost length)
+>Length loses define, redefine length over and over with eternity as end point (use eternity because you lost length)
 
-> Remove repetitions with create mk-length that creates length-like function
+>Remove repetitions with create mk-length that creates length-like function
 
-> Don't need eternity because you never reach it
+>Don't need eternity because you never reach it
 
-> Pass mk-length to itself so it never runs out, but isn't infinite because of base case
+>Pass mk-length to itself so it never runs out, but isn't infinite because of base case
 
-> Make mk-length mk-length into a lambda that returns a function, so you can abstract it out and separate it from length
+>Make mk-length mk-length into a lambda that returns a function, so you can abstract it out and separate it from length
 
 Learning more, recommends: 
-> Polya, George. How to Solve it
+>Polya, George. How to Solve it

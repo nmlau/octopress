@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hobby | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/hobby/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-04-10T14:41:23-07:00</updated>
+  <updated>2016-04-10T15:02:12-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -24,16 +24,16 @@
 
 <p>I can happily say that it did not disappoint. I&rsquo;ve always been fascinated by graphs and how easily that can model real world problems. And this book has pushed me towards some key insights there&hellip; which will probably get a full blog post in the future. But to put in a words I never thought I&rsquo;d say: I now find it easier to think in recursion - since I know that if I can cover all the possible cases I&rsquo;ll eventually reach the solution.</p>
 
+<p><img src="/images/little_schemer_post/little_schemer_sample.png" title="&lsquo;little_schemer_sample.png&rsquo;" ></p>
+
+<p>Note that Little Schemer isn&rsquo;t formatted like a normal book, it&rsquo;s based on lecture slides and works in a Q&amp;A format. You can see a short excerpt above. It also assumes zero knowledge of Scheme so it starts with the basic building blocks of the language and builds up from there. It builds up very quickly and gets to some really cool stuff towards the end: Collectors, Applicative-Order Y-Combinator, Interpreter.</p>
+
 <p>Here are some of my favorite quotes and ideas from Little Schemer:</p>
 
 <!-- more -->
 
 
-<p>Note that Little Schemer isn&rsquo;t formatted like a normal book, it&rsquo;s based on lecture slides and works in a Q&amp;A format. You can see a short excerpt below. It also assumes zero knowledge of Scheme so it starts with the basic building blocks of the language and builds up from there. It builds up very quickly and gets to some really cool stuff towards the end: Collectors, Applicative-Order Y-Combinator, Interpreter.</p>
-
-<p><img src="/images/little_schemer_post/little_schemer_sample.png" title="&lsquo;little_schemer_sample.png&rsquo;" ></p>
-
-<p>pg 23</p>
+<p>Chapter 2: Do it, Do it Again, and Again, and Again&hellip; pg 23</p>
 
 <blockquote><p>&ldquo;What is the next question? else.&rdquo;</p>
 
@@ -47,7 +47,7 @@
 
 <blockquote><p>&ldquo;Always change at least one argument while recurring. It must be changed to be closer to termination. The changing argument must be tested in the terminating condition: when using cdr, test termination with null?&rdquo;</p></blockquote>
 
-<p>pg 83</p>
+<p>Chapter 5: <em>Oh My Gawd</em>: It&rsquo;s Full of Stars, pg 83</p>
 
 <blockquote><p>Because all *-functions work on lists that are either:</p>
 
@@ -58,7 +58,7 @@
 </ul>
 </blockquote></blockquote>
 
-<p>Recursive way of looking at short-circuiting, pg 88</p>
+<p>Chapter 5: <em>Oh My Gawd</em>: It&rsquo;s Full of Stars, another way of looking at short-circuiting, pg 88</p>
 
 <blockquote><p>Question: Do you remember what (or &hellip;) does?</p>
 
@@ -68,7 +68,7 @@
 
 <blockquote><p>&ldquo;But then the  says: "Simplify only after the function is correct&rdquo;, so I shouldn&rsquo;t have skipped to the next iteration, and should have done the first version first because its easier to verify"</p></blockquote>
 
-<p>pg 98</p>
+<p>Chapter 6: Shadows, pg 98</p>
 
 <blockquote><p>Why is (n + 3) a good representation?</p>
 
@@ -84,21 +84,25 @@
 
 <blockquote><p>Use help functions to abstract from representations</p></blockquote>
 
-<p>pg 107</p>
+<p>Chapter 6: Shadows, pg 107</p>
 
 <blockquote><p>&ldquo;Numbers are representations? Yes. For example 4 stands for the concept four. We chose that symbol because we are accustomed to Arabic representations.&rdquo;</p></blockquote>
 
-<p>pg 127</p>
+<p>Chapter 8: Lambda the Ultimate, pg 127</p>
 
 <blockquote><p>What kind of values can functions return? Lists and atoms (and functions)</p>
 
 <p>Note: Lambdas (currying) were discovered by Moses Schonfinkel and Haskell B Curry</p></blockquote>
 
-<p>pg 150</p>
+<p>Chapter 9: &hellip; and Again, and Again, and Again, &hellip; pg 150</p>
 
 <blockquote><p>Can you guess what sorn stands for? Symbol or Number</p>
 
 <p>Unnatural Recursion, does not recur on a part of lat (but on a result of a passed around function)</p></blockquote>
+
+<p>Chapter 10: What is the Value of All of This? pg 184</p>
+
+<blockquote><p>&ldquo;It is a special form that takes any number of cond-lines. It considers each line in turn. If the question part of the left is false, it looks at the rest of the lines. Otherwise it proceeds to answer the right part. If it sees an else-line, it treats that cond-line as if its question part were true&rdquo;</p></blockquote>
 
 <p>I didn&rsquo;t collect a lot of quotes from the last 3 chapters (collectors, Y-Comb, interpreter), but here are some of my notes:</p>
 
