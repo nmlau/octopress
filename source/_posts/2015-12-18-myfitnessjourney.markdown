@@ -7,7 +7,7 @@ categories: [hobby, fitness, nutrition, routine]
 published: true
 ---
 
-# Under Construction
+## Under Construction
 
 ### Introduction
 
@@ -21,6 +21,7 @@ This whole post could be summed up with: Eat, Sleep, Workout, Be Consistent
 * What I used to do
 * Transition to Power Lifting
 * Studying
+* Routine
 * Nutrition, Lifting, Sleep, *Sustainability*
 * Cutting
 * Bulking
@@ -58,6 +59,7 @@ During university, I would find routines off the internet, often combining them 
 Then I discovered power lifting. This by itself wasn't the most important thing, that was the resources it lead me too. But we'll get to that later. I picked up the beginner powerlifing routine Stronglifts 5x5s. Yes, I was still a beginner after 4 years. This routine forced me to pick up a bunch of important lifts that I had been neglecting or had been too afraid to try, such as Squats, Deadlifts, and Overhead Press. It made them easy to pick up by starting the weights very low. It provided things beyond lifts and reps, such as when to deload.
 
 ### Studying
+### Routine
 ### Nutrition, Lifting, Sleep, *Sustainability*
 ### Cutting
 ### Bulking
