@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hong kong | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/hong-kong/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-04-10T15:38:33-07:00</updated>
+  <updated>2016-04-10T15:40:16-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -18,7 +18,7 @@
     <link href="http://octopress.nicksdevspot.com/blog/2015/05/23/hong-kong/"/>
     <updated>2015-05-23T17:30:08-07:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2015/05/23/hong-kong</id>
-    <content type="html"><![CDATA[<p><img src="/images/hong_kong/tai_mei_tuk/tai_mei_tuk_biking.jpg" title="&lsquo;tai_mei_tuk_biking.jpg&rsquo;" ></p>
+    <content type="html"><![CDATA[<p>{% img /images/hong_kong/tai_mei_tuk/tai_mei_tuk_biking.jpg &lsquo;tai_mei_tuk_biking.jpg&rsquo; %}</p>
 
 <p>I had originally planned to go to China during this period but decided a couple weeks would not be nearly enough time and didn&rsquo;t want to waste a six month, relatively expensive visa on it. So I decided to go to Hong Kong instead.</p>
 
@@ -31,127 +31,127 @@
 
 
 <p>Some cool Hong Kong apartments we saw on the bus ride in
-<img src="/images/hong_kong/misc/apartments.jpg" title="&lsquo;apartments.jpg&rsquo;" ></p>
+{% img /images/hong_kong/misc/apartments.jpg &lsquo;apartments.jpg&rsquo; %}</p>
 
 <p>Dim sum
-<img src="/images/hong_kong/misc/dim_sum.jpg" title="&lsquo;dim_sum.jpg&rsquo;" ></p>
+{% img /images/hong_kong/misc/dim_sum.jpg &lsquo;dim_sum.jpg&rsquo; %}</p>
 
 <p>Dim sum at lunch, the crowd is trying to get to the food cart
-<img src="/images/hong_kong/misc/dim_sum_cart.jpg" title="&lsquo;dim_sum_cart.jpg&rsquo;" ></p>
+{% img /images/hong_kong/misc/dim_sum_cart.jpg &lsquo;dim_sum_cart.jpg&rsquo; %}</p>
 
 <p>Picked up some Kinder Joys
-<img src="/images/hong_kong/misc/kinder_joy.JPG" title="&lsquo;kinder_joy.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/kinder_joy.JPG &lsquo;kinder_joy.JPG&rsquo; %}</p>
 
 <p>My Kinder Joy Toy family
-<img src="/images/hong_kong/misc/kinder_joy_toys.JPG" title="&lsquo;kinder_joy_toys.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/kinder_joy_toys.JPG &lsquo;kinder_joy_toys.JPG&rsquo; %}</p>
 
 <p>Spiderman on an adventure
-<img src="/images/hong_kong/misc/kinder_joy_spiderman_adventures.JPG" title="&lsquo;kinder_joy_spiderman_adventures.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/kinder_joy_spiderman_adventures.JPG &lsquo;kinder_joy_spiderman_adventures.JPG&rsquo; %}</p>
 
 <p>Hong Kong is pretty watch crazy, went to try on a classic
-<img src="/images/hong_kong/misc/omega_speedmaster.JPG" title="&lsquo;omega_speedmaster.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/omega_speedmaster.JPG &lsquo;omega_speedmaster.JPG&rsquo; %}</p>
 
 <h3> Mongkok </h3>
 
 
 <p>Amber&rsquo;s Mini High School reunion with Leo and me
-<img src="/images/hong_kong/mongkok/mongkok_group.jpg" title="&lsquo;mongkok_group.jpg&rsquo;" ></p>
+{% img /images/hong_kong/mongkok/mongkok_group.jpg &lsquo;mongkok_group.jpg&rsquo; %}</p>
 
 <p>Ended up near one of those protests we see one the news back home
-<img src="/images/hong_kong/mongkok/mongkok_protest.JPG" title="&lsquo;mongkok_protest.JPG&rsquo;" ></p>
+{% img /images/hong_kong/mongkok/mongkok_protest.JPG &lsquo;mongkok_protest.JPG&rsquo; %}</p>
 
 <p>And more dim sum of course
-<img src="/images/hong_kong/mongkok/more_dim_sum.jpg" title="&lsquo;more_dim_sum.jpg&rsquo;" ></p>
+{% img /images/hong_kong/mongkok/more_dim_sum.jpg &lsquo;more_dim_sum.jpg&rsquo; %}</p>
 
 <h3> Tai Mei Tuk </h3>
 
 
 <p>Claire took us to Tai Mei Tuk for a fun time biking through the scenic landscape
-<img src="/images/hong_kong/tai_mei_tuk/tai_mei_tuk_more_biking.jpg" title="&lsquo;tai_mei_tuk_more_biking.jpg&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/tai_mei_tuk_more_biking.jpg &lsquo;tai_mei_tuk_more_biking.jpg&rsquo; %}</p>
 
 <p>She then took us to a nearby wet market
-<img src="/images/hong_kong/tai_mei_tuk/seafood_market.JPG" title="&lsquo;seafood_market.JPG&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/seafood_market.JPG &lsquo;seafood_market.JPG&rsquo; %}</p>
 
 <p>Various fish
-<img src="/images/hong_kong/tai_mei_tuk/seafood_market_fish.JPG" title="&lsquo;seafood_market_fish.JPG&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/seafood_market_fish.JPG &lsquo;seafood_market_fish.JPG&rsquo; %}</p>
 
 <p>Geoducks and Abalone!
-<img src="/images/hong_kong/tai_mei_tuk/seafood_market_geoduck.jpg" title="&lsquo;seafood_market_geoduck.jpg&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/seafood_market_geoduck.jpg &lsquo;seafood_market_geoduck.jpg&rsquo; %}</p>
 
 <p>Top floor had a bunch of restuarants, got a full seafood dinner
-<img src="/images/hong_kong/tai_mei_tuk/seafood_market_dinner.jpg" title="&lsquo;seafood_market_dinner.jpg&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/seafood_market_dinner.jpg &lsquo;seafood_market_dinner.jpg&rsquo; %}</p>
 
 <h3> Ocean Park </h3>
 
 
 <p>Had wanted to see an aquarium, so headed to Ocean Park
-<img src="/images/hong_kong/ocean_park/ocean_park_group.jpg" title="&lsquo;ocean_park_group.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_group.jpg &lsquo;ocean_park_group.jpg&rsquo; %}</p>
 
 <p>So hundreds of different kinds of sea life, this was the most awkward one
-<img src="/images/hong_kong/ocean_park/ocean_park_awkward_fish.jpg" title="&lsquo;ocean_park_awkward_fish.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_awkward_fish.jpg &lsquo;ocean_park_awkward_fish.jpg&rsquo; %}</p>
 
 <p>Watching this guy eat was incredible
-<img src="/images/hong_kong/ocean_park/ocean_park_panda_eating.jpg" title="&lsquo;ocean_park_panda_eating.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_panda_eating.jpg &lsquo;ocean_park_panda_eating.jpg&rsquo; %}</p>
 
 <p>Nice view of Hong Kong from the Gondola
-<img src="/images/hong_kong/ocean_park/ocean_park_view.jpg" title="&lsquo;ocean_park_view.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_view.jpg &lsquo;ocean_park_view.jpg&rsquo; %}</p>
 
 <p>There were some exhilarating rides
-<img src="/images/hong_kong/ocean_park/ocean_park_rides.jpg" title="&lsquo;ocean_park_rides.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_rides.jpg &lsquo;ocean_park_rides.jpg&rsquo; %}</p>
 
 <h3> Amber's Family </h3>
 
 
 <p>Met up with some of Ambers relatives
-<img src="/images/hong_kong/amber_family/amber_family_group.jpg" title="&lsquo;amber_family_group.jpg&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/amber_family_group.jpg &lsquo;amber_family_group.jpg&rsquo; %}</p>
 
 <p>They took us to hotpot at the &lsquo;Very Good Restuarant&rsquo;
-<img src="/images/hong_kong/amber_family/hotpot_family.jpg" title="&lsquo;hotpot_family.jpg&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/hotpot_family.jpg &lsquo;hotpot_family.jpg&rsquo; %}</p>
 
 <p>Had some incredible abalone
-<img src="/images/hong_kong/amber_family/hotpot_abalone.JPG" title="&lsquo;hotpot_abalone.JPG&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/hotpot_abalone.JPG &lsquo;hotpot_abalone.JPG&rsquo; %}</p>
 
 <p>The next day they took us to the beach, which happened to be next to a dogpark
-<img src="/images/hong_kong/amber_family/beach_dogpark.jpg" title="&lsquo;beach_dogpark.jpg&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/beach_dogpark.jpg &lsquo;beach_dogpark.jpg&rsquo; %}</p>
 
 <p>We messed around with this crab for awhile
-<img src="/images/hong_kong/amber_family/crab.jpg" title="&lsquo;crab.jpg&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/crab.jpg &lsquo;crab.jpg&rsquo; %}</p>
 
 <p>Then to the peak, a shopping mall where you can look out over all of Hong Kong. Unfortunately it was cloudy&hellip;
-<img src="/images/hong_kong/amber_family/the_peak.JPG" title="&lsquo;the_peak.JPG&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/the_peak.JPG &lsquo;the_peak.JPG&rsquo; %}</p>
 
 <h3> Tsim Sha Tsui (TST) </h3>
 
 
 <p>Hong Kongs Walk of Stars
-<img src="/images/hong_kong/tst/tst_walk_of_stars.JPG" title="&lsquo;tst_walk_of_stars.JPG&rsquo;" ></p>
+{% img /images/hong_kong/tst/tst_walk_of_stars.JPG &lsquo;tst_walk_of_stars.JPG&rsquo; %}</p>
 
 <p>Found this on the way back to our hotel one night
-<img src="/images/hong_kong/tst/tst_fountain.jpg" title="&lsquo;tst_fountain.jpg&rsquo;" ></p>
+{% img /images/hong_kong/tst/tst_fountain.jpg &lsquo;tst_fountain.jpg&rsquo; %}</p>
 
 <p>Can&rsquo;t believe this was a 5 minute walk from our hotel, spent a lot of time here! They had a light show every night
-<img src="/images/hong_kong/tst/tst_skyline_lightshow.JPG" title="&lsquo;tst_skyline_lightshow.JPG&rsquo;" ></p>
+{% img /images/hong_kong/tst/tst_skyline_lightshow.JPG &lsquo;tst_skyline_lightshow.JPG&rsquo; %}</p>
 
 <h3> Kowloon and Causeway Bay</h3>
 
 
 <p>Amber left for Singapore a day early to catch her prebooked flight to Japan, so I wandered around. Found this at a mall.
-<img src="/images/hong_kong/causeway_bay/causeway_bay_avengers.JPG" title="&lsquo;causeway_bay_avengers.JPG&rsquo;" ></p>
+{% img /images/hong_kong/causeway_bay/causeway_bay_avengers.JPG &lsquo;causeway_bay_avengers.JPG&rsquo; %}</p>
 
 <p>They&rsquo;re adorable! Got myself Ironman and a Thor for my little brother
-<img src="/images/hong_kong/causeway_bay/causeway_bay_avengers_bobbleheads.JPG" title="&lsquo;causeway_bay_avengers_bobbleheads.JPG&rsquo;" ></p>
+{% img /images/hong_kong/causeway_bay/causeway_bay_avengers_bobbleheads.JPG &lsquo;causeway_bay_avengers_bobbleheads.JPG&rsquo; %}</p>
 
 <p>Visited a nunnery and found an awesome temple
-<img src="/images/hong_kong/kowloon/kowloon_chi_lin_nunnery.JPG" title="&lsquo;kowloon_chi_lin_nunnery.JPG&rsquo;" ></p>
+{% img /images/hong_kong/kowloon/kowloon_chi_lin_nunnery.JPG &lsquo;kowloon_chi_lin_nunnery.JPG&rsquo; %}</p>
 
 <p>And there was a beautiful garden next door
-<img src="/images/hong_kong/kowloon/kowloon_nan_lian_garden.JPG" title="&lsquo;kowloon_nan_lian_garden.JPG&rsquo;" ></p>
+{% img /images/hong_kong/kowloon/kowloon_nan_lian_garden.JPG &lsquo;kowloon_nan_lian_garden.JPG&rsquo; %}</p>
 
 <h3> Farewell Hong Kong and off to Japan </h3>
 
 
 <p>And off to Japan, time flies and so do I
-<img src="/images/hong_kong/misc/airport.JPG" title="&lsquo;airport.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/airport.JPG &lsquo;airport.JPG&rsquo; %}</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: travel | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/travel/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-04-10T15:38:33-07:00</updated>
+  <updated>2016-04-10T15:40:16-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -20,7 +20,7 @@
     <id>http://octopress.nicksdevspot.com/blog/2015/08/15/japan-part-2</id>
     <content type="html"><![CDATA[<p>It&rsquo;s incredible how fast the months can pass when you&rsquo;re having fun! As the trip came to a close we headed further into Japan to explore Osaka and Hiroshima before heading back to Tokyo. We actually went back to Tokyo earlier than we had planned, since it was just that incredible!</p>
 
-<p><img src="/images/japan/6_tokyo_again/train_fuji.jpg" title="&lsquo;train_fuji.jpg&rsquo;" ></p>
+<p>{% img /images/japan/6_tokyo_again/train_fuji.jpg &lsquo;train_fuji.jpg&rsquo; %}</p>
 
 <p>We caught a pretty good view of Mount Fuji as we sped by on the Shinkansen.</p>
 
@@ -33,91 +33,91 @@
 
 
 <p>Tsukumen, or Dipping Noodles. Right next to our airbnb, came by here a couple times
-<img src="/images/japan/4_osaka/osaka_tsukumen.jpg" title="&lsquo;osaka_tsukumen.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_tsukumen.jpg &lsquo;osaka_tsukumen.jpg&rsquo; %}</p>
 
 <p>Japans Supercuts, $10 for a 10 minute haircut
-<img src="/images/japan/4_osaka/osaka_qb_house.jpg" title="&lsquo;osaka_qb_house.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_qb_house.jpg &lsquo;osaka_qb_house.jpg&rsquo; %}</p>
 
 <p>These $1 clear umbrellas were everywhere
-<img src="/images/japan/4_osaka/osaka_sea_of_umbrellas.jpg" title="&lsquo;osaka_sea_of_umbrellas.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_sea_of_umbrellas.jpg &lsquo;osaka_sea_of_umbrellas.jpg&rsquo; %}</p>
 
 <p>Glico man!
-<img src="/images/japan/4_osaka/osaka_glico_man.jpg" title="&lsquo;osaka_glico_man.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_glico_man.jpg &lsquo;osaka_glico_man.jpg&rsquo; %}</p>
 
 <p>Pachinko, Japanese videogame slots
-<img src="/images/japan/4_osaka/osaka_pachinko.jpg" title="&lsquo;osaka_pachinko.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_pachinko.jpg &lsquo;osaka_pachinko.jpg&rsquo; %}</p>
 
 <p>Met up with some of Amber&rsquo;s Highschool friends and ate a lot of raw food
-<img src="/images/japan/4_osaka/osaka_dinner_raw_more.jpg" title="&lsquo;osaka_dinner_raw_more.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_dinner_raw_more.jpg &lsquo;osaka_dinner_raw_more.jpg&rsquo; %}</p>
 
 <p>My first taiyaki, redbean. I&rsquo;d go on to try custard, curry, etc filled
-<img src="/images/japan/4_osaka/osaka_first_taiyaki.jpg" title="&lsquo;osaka_first_taiyaki.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_first_taiyaki.jpg &lsquo;osaka_first_taiyaki.jpg&rsquo; %}</p>
 
 <p>This turtle has been all over the world!
-<img src="/images/japan/4_osaka/osaka_castle_turtle.jpg" title="&lsquo;osaka_castle_turtle.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_castle_turtle.jpg &lsquo;osaka_castle_turtle.jpg&rsquo; %}</p>
 
 <p>Amber, I and Osaka Castle. It was golden week so very crowded and active. We saw performers and a rock band
-<img src="/images/japan/4_osaka/osaka_castle_group.jpg" title="&lsquo;osaka_castle_group.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_castle_group.jpg &lsquo;osaka_castle_group.jpg&rsquo; %}</p>
 
 <p>Favorite sushi place, used huge slabs of fish
-<img src="/images/japan/4_osaka/osaka_sushi_monster.jpg" title="&lsquo;osaka_sushi_monster.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_sushi_monster.jpg &lsquo;osaka_sushi_monster.jpg&rsquo; %}</p>
 
 <p>What dreams are made of
-<img src="/images/japan/4_osaka/osaka_sushi_wow.jpg" title="&lsquo;osaka_sushi_wow.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_sushi_wow.jpg &lsquo;osaka_sushi_wow.jpg&rsquo; %}</p>
 
 <p>Amber had met Tetsu somewhere in Southeast Asia (he&rsquo;s Tatsu&rsquo;s friend). He showed us around Osaka
-<img src="/images/japan/4_osaka/osaka_tetsuyoshi.jpg" title="&lsquo;osaka_tetsuyoshi.jpg&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_tetsuyoshi.jpg &lsquo;osaka_tetsuyoshi.jpg&rsquo; %}</p>
 
 <p>Took us to a place under the subway where they boiled everything. Had whale for the first time.
-<img src="/images/japan/4_osaka/osaka_tsukidashi.JPG" title="&lsquo;osaka_tsukidashi.JPG&rsquo;" ></p>
+{% img /images/japan/4_osaka/osaka_tsukidashi.JPG &lsquo;osaka_tsukidashi.JPG&rsquo; %}</p>
 
 <h3> Hiroshima </h3>
 
 
 <p>Our hotels view, right in the center of Hiroshima
-<img src="/images/japan/5_hiroshima/hiroshima_hotel_view_festival.jpg" title="&lsquo;hiroshima_hotel_view_festival.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_hotel_view_festival.jpg &lsquo;hiroshima_hotel_view_festival.jpg&rsquo; %}</p>
 
 <p>Our hotel happened to be in the middle of the Hiroshima Flower Festival
-<img src="/images/japan/5_hiroshima/hiroshima_flower_festival_1.jpg" title="&lsquo;hiroshima_flower_festival_1.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_flower_festival_1.jpg &lsquo;hiroshima_flower_festival_1.jpg&rsquo; %}</p>
 
 <p>There were parades all day
-<img src="/images/japan/5_hiroshima/hiroshima_flower_festival_2.jpg" title="&lsquo;hiroshima_flower_festival_2.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_flower_festival_2.jpg &lsquo;hiroshima_flower_festival_2.jpg&rsquo; %}</p>
 
 <p>Woah
-<img src="/images/japan/5_hiroshima/hiroshima_flower_festival_3.jpg" title="&lsquo;hiroshima_flower_festival_3.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_flower_festival_3.jpg &lsquo;hiroshima_flower_festival_3.jpg&rsquo; %}</p>
 
 <p>Hundreds of huge paper cranes. Well, ten hundred would be a good guess.
-<img src="/images/japan/5_hiroshima/hiroshima_flower_festival_4.jpg" title="&lsquo;hiroshima_flower_festival_4.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_flower_festival_4.jpg &lsquo;hiroshima_flower_festival_4.jpg&rsquo; %}</p>
 
 <p>There was food everywhere too
-<img src="/images/japan/5_hiroshima/hiroshima_flower_festival_food.jpg" title="&lsquo;hiroshima_flower_festival_food.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_flower_festival_food.jpg &lsquo;hiroshima_flower_festival_food.jpg&rsquo; %}</p>
 
 <p>Mazemen place right next to our hotel
-<img src="/images/japan/5_hiroshima/hiroshima_okkundo_mazemen.jpg" title="&lsquo;hiroshima_okkundo_mazemen.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_okkundo_mazemen.jpg &lsquo;hiroshima_okkundo_mazemen.jpg&rsquo; %}</p>
 
 <p>Sobering abomb museum
-<img src="/images/japan/5_hiroshima/hiroshima_museum_abomb.jpg" title="&lsquo;hiroshima_museum_abomb.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_museum_abomb.jpg &lsquo;hiroshima_museum_abomb.jpg&rsquo; %}</p>
 
 <p>Genbaku (&ldquo;A-Bomb&rdquo;) Dome, directly below the epicenter of the abomb detonation
-<img src="/images/japan/5_hiroshima/hiroshima_abomb_center.jpg" title="&lsquo;hiroshima_abomb_center.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_abomb_center.jpg &lsquo;hiroshima_abomb_center.jpg&rsquo; %}</p>
 
 <p>Hiroshima style Okanomiyaki (over noodles)
-<img src="/images/japan/5_hiroshima/hiroshima_dinner_okanomiyaki.jpg" title="&lsquo;hiroshima_dinner_okanomiyaki.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_dinner_okanomiyaki.jpg &lsquo;hiroshima_dinner_okanomiyaki.jpg&rsquo; %}</p>
 
 <h3> Day trip to Itsukushima Island </h3>
 
 
 <p>Pretty sweet gate, looks cooler when the tide rises though
-<img src="/images/japan/5_hiroshima/hiroshima_itsukushima_gate.jpg" title="&lsquo;hiroshima_itsukushima_gate.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_itsukushima_gate.jpg &lsquo;hiroshima_itsukushima_gate.jpg&rsquo; %}</p>
 
 <p>Messing around at the shrine
-<img src="/images/japan/5_hiroshima/hiroshima_itsukushima_pose.jpg" title="&lsquo;hiroshima_itsukushima_pose.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_itsukushima_pose.jpg &lsquo;hiroshima_itsukushima_pose.jpg&rsquo; %}</p>
 
 <p>Well known for seafood, you can find people digging for seafood on the beach
-<img src="/images/japan/5_hiroshima/hiroshima_itsukushima_shrine_oysters.jpg" title="&lsquo;hiroshima_itsukushima_shrine_oysters.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_itsukushima_shrine_oysters.jpg &lsquo;hiroshima_itsukushima_shrine_oysters.jpg&rsquo; %}</p>
 
 <p>At night once the tide had come in a little
-<img src="/images/japan/5_hiroshima/hiroshima_itsukushima_shrine_tide.jpg" title="&lsquo;hiroshima_itsukushima_shrine_tide.jpg&rsquo;" ></p>
+{% img /images/japan/5_hiroshima/hiroshima_itsukushima_shrine_tide.jpg &lsquo;hiroshima_itsukushima_shrine_tide.jpg&rsquo; %}</p>
 
 <h3> Back to Tokyo </h3>
 
@@ -125,103 +125,103 @@
 <p>Were planning on staying in Hiroshima for a couple days longer, but couldn&rsquo;t wait to get back to Tokyo!</p>
 
 <p>Tokyo Stations Character Street. Full of anime shops: Shonen Jump, Pokemon, Miyazaki, Eggy, etc
-<img src="/images/japan/6_tokyo_again/tokyo_character_street.jpg" title="&lsquo;tokyo_character_street.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_character_street.jpg &lsquo;tokyo_character_street.jpg&rsquo; %}</p>
 
 <p>Ameyayokocho market in Ueno. Found a lot of great stuff, they had Red Wings, Americaya, Samurai, Flathead, etc&hellip;
-<img src="/images/japan/6_tokyo_again/tokyo_ueno_ameyoko_market.jpg" title="&lsquo;tokyo_ueno_ameyoko_market.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_ueno_ameyoko_market.jpg &lsquo;tokyo_ueno_ameyoko_market.jpg&rsquo; %}</p>
 
 <p>This place was recommended to us by a couple people, was delicious and filling
-<img src="/images/japan/6_tokyo_again/tokyo_ueno_ameyoko_gogo_curry.jpg" title="&lsquo;tokyo_ueno_ameyoko_gogo_curry.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_ueno_ameyoko_gogo_curry.jpg &lsquo;tokyo_ueno_ameyoko_gogo_curry.jpg&rsquo; %}</p>
 
 <p>Parade forming outside our curry place
-<img src="/images/japan/6_tokyo_again/tokyo_ueno_ameyoko_animals.jpg" title="&lsquo;tokyo_ueno_ameyoko_animals.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_ueno_ameyoko_animals.jpg &lsquo;tokyo_ueno_ameyoko_animals.jpg&rsquo; %}</p>
 
 <p>Megumi and Masa, Amber&rsquo;s friends that she had met in Australia
-<img src="/images/japan/6_tokyo_again/tokyo_lunch_tempura_group.jpg" title="&lsquo;tokyo_lunch_tempura_group.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_lunch_tempura_group.jpg &lsquo;tokyo_lunch_tempura_group.jpg&rsquo; %}</p>
 
 <p>Went to a wellknown place specializing in Tempura
-<img src="/images/japan/6_tokyo_again/tokyo_lunch_tempura_megumi_masa.jpg" title="&lsquo;tokyo_lunch_tempura_megumi_masa.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_lunch_tempura_megumi_masa.jpg &lsquo;tokyo_lunch_tempura_megumi_masa.jpg&rsquo; %}</p>
 
 <p>Tempura!
-<img src="/images/japan/6_tokyo_again/tokyo_lunch_tempura.jpg" title="&lsquo;tokyo_lunch_tempura.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_lunch_tempura.jpg &lsquo;tokyo_lunch_tempura.jpg&rsquo; %}</p>
 
 <h3> Disney Sea </h3>
 
 
 <p>The only Disney Sea in the world, located right next to Japan&rsquo;s Disneyland
-<img src="/images/japan/6_tokyo_again/tokyo_disney_sea.jpg" title="&lsquo;tokyo_disney_sea.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_disney_sea.jpg &lsquo;tokyo_disney_sea.jpg&rsquo; %}</p>
 
 <p>I was brought here with promises of Aquariums and penguins, but it turned out to be pretty alright
-<img src="/images/japan/6_tokyo_again/tokyo_disney_sea_alladin.jpg" title="&lsquo;tokyo_disney_sea_alladin.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_disney_sea_alladin.jpg &lsquo;tokyo_disney_sea_alladin.jpg&rsquo; %}</p>
 
 <p>Character Signings were pretty cool
-<img src="/images/japan/6_tokyo_again/tokyo_disney_sea_stitch.jpg" title="&lsquo;tokyo_disney_sea_stitch.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_disney_sea_stitch.jpg &lsquo;tokyo_disney_sea_stitch.jpg&rsquo; %}</p>
 
 <p>We met Mrs Incredible
-<img src="/images/japan/6_tokyo_again/tokyo_disney_sea_mrsincredible.jpg" title="&lsquo;tokyo_disney_sea_mrsincredible.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_disney_sea_mrsincredible.jpg &lsquo;tokyo_disney_sea_mrsincredible.jpg&rsquo; %}</p>
 
 <p>Fantasia Light show!
-<img src="/images/japan/6_tokyo_again/tokyo_disney_sea_lightshow.jpg" title="&lsquo;tokyo_disney_sea_lightshow.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_disney_sea_lightshow.jpg &lsquo;tokyo_disney_sea_lightshow.jpg&rsquo; %}</p>
 
 <h3> Exploring Tokyo </h3>
 
 
 <p>Went to see the infamous Gundam Wing
-<img src="/images/japan/6_tokyo_again/tokyo_odaiba_gundam.jpg" title="&lsquo;tokyo_odaiba_gundam.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_odaiba_gundam.jpg &lsquo;tokyo_odaiba_gundam.jpg&rsquo; %}</p>
 
 <p>There was an little Jpop concert next door
-<img src="/images/japan/6_tokyo_again/tokyo_odaiba_jpop.jpg" title="&lsquo;tokyo_odaiba_jpop.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_odaiba_jpop.jpg &lsquo;tokyo_odaiba_jpop.jpg&rsquo; %}</p>
 
 <p>Went to Ikekukuro&rsquo;s Pokemon Mega Center
-<img src="/images/japan/6_tokyo_again/tokyo_ikebukuro_pokemon.jpg" title="&lsquo;tokyo_ikebukuro_pokemon.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_ikebukuro_pokemon.jpg &lsquo;tokyo_ikebukuro_pokemon.jpg&rsquo; %}</p>
 
 <p>Got her Charizard Pikachu
-<img src="/images/japan/6_tokyo_again/tokyo_ikebukuro_pokemon_center.jpg" title="&lsquo;tokyo_ikebukuro_pokemon_center.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_ikebukuro_pokemon_center.jpg &lsquo;tokyo_ikebukuro_pokemon_center.jpg&rsquo; %}</p>
 
 <p>The line was too long the first time we tried to go here, came earlier the next day and got ourselves some delicious sushi
-<img src="/images/japan/6_tokyo_again/tokyo_shibuya_sushi_midori.JPG" title="&lsquo;tokyo_shibuya_sushi_midori.JPG&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_shibuya_sushi_midori.JPG &lsquo;tokyo_shibuya_sushi_midori.JPG&rsquo; %}</p>
 
 <p>Tokyo Skytree and me
-<img src="/images/japan/6_tokyo_again/tokyo_skytree.jpg" title="&lsquo;tokyo_skytree.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_skytree.jpg &lsquo;tokyo_skytree.jpg&rsquo; %}</p>
 
 <p>Shinjuku, the sketchy redlight district. Our hotel was here
-<img src="/images/japan/6_tokyo_again/tokyo_shinjuku.jpg" title="&lsquo;tokyo_shinjuku.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_shinjuku.jpg &lsquo;tokyo_shinjuku.jpg&rsquo; %}</p>
 
 <p>Stereotypical and offensive Robot Restuarant
-<img src="/images/japan/6_tokyo_again/tokyo_shinjuku_robot_restuarant.jpg" title="&lsquo;tokyo_shinjuku_robot_restuarant.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_shinjuku_robot_restuarant.jpg &lsquo;tokyo_shinjuku_robot_restuarant.jpg&rsquo; %}</p>
 
 <p>Waited three hours in the morning cold, was sick for a few weeks, but that was incredible sushi
-<img src="/images/japan/6_tokyo_again/tokyo_tsukiji_line.jpg" title="&lsquo;tokyo_tsukiji_line.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_tsukiji_line.jpg &lsquo;tokyo_tsukiji_line.jpg&rsquo; %}</p>
 
 <p>Sea Urchin, mmmmmm
-<img src="/images/japan/6_tokyo_again/tokyo_tsukiji_sushi_dai_urchin.JPG" title="&lsquo;tokyo_tsukiji_sushi_dai_urchin.JPG&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_tsukiji_sushi_dai_urchin.JPG &lsquo;tokyo_tsukiji_sushi_dai_urchin.JPG&rsquo; %}</p>
 
 <p>And those slabs of tuna in the back&hellip;
-<img src="/images/japan/6_tokyo_again/tokyo_tsukiji_sushi_dai.jpg" title="&lsquo;tokyo_tsukiji_sushi_dai.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_tsukiji_sushi_dai.jpg &lsquo;tokyo_tsukiji_sushi_dai.jpg&rsquo; %}</p>
 
 <p>My last day in Japan, Metropolitan Observation Deck looking out over Tokyo
-<img src="/images/japan/6_tokyo_again/tokyo_metropolitan_observation_deck.jpg" title="&lsquo;tokyo_metropolitan_observation_deck.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_metropolitan_observation_deck.jpg &lsquo;tokyo_metropolitan_observation_deck.jpg&rsquo; %}</p>
 
 <p>You can see tokyo skytree if you look at the orange/white tower slightly to the right of the center one.
-<img src="/images/japan/6_tokyo_again/tokyo_metropolitan_deck_tokyo_tower.jpg" title="&lsquo;tokyo_metropolitan_deck_tokyo_tower.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_metropolitan_deck_tokyo_tower.jpg &lsquo;tokyo_metropolitan_deck_tokyo_tower.jpg&rsquo; %}</p>
 
 <p>My last meal had to be sushi
-<img src="/images/japan/6_tokyo_again/tokyo_midori_last_sushi.jpg" title="&lsquo;tokyo_midori_last_sushi.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_midori_last_sushi.jpg &lsquo;tokyo_midori_last_sushi.jpg&rsquo; %}</p>
 
 <p>Met a guy who let me try some whale and his million dollar watch. That&rsquo;s my $350 one behind it
-<img src="/images/japan/6_tokyo_again/tokyo_millionaire_watch.jpg" title="&lsquo;tokyo_millionaire_watch.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_millionaire_watch.jpg &lsquo;tokyo_millionaire_watch.jpg&rsquo; %}</p>
 
 <p>Listened to this street performer on the streets of Shibuya while I waited until it was time to train out to haneda airport
-<img src="/images/japan/6_tokyo_again/tokyo_shibuya_drummer.jpg" title="&lsquo;tokyo_shibuya_drummer.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_shibuya_drummer.jpg &lsquo;tokyo_shibuya_drummer.jpg&rsquo; %}</p>
 
 <p>The famous crossing you see in all those movies
-<img src="/images/japan/6_tokyo_again/tokyo_shibuya_famous_crossing.jpg" title="&lsquo;tokyo_shibuya_famous_crossing.jpg&rsquo;" ></p>
+{% img /images/japan/6_tokyo_again/tokyo_shibuya_famous_crossing.jpg &lsquo;tokyo_shibuya_famous_crossing.jpg&rsquo; %}</p>
 
 <p>Goodbye Asia
-<img src="/images/japan/misc/good_bye.jpg" title="&lsquo;good_bye.jpg&rsquo;" ></p>
+{% img /images/japan/misc/good_bye.jpg &lsquo;good_bye.jpg&rsquo; %}</p>
 
 <p>And welcome home
-<img src="/images/japan/misc/back_home.jpg" title="&lsquo;back_home.jpg&rsquo;" ></p>
+{% img /images/japan/misc/back_home.jpg &lsquo;back_home.jpg&rsquo; %}</p>
 ]]></content>
   </entry>
   
@@ -230,7 +230,7 @@
     <link href="http://octopress.nicksdevspot.com/blog/2015/06/30/japan/"/>
     <updated>2015-06-30T17:30:23-07:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2015/06/30/japan</id>
-    <content type="html"><![CDATA[<p><img src="/images/japan/2_kyoto/nara_temple_todai-ji.jpg" title="&lsquo;nara_temple_todai-ji.jpg&rsquo;" ></p>
+    <content type="html"><![CDATA[<p>{% img /images/japan/2_kyoto/nara_temple_todai-ji.jpg &lsquo;nara_temple_todai-ji.jpg&rsquo; %}</p>
 
 <p>While Vietnam was more of an adventure, Japan fell on the vacation side. The hospitality was incredible and the hostels felt like 5 star hotels. The cuisine was full of novel tastes and textures. The culture was quirky and energetic. Most importantly though, I got to visit one of my homelands, something I&rsquo;ve always wanted to do.</p>
 
@@ -238,151 +238,151 @@
 
 
 <p>The clouds over the Sea of Japan
-<img src="/images/japan/misc/flight_in.jpg" title="&lsquo;flight_in.jpg&rsquo;" ></p>
+{% img /images/japan/misc/flight_in.jpg &lsquo;flight_in.jpg&rsquo; %}</p>
 
 <p>Hong Kong Express saved me a lot of money this trip
-<img src="/images/japan/misc/plane_ticket.jpg" title="&lsquo;plane_ticket.jpg&rsquo;" ></p>
+{% img /images/japan/misc/plane_ticket.jpg &lsquo;plane_ticket.jpg&rsquo; %}</p>
 
 <p>The beginning of a long trip from the airport to hostel
-<img src="/images/japan/misc/welcome_to_japan.jpg" title="&lsquo;welcome_to_japan.jpg&rsquo;" ></p>
+{% img /images/japan/misc/welcome_to_japan.jpg &lsquo;welcome_to_japan.jpg&rsquo; %}</p>
 
 <h3> Tokyo </h3>
 
 
 <p>We stayed at a hostel in Akihabara, well known for its Otaku culture. Walk a couple stories up or down and you&rsquo;d start finding some weird stuff
-<img src="/images/japan/1_tokyo/tokyo_akihabara.jpg" title="&lsquo;tokyo_akihabara.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/tokyo_akihabara.jpg &lsquo;tokyo_akihabara.jpg&rsquo; %}</p>
 
 <p>Quick breakfast at our favorite 24 hour place before heading out to explore
-<img src="/images/japan/1_tokyo/tokyo_akihabara_lunch.jpg" title="&lsquo;tokyo_akihabara_lunch.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/tokyo_akihabara_lunch.jpg &lsquo;tokyo_akihabara_lunch.jpg&rsquo; %}</p>
 
 <p>Hachiko, after his owner died he continued to run out here day after day to meet him. Naturally there&rsquo;s a film adaptation
-<img src="/images/japan/1_tokyo/shibuya_hachiko.jpg" title="&lsquo;shibuya_hachiko.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/shibuya_hachiko.jpg &lsquo;shibuya_hachiko.jpg&rsquo; %}</p>
 
 <p>Zach&rsquo;s friend Mio took us to an Izakaya
-<img src="/images/japan/1_tokyo/shibuya_izakaya.jpg" title="&lsquo;shibuya_izakaya.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/shibuya_izakaya.jpg &lsquo;shibuya_izakaya.jpg&rsquo; %}</p>
 
 <p>Met Emi as an exchange student at UCSD several years ago, we met again in her territory
-<img src="/images/japan/1_tokyo/shibuya_emi.jpg" title="&lsquo;shibuya_emi.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/shibuya_emi.jpg &lsquo;shibuya_emi.jpg&rsquo; %}</p>
 
 <p>Apparently Spumoni&rsquo;s are very popular in Japan
-<img src="/images/japan/1_tokyo/shibuya_spumoni_manhattan.jpg" title="&lsquo;shibuya_spumoni_manhattan.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/shibuya_spumoni_manhattan.jpg &lsquo;shibuya_spumoni_manhattan.jpg&rsquo; %}</p>
 
 <p>Roppongi is the party district of Tokyo. Clubs here stay open until 5am, just in time to catch the first subways
-<img src="/images/japan/1_tokyo/roppongi_vanity.jpg" title="&lsquo;roppongi_vanity.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/roppongi_vanity.jpg &lsquo;roppongi_vanity.jpg&rsquo; %}</p>
 
 <h3> Kamakura trip out of Tokyo </h3>
 
 
 <p>Took a day trip to Kamakura. Tatsu, who Amber had met in Thailand (?), came and hung out with us. This was the largest buddha in the world when it was constructed in the 1200s.
-<img src="/images/japan/1_tokyo/kamakura_daibutsu_buddha_group.jpg" title="&lsquo;kamakura_daibutsu_buddha_group.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/kamakura_daibutsu_buddha_group.jpg &lsquo;kamakura_daibutsu_buddha_group.jpg&rsquo; %}</p>
 
 <p>Cute statues in the garden
-<img src="/images/japan/1_tokyo/kamakura_hasedera_temple_cute.jpg" title="&lsquo;kamakura_hasedera_temple_cute.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/kamakura_hasedera_temple_cute.jpg &lsquo;kamakura_hasedera_temple_cute.jpg&rsquo; %}</p>
 
 <p>Poor the water on the statue for good luck!
-<img src="/images/japan/1_tokyo/kamakura_hasedera_temple_luck.jpg" title="&lsquo;kamakura_hasedera_temple_luck.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/kamakura_hasedera_temple_luck.jpg &lsquo;kamakura_hasedera_temple_luck.jpg&rsquo; %}</p>
 
 <p>Met Mio and her friend for all you can eat and drink hotpot
-<img src="/images/japan/1_tokyo/tokyo_ayce.jpg" title="&lsquo;tokyo_ayce.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/tokyo_ayce.jpg &lsquo;tokyo_ayce.jpg&rsquo; %}</p>
 
 <p>Walked around in Shinjuku redlight after dinner
-<img src="/images/japan/1_tokyo/shinjuku_strip_club.jpg" title="&lsquo;shinjuku_strip_club.jpg&rsquo;" ></p>
+{% img /images/japan/1_tokyo/shinjuku_strip_club.jpg &lsquo;shinjuku_strip_club.jpg&rsquo; %}</p>
 
 <h3> Kyoto </h3>
 
 
 <p>Subway brought us up in the center of a Japanese university, everyone was so fashionable!
-<img src="/images/japan/2_kyoto/kyoto_imedegawa_university.jpg" title="&lsquo;kyoto_imedegawa_university.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/kyoto_imedegawa_university.jpg &lsquo;kyoto_imedegawa_university.jpg&rsquo; %}</p>
 
 <p>Imperial palace, if you walk on the wrong side of the canal an alarm will go off&hellip;
-<img src="/images/japan/2_kyoto/kyoto_imperial_palace.jpg" title="&lsquo;kyoto_imperial_palace.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/kyoto_imperial_palace.jpg &lsquo;kyoto_imperial_palace.jpg&rsquo; %}</p>
 
 <p>Group shot at Imperial Palace
-<img src="/images/japan/2_kyoto/kyoto_imperial_palace_group.jpg" title="&lsquo;kyoto_imperial_palace_group.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/kyoto_imperial_palace_group.jpg &lsquo;kyoto_imperial_palace_group.jpg&rsquo; %}</p>
 
 <p>Nasty Crab Miso (sperm) sushi
-<img src="/images/japan/2_kyoto/kyoto_crab_miso.jpg" title="&lsquo;kyoto_crab_miso.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/kyoto_crab_miso.jpg &lsquo;kyoto_crab_miso.jpg&rsquo; %}</p>
 
 <p>Had to creep for awhile, but stalked ourself a Geisha
-<img src="/images/japan/2_kyoto/kyoto_geisha.jpg" title="&lsquo;kyoto_geisha.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/kyoto_geisha.jpg &lsquo;kyoto_geisha.jpg&rsquo; %}</p>
 
 <p>Walking through what seems like a Kyoto suburb
-<img src="/images/japan/2_kyoto/kyoto_neighborhood.jpg" title="&lsquo;kyoto_neighborhood.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/kyoto_neighborhood.jpg &lsquo;kyoto_neighborhood.jpg&rsquo; %}</p>
 
 <p>Lots of orange gates
-<img src="/images/japan/2_kyoto/inari_temple_walk_to_tofukuji.jpg" title="&lsquo;inari_temple_walk_to_tofukuji.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/inari_temple_walk_to_tofukuji.jpg &lsquo;inari_temple_walk_to_tofukuji.jpg&rsquo; %}</p>
 
 <p>Inari the fox
-<img src="/images/japan/2_kyoto/inari_fushimi_shrine.jpg" title="&lsquo;inari_fushimi_shrine.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/inari_fushimi_shrine.jpg &lsquo;inari_fushimi_shrine.jpg&rsquo; %}</p>
 
 <h3> Arashiyama trip out of Kyoto </h3>
 
 
 <p>Arashiyama, land of the monkeys
-<img src="/images/japan/2_kyoto/arashiyama_group.jpg" title="&lsquo;arashiyama_group.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/arashiyama_group.jpg &lsquo;arashiyama_group.jpg&rsquo; %}</p>
 
 <p>Walking down the river
-<img src="/images/japan/2_kyoto/arashiyama_river.jpg" title="&lsquo;arashiyama_river.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/arashiyama_river.jpg &lsquo;arashiyama_river.jpg&rsquo; %}</p>
 
 <p>Can feed the monkeys from within the cage
-<img src="/images/japan/2_kyoto/arashiyama_monkey_hut.jpg" title="&lsquo;arashiyama_monkey_hut.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/arashiyama_monkey_hut.jpg &lsquo;arashiyama_monkey_hut.jpg&rsquo; %}</p>
 
 <p>Monkey Selfie with humans
-<img src="/images/japan/2_kyoto/arashiyama_monkey_group.jpg" title="&lsquo;arashiyama_monkey_group.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/arashiyama_monkey_group.jpg &lsquo;arashiyama_monkey_group.jpg&rsquo; %}</p>
 
 <p>Bamboo Path
-<img src="/images/japan/2_kyoto/arashiyama_bamboo_path.jpg" title="&lsquo;arashiyama_bamboo_path.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/arashiyama_bamboo_path.jpg &lsquo;arashiyama_bamboo_path.jpg&rsquo; %}</p>
 
 <p>Pond of Dragon, my phones new lock screen
-<img src="/images/japan/2_kyoto/arashiyama_pond_of_dragon.jpg" title="&lsquo;arashiyama_pond_of_dragon.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/arashiyama_pond_of_dragon.jpg &lsquo;arashiyama_pond_of_dragon.jpg&rsquo; %}</p>
 
 <h3> Nara trip out of Kytoto </h3>
 
 
 <p>Nara, land of the deer
-<img src="/images/japan/2_kyoto/nara_mascot.jpg" title="&lsquo;nara_mascot.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/nara_mascot.jpg &lsquo;nara_mascot.jpg&rsquo; %}</p>
 
 <p>Randomly saw some turtles on the walk over
-<img src="/images/japan/2_kyoto/nara_turtles.jpg" title="&lsquo;nara_turtles.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/nara_turtles.jpg &lsquo;nara_turtles.jpg&rsquo; %}</p>
 
 <p>Selfie with a photogenic deer. They&rsquo;re normally not allowed to have antlers but I guess this one was well behaved.
-<img src="/images/japan/2_kyoto/nara_deer_group.jpg" title="&lsquo;nara_deer_group.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/nara_deer_group.jpg &lsquo;nara_deer_group.jpg&rsquo; %}</p>
 
 <p>Wow
-<img src="/images/japan/2_kyoto/nara_temple_todai-ji_pretty.jpg" title="&lsquo;nara_temple_todai-ji_pretty.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/nara_temple_todai-ji_pretty.jpg &lsquo;nara_temple_todai-ji_pretty.jpg&rsquo; %}</p>
 
 <p>One of the big Buddhas inside
-<img src="/images/japan/2_kyoto/nara_temple_todai-ji_buddha.jpg" title="&lsquo;nara_temple_todai-ji_buddha.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/nara_temple_todai-ji_buddha.jpg &lsquo;nara_temple_todai-ji_buddha.jpg&rsquo; %}</p>
 
 <p>Sunset
-<img src="/images/japan/2_kyoto/nara_temple_todai-ji_view.jpg" title="&lsquo;nara_temple_todai-ji_view.jpg&rsquo;" ></p>
+{% img /images/japan/2_kyoto/nara_temple_todai-ji_view.jpg &lsquo;nara_temple_todai-ji_view.jpg&rsquo; %}</p>
 
 <h3> Kinosake </h3>
 
 
 <p>Morizuya Ryokan, probably the favorite place I stayed over the whole trip. Got to sleep on tatami mats and wear yukatas
-<img src="/images/japan/3_kinosake/kinosake_yukata.jpg" title="&lsquo;kinosake_yukata.jpg&rsquo;" ></p>
+{% img /images/japan/3_kinosake/kinosake_yukata.jpg &lsquo;kinosake_yukata.jpg&rsquo; %}</p>
 
 <p>They even gave me one
-<img src="/images/japan/3_kinosake/kinosake_me.jpg" title="&lsquo;kinosake_me.jpg&rsquo;" ></p>
+{% img /images/japan/3_kinosake/kinosake_me.jpg &lsquo;kinosake_me.jpg&rsquo; %}</p>
 
 <p>There was a private cave onsen in Morizuya itself
-<img src="/images/japan/3_kinosake/kinosake_morizuya_onsen_cave.jpg" title="&lsquo;kinosake_morizuya_onsen_cave.jpg&rsquo;" ></p>
+{% img /images/japan/3_kinosake/kinosake_morizuya_onsen_cave.jpg &lsquo;kinosake_morizuya_onsen_cave.jpg&rsquo; %}</p>
 
 <p>And they had a rock turtle who was about my age
-<img src="/images/japan/3_kinosake/kinosake_morizuya_turtle.jpg" title="&lsquo;kinosake_morizuya_turtle.jpg&rsquo;" ></p>
+{% img /images/japan/3_kinosake/kinosake_morizuya_turtle.jpg &lsquo;kinosake_morizuya_turtle.jpg&rsquo; %}</p>
 
 <p>Brought us breakfast
-<img src="/images/japan/3_kinosake/kinosake_breakfast.jpg" title="&lsquo;kinosake_breakfast.jpg&rsquo;" ></p>
+{% img /images/japan/3_kinosake/kinosake_breakfast.jpg &lsquo;kinosake_breakfast.jpg&rsquo; %}</p>
 
 <p>Satonyu, one of the four onsens we went to. Had outdoor pools, steam rooms, waterfalls, everything!
-<img src="/images/japan/3_kinosake/kinosake_onsen_satonoyu.jpg" title="&lsquo;kinosake_onsen_satonoyu.jpg&rsquo;" ></p>
+{% img /images/japan/3_kinosake/kinosake_onsen_satonoyu.jpg &lsquo;kinosake_onsen_satonoyu.jpg&rsquo; %}</p>
 
 <p>Freaky sandfish
-<img src="/images/japan/3_kinosake/kinosake_sandfish.jpg" title="&lsquo;kinosake_sandfish.jpg&rsquo;" ></p>
+{% img /images/japan/3_kinosake/kinosake_sandfish.jpg &lsquo;kinosake_sandfish.jpg&rsquo; %}</p>
 
 <p>View over Kinosake and the Maruyama River flowing out to the Sea of Japan
-<img src="/images/japan/3_kinosake/kinosake_view.jpg" title="&lsquo;kinosake_view.jpg&rsquo;" ></p>
+{% img /images/japan/3_kinosake/kinosake_view.jpg &lsquo;kinosake_view.jpg&rsquo; %}</p>
 ]]></content>
   </entry>
   
@@ -391,7 +391,7 @@
     <link href="http://octopress.nicksdevspot.com/blog/2015/05/23/hong-kong/"/>
     <updated>2015-05-23T17:30:08-07:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2015/05/23/hong-kong</id>
-    <content type="html"><![CDATA[<p><img src="/images/hong_kong/tai_mei_tuk/tai_mei_tuk_biking.jpg" title="&lsquo;tai_mei_tuk_biking.jpg&rsquo;" ></p>
+    <content type="html"><![CDATA[<p>{% img /images/hong_kong/tai_mei_tuk/tai_mei_tuk_biking.jpg &lsquo;tai_mei_tuk_biking.jpg&rsquo; %}</p>
 
 <p>I had originally planned to go to China during this period but decided a couple weeks would not be nearly enough time and didn&rsquo;t want to waste a six month, relatively expensive visa on it. So I decided to go to Hong Kong instead.</p>
 
@@ -404,127 +404,127 @@
 
 
 <p>Some cool Hong Kong apartments we saw on the bus ride in
-<img src="/images/hong_kong/misc/apartments.jpg" title="&lsquo;apartments.jpg&rsquo;" ></p>
+{% img /images/hong_kong/misc/apartments.jpg &lsquo;apartments.jpg&rsquo; %}</p>
 
 <p>Dim sum
-<img src="/images/hong_kong/misc/dim_sum.jpg" title="&lsquo;dim_sum.jpg&rsquo;" ></p>
+{% img /images/hong_kong/misc/dim_sum.jpg &lsquo;dim_sum.jpg&rsquo; %}</p>
 
 <p>Dim sum at lunch, the crowd is trying to get to the food cart
-<img src="/images/hong_kong/misc/dim_sum_cart.jpg" title="&lsquo;dim_sum_cart.jpg&rsquo;" ></p>
+{% img /images/hong_kong/misc/dim_sum_cart.jpg &lsquo;dim_sum_cart.jpg&rsquo; %}</p>
 
 <p>Picked up some Kinder Joys
-<img src="/images/hong_kong/misc/kinder_joy.JPG" title="&lsquo;kinder_joy.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/kinder_joy.JPG &lsquo;kinder_joy.JPG&rsquo; %}</p>
 
 <p>My Kinder Joy Toy family
-<img src="/images/hong_kong/misc/kinder_joy_toys.JPG" title="&lsquo;kinder_joy_toys.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/kinder_joy_toys.JPG &lsquo;kinder_joy_toys.JPG&rsquo; %}</p>
 
 <p>Spiderman on an adventure
-<img src="/images/hong_kong/misc/kinder_joy_spiderman_adventures.JPG" title="&lsquo;kinder_joy_spiderman_adventures.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/kinder_joy_spiderman_adventures.JPG &lsquo;kinder_joy_spiderman_adventures.JPG&rsquo; %}</p>
 
 <p>Hong Kong is pretty watch crazy, went to try on a classic
-<img src="/images/hong_kong/misc/omega_speedmaster.JPG" title="&lsquo;omega_speedmaster.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/omega_speedmaster.JPG &lsquo;omega_speedmaster.JPG&rsquo; %}</p>
 
 <h3> Mongkok </h3>
 
 
 <p>Amber&rsquo;s Mini High School reunion with Leo and me
-<img src="/images/hong_kong/mongkok/mongkok_group.jpg" title="&lsquo;mongkok_group.jpg&rsquo;" ></p>
+{% img /images/hong_kong/mongkok/mongkok_group.jpg &lsquo;mongkok_group.jpg&rsquo; %}</p>
 
 <p>Ended up near one of those protests we see one the news back home
-<img src="/images/hong_kong/mongkok/mongkok_protest.JPG" title="&lsquo;mongkok_protest.JPG&rsquo;" ></p>
+{% img /images/hong_kong/mongkok/mongkok_protest.JPG &lsquo;mongkok_protest.JPG&rsquo; %}</p>
 
 <p>And more dim sum of course
-<img src="/images/hong_kong/mongkok/more_dim_sum.jpg" title="&lsquo;more_dim_sum.jpg&rsquo;" ></p>
+{% img /images/hong_kong/mongkok/more_dim_sum.jpg &lsquo;more_dim_sum.jpg&rsquo; %}</p>
 
 <h3> Tai Mei Tuk </h3>
 
 
 <p>Claire took us to Tai Mei Tuk for a fun time biking through the scenic landscape
-<img src="/images/hong_kong/tai_mei_tuk/tai_mei_tuk_more_biking.jpg" title="&lsquo;tai_mei_tuk_more_biking.jpg&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/tai_mei_tuk_more_biking.jpg &lsquo;tai_mei_tuk_more_biking.jpg&rsquo; %}</p>
 
 <p>She then took us to a nearby wet market
-<img src="/images/hong_kong/tai_mei_tuk/seafood_market.JPG" title="&lsquo;seafood_market.JPG&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/seafood_market.JPG &lsquo;seafood_market.JPG&rsquo; %}</p>
 
 <p>Various fish
-<img src="/images/hong_kong/tai_mei_tuk/seafood_market_fish.JPG" title="&lsquo;seafood_market_fish.JPG&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/seafood_market_fish.JPG &lsquo;seafood_market_fish.JPG&rsquo; %}</p>
 
 <p>Geoducks and Abalone!
-<img src="/images/hong_kong/tai_mei_tuk/seafood_market_geoduck.jpg" title="&lsquo;seafood_market_geoduck.jpg&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/seafood_market_geoduck.jpg &lsquo;seafood_market_geoduck.jpg&rsquo; %}</p>
 
 <p>Top floor had a bunch of restuarants, got a full seafood dinner
-<img src="/images/hong_kong/tai_mei_tuk/seafood_market_dinner.jpg" title="&lsquo;seafood_market_dinner.jpg&rsquo;" ></p>
+{% img /images/hong_kong/tai_mei_tuk/seafood_market_dinner.jpg &lsquo;seafood_market_dinner.jpg&rsquo; %}</p>
 
 <h3> Ocean Park </h3>
 
 
 <p>Had wanted to see an aquarium, so headed to Ocean Park
-<img src="/images/hong_kong/ocean_park/ocean_park_group.jpg" title="&lsquo;ocean_park_group.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_group.jpg &lsquo;ocean_park_group.jpg&rsquo; %}</p>
 
 <p>So hundreds of different kinds of sea life, this was the most awkward one
-<img src="/images/hong_kong/ocean_park/ocean_park_awkward_fish.jpg" title="&lsquo;ocean_park_awkward_fish.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_awkward_fish.jpg &lsquo;ocean_park_awkward_fish.jpg&rsquo; %}</p>
 
 <p>Watching this guy eat was incredible
-<img src="/images/hong_kong/ocean_park/ocean_park_panda_eating.jpg" title="&lsquo;ocean_park_panda_eating.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_panda_eating.jpg &lsquo;ocean_park_panda_eating.jpg&rsquo; %}</p>
 
 <p>Nice view of Hong Kong from the Gondola
-<img src="/images/hong_kong/ocean_park/ocean_park_view.jpg" title="&lsquo;ocean_park_view.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_view.jpg &lsquo;ocean_park_view.jpg&rsquo; %}</p>
 
 <p>There were some exhilarating rides
-<img src="/images/hong_kong/ocean_park/ocean_park_rides.jpg" title="&lsquo;ocean_park_rides.jpg&rsquo;" ></p>
+{% img /images/hong_kong/ocean_park/ocean_park_rides.jpg &lsquo;ocean_park_rides.jpg&rsquo; %}</p>
 
 <h3> Amber's Family </h3>
 
 
 <p>Met up with some of Ambers relatives
-<img src="/images/hong_kong/amber_family/amber_family_group.jpg" title="&lsquo;amber_family_group.jpg&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/amber_family_group.jpg &lsquo;amber_family_group.jpg&rsquo; %}</p>
 
 <p>They took us to hotpot at the &lsquo;Very Good Restuarant&rsquo;
-<img src="/images/hong_kong/amber_family/hotpot_family.jpg" title="&lsquo;hotpot_family.jpg&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/hotpot_family.jpg &lsquo;hotpot_family.jpg&rsquo; %}</p>
 
 <p>Had some incredible abalone
-<img src="/images/hong_kong/amber_family/hotpot_abalone.JPG" title="&lsquo;hotpot_abalone.JPG&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/hotpot_abalone.JPG &lsquo;hotpot_abalone.JPG&rsquo; %}</p>
 
 <p>The next day they took us to the beach, which happened to be next to a dogpark
-<img src="/images/hong_kong/amber_family/beach_dogpark.jpg" title="&lsquo;beach_dogpark.jpg&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/beach_dogpark.jpg &lsquo;beach_dogpark.jpg&rsquo; %}</p>
 
 <p>We messed around with this crab for awhile
-<img src="/images/hong_kong/amber_family/crab.jpg" title="&lsquo;crab.jpg&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/crab.jpg &lsquo;crab.jpg&rsquo; %}</p>
 
 <p>Then to the peak, a shopping mall where you can look out over all of Hong Kong. Unfortunately it was cloudy&hellip;
-<img src="/images/hong_kong/amber_family/the_peak.JPG" title="&lsquo;the_peak.JPG&rsquo;" ></p>
+{% img /images/hong_kong/amber_family/the_peak.JPG &lsquo;the_peak.JPG&rsquo; %}</p>
 
 <h3> Tsim Sha Tsui (TST) </h3>
 
 
 <p>Hong Kongs Walk of Stars
-<img src="/images/hong_kong/tst/tst_walk_of_stars.JPG" title="&lsquo;tst_walk_of_stars.JPG&rsquo;" ></p>
+{% img /images/hong_kong/tst/tst_walk_of_stars.JPG &lsquo;tst_walk_of_stars.JPG&rsquo; %}</p>
 
 <p>Found this on the way back to our hotel one night
-<img src="/images/hong_kong/tst/tst_fountain.jpg" title="&lsquo;tst_fountain.jpg&rsquo;" ></p>
+{% img /images/hong_kong/tst/tst_fountain.jpg &lsquo;tst_fountain.jpg&rsquo; %}</p>
 
 <p>Can&rsquo;t believe this was a 5 minute walk from our hotel, spent a lot of time here! They had a light show every night
-<img src="/images/hong_kong/tst/tst_skyline_lightshow.JPG" title="&lsquo;tst_skyline_lightshow.JPG&rsquo;" ></p>
+{% img /images/hong_kong/tst/tst_skyline_lightshow.JPG &lsquo;tst_skyline_lightshow.JPG&rsquo; %}</p>
 
 <h3> Kowloon and Causeway Bay</h3>
 
 
 <p>Amber left for Singapore a day early to catch her prebooked flight to Japan, so I wandered around. Found this at a mall.
-<img src="/images/hong_kong/causeway_bay/causeway_bay_avengers.JPG" title="&lsquo;causeway_bay_avengers.JPG&rsquo;" ></p>
+{% img /images/hong_kong/causeway_bay/causeway_bay_avengers.JPG &lsquo;causeway_bay_avengers.JPG&rsquo; %}</p>
 
 <p>They&rsquo;re adorable! Got myself Ironman and a Thor for my little brother
-<img src="/images/hong_kong/causeway_bay/causeway_bay_avengers_bobbleheads.JPG" title="&lsquo;causeway_bay_avengers_bobbleheads.JPG&rsquo;" ></p>
+{% img /images/hong_kong/causeway_bay/causeway_bay_avengers_bobbleheads.JPG &lsquo;causeway_bay_avengers_bobbleheads.JPG&rsquo; %}</p>
 
 <p>Visited a nunnery and found an awesome temple
-<img src="/images/hong_kong/kowloon/kowloon_chi_lin_nunnery.JPG" title="&lsquo;kowloon_chi_lin_nunnery.JPG&rsquo;" ></p>
+{% img /images/hong_kong/kowloon/kowloon_chi_lin_nunnery.JPG &lsquo;kowloon_chi_lin_nunnery.JPG&rsquo; %}</p>
 
 <p>And there was a beautiful garden next door
-<img src="/images/hong_kong/kowloon/kowloon_nan_lian_garden.JPG" title="&lsquo;kowloon_nan_lian_garden.JPG&rsquo;" ></p>
+{% img /images/hong_kong/kowloon/kowloon_nan_lian_garden.JPG &lsquo;kowloon_nan_lian_garden.JPG&rsquo; %}</p>
 
 <h3> Farewell Hong Kong and off to Japan </h3>
 
 
 <p>And off to Japan, time flies and so do I
-<img src="/images/hong_kong/misc/airport.JPG" title="&lsquo;airport.JPG&rsquo;" ></p>
+{% img /images/hong_kong/misc/airport.JPG &lsquo;airport.JPG&rsquo; %}</p>
 ]]></content>
   </entry>
   
@@ -533,7 +533,7 @@
     <link href="http://octopress.nicksdevspot.com/blog/2015/05/13/vietnam-part-2/"/>
     <updated>2015-05-13T16:06:52-07:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2015/05/13/vietnam-part-2</id>
-    <content type="html"><![CDATA[<p><img src="/images/vietnam/7_sapa/sapa_looking_away.jpg" title="&lsquo;sapa_looking_away.jpg&rsquo;" ></p>
+    <content type="html"><![CDATA[<p>{% img /images/vietnam/7_sapa/sapa_looking_away.jpg &lsquo;sapa_looking_away.jpg&rsquo; %}</p>
 
 <p>After a couple weeks Andreas' Visa expired and he headed back to the U.S. The rest of us had planned to head to Indonesia at this point but decided we wanted more time in Vietnam. Zach, Quynh, and Sherrie headed south for the sunny beach resort of Nha Trang while Amber and I set off west for the green hills of Sapa before heading south back into central Vietnam.</p>
 
@@ -546,73 +546,73 @@
 
 
 <p>The van that took us to the bus broke down but eventually we made it to this awesome and comfortable sleeper bus
-<img src="/images/vietnam/7_sapa/sapa_sleeper_bus.JPG" title="&lsquo;sapa_sleeper_bus.JPG&rsquo;" ></p>
+{% img /images/vietnam/7_sapa/sapa_sleeper_bus.JPG &lsquo;sapa_sleeper_bus.JPG&rsquo; %}</p>
 
 <p>The view from our hotel, gorgeous!
-<img src="/images/vietnam/7_sapa/sapa_hotel_view.jpg" title="&lsquo;sapa_hotel_view.jpg&rsquo;" ></p>
+{% img /images/vietnam/7_sapa/sapa_hotel_view.jpg &lsquo;sapa_hotel_view.jpg&rsquo; %}</p>
 
 <p>Amber met Ha while traveling in Thailand, she graciously let us stay at her homestay, eat at her restuarant, wear black hmong clothes&hellip; it was an incredible experience
-<img src="/images/vietnam/7_sapa/sapa_ha.JPG" title="&lsquo;sapa_ha.JPG&rsquo;" ></p>
+{% img /images/vietnam/7_sapa/sapa_ha.JPG &lsquo;sapa_ha.JPG&rsquo; %}</p>
 
 <p>Ha&rsquo;s homestay
-<img src="/images/vietnam/7_sapa/sapa_homestay.jpg" title="&lsquo;sapa_homestay.jpg&rsquo;" ></p>
+{% img /images/vietnam/7_sapa/sapa_homestay.jpg &lsquo;sapa_homestay.jpg&rsquo; %}</p>
 
 <p>They made us incredible dinners
-<img src="/images/vietnam/7_sapa/sapa_homestay_dinner.jpg" title="&lsquo;sapa_homestay_dinner.jpg&rsquo;" ></p>
+{% img /images/vietnam/7_sapa/sapa_homestay_dinner.jpg &lsquo;sapa_homestay_dinner.jpg&rsquo; %}</p>
 
 <p>It&rsquo;s more green during rice season
-<img src="/images/vietnam/7_sapa/sapa_vietnam.jpg" title="&lsquo;sapa_vietnam.jpg&rsquo;" ></p>
+{% img /images/vietnam/7_sapa/sapa_vietnam.jpg &lsquo;sapa_vietnam.jpg&rsquo; %}</p>
 
 <p>A beautiful valley
-<img src="/images/vietnam/7_sapa/sapa_panorama.JPG" title="&lsquo;sapa_panorama.JPG&rsquo;" ></p>
+{% img /images/vietnam/7_sapa/sapa_panorama.JPG &lsquo;sapa_panorama.JPG&rsquo; %}</p>
 
 <h3>Phong Nha</h3>
 
 
 <p>Such an idyllic place
-<img src="/images/vietnam/8_phong_nha/phong_nha_group.jpg" title="&lsquo;phong_nha_group.jpg&rsquo;" ></p>
+{% img /images/vietnam/8_phong_nha/phong_nha_group.jpg &lsquo;phong_nha_group.jpg&rsquo; %}</p>
 
 <p>ECHOOO!!
-<img src="/images/vietnam/8_phong_nha/phong_nha_crazy_caves.JPG" title="&lsquo;phong_nha_crazy_caves.JPG&rsquo;" ></p>
+{% img /images/vietnam/8_phong_nha/phong_nha_crazy_caves.JPG &lsquo;phong_nha_crazy_caves.JPG&rsquo; %}</p>
 
 <p>Exploring the caves
-<img src="/images/vietnam/8_phong_nha/phong_nha_taking_picture.JPG" title="&lsquo;phong_nha_taking_picture.JPG&rsquo;" ></p>
+{% img /images/vietnam/8_phong_nha/phong_nha_taking_picture.JPG &lsquo;phong_nha_taking_picture.JPG&rsquo; %}</p>
 
 <p>More exploring
-<img src="/images/vietnam/8_phong_nha/phong_nha_cave.jpg" title="&lsquo;phong_nha_cave.jpg&rsquo;" ></p>
+{% img /images/vietnam/8_phong_nha/phong_nha_cave.jpg &lsquo;phong_nha_cave.jpg&rsquo; %}</p>
 
 <p>We found someone recording a music video!
-<img src="/images/vietnam/8_phong_nha/phong_nha_famous_cave.JPG" title="&lsquo;phong_nha_famous_cave.JPG&rsquo;" ></p>
+{% img /images/vietnam/8_phong_nha/phong_nha_famous_cave.JPG &lsquo;phong_nha_famous_cave.JPG&rsquo; %}</p>
 
 <p>And of course he has an entourage
-<img src="/images/vietnam/8_phong_nha/phong_nha_entourage.JPG" title="&lsquo;phong_nha_entourage.JPG&rsquo;" ></p>
+{% img /images/vietnam/8_phong_nha/phong_nha_entourage.JPG &lsquo;phong_nha_entourage.JPG&rsquo; %}</p>
 
 <p>Has to be one of the prettiest places we visited
-<img src="/images/vietnam/8_phong_nha/phong_nha_view.JPG" title="&lsquo;phong_nha_view.JPG&rsquo;" ></p>
+{% img /images/vietnam/8_phong_nha/phong_nha_view.JPG &lsquo;phong_nha_view.JPG&rsquo; %}</p>
 
 <p>BBQ pork banh mi, bought a couple extra for the road
-<img src="/images/vietnam/8_phong_nha/phong_nha_pork_banh_mi.jpg" title="&lsquo;phong_nha_pork_banh_mi.jpg&rsquo;" ></p>
+{% img /images/vietnam/8_phong_nha/phong_nha_pork_banh_mi.jpg &lsquo;phong_nha_pork_banh_mi.jpg&rsquo; %}</p>
 
 <h3>Hoi An</h3>
 
 
 <p>A little town near Da Nang that lights up at night
-<img src="/images/vietnam/9_hoi_an/hoi_an_bridge.jpg" title="&lsquo;hoi_an_bridge.jpg&rsquo;" ></p>
+{% img /images/vietnam/9_hoi_an/hoi_an_bridge.jpg &lsquo;hoi_an_bridge.jpg&rsquo; %}</p>
 
 <p>Just a little bit touristy
-<img src="/images/vietnam/9_hoi_an/hoi_an_cute_duck.jpg" title="&lsquo;hoi_an_cute_duck.jpg&rsquo;" ></p>
+{% img /images/vietnam/9_hoi_an/hoi_an_cute_duck.jpg &lsquo;hoi_an_cute_duck.jpg&rsquo; %}</p>
 
 <p>But it&rsquo;s very appreciated, unlimited fruit and fruit juice and a room for less than $20 a night
-<img src="/images/vietnam/9_hoi_an/misc_complimentary.jpg" title="&lsquo;misc_complimentary.jpg&rsquo;" ></p>
+{% img /images/vietnam/9_hoi_an/misc_complimentary.jpg &lsquo;misc_complimentary.jpg&rsquo; %}</p>
 
 <p>Newlyweds are all over the river dropping lanterns (wishes) down the river!
-<img src="/images/vietnam/9_hoi_an/hoi_an_pretty.jpg" title="&lsquo;hoi_an_pretty.jpg&rsquo;" ></p>
+{% img /images/vietnam/9_hoi_an/hoi_an_pretty.jpg &lsquo;hoi_an_pretty.jpg&rsquo; %}</p>
 
 <p>The view from the little eatery we dined at. Stayed for awhile and enjoyed the view :)
-<img src="/images/vietnam/9_hoi_an/hoi_an_view_eatery.jpg" title="&lsquo;hoi_an_view_eatery.jpg&rsquo;" ></p>
+{% img /images/vietnam/9_hoi_an/hoi_an_view_eatery.jpg &lsquo;hoi_an_view_eatery.jpg&rsquo; %}</p>
 
 <p>Leaving this wonderful country for Hong Kong and new adventures!
-<img src="/images/vietnam/9_hoi_an/misc_bye_vietnam.jpg" title="&lsquo;misc_bye_vietnam.jpg&rsquo;" ></p>
+{% img /images/vietnam/9_hoi_an/misc_bye_vietnam.jpg &lsquo;misc_bye_vietnam.jpg&rsquo; %}</p>
 ]]></content>
   </entry>
   
@@ -621,7 +621,7 @@
     <link href="http://octopress.nicksdevspot.com/blog/2015/05/02/vietnam/"/>
     <updated>2015-05-02T16:06:52-07:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2015/05/02/vietnam</id>
-    <content type="html"><![CDATA[<p><img src="/images/vietnam/halong_bay.jpg" title="&lsquo;Quynh&rsquo;s Panorama shot, halong.jpg&rsquo;" ></p>
+    <content type="html"><![CDATA[<p>{% img /images/vietnam/halong_bay.jpg &lsquo;Quynh&rsquo;s Panorama shot, halong.jpg&rsquo; %}</p>
 
 <p>When I set out on the biggest adventure of my life, I was afraid it somehow wouldn&rsquo;t match up to expectations. And expectations were high after hearing stories and having wanted to go for years. So I&rsquo;m happy to say that Vietnam was perfect, it was a crazy and exhilarating adventure of strange things and marvelous places.</p>
 
@@ -636,121 +636,121 @@
 
 
 <p>Saigon Market
-<img src="/images/vietnam/1_saigon/saigon_market.jpg" title="&lsquo;saigon_market.jpg&rsquo;" ></p>
+{% img /images/vietnam/1_saigon/saigon_market.jpg &lsquo;saigon_market.jpg&rsquo; %}</p>
 
 <p>Our first meal in Vietnam
-<img src="/images/vietnam/1_saigon/saigon_first_meal_vietnam.jpg" title="&lsquo;saigon_market_first_meal.jpg&rsquo;" ></p>
+{% img /images/vietnam/1_saigon/saigon_first_meal_vietnam.jpg &lsquo;saigon_market_first_meal.jpg&rsquo; %}</p>
 
 <p>View from our airbnb apartment
-<img src="/images/vietnam/1_saigon/saigon_airbnb_view.jpg" title="&lsquo;saigon_airbnb.jpg&rsquo;" ></p>
+{% img /images/vietnam/1_saigon/saigon_airbnb_view.jpg &lsquo;saigon_airbnb.jpg&rsquo; %}</p>
 
 <p>Airbnb apartment falling apart
-<img src="/images/vietnam/1_saigon/saigon_airbnb_fail.jpg" title="&lsquo;saigon_airbnb_fail.jpg&rsquo;" ></p>
+{% img  /images/vietnam/1_saigon/saigon_airbnb_fail.jpg &lsquo;saigon_airbnb_fail.jpg&rsquo; %}</p>
 
 <p>Delicous dish from the Man Beer restuarant
-<img src="/images/vietnam/1_saigon/saigon_great_meal.jpg" title="&lsquo;saigon_great_meal.jpg&rsquo;" ></p>
+{% img /images/vietnam/1_saigon/saigon_great_meal.jpg &lsquo;saigon_great_meal.jpg&rsquo; %}</p>
 
 <p>Partying it up for our last night in Saigon
-<img src="/images/vietnam/1_saigon/saigon_last_night.JPG" title="&lsquo;saigon_last_night.JPG&rsquo;" ></p>
+{% img /images/vietnam/1_saigon/saigon_last_night.JPG &lsquo;saigon_last_night.JPG&rsquo; %}</p>
 
 <h3>Mei Kong</h3>
 
 
 <p>Quynh&rsquo;s Uncle Doctor Ho let us stay at his beautiful house
-<img src="/images/vietnam/2_uncle_ho/uncle_ho_house.JPG" title="&lsquo;uncle_ho_house.JPG&rsquo;" ></p>
+{% img /images/vietnam/2_uncle_ho/uncle_ho_house.JPG &lsquo;uncle_ho_house.JPG&rsquo; %}</p>
 
 <p>Uncle Ho&rsquo;s special blend of whiskey, good for fertility!
-<img src="/images/vietnam/2_uncle_ho/uncle_ho_whiskey.JPG" title="&lsquo;uncle_ho_whiskey.JPG&rsquo;" ></p>
+{% img /images/vietnam/2_uncle_ho/uncle_ho_whiskey.JPG &lsquo;uncle_ho_whiskey.JPG&rsquo; %}</p>
 
 <p>They made us the most incredible meal
-<img src="/images/vietnam/2_uncle_ho/uncle_ho_dinner.jpg" title="&lsquo;uncle_ho_dinner.jpg&rsquo;" ></p>
+{% img /images/vietnam/2_uncle_ho/uncle_ho_dinner.jpg &lsquo;uncle_ho_dinner.jpg&rsquo; %}</p>
 
 <p>Quynh&rsquo;s family gave us of the surrounding dragon fruit fields
-<img src="/images/vietnam/2_uncle_ho/uncle_ho_dragon_fruit_fields.jpg" title="&lsquo;uncle_ho_dragon_fruit_fields.jpg&rsquo;" ></p>
+{% img /images/vietnam/2_uncle_ho/uncle_ho_dragon_fruit_fields.jpg &lsquo;uncle_ho_dragon_fruit_fields.jpg&rsquo; %}</p>
 
 <p>Then they took us to the Mei Kong delta
-<img src="/images/vietnam/2_uncle_ho/uncle_ho_mei_kong_delta.JPG" title="&lsquo;uncle_ho_mei_kong_delta.JPG&rsquo;" ></p>
+{% img /images/vietnam/2_uncle_ho/uncle_ho_mei_kong_delta.JPG &lsquo;uncle_ho_mei_kong_delta.JPG&rsquo; %}</p>
 
 <p>The first of the many Buddhas of my Asia trip
-<img src="/images/vietnam/2_uncle_ho/uncle_ho_first_buddha.jpg" title="&lsquo;uncle_ho_first_buddha.jpg&rsquo;" ></p>
+{% img /images/vietnam/2_uncle_ho/uncle_ho_first_buddha.jpg &lsquo;uncle_ho_first_buddha.jpg&rsquo; %}</p>
 
 <h3>Phu Quoc</h3>
 
 
 <p>Hanging out on a beautiful beach in Vietnam!
-<img src="/images/vietnam/3_phu_quoc/phu_quoc_group.jpg" title="&lsquo;phu_quoc_group.jpg&rsquo;" ></p>
+{% img /images/vietnam/3_phu_quoc/phu_quoc_group.jpg &lsquo;phu_quoc_group.jpg&rsquo; %}</p>
 
 <p>Lounging
-<img src="/images/vietnam/3_phu_quoc/phu_quoc_lounging.jpg" title="&lsquo;phu_quoc_lounging.jpg&rsquo;" ></p>
+{% img /images/vietnam/3_phu_quoc/phu_quoc_lounging.jpg &lsquo;phu_quoc_lounging.jpg&rsquo; %}</p>
 
 <p>Dinner! Eat the whole thing, even the bones
-<img src="/images/vietnam/3_phu_quoc/phu_quoc_fish.jpg" title="&lsquo;phu_quoc_fish.jpg&rsquo;" ></p>
+{% img /images/vietnam/3_phu_quoc/phu_quoc_fish.jpg &lsquo;phu_quoc_fish.jpg&rsquo; %}</p>
 
 <p>Beautiful red sunset as we sip cocktails
-<img src="/images/vietnam/3_phu_quoc/phu_quoc_sunset.jpg" title="&lsquo;phu_quoc_sunset.jpg&rsquo;" ></p>
+{% img /images/vietnam/3_phu_quoc/phu_quoc_sunset.jpg &lsquo;phu_quoc_sunset.jpg&rsquo; %}</p>
 
 <h3>Da Nang</h3>
 
 
 <p>Finally have time to do some laundry
-<img src="/images/vietnam/4_da_nang/da_nang_laundry.JPG" title="&lsquo;da_nang_laundry.JPG&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_laundry.JPG &lsquo;da_nang_laundry.JPG&rsquo; %}</p>
 
 <p>Year of the Goat!
-<img src="/images/vietnam/4_da_nang/da_nang_goat.jpg" title="&lsquo;da_nang_goat.jpg&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_goat.jpg &lsquo;da_nang_goat.jpg&rsquo; %}</p>
 
 <p>Apparently you pray to this one for health
-<img src="/images/vietnam/4_da_nang/da_nang_buddha.jpg" title="&lsquo;da_nang_buddha.jpg&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_buddha.jpg &lsquo;da_nang_buddha.jpg&rsquo; %}</p>
 
 <p>The biggest Buddha I saw the whole trip
-<img src="/images/vietnam/4_da_nang/da_nang_lady_buddha.jpg" title="&lsquo;da_nang_lady_buddha.jpg&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_lady_buddha.jpg &lsquo;da_nang_lady_buddha.jpg&rsquo; %}</p>
 
 <p>Taking a break while Amber practiced her photography
-<img src="/images/vietnam/4_da_nang/da_nang_water.jpg" title="&lsquo;da_nang_water.jpg&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_water.jpg &lsquo;da_nang_water.jpg&rsquo; %}</p>
 
 <p>Taking another break on the way up a granite mountain
-<img src="/images/vietnam/4_da_nang/da_nang_break_hiking.jpg" title="&lsquo;da_nang_break_hiking.jpg&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_break_hiking.jpg &lsquo;da_nang_break_hiking.jpg&rsquo; %}</p>
 
 <p>Group picture after a long hike
-<img src="/images/vietnam/4_da_nang/da_nang_group.jpg" title="&lsquo;da_nang_group.jpg&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_group.jpg &lsquo;da_nang_group.jpg&rsquo; %}</p>
 
 <p>Da Nang is pretty
-<img src="/images/vietnam/4_da_nang/da_nang_panorama.JPG" title="&lsquo;da_nang_panorama.JPG&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_panorama.JPG &lsquo;da_nang_panorama.JPG&rsquo; %}</p>
 
 <p>Our hotel&rsquo;s grand opening party, there was a band, magician, fireworks, and most importantly 50% off!
-<img src="/images/vietnam/4_da_nang/da_nang_hotel_party.jpg" title="&lsquo;da_nang_hotel_party.jpg&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_hotel_party.jpg &lsquo;da_nang_hotel_party.jpg&rsquo; %}</p>
 
 <p>We went to the tallest building to celebrate our last night in Da Nang
-<img src="/images/vietnam/4_da_nang/da_nang_party.jpg" title="&lsquo;da_nang_party.jpg&rsquo;" ></p>
+{% img /images/vietnam/4_da_nang/da_nang_party.jpg &lsquo;da_nang_party.jpg&rsquo; %}</p>
 
 <h3>Hanoi</h3>
 
 
 <p>Stopped by Hanoi on the way to Halong
-<img src="/images/vietnam/5_hanoi/hanoi_ho_chi_minh_pose.jpg" title="&lsquo;hanoi_ho_chi_minh_pose.jpg&rsquo;" ></p>
+{% img /images/vietnam/5_hanoi/hanoi_ho_chi_minh_pose.jpg &lsquo;hanoi_ho_chi_minh_pose.jpg&rsquo; %}</p>
 
 <p>Favorite bowl of pho, came here twice
-<img src="/images/vietnam/5_hanoi/hanoi_pho.JPG" title="&lsquo;hanoi_pho.JPG&rsquo;" ></p>
+{% img /images/vietnam/5_hanoi/hanoi_pho.JPG &lsquo;hanoi_pho.JPG&rsquo; %}</p>
 
 <h3>Halong</h3>
 
 
 <p>The girls and our boat
-<img src="/images/vietnam/6_halong/halong_our_boat.JPG" title="&lsquo;halong_our_boat.JPG&rsquo;" ></p>
+{% img /images/vietnam/6_halong/halong_our_boat.JPG &lsquo;halong_our_boat.JPG&rsquo; %}</p>
 
 <p>Unfortunately, not the nicest day. But it was incredible nevertheless
-<img src="/images/vietnam/6_halong/halong_boat.JPG" title="&lsquo;halong_boat.JPG&rsquo;" ></p>
+{% img /images/vietnam/6_halong/halong_boat.JPG &lsquo;halong_boat.JPG&rsquo; %}</p>
 
 <p>Attempting to help row
-<img src="/images/vietnam/6_halong/halong_rowing.jpg" title="&lsquo;halong_rowing.jpg&rsquo;" ></p>
+{% img /images/vietnam/6_halong/halong_rowing.jpg &lsquo;halong_rowing.jpg&rsquo; %}</p>
 
 <p>Group picture!
-<img src="/images/vietnam/6_halong/halong_group_picture.jpg" title="&lsquo;halong_group_picture.jpg&rsquo;" ></p>
+{% img /images/vietnam/6_halong/halong_group_picture.jpg &lsquo;halong_group_picture.jpg&rsquo; %}</p>
 
 <p>Surprise cave, the first of many caves
-<img src="/images/vietnam/6_halong/halong_surprise_cave.jpg" title="&lsquo;halong_surprise_cave.jpg&rsquo;" ></p>
+{% img /images/vietnam/6_halong/halong_surprise_cave.jpg &lsquo;halong_surprise_cave.jpg&rsquo; %}</p>
 
 <p>Happened to see this while looking for a place to eat
-<img src="/images/vietnam/6_halong/halong_pc_bang.JPG" title="&lsquo;halong_pc_bang.JPG&rsquo;" ></p>
+{% img /images/vietnam/6_halong/halong_pc_bang.JPG &lsquo;halong_pc_bang.JPG&rsquo; %}</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: javascript | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-04-10T15:38:33-07:00</updated>
+  <updated>2016-04-10T15:40:16-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -118,19 +118,19 @@
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript">2D Breakout in pure JS</a>
 
 <ul>
-<li><a href="/resources/games/breakout/">Try it!</a></li>
+<li><a href="{{%20root_url%20}}/resources/games/breakout/">Try it!</a></li>
 </ul>
 </li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_Phaser">2D Breakout game using Phaser</a>
 
 <ul>
-<li><a href="/resources/games/breakoutPhaser/">Try it!</a></li>
+<li><a href="{{%20root_url%20}}/resources/games/breakoutPhaser/">Try it!</a></li>
 </ul>
 </li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation">2D Maze game with Device Orientation using Phaser</a>
 
 <ul>
-<li><a href="/resources/games/phaserMaze/">Try it!</a></li>
+<li><a href="{{%20root_url%20}}/resources/games/phaserMaze/">Try it!</a></li>
 </ul>
 </li>
 </ul>
@@ -146,7 +146,7 @@
 <li><a href="https://github.com/nmlau/vim-maze">My Game</a>
 
 <ul>
-<li><a href="/resources/games/vimMaze/">Try it!</a></li>
+<li><a href="{{%20root_url%20}}/resources/games/vimMaze/">Try it!</a></li>
 </ul>
 </li>
 </ul>
