@@ -4,7 +4,7 @@
   <title><![CDATA[Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-04-10T15:38:33-07:00</updated>
+  <updated>2016-04-16T17:07:44-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Why Engineering?]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2016/04/16/why-engineering/"/>
+    <updated>2016-04-16T16:53:00-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2016/04/16/why-engineering</id>
+    <content type="html"><![CDATA[<p>I love the engineering mentality and how it pervades my life. As I learn to build software better, I also learn to live life better.</p>
+
+<p>I love how studying software design and how to reduce complexity with concepts like information hiding and modular design has allowed me to simplify and take control of my life. I love how studying trees and OOP has allowed me to organize my life into categories (or nodes) and develop systems to organize my space and mind. I love how the detail-oriented process of writing algorithms has allowed me to trivially build life habits like waking up on time and working at hobbies like meditation, cooking, or fitness. I love how debugging skills allow me to track down and isolate practical issues. Then how my problem solving skills can draw out an okay brute force solution and iterate on it until it&rsquo;s ready to be implemented in my routine (everyday life). I love how distributed systems tackle the problem of random spontaneous failure, because that&rsquo;s how real life can feel sometimes, &ldquo;Two is one and One is none&rdquo;. I love how I see programming in everyday life (like memorization as caching), although I&rsquo;m slightly afraid that this may cause trouble communicating with an SO.</p>
+
+<p>Engineering is not just what I do, it is how I live my life.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Little Schemer by Friedman and Felleisen]]></title>
@@ -369,6 +382,9 @@
 
 <p>&ldquo;Over on the other side of the mind lies the box labeled &lsquo;bad&rsquo;. When we perceive something &lsquo;bad&rsquo;, we try to push it away. We try to deny it, reject it, get rid of it any way we can. We fight against our own experience. We run from pieces of ourselves. Let us call this mental habit &lsquo;rejecting&rsquo;. Between these two reactions lies the neutral box. Here we place the experiences which are neither good nor bad. They are tepid, neutral, uninteresting and boring. We pack experience away in the neutral box so that we can ignore it and thus return our attention to where the action is, namely our endless round of desire and aversion. This category of experience gets robbed of its fair share of our attention. Let us call this mental habit &lsquo;ignoring&rsquo;. The direct result of all this lunacy is a perpetual treadmill race to nowhere, endlessly pounding after pleasure, endlessly fleeing from pain, endlessly ignoring 90 percent of our experience. Than wondering why life tastes so flat. In the final analysis, it&rsquo;s a system that does not work.&rdquo;</p></blockquote>
 
+<!-- more -->
+
+
 <p>Chapter 4: Attitude, pg 37 book, pg 28 (pdf version)</p>
 
 <blockquote><p>&ldquo;That initial perception will spark pleasant, unpleasant or neutral feelings. That is a universal phenomenon. It occurs in the mind of others just as it does in his, and he should see that clearly. Following these feelings various reactions may arise. He may feel greed, lust, or jealousy. He may feel fear, worry, restlessness or boredom. These reactions are universal. He simple notes them and then generalizes. He should realize that these reactions are normal human responses and can arise in anybody.&rdquo;</p></blockquote>
@@ -384,9 +400,6 @@
 <p>&ldquo;Conceptualization is an insidiously clever process. It creeps into you experience, and it simply takes over. When you hear a sound in meditation, pay bare attention to the experience of hearing. That and that only. What is really happening is so utterly simple that we can and do miss it altogether. Sound waves are striking the ear in a certain unique pattern. Those waves are being translated into electrical impulses within the brain and those impulses present a sound pattern to consciousness. That is all. No pictures. No mind movies. No concepts. No interior dialogues about the question. Just noise. Reality is elegantly simple and unadorned. When you hear a sound, be mindful of the process of hearing. Everything else is just added chatter. Drop it. The same rule applies to every sensation, every emotion, every experience you may have. Look closely at your own experience. Dig down through the layers of mental bric-a-brac and see what is really there. You will be amazed how simple it is, and how beautiful.&rdquo;</p></blockquote>
 
 <p>And many more to follow below!</p>
-
-<!-- more -->
-
 
 <p>I have a friend who&rsquo;s an actor LA, this quote reminded me of my conversations of him about method acting. As well as showing a practical application of mindfulness - that you can change who you are with it. Chapter 3: What Meditation is, pg 25</p>
 

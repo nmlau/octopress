@@ -4,7 +4,7 @@
   <title><![CDATA[Category: technical | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/technical/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-04-10T15:40:16-07:00</updated>
+  <updated>2016-04-16T17:07:44-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -24,7 +24,7 @@
 
 <p>I can happily say that it did not disappoint. I&rsquo;ve always been fascinated by graphs and how easily that can model real world problems. And this book has pushed me towards some key insights there&hellip; which will probably get a full blog post in the future. But to put in a words I never thought I&rsquo;d say: I now find it easier to think in recursion - since I know that if I can cover all the possible cases I&rsquo;ll eventually reach the solution.</p>
 
-<p>{% img /images/little_schemer_post/little_schemer_sample.png &lsquo;little_schemer_sample.png&rsquo; %}</p>
+<p><img src="/images/little_schemer_post/little_schemer_sample.png" title="&lsquo;little_schemer_sample.png&rsquo;" ></p>
 
 <p>Note that Little Schemer isn&rsquo;t formatted like a normal book, it&rsquo;s based on lecture slides and works in a Q&amp;A format. You can see a short excerpt above. It also assumes zero knowledge of Scheme so it starts with the basic building blocks of the language and builds up from there. It builds up very quickly and gets to some really cool stuff towards the end: Collectors, Applicative-Order Y-Combinator, Interpreter.</p>
 
@@ -137,7 +137,7 @@
     <id>http://octopress.nicksdevspot.com/blog/2016/01/07/commandline-shenanigans</id>
     <content type="html"><![CDATA[<h3>Table of Contents</h3>
 
-<p>{% img /images/commandline_post/tmux_solarized_dark_profile.png &lsquo;tmux_solarized_dark_profile.png&rsquo; %}</p>
+<p><img src="/images/commandline_post/tmux_solarized_dark_profile.png" title="&lsquo;tmux_solarized_dark_profile.png&rsquo;" ></p>
 
 <ul>
 <li><a href="#artofthecommandline">Art of the Command Line</a></li>
@@ -437,19 +437,19 @@ ps -ax | grep 'TextEdit' | awk '{print $1}' | xargs kill -9
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript">2D Breakout in pure JS</a>
 
 <ul>
-<li><a href="{{%20root_url%20}}/resources/games/breakout/">Try it!</a></li>
+<li><a href="/resources/games/breakout/">Try it!</a></li>
 </ul>
 </li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_Phaser">2D Breakout game using Phaser</a>
 
 <ul>
-<li><a href="{{%20root_url%20}}/resources/games/breakoutPhaser/">Try it!</a></li>
+<li><a href="/resources/games/breakoutPhaser/">Try it!</a></li>
 </ul>
 </li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Games/Workflows/HTML5_Gamedev_Phaser_Device_Orientation">2D Maze game with Device Orientation using Phaser</a>
 
 <ul>
-<li><a href="{{%20root_url%20}}/resources/games/phaserMaze/">Try it!</a></li>
+<li><a href="/resources/games/phaserMaze/">Try it!</a></li>
 </ul>
 </li>
 </ul>
@@ -465,7 +465,7 @@ ps -ax | grep 'TextEdit' | awk '{print $1}' | xargs kill -9
 <li><a href="https://github.com/nmlau/vim-maze">My Game</a>
 
 <ul>
-<li><a href="{{%20root_url%20}}/resources/games/vimMaze/">Try it!</a></li>
+<li><a href="/resources/games/vimMaze/">Try it!</a></li>
 </ul>
 </li>
 </ul>
@@ -638,7 +638,7 @@ ps -ax | grep 'TextEdit' | awk '{print $1}' | xargs kill -9
 
 <h3>Introduction</h3>
 
-<p>{% img /images/pi_post/pi.jpg &lsquo;pi.jpg&rsquo; %}</p>
+<p><img src="/images/pi_post/pi.jpg" title="&lsquo;pi.jpg&rsquo;" ></p>
 
 <p>I&rsquo;ve always had trouble waking up. Sometimes I wake up, sometimes I don&rsquo;t, sometimes I just end up lying in bed&hellip; it&rsquo;s been a lifetime point of stress. But in the last few months I&rsquo;ve found a solution that works for me. I use the <a href="http://www.sleepcycle.com/">Sleep Cycle Phone App</a> to gently wake me up so I&rsquo;m ready for my out of bed alarm that goes off at 630 (weekdays) or 830 (weekends). This forces me to get out of bed to walk across the room and turn it off.</p>
 
@@ -728,7 +728,7 @@ File Transfer using <a href="http://raspberrypi.stackexchange.com/questions/8950
 -This let me use finder and all my os x apps to access my pi&rsquo;s files. Much better than the trouble I was having with Filezilla. Incredibly convenient although it did leave hidden .AppleDouble folders in every directory
 Another huge thing was using tmux combined with dtach. Tmux meant I only had to ssh in one time, then I could split that session into several windows. dtach allowed me to shut the pi off, ssh back in jump right back to my desired tmux session.</p>
 
-<p>Random note: sshing in forced me to use command line a lot. Which inspired me to read a few <a href="https://github.com/jlevy/the-art-of-command-line">guides on CLI</a>, <a href="https://danielmiessler.com/study/vim/">vim</a>, that got me play with my profiles (my vim is beautiful now - <a href="{{%20root_url%20}}/images/pi_post/tmux_solarized_dark_profile.png">image of Solarized profile with tmux</a>) to setup my profiles like <a href="https://github.com/nmlau/profiles">this</a>. Not to mention finally setting up zsh, more convenient keykindings, etc.</p>
+<p>Random note: sshing in forced me to use command line a lot. Which inspired me to read a few <a href="https://github.com/jlevy/the-art-of-command-line">guides on CLI</a>, <a href="https://danielmiessler.com/study/vim/">vim</a>, that got me play with my profiles (my vim is beautiful now - <a href="/images/pi_post/tmux_solarized_dark_profile.png">image of Solarized profile with tmux</a>) to setup my profiles like <a href="https://github.com/nmlau/profiles">this</a>. Not to mention finally setting up zsh, more convenient keykindings, etc.</p>
 
 <p><a name="programming"></a></p>
 

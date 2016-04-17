@@ -4,7 +4,7 @@
   <title><![CDATA[Category: vietnam | Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/blog/categories/vietnam/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-04-10T15:40:16-07:00</updated>
+  <updated>2016-04-16T17:07:44-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -18,7 +18,7 @@
     <link href="http://octopress.nicksdevspot.com/blog/2015/05/13/vietnam-part-2/"/>
     <updated>2015-05-13T16:06:52-07:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2015/05/13/vietnam-part-2</id>
-    <content type="html"><![CDATA[<p>{% img /images/vietnam/7_sapa/sapa_looking_away.jpg &lsquo;sapa_looking_away.jpg&rsquo; %}</p>
+    <content type="html"><![CDATA[<p><img src="/images/vietnam/7_sapa/sapa_looking_away.jpg" title="&lsquo;sapa_looking_away.jpg&rsquo;" ></p>
 
 <p>After a couple weeks Andreas' Visa expired and he headed back to the U.S. The rest of us had planned to head to Indonesia at this point but decided we wanted more time in Vietnam. Zach, Quynh, and Sherrie headed south for the sunny beach resort of Nha Trang while Amber and I set off west for the green hills of Sapa before heading south back into central Vietnam.</p>
 
@@ -31,73 +31,73 @@
 
 
 <p>The van that took us to the bus broke down but eventually we made it to this awesome and comfortable sleeper bus
-{% img /images/vietnam/7_sapa/sapa_sleeper_bus.JPG &lsquo;sapa_sleeper_bus.JPG&rsquo; %}</p>
+<img src="/images/vietnam/7_sapa/sapa_sleeper_bus.JPG" title="&lsquo;sapa_sleeper_bus.JPG&rsquo;" ></p>
 
 <p>The view from our hotel, gorgeous!
-{% img /images/vietnam/7_sapa/sapa_hotel_view.jpg &lsquo;sapa_hotel_view.jpg&rsquo; %}</p>
+<img src="/images/vietnam/7_sapa/sapa_hotel_view.jpg" title="&lsquo;sapa_hotel_view.jpg&rsquo;" ></p>
 
 <p>Amber met Ha while traveling in Thailand, she graciously let us stay at her homestay, eat at her restuarant, wear black hmong clothes&hellip; it was an incredible experience
-{% img /images/vietnam/7_sapa/sapa_ha.JPG &lsquo;sapa_ha.JPG&rsquo; %}</p>
+<img src="/images/vietnam/7_sapa/sapa_ha.JPG" title="&lsquo;sapa_ha.JPG&rsquo;" ></p>
 
 <p>Ha&rsquo;s homestay
-{% img /images/vietnam/7_sapa/sapa_homestay.jpg &lsquo;sapa_homestay.jpg&rsquo; %}</p>
+<img src="/images/vietnam/7_sapa/sapa_homestay.jpg" title="&lsquo;sapa_homestay.jpg&rsquo;" ></p>
 
 <p>They made us incredible dinners
-{% img /images/vietnam/7_sapa/sapa_homestay_dinner.jpg &lsquo;sapa_homestay_dinner.jpg&rsquo; %}</p>
+<img src="/images/vietnam/7_sapa/sapa_homestay_dinner.jpg" title="&lsquo;sapa_homestay_dinner.jpg&rsquo;" ></p>
 
 <p>It&rsquo;s more green during rice season
-{% img /images/vietnam/7_sapa/sapa_vietnam.jpg &lsquo;sapa_vietnam.jpg&rsquo; %}</p>
+<img src="/images/vietnam/7_sapa/sapa_vietnam.jpg" title="&lsquo;sapa_vietnam.jpg&rsquo;" ></p>
 
 <p>A beautiful valley
-{% img /images/vietnam/7_sapa/sapa_panorama.JPG &lsquo;sapa_panorama.JPG&rsquo; %}</p>
+<img src="/images/vietnam/7_sapa/sapa_panorama.JPG" title="&lsquo;sapa_panorama.JPG&rsquo;" ></p>
 
 <h3>Phong Nha</h3>
 
 
 <p>Such an idyllic place
-{% img /images/vietnam/8_phong_nha/phong_nha_group.jpg &lsquo;phong_nha_group.jpg&rsquo; %}</p>
+<img src="/images/vietnam/8_phong_nha/phong_nha_group.jpg" title="&lsquo;phong_nha_group.jpg&rsquo;" ></p>
 
 <p>ECHOOO!!
-{% img /images/vietnam/8_phong_nha/phong_nha_crazy_caves.JPG &lsquo;phong_nha_crazy_caves.JPG&rsquo; %}</p>
+<img src="/images/vietnam/8_phong_nha/phong_nha_crazy_caves.JPG" title="&lsquo;phong_nha_crazy_caves.JPG&rsquo;" ></p>
 
 <p>Exploring the caves
-{% img /images/vietnam/8_phong_nha/phong_nha_taking_picture.JPG &lsquo;phong_nha_taking_picture.JPG&rsquo; %}</p>
+<img src="/images/vietnam/8_phong_nha/phong_nha_taking_picture.JPG" title="&lsquo;phong_nha_taking_picture.JPG&rsquo;" ></p>
 
 <p>More exploring
-{% img /images/vietnam/8_phong_nha/phong_nha_cave.jpg &lsquo;phong_nha_cave.jpg&rsquo; %}</p>
+<img src="/images/vietnam/8_phong_nha/phong_nha_cave.jpg" title="&lsquo;phong_nha_cave.jpg&rsquo;" ></p>
 
 <p>We found someone recording a music video!
-{% img /images/vietnam/8_phong_nha/phong_nha_famous_cave.JPG &lsquo;phong_nha_famous_cave.JPG&rsquo; %}</p>
+<img src="/images/vietnam/8_phong_nha/phong_nha_famous_cave.JPG" title="&lsquo;phong_nha_famous_cave.JPG&rsquo;" ></p>
 
 <p>And of course he has an entourage
-{% img /images/vietnam/8_phong_nha/phong_nha_entourage.JPG &lsquo;phong_nha_entourage.JPG&rsquo; %}</p>
+<img src="/images/vietnam/8_phong_nha/phong_nha_entourage.JPG" title="&lsquo;phong_nha_entourage.JPG&rsquo;" ></p>
 
 <p>Has to be one of the prettiest places we visited
-{% img /images/vietnam/8_phong_nha/phong_nha_view.JPG &lsquo;phong_nha_view.JPG&rsquo; %}</p>
+<img src="/images/vietnam/8_phong_nha/phong_nha_view.JPG" title="&lsquo;phong_nha_view.JPG&rsquo;" ></p>
 
 <p>BBQ pork banh mi, bought a couple extra for the road
-{% img /images/vietnam/8_phong_nha/phong_nha_pork_banh_mi.jpg &lsquo;phong_nha_pork_banh_mi.jpg&rsquo; %}</p>
+<img src="/images/vietnam/8_phong_nha/phong_nha_pork_banh_mi.jpg" title="&lsquo;phong_nha_pork_banh_mi.jpg&rsquo;" ></p>
 
 <h3>Hoi An</h3>
 
 
 <p>A little town near Da Nang that lights up at night
-{% img /images/vietnam/9_hoi_an/hoi_an_bridge.jpg &lsquo;hoi_an_bridge.jpg&rsquo; %}</p>
+<img src="/images/vietnam/9_hoi_an/hoi_an_bridge.jpg" title="&lsquo;hoi_an_bridge.jpg&rsquo;" ></p>
 
 <p>Just a little bit touristy
-{% img /images/vietnam/9_hoi_an/hoi_an_cute_duck.jpg &lsquo;hoi_an_cute_duck.jpg&rsquo; %}</p>
+<img src="/images/vietnam/9_hoi_an/hoi_an_cute_duck.jpg" title="&lsquo;hoi_an_cute_duck.jpg&rsquo;" ></p>
 
 <p>But it&rsquo;s very appreciated, unlimited fruit and fruit juice and a room for less than $20 a night
-{% img /images/vietnam/9_hoi_an/misc_complimentary.jpg &lsquo;misc_complimentary.jpg&rsquo; %}</p>
+<img src="/images/vietnam/9_hoi_an/misc_complimentary.jpg" title="&lsquo;misc_complimentary.jpg&rsquo;" ></p>
 
 <p>Newlyweds are all over the river dropping lanterns (wishes) down the river!
-{% img /images/vietnam/9_hoi_an/hoi_an_pretty.jpg &lsquo;hoi_an_pretty.jpg&rsquo; %}</p>
+<img src="/images/vietnam/9_hoi_an/hoi_an_pretty.jpg" title="&lsquo;hoi_an_pretty.jpg&rsquo;" ></p>
 
 <p>The view from the little eatery we dined at. Stayed for awhile and enjoyed the view :)
-{% img /images/vietnam/9_hoi_an/hoi_an_view_eatery.jpg &lsquo;hoi_an_view_eatery.jpg&rsquo; %}</p>
+<img src="/images/vietnam/9_hoi_an/hoi_an_view_eatery.jpg" title="&lsquo;hoi_an_view_eatery.jpg&rsquo;" ></p>
 
 <p>Leaving this wonderful country for Hong Kong and new adventures!
-{% img /images/vietnam/9_hoi_an/misc_bye_vietnam.jpg &lsquo;misc_bye_vietnam.jpg&rsquo; %}</p>
+<img src="/images/vietnam/9_hoi_an/misc_bye_vietnam.jpg" title="&lsquo;misc_bye_vietnam.jpg&rsquo;" ></p>
 ]]></content>
   </entry>
   
@@ -106,7 +106,7 @@
     <link href="http://octopress.nicksdevspot.com/blog/2015/05/02/vietnam/"/>
     <updated>2015-05-02T16:06:52-07:00</updated>
     <id>http://octopress.nicksdevspot.com/blog/2015/05/02/vietnam</id>
-    <content type="html"><![CDATA[<p>{% img /images/vietnam/halong_bay.jpg &lsquo;Quynh&rsquo;s Panorama shot, halong.jpg&rsquo; %}</p>
+    <content type="html"><![CDATA[<p><img src="/images/vietnam/halong_bay.jpg" title="&lsquo;Quynh&rsquo;s Panorama shot, halong.jpg&rsquo;" ></p>
 
 <p>When I set out on the biggest adventure of my life, I was afraid it somehow wouldn&rsquo;t match up to expectations. And expectations were high after hearing stories and having wanted to go for years. So I&rsquo;m happy to say that Vietnam was perfect, it was a crazy and exhilarating adventure of strange things and marvelous places.</p>
 
@@ -121,121 +121,121 @@
 
 
 <p>Saigon Market
-{% img /images/vietnam/1_saigon/saigon_market.jpg &lsquo;saigon_market.jpg&rsquo; %}</p>
+<img src="/images/vietnam/1_saigon/saigon_market.jpg" title="&lsquo;saigon_market.jpg&rsquo;" ></p>
 
 <p>Our first meal in Vietnam
-{% img /images/vietnam/1_saigon/saigon_first_meal_vietnam.jpg &lsquo;saigon_market_first_meal.jpg&rsquo; %}</p>
+<img src="/images/vietnam/1_saigon/saigon_first_meal_vietnam.jpg" title="&lsquo;saigon_market_first_meal.jpg&rsquo;" ></p>
 
 <p>View from our airbnb apartment
-{% img /images/vietnam/1_saigon/saigon_airbnb_view.jpg &lsquo;saigon_airbnb.jpg&rsquo; %}</p>
+<img src="/images/vietnam/1_saigon/saigon_airbnb_view.jpg" title="&lsquo;saigon_airbnb.jpg&rsquo;" ></p>
 
 <p>Airbnb apartment falling apart
-{% img  /images/vietnam/1_saigon/saigon_airbnb_fail.jpg &lsquo;saigon_airbnb_fail.jpg&rsquo; %}</p>
+<img src="/images/vietnam/1_saigon/saigon_airbnb_fail.jpg" title="&lsquo;saigon_airbnb_fail.jpg&rsquo;" ></p>
 
 <p>Delicous dish from the Man Beer restuarant
-{% img /images/vietnam/1_saigon/saigon_great_meal.jpg &lsquo;saigon_great_meal.jpg&rsquo; %}</p>
+<img src="/images/vietnam/1_saigon/saigon_great_meal.jpg" title="&lsquo;saigon_great_meal.jpg&rsquo;" ></p>
 
 <p>Partying it up for our last night in Saigon
-{% img /images/vietnam/1_saigon/saigon_last_night.JPG &lsquo;saigon_last_night.JPG&rsquo; %}</p>
+<img src="/images/vietnam/1_saigon/saigon_last_night.JPG" title="&lsquo;saigon_last_night.JPG&rsquo;" ></p>
 
 <h3>Mei Kong</h3>
 
 
 <p>Quynh&rsquo;s Uncle Doctor Ho let us stay at his beautiful house
-{% img /images/vietnam/2_uncle_ho/uncle_ho_house.JPG &lsquo;uncle_ho_house.JPG&rsquo; %}</p>
+<img src="/images/vietnam/2_uncle_ho/uncle_ho_house.JPG" title="&lsquo;uncle_ho_house.JPG&rsquo;" ></p>
 
 <p>Uncle Ho&rsquo;s special blend of whiskey, good for fertility!
-{% img /images/vietnam/2_uncle_ho/uncle_ho_whiskey.JPG &lsquo;uncle_ho_whiskey.JPG&rsquo; %}</p>
+<img src="/images/vietnam/2_uncle_ho/uncle_ho_whiskey.JPG" title="&lsquo;uncle_ho_whiskey.JPG&rsquo;" ></p>
 
 <p>They made us the most incredible meal
-{% img /images/vietnam/2_uncle_ho/uncle_ho_dinner.jpg &lsquo;uncle_ho_dinner.jpg&rsquo; %}</p>
+<img src="/images/vietnam/2_uncle_ho/uncle_ho_dinner.jpg" title="&lsquo;uncle_ho_dinner.jpg&rsquo;" ></p>
 
 <p>Quynh&rsquo;s family gave us of the surrounding dragon fruit fields
-{% img /images/vietnam/2_uncle_ho/uncle_ho_dragon_fruit_fields.jpg &lsquo;uncle_ho_dragon_fruit_fields.jpg&rsquo; %}</p>
+<img src="/images/vietnam/2_uncle_ho/uncle_ho_dragon_fruit_fields.jpg" title="&lsquo;uncle_ho_dragon_fruit_fields.jpg&rsquo;" ></p>
 
 <p>Then they took us to the Mei Kong delta
-{% img /images/vietnam/2_uncle_ho/uncle_ho_mei_kong_delta.JPG &lsquo;uncle_ho_mei_kong_delta.JPG&rsquo; %}</p>
+<img src="/images/vietnam/2_uncle_ho/uncle_ho_mei_kong_delta.JPG" title="&lsquo;uncle_ho_mei_kong_delta.JPG&rsquo;" ></p>
 
 <p>The first of the many Buddhas of my Asia trip
-{% img /images/vietnam/2_uncle_ho/uncle_ho_first_buddha.jpg &lsquo;uncle_ho_first_buddha.jpg&rsquo; %}</p>
+<img src="/images/vietnam/2_uncle_ho/uncle_ho_first_buddha.jpg" title="&lsquo;uncle_ho_first_buddha.jpg&rsquo;" ></p>
 
 <h3>Phu Quoc</h3>
 
 
 <p>Hanging out on a beautiful beach in Vietnam!
-{% img /images/vietnam/3_phu_quoc/phu_quoc_group.jpg &lsquo;phu_quoc_group.jpg&rsquo; %}</p>
+<img src="/images/vietnam/3_phu_quoc/phu_quoc_group.jpg" title="&lsquo;phu_quoc_group.jpg&rsquo;" ></p>
 
 <p>Lounging
-{% img /images/vietnam/3_phu_quoc/phu_quoc_lounging.jpg &lsquo;phu_quoc_lounging.jpg&rsquo; %}</p>
+<img src="/images/vietnam/3_phu_quoc/phu_quoc_lounging.jpg" title="&lsquo;phu_quoc_lounging.jpg&rsquo;" ></p>
 
 <p>Dinner! Eat the whole thing, even the bones
-{% img /images/vietnam/3_phu_quoc/phu_quoc_fish.jpg &lsquo;phu_quoc_fish.jpg&rsquo; %}</p>
+<img src="/images/vietnam/3_phu_quoc/phu_quoc_fish.jpg" title="&lsquo;phu_quoc_fish.jpg&rsquo;" ></p>
 
 <p>Beautiful red sunset as we sip cocktails
-{% img /images/vietnam/3_phu_quoc/phu_quoc_sunset.jpg &lsquo;phu_quoc_sunset.jpg&rsquo; %}</p>
+<img src="/images/vietnam/3_phu_quoc/phu_quoc_sunset.jpg" title="&lsquo;phu_quoc_sunset.jpg&rsquo;" ></p>
 
 <h3>Da Nang</h3>
 
 
 <p>Finally have time to do some laundry
-{% img /images/vietnam/4_da_nang/da_nang_laundry.JPG &lsquo;da_nang_laundry.JPG&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_laundry.JPG" title="&lsquo;da_nang_laundry.JPG&rsquo;" ></p>
 
 <p>Year of the Goat!
-{% img /images/vietnam/4_da_nang/da_nang_goat.jpg &lsquo;da_nang_goat.jpg&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_goat.jpg" title="&lsquo;da_nang_goat.jpg&rsquo;" ></p>
 
 <p>Apparently you pray to this one for health
-{% img /images/vietnam/4_da_nang/da_nang_buddha.jpg &lsquo;da_nang_buddha.jpg&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_buddha.jpg" title="&lsquo;da_nang_buddha.jpg&rsquo;" ></p>
 
 <p>The biggest Buddha I saw the whole trip
-{% img /images/vietnam/4_da_nang/da_nang_lady_buddha.jpg &lsquo;da_nang_lady_buddha.jpg&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_lady_buddha.jpg" title="&lsquo;da_nang_lady_buddha.jpg&rsquo;" ></p>
 
 <p>Taking a break while Amber practiced her photography
-{% img /images/vietnam/4_da_nang/da_nang_water.jpg &lsquo;da_nang_water.jpg&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_water.jpg" title="&lsquo;da_nang_water.jpg&rsquo;" ></p>
 
 <p>Taking another break on the way up a granite mountain
-{% img /images/vietnam/4_da_nang/da_nang_break_hiking.jpg &lsquo;da_nang_break_hiking.jpg&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_break_hiking.jpg" title="&lsquo;da_nang_break_hiking.jpg&rsquo;" ></p>
 
 <p>Group picture after a long hike
-{% img /images/vietnam/4_da_nang/da_nang_group.jpg &lsquo;da_nang_group.jpg&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_group.jpg" title="&lsquo;da_nang_group.jpg&rsquo;" ></p>
 
 <p>Da Nang is pretty
-{% img /images/vietnam/4_da_nang/da_nang_panorama.JPG &lsquo;da_nang_panorama.JPG&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_panorama.JPG" title="&lsquo;da_nang_panorama.JPG&rsquo;" ></p>
 
 <p>Our hotel&rsquo;s grand opening party, there was a band, magician, fireworks, and most importantly 50% off!
-{% img /images/vietnam/4_da_nang/da_nang_hotel_party.jpg &lsquo;da_nang_hotel_party.jpg&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_hotel_party.jpg" title="&lsquo;da_nang_hotel_party.jpg&rsquo;" ></p>
 
 <p>We went to the tallest building to celebrate our last night in Da Nang
-{% img /images/vietnam/4_da_nang/da_nang_party.jpg &lsquo;da_nang_party.jpg&rsquo; %}</p>
+<img src="/images/vietnam/4_da_nang/da_nang_party.jpg" title="&lsquo;da_nang_party.jpg&rsquo;" ></p>
 
 <h3>Hanoi</h3>
 
 
 <p>Stopped by Hanoi on the way to Halong
-{% img /images/vietnam/5_hanoi/hanoi_ho_chi_minh_pose.jpg &lsquo;hanoi_ho_chi_minh_pose.jpg&rsquo; %}</p>
+<img src="/images/vietnam/5_hanoi/hanoi_ho_chi_minh_pose.jpg" title="&lsquo;hanoi_ho_chi_minh_pose.jpg&rsquo;" ></p>
 
 <p>Favorite bowl of pho, came here twice
-{% img /images/vietnam/5_hanoi/hanoi_pho.JPG &lsquo;hanoi_pho.JPG&rsquo; %}</p>
+<img src="/images/vietnam/5_hanoi/hanoi_pho.JPG" title="&lsquo;hanoi_pho.JPG&rsquo;" ></p>
 
 <h3>Halong</h3>
 
 
 <p>The girls and our boat
-{% img /images/vietnam/6_halong/halong_our_boat.JPG &lsquo;halong_our_boat.JPG&rsquo; %}</p>
+<img src="/images/vietnam/6_halong/halong_our_boat.JPG" title="&lsquo;halong_our_boat.JPG&rsquo;" ></p>
 
 <p>Unfortunately, not the nicest day. But it was incredible nevertheless
-{% img /images/vietnam/6_halong/halong_boat.JPG &lsquo;halong_boat.JPG&rsquo; %}</p>
+<img src="/images/vietnam/6_halong/halong_boat.JPG" title="&lsquo;halong_boat.JPG&rsquo;" ></p>
 
 <p>Attempting to help row
-{% img /images/vietnam/6_halong/halong_rowing.jpg &lsquo;halong_rowing.jpg&rsquo; %}</p>
+<img src="/images/vietnam/6_halong/halong_rowing.jpg" title="&lsquo;halong_rowing.jpg&rsquo;" ></p>
 
 <p>Group picture!
-{% img /images/vietnam/6_halong/halong_group_picture.jpg &lsquo;halong_group_picture.jpg&rsquo; %}</p>
+<img src="/images/vietnam/6_halong/halong_group_picture.jpg" title="&lsquo;halong_group_picture.jpg&rsquo;" ></p>
 
 <p>Surprise cave, the first of many caves
-{% img /images/vietnam/6_halong/halong_surprise_cave.jpg &lsquo;halong_surprise_cave.jpg&rsquo; %}</p>
+<img src="/images/vietnam/6_halong/halong_surprise_cave.jpg" title="&lsquo;halong_surprise_cave.jpg&rsquo;" ></p>
 
 <p>Happened to see this while looking for a place to eat
-{% img /images/vietnam/6_halong/halong_pc_bang.JPG &lsquo;halong_pc_bang.JPG&rsquo; %}</p>
+<img src="/images/vietnam/6_halong/halong_pc_bang.JPG" title="&lsquo;halong_pc_bang.JPG&rsquo;" ></p>
 ]]></content>
   </entry>
   

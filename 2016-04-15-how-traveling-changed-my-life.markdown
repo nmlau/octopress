@@ -1,0 +1,11 @@
+---
+layout: post
+title: "How Traveling Changed my Life"
+date: 2016-04-15 14:32:00 -0700
+comments: true
+categories: [thoughts, writing, travel]
+---
+
+Last year I spent several months backpacking around Asia. My favorite place was Vietnam, I originally meant to spend two weeks there but really enjoyed it and ended up spending over a month. I was lucky enough to travel with someone who grew up there (before going to university in the US, running a successful startup. They had family and employees in Saigon (Ho Chi Minh) who gave us tours and helped get us off the beaten tourist path. For example, we stayed with her Uncle, who had an absolutely gorgeous house, complete with a moat and palm trees (coconuts are popular there). He gave us a couple bottles of his herb-infused home brewed whiskey and gave us a tour of the surrounding dragon fruit fields. I made some great friends and ended up heading off with one to explore Central Vietnam, home of Hang Son Doong, the largest cave in the world complete with its own ecosystem. Unfortunately, it cost over three thousand dollars and had a several month long wait list to explore, but we explored some incredible caves like you see in the movies. Literally, we saw a rock star recording a music video in one, jamming out while his groupies watched in awe. My friend had met a Vietnamese girl while backpacking through Thailand and had kept in touch with her. She let us stay at her house in Sapa, a wooden hut you showered by hose, squatted to use the bathroom (if you were able to get around the pregnant pig), and would be woken up by roosters at 5 am. This was just a fraction of Vietnam, and then there was Hong Kong and Japan...
+
+However, the most important part of the trip wasn't any of these experiences. It was that I was capable of having these experiences. That I could leave my comfort zone, go to a foreign country with just a backpack, adapt, make friends, and not only get by but have a fantastic and unique experience. It's a feeling that can not be bought, an invaluable confidence and independence that has pushed me out of my comfort zone countless times since. A confidence that I know I can lean on when I'm debugging a particularly nasty bug or simply trying to leave the warm comfort of my bed before I'm ready.
