@@ -4,7 +4,7 @@
   <title><![CDATA[Nicks Octopress Blog]]></title>
   <link href="http://octopress.nicksdevspot.com/atom.xml" rel="self"/>
   <link href="http://octopress.nicksdevspot.com/"/>
-  <updated>2016-04-16T17:07:44-07:00</updated>
+  <updated>2016-04-16T17:19:42-07:00</updated>
   <id>http://octopress.nicksdevspot.com/</id>
   <author>
     <name><![CDATA[Nicholas Lau]]></name>
@@ -23,6 +23,17 @@
 <p>I love how studying software design and how to reduce complexity with concepts like information hiding and modular design has allowed me to simplify and take control of my life. I love how studying trees and OOP has allowed me to organize my life into categories (or nodes) and develop systems to organize my space and mind. I love how the detail-oriented process of writing algorithms has allowed me to trivially build life habits like waking up on time and working at hobbies like meditation, cooking, or fitness. I love how debugging skills allow me to track down and isolate practical issues. Then how my problem solving skills can draw out an okay brute force solution and iterate on it until it&rsquo;s ready to be implemented in my routine (everyday life). I love how distributed systems tackle the problem of random spontaneous failure, because that&rsquo;s how real life can feel sometimes, &ldquo;Two is one and One is none&rdquo;. I love how I see programming in everyday life (like memorization as caching), although I&rsquo;m slightly afraid that this may cause trouble communicating with an SO.</p>
 
 <p>Engineering is not just what I do, it is how I live my life.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How Traveling Changed my Life]]></title>
+    <link href="http://octopress.nicksdevspot.com/blog/2016/04/15/how-traveling-changed-my-life/"/>
+    <updated>2016-04-15T14:32:00-07:00</updated>
+    <id>http://octopress.nicksdevspot.com/blog/2016/04/15/how-traveling-changed-my-life</id>
+    <content type="html"><![CDATA[<p>Last year I spent several months backpacking around Asia. My favorite place was Vietnam, I originally meant to spend two weeks there but really enjoyed it and ended up spending over a month. I was lucky enough to travel with someone who grew up there (before going to university in the US, running a successful startup. They had family and employees in Saigon (Ho Chi Minh) who gave us tours and helped get us off the beaten tourist path. For example, we stayed with her Uncle, who had an absolutely gorgeous house, complete with a moat and palm trees (coconuts are popular there). He gave us a couple bottles of his herb-infused home brewed whiskey and gave us a tour of the surrounding dragon fruit fields. I made some great friends and ended up heading off with one to explore Central Vietnam, home of Hang Son Doong, the largest cave in the world complete with its own ecosystem. Unfortunately, it cost over three thousand dollars and had a several month long wait list to explore, but we explored some incredible caves like you see in the movies. Literally, we saw a rock star recording a music video in one, jamming out while his groupies watched in awe. My friend had met a Vietnamese girl while backpacking through Thailand and had kept in touch with her. She let us stay at her house in Sapa, a wooden hut you showered by hose, squatted to use the bathroom (if you were able to get around the pregnant pig), and would be woken up by roosters at 5 am. This was just a fraction of Vietnam, and then there was Hong Kong and Japan&hellip;</p>
+
+<p>However, the most important part of the trip wasn&rsquo;t any of these experiences. It was that I was capable of having these experiences. That I could leave my comfort zone, go to a foreign country with just a backpack, adapt, make friends, and not only get by but have a fantastic and unique experience. It&rsquo;s a feeling that can not be bought, an invaluable confidence and independence that has pushed me out of my comfort zone countless times since. A confidence that I know I can lean on when I&rsquo;m debugging a particularly nasty bug or simply trying to leave the warm comfort of my bed before I&rsquo;m ready.</p>
 ]]></content>
   </entry>
   
