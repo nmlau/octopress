@@ -3,7 +3,7 @@ layout: post
 title: "Why Engineering?"
 date: 2016-04-16 16:53:00 -0700
 comments: true
-categories: [thoughts, writing, engineering]
+categories: [thoughts, technical, writing, engineering]
 ---
 
 I love the engineering mentality and how it pervades my life. As I learn to build software better, I also learn to live life better.
