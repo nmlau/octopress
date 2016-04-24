@@ -36,7 +36,7 @@ Principles:
 * Meditations Lesson: don't lie, if you're not willing to say the truth then you need to work harder to do things that you're proud of
 * 5.16, "Such are your habitual thoughts, such also will be the character of your mind; for the soul is dyed by the thoughts. Dye it then with a continuous series of such thoughts as these..."
 
-* Software Design: reducing complexity for usability and ease of use. Overhead, every system has overhead but with good organization and reduced complexity we want to min-max overhead vs benefits. Iterative review sessions correct for failed cycles/tests/plans. Iterative also checks for misbalancing and targets disappointment. Modularity for flexibility and ability to adapt (extensinble, evolvible). Availability: Mobile/desktop.
+* Software Design Analogy: reducing complexity for usability and ease of use. Overhead, every system has overhead but with good organization and reduced complexity we want to min-max overhead vs benefits. Iterative review sessions correct for failed cycles/tests/plans. Iterative also checks for misbalancing and targets disappointment. Modularity for flexibility and ability to adapt (extensinble, evolvible). Availability: Mobile/desktop.
 * Desiderata
 
 Concepts:
@@ -129,6 +129,14 @@ Morning Routine:
 * Physical activity: Move In The Mornings, this gets endorphins into your body which improve energy and focus throughout days. He doesn't offer scientific evidence but it's a pretty common belief. I would like to add quick 30 minute jogs or at least pushups/pullups in the morning. But then I'd need to shower in the mornings...
 * Go to bed thanking yourself for your good work: Bring Positivity to bed, you wake up with the similar thoughts you sleep with. So bring positivity and you'll wake up with it
 * Ideal morning routine: 15 min fitness, 15 min mental, 30 minutes wash and breakfast/tea, 30 min chill, 1 hour productivity/reading (loosely based on some quora answer?)
+
++ Practical Life Frameworks, https://goo.gl/hG86Ln @done (16-03-29 11:26)
+  "having a framework for approaching problems and testing your solutions, independent of language/tools/field is incredibly valuable and will help you in any development job"
+  "framework for handling social situations can be valuable, things like a co-worker you have problems with, talking to a boss about a raise..."
+  - Analagous to building systems for parts of life, until you have a system for each part
+
++ On frameworks/systems for life @done (16-04-17 14:21)
+  "These are the beginnings of the frameworks/systems that will allow for automation of many parts of my life. I have been whining how when I don't focus on something it starts to fall apart as I forget the details. The frameworks/systems will allow me to quickly refresh what I've forgotten so I can focus on something else and come back and quickly pick up the details."
 
 Reboot: 
 * The original 180 thread post, https://goo.gl/k0t5Bq

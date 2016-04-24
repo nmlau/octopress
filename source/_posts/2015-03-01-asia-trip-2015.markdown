@@ -4,6 +4,7 @@ title: "Asia Trip 2015"
 date: 2015-03-01 16:06:52 -0700
 comments: true
 categories: [hobby, travel, asia]
+published: false
 ---
 
 {% img /images/intro_asia/packing.jpg 'packing.jpg' %}
